@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+$breakpoint-mobile: 768px;
+$breakpoint-tablet: 1000px;
+
+$layout: 1350px;
+$layout-overflow-margin: calc((100vw - #{$layout} - 17px) / -2);
+$layout-overflow-padding: calc((100vw - #{$layout} - 17px) / 2);

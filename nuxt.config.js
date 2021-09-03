@@ -1,8 +1,7 @@
-export default {
-  // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
+import { resolve } from 'path'
 
-  // Global page headers: https://go.nuxtjs.dev/config-head
+export default {
+  target: 'static',
   head: {
     title: 'shinyj1991.github.io',
     htmlAttrs: {
@@ -18,29 +17,28 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-
-  // Global CSS: https://go.nuxtjs.dev/config-css
+  alias: {
+    'images': resolve(__dirname, './assets/images')
+  },
   css: [
+    '@/assets/css/reset.scss',
+    '@/assets/css/common.scss'
   ],
-
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
-
-  // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
-
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
   ],
-
-  // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    ['nuxt-highlightjs', {style: 'obsidian'}],
+    '@nuxt/content'
   ],
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  }
+  styleResources: {
+    scss: [
+      '~/assets/css/_variable.scss',
+      '~/assets/css/_mixin.scss'
+    ]
+  },
+  build: {}
 }

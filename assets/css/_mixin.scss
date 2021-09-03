@@ -1,0 +1,84 @@
+@charset "utf-8";
+@import "_variable.scss";
+
+@mixin placeholder {
+  &::-webkit-input-placeholder,
+  &:-moz-placeholder,
+  &::-moz-placeholder,
+  &:-ms-input-placeholder {
+    @content;
+  }
+}
+
+@mixin input_type_text {
+  input:not([type]),
+  input[type=date],
+  input[type=datetime-local],
+  input[type=email],
+  input[type=month],
+  input[type=number],
+  input[type=password],
+  input[type=search],
+  input[type=tel],
+  input[type=text],
+  input[type=time],
+  input[type=url],
+  input[type=week],
+  textarea,
+  select {
+    @content;
+  }
+}
+
+@mixin input_type_button {
+  button,
+  input[type=file],
+  input[type=image],
+  input[type=reset],
+  input[type=button],
+  input[type=submit] {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: #{$breakpoint-mobile}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: #{$breakpoint-tablet}) {
+    @content;
+  }
+}
+
+@mixin layout_overflow {padding-right: $layout-overflow-padding; padding-left: $layout-overflow-padding; margin-right: $layout-overflow-margin; margin-left: $layout-overflow-margin;}
+
+@media screen and (max-width: 1350px) {
+  @mixin layout_overflow {padding-right: 0; padding-left: 0; margin-right: 0; margin-left: 0;}
+}
+
+@media screen and (max-width: 1181px) {
+  @mixin layout_overflow {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@mixin ellipsis() {
+  overflow: hidden;
+  white-space: nowrap;
+  word-break: break-all;
+  text-overflow: ellipsis;
+}
+
+@mixin multiline_ellipsis($line) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $line;
+}
