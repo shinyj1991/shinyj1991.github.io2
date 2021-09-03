@@ -2,7 +2,6 @@
   <div class="blog_index">
     <ul>
       <li v-for="article of articles" :key="article.slug">
-        <!-- <NuxtLink :to="{ path: `/article/${directory}`, query: {id: article.slug }}"> -->
         <NuxtLink :to="{ path: `/article/${directory}/${article.slug}` }">
           <div class="subject">{{ article.title }}</div>
           <div class="info">
