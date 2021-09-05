@@ -11,5 +11,5 @@ export default Vue.extend({})
 </script>
 
 <style lang="scss" scoped>
-
+.index {padding: 50px;}
 </style>

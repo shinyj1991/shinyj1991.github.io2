@@ -16,5 +16,5 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-#wrap {position: relative; min-width: 1200px; min-height: 100vh; padding: 0 0 0 240px;}
+#wrap {position: relative; min-width: 1200px; min-height: 100vh; padding: 0 0 0 240px; background: #000000; color: #ffffff;}
 </style>

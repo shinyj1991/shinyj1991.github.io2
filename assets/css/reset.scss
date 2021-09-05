@@ -58,7 +58,7 @@ a, button {
 }
 
 .page-enter-active,
-.page-leave-active {transition: all 500ms;}
+.page-leave-active {transition: all 200ms;}
 .page-enter,
 .page-leave-active {opacity: 0; transform: translateY(15px);}
 

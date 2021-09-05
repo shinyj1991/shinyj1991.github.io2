@@ -18,77 +18,78 @@
 </template>
 
 <script>
-  export default {
-    /*middleware () {
-      console.log('middleware');
-    },*/
-    async asyncData({ $content, params }) {
-      const visibleLength = 10;
-      const articles = await $content(params.directory)
-        // .only(['title', 'description', 'slug', 'author', 'updatedAt', 'date'])
+export default {
+  /*middleware () {
+    console.log('middleware');
+  },*/
+  async asyncData({ $content, params }) {
+
+  console.log('async', $content);
+    const visibleLength = 10;
+    const articles = await $content(params.directory)
+      // .only(['title', 'description', 'slug', 'author', 'updatedAt', 'date'])
+      .sortBy('createdAt', 'desc')
+      .fetch()
+
+    const totalArticles = articles.length;
+    const lastPage = Math.ceil(totalArticles / visibleLength);
+
+    const firstArticles = articles.slice(0, visibleLength);
+
+    return {
+      visibleLength,
+      lastPage,
+      directory: params.directory,
+      articles: firstArticles
+    }
+  },
+  /*beforeCreate() {
+    console.log('beforeCreate');
+  },
+  created() {
+    console.log('created');
+  },
+  beforeMount() {
+    console.log('beforeMount');
+  },
+  fetch() {
+    console.log('fetch');
+  },*/
+  mounted() {
+    // console.log('mounted', this.articles);
+  },
+  data() {
+    return {
+      page: 1
+    }
+  },
+  watch: {
+    page: async function(newVal, oldVal) {
+      const articles = await this.$content(this.directory)
+        .only(['title', 'description', 'slug', 'author', 'updatedAt', 'date'])
         .sortBy('createdAt', 'desc')
+        .limit(this.visibleLength)
+        .skip(this.visibleLength * oldVal)
         .fetch()
 
-      const totalArticles = articles.length;
-      const lastPage = Math.ceil(totalArticles / visibleLength);
-
-      const firstArticles = articles.slice(0, visibleLength);
-
-      return {
-        visibleLength,
-        lastPage,
-        directory: params.directory,
-        articles: firstArticles
-      }
-    },
-    /*beforeCreate() {
-      console.log('beforeCreate');
-    },
-    created() {
-      console.log('created');
-    },
-    beforeMount() {
-      console.log('beforeMount');
-    },
-    fetch() {
-      console.log('fetch');
-    },*/
-    mounted() {
-      // console.log('mounted', this.articles);
-    },
-    data() {
-      return {
-        page: 1
-      }
-    },
-    watch: {
-      page: async function(newVal, oldVal) {
-        const articles = await this.$content(this.directory)
-          .only(['title', 'description', 'slug', 'author', 'updatedAt', 'date'])
-          .sortBy('createdAt', 'desc')
-          .limit(this.visibleLength)
-          .skip(this.visibleLength * oldVal)
-          .fetch()
-
-        this.articles = [...this.articles, ...articles];
-      }
-    },
-    methods: {
-      formatDate(date) {
-        const options = { year: 'numeric', month: 'long', day: 'numeric' }
-        return new Date(date).toLocaleDateString('ko', options)
-      }
+      this.articles = [...this.articles, ...articles];
+    }
+  },
+  methods: {
+    formatDate(date) {
+      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      return new Date(date).toLocaleDateString('ko', options)
     }
   }
+}
 </script>
 
 <style lang="scss" scoped>
 .blog_index {padding: 50px 50px 100px; max-width: 1000px;
-  ul {border-top: 2px solid #3273eb; border-bottom: 2px solid #eeeeee;
+  ul {
     li {
-      &:nth-child(even) a {background: #f7f7f7;}
       a {padding: 12px 24px; display: block;
-        &:hover {background: rgba(50, 115, 235, 0.2);}
+        &:hover {background: #2c343e;}
         .subject {font-weight: 700; font-size: 16px;}
         .info {display: flex; margin-top: 10px; font-size: 12px;
           .author {margin-left: 15px;}
