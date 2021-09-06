@@ -7,10 +7,12 @@
 <style lang="scss">
 .article_list {padding: 50px 50px 100px; max-width: 1000px;
   ul {
-    li {
+    li {border-left: 3px solid #2c343e;
+      &:not(:first-child) {margin-top: 24px;}
       a {padding: 12px 24px; display: block;
         &:hover {background: #2c343e;}
-        .subject {font-weight: 700; font-size: 16px;}
+        .category {margin-bottom: 5px; font-size: 12px;}
+        .subject {font-size: 16px;}
         .info {display: flex; margin-top: 10px; font-size: 12px;
           .author {margin-left: 15px;}
         }

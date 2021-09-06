@@ -39,6 +39,7 @@ export default {
     ]
   },
   build: {},
+  plugins: ['~/plugins/index.js'],
   router: {
     middleware: ['index']
   },

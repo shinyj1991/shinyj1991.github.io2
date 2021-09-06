@@ -3,6 +3,7 @@
     <ul>
       <li v-for="article of articles" :key="article.path">
         <NuxtLink :to="{ path: `/article${article.path}` }">
+          <div class="category">{{ article.dir.replace('/', '') }}</div>
           <div class="subject">{{ article.title }}</div>
           <div class="info">
             <div class="date">{{ formatDate(article.createdAt) }}</div>
