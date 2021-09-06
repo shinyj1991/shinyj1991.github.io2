@@ -24,8 +24,6 @@ export default {
     '@/assets/css/reset.scss',
     '@/assets/css/common.scss'
   ],
-  plugins: [
-  ],
   components: true,
   buildModules: [
     '@nuxt/typescript-build',
@@ -40,5 +38,8 @@ export default {
       '~/assets/css/_mixin.scss'
     ]
   },
-  build: {}
+  build: {},
+  router: {
+    middleware: ['index']
+  },
 }

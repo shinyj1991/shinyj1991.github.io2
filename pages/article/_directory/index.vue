@@ -1,8 +1,8 @@
 <template>
-  <div class="blog_index">
+  <ArticleList>
     <ul>
-      <li v-for="article of articles" :key="article.slug">
-        <NuxtLink :to="{ path: `/article/${directory}/${article.slug}` }">
+      <li v-for="article of articles" :key="article.path">
+        <NuxtLink :to="{ path: `/article${article.path}` }">
           <div class="subject">{{ article.title }}</div>
           <div class="info">
             <div class="date">{{ formatDate(article.createdAt) }}</div>
@@ -14,7 +14,7 @@
     <div class="btn_area" v-if="page < lastPage">
       <button @click="page++">더보기</button>
     </div>
-  </div>
+  </ArticleList>
 </template>
 
 <script>
@@ -23,13 +23,13 @@ export default {
     console.log('middleware');
   },*/
   async asyncData({ $content, params }) {
-
-  console.log('async', $content);
     const visibleLength = 10;
     const articles = await $content(params.directory)
       // .only(['title', 'description', 'slug', 'author', 'updatedAt', 'date'])
       .sortBy('createdAt', 'desc')
       .fetch()
+
+      console.log(articles);
 
     const totalArticles = articles.length;
     const lastPage = Math.ceil(totalArticles / visibleLength);
@@ -83,24 +83,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-.blog_index {padding: 50px 50px 100px; max-width: 1000px;
-  ul {
-    li {
-      a {padding: 12px 24px; display: block;
-        &:hover {background: #2c343e;}
-        .subject {font-weight: 700; font-size: 16px;}
-        .info {display: flex; margin-top: 10px; font-size: 12px;
-          .author {margin-left: 15px;}
-        }
-      }
-    }
-  }
-  .btn_area {margin-top: 30px;
-    button {padding: 12px 30px; background: #f7f7f7; transition: all 300ms;
-      &:hover {background: #3273eb; color: #ffffff;}
-    }
-  }
-}
-</style>
