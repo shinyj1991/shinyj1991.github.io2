@@ -19,7 +19,8 @@
       console.log('middleware');
     },*/
     async asyncData({ $content, params, query }) {
-      const article = await $content(params.directory, params.id).fetch()
+      console.log(params);
+      const article = await $content(params.directory, params.id.replace('-', '/')).fetch()
       return {
         article
       }

@@ -2,7 +2,7 @@
   <ArticleList>
     <ul>
       <li v-for="article of articles" :key="article.path">
-        <NuxtLink :to="{ path: `/article${article.path}` }">
+        <NuxtLink :to="{ path: article.url }">
           <div class="category">{{ article.dir.replace('/', '') }}</div>
           <div class="subject">{{ article.title }}</div>
           <div class="info">
@@ -25,12 +25,20 @@ export default {
   },*/
   async asyncData({ $content, params }) {
     const visibleLength = 10;
-    const articles = await $content(params.directory)
+    let articles = await $content(params.directory, { deep: true })
       // .only(['title', 'description', 'slug', 'author', 'updatedAt', 'date'])
       .sortBy('createdAt', 'desc')
       .fetch()
 
-      console.log(articles);
+    articles = articles.map(article => {
+      article.url = '/article';
+      article.split = article.path.split('/');
+      for (var i = 1; i < article.split.length; i++) {
+        var prefix = i < 3 ? '/' : '-';
+        article.url += `${prefix}${article.split[i]}`;
+      }
+      return article;
+    });
 
     const totalArticles = articles.length;
     const lastPage = Math.ceil(totalArticles / visibleLength);
