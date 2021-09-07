@@ -21,6 +21,7 @@
     async asyncData({ $content, params, query }) {
       console.log(params);
       const article = await $content(params.directory, params.id.replace('-', '/')).fetch()
+      console.log(article);
       return {
         article
       }
