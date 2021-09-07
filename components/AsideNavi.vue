@@ -38,7 +38,9 @@ export default {
         if (split.length > 3) {
           categories.push({name: depth1, depth2: [{name: depth2}]});
         } else {
-          categories.push({name: depth1, depth2: []});
+          if (depth1 !== '_') {
+            categories.push({name: depth1, depth2: []});
+          }
         }
       } else {
         if (split.length > 3) {

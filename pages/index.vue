@@ -2,7 +2,7 @@
   <ArticleList>
     <ul>
       <li v-for="article of articles" :key="article.path">
-        <NuxtLink :to="{ path: article.url }">
+        <NuxtLink :to="{ path: article.url }" v-if="article.dir !== '/_'">
           <div class="category">{{ article.dir.replace('/', '') }}</div>
           <div class="subject">{{ article.title }}</div>
           <div class="info">
