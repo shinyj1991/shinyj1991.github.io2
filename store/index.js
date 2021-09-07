@@ -1,6 +1,7 @@
 const state = () => ({
   app_load: false,
-  params: ''
+  params: '',
+  id: ''
 });
 
 const mutations = {
@@ -9,6 +10,9 @@ const mutations = {
   },
   SET_PARAMS(state, params) {
     state.params = params;
+  },
+  SET_ID(state, id) {
+    state.id = id;
   }
 }
 

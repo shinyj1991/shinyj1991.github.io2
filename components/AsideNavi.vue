@@ -5,7 +5,8 @@
       <li v-for="depth1 of categories" :key="depth1.name" :class="{on: (params ? params.split('-')[0] : params) === depth1.name}">
         <NuxtLink :to="`/article/${depth1.name}`">{{ depth1.name }}</NuxtLink>
         <ul v-if="depth1.depth2.length > 0">
-          <li v-for="depth2 of depth1.depth2" :key="depth2.name" :class="{on: (params ? params.split('-')[1] : params) === depth2.name}"><NuxtLink :to="`/article/${ depth1.name }-${depth2.name}`">{{ depth2.name }}</NuxtLink></li>
+          <li v-for="depth2 of depth1.depth2" :key="depth2.name" :class="{on: (params ? params.split('-')[1] : params) === depth2.name || 
+          (id ? id.split('-')[0] : id) === depth2.name}"><NuxtLink :to="`/article/${ depth1.name }-${depth2.name}`">{{ depth2.name }}</NuxtLink></li>
         </ul>
       </li>
     </ul>
@@ -18,15 +19,14 @@ import { mapState } from 'vuex'
 export default {
   computed: {
     ...mapState({
-      params: state => state.params
+      params: state => state.params,
+      id: state => state.id
     })
   },
   async fetch() {
     const contents = await this.$content({ deep: true }).only(['path']).fetch();
 
     let categories = [];
-
-    console.log('navi', contents.length);
 
     contents.map(content => {
       let split = content.path.split('/');
@@ -50,13 +50,21 @@ export default {
       }
     });
 
-    console.log(categories);
-    this.categories = categories;
-    this.categories = [...this.categories].sort((a, b) => {
-      if (a.depth1 > b.depth1) return 1;
-      if (a.depth1 < b.depth1) return -1;
+    categories.sort((a, b) => {
+      if (a.name > b.name) return 1;
+      if (a.name < b.name) return -1;
       return 0;
-    });
+    }).map(depth1 => {
+      if (depth1.depth2.length > 1) {
+        depth1.depth2.sort((a, b) => {
+          if (a.name > b.name) return 1;
+          if (a.name < b.name) return -1;
+          return 0;
+        });
+      }
+    })
+
+    this.categories = categories;
   },
   data() {
     return {
@@ -64,7 +72,7 @@ export default {
     }
   },
   mounted() {
-    console.log('Cate', this.params);
+    console.log('mounted', this.params, this.id);
   }
 }
 </script>

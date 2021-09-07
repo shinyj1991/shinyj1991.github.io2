@@ -16,7 +16,7 @@
   h3 {margin: 1.2em 0; font-weight: 700; font-size: 16px;
    + p {margin-top: 0;}
   }
-  .terminal {display: inline-block; background: #eeeeee; margin: 0 3px; padding: 0 5px; border-radius: 3px; color: #e4aa68;}
+  .terminal {display: inline-block; background: #222222; margin: 0 3px; padding: 0 5px; border-radius: 3px; color: #e4aa68;}
   pre {margin: 1.8em 0;
     .token.operator,
     .token.entity,

@@ -55,11 +55,21 @@ export default {
   },
   watch: {
     page: async function(newVal, oldVal) {
-      const articles = await this.$content({ deep: true })
+      let articles = await this.$content({ deep: true })
         .sortBy('createdAt', 'desc')
         .limit(this.visibleLength)
         .skip(this.visibleLength * oldVal)
         .fetch()
+
+      articles = articles.map(article => {
+        article.url = '/article';
+        article.split = article.path.split('/');
+        for (var i = 1; i < article.split.length; i++) {
+          var prefix = i < 3 ? '/' : '-';
+          article.url += `${prefix}${article.split[i]}`;
+        }
+        return article;
+      });
 
       this.articles = [...this.articles, ...articles];
     }
