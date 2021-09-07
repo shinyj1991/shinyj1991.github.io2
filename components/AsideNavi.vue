@@ -78,18 +78,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.aside_navi {position: fixed; top: 0; left: 0; width: 240px; min-height: 100%; background: #181818; padding: 50px 12px;
+.aside_navi {position: fixed; top: 0; left: 0; width: 240px; min-height: 100%; background: #2c343e; padding: 50px 12px;
   .logo {margin-bottom: 30px; padding: 0 12px; text-align: center;
     a {display: block; font-weight: 700; font-size: 32px;}
   }
   .gnb {padding: 20px;
     > li {
-      > a {display: block; padding: 8px 20px; font-size: 17px; color: #666666;
+      > a {display: block; padding: 8px 20px; font-size: 17px; color: #999999;
         &:hover {text-decoration: underline;}
       }
       > ul {
         > li {
-          > a {display: block; padding: 4px 32px; font-size: 13px; color: #666666;
+          > a {display: block; padding: 4px 32px; font-size: 13px; color: #999999;
             &:hover {text-decoration: underline;}
           }
           &.on > a {color: #ffffff;}
