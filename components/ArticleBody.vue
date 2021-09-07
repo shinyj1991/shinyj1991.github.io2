@@ -140,7 +140,7 @@ pre[class*="language-"] > code[class*="language-"] {position: relative; z-index:
 table {border-collapse: collapse; margin: 1.8em 0;
   thead {
     tr {
-      th {border: 1px solid #eeeeee; background: #f7f7f7; padding: 3px;}
+      th {border: 1px solid #eeeeee; background: #222222; padding: 3px;}
     }
   }
   tbody {
