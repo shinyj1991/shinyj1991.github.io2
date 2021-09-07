@@ -26,7 +26,6 @@ export default {
   async asyncData({ $content, params }) {
     const visibleLength = 10;
     let articles = await $content(params.directory.replace('-', '/'), { deep: true })
-      // .only(['title', 'description', 'slug', 'author', 'updatedAt', 'date'])
       .sortBy('createdAt', 'desc')
       .fetch()
 
@@ -74,8 +73,7 @@ export default {
   },
   watch: {
     page: async function(newVal, oldVal) {
-      const articles = await this.$content(this.directory)
-        .only(['title', 'description', 'slug', 'author', 'updatedAt', 'date'])
+      const articles = await this.$content(this.directory.replace('-', '/'), { deep: true })
         .sortBy('createdAt', 'desc')
         .limit(this.visibleLength)
         .skip(this.visibleLength * oldVal)

@@ -55,8 +55,7 @@ export default {
   },
   watch: {
     page: async function(newVal, oldVal) {
-      const articles = await this.$content(this.directory)
-        .only(['title', 'description', 'slug', 'author', 'updatedAt', 'date'])
+      const articles = await this.$content({ deep: true })
         .sortBy('createdAt', 'desc')
         .limit(this.visibleLength)
         .skip(this.visibleLength * oldVal)

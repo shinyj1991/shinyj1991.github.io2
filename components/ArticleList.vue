@@ -20,8 +20,8 @@
     }
   }
   .btn_area {margin-top: 30px;
-    button {padding: 12px 30px; background: #f7f7f7; transition: all 300ms;
-      &:hover {background: #3273eb; color: #ffffff;}
+    button {padding: 12px 30px; transition: all 300ms;
+      &:hover {text-decoration: underline;}
     }
   }
 }

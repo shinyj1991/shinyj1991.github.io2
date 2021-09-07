@@ -2,10 +2,10 @@
   <div class="aside_navi">
     <h1 class="logo"><NuxtLink to="/">SIMPLIZM</NuxtLink></h1>
     <ul class="gnb">
-      <li v-for="depth1 of categories" :key="depth1.name" :class="{on: params.split('-')[0] === depth1.name}">
+      <li v-for="depth1 of categories" :key="depth1.name" :class="{on: (params ? params.split('-')[0] : params) === depth1.name}">
         <NuxtLink :to="`/article/${depth1.name}`">{{ depth1.name }}</NuxtLink>
         <ul v-if="depth1.depth2.length > 0">
-          <li v-for="depth2 of depth1.depth2" :key="depth2.name" :class="{on: params.split('-')[1] === depth2.name}"><NuxtLink :to="`/article/${ depth1.name }-${depth2.name}`">{{ depth2.name }}</NuxtLink></li>
+          <li v-for="depth2 of depth1.depth2" :key="depth2.name" :class="{on: (params ? params.split('-')[1] : params) === depth2.name}"><NuxtLink :to="`/article/${ depth1.name }-${depth2.name}`">{{ depth2.name }}</NuxtLink></li>
         </ul>
       </li>
     </ul>
@@ -25,6 +25,8 @@ export default {
     const contents = await this.$content({ deep: true }).only(['path']).fetch();
 
     let categories = [];
+
+    console.log('navi', contents.length);
 
     contents.map(content => {
       let split = content.path.split('/');
@@ -60,6 +62,9 @@ export default {
     return {
       categories: []
     }
+  },
+  mounted() {
+    console.log('Cate', this.params);
   }
 }
 </script>
@@ -69,21 +74,21 @@ export default {
   .logo {margin-bottom: 30px; padding: 0 12px; text-align: center;
     a {display: block; font-weight: 700; font-size: 32px;}
   }
-  .gnb {
+  .gnb {padding: 20px;
     > li {
-      > a {display: block; padding: 8px 5px; font-size: 17px; text-align: center;
+      > a {display: block; padding: 8px 20px; font-size: 17px; color: #888888;
         &:hover {text-decoration: underline;}
       }
-      > ul {padding: 8px;
+      > ul {
         > li {
-          > a {display: block; padding: 5px 5px; font-size: 13px; text-align: center;
+          > a {display: block; padding: 4px 32px; font-size: 13px; color: #888888;
             &:hover {text-decoration: underline;}
           }
-          &.on > a {font-weight: 700;}
+          &.on > a {color: #ffffff;}
         }
       }
-      &.on {background: #2c343e;
-        > a {font-weight: 700; background: #2c343e;}
+      &.on {
+        > a {color: #ffffff;}
       }
     }
   }
