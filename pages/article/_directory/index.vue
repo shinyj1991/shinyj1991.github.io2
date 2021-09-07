@@ -25,7 +25,7 @@ export default {
   },*/
   async asyncData({ $content, params }) {
     const visibleLength = 10;
-    let articles = await $content(params.directory, { deep: true })
+    let articles = await $content(params.directory.replace('-', '/'), { deep: true })
       // .only(['title', 'description', 'slug', 'author', 'updatedAt', 'date'])
       .sortBy('createdAt', 'desc')
       .fetch()

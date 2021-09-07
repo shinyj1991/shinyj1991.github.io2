@@ -2,7 +2,12 @@
   <div class="aside_navi">
     <h1 class="logo"><NuxtLink to="/">SIMPLIZM</NuxtLink></h1>
     <ul class="gnb">
-      <li v-for="category of categories" :key="category" :class="{on: params === category}"><NuxtLink :to="`/article/${category}`">{{ category }}</NuxtLink></li>
+      <li v-for="depth1 of categories" :key="depth1.name" :class="{on: params.split('-')[0] === depth1.name}">
+        <NuxtLink :to="`/article/${depth1.name}`">{{ depth1.name }}</NuxtLink>
+        <ul v-if="depth1.depth2.length > 0">
+          <li v-for="depth2 of depth1.depth2" :key="depth2.name" :class="{on: params.split('-')[1] === depth2.name}"><NuxtLink :to="`/article/${ depth1.name }-${depth2.name}`">{{ depth2.name }}</NuxtLink></li>
+        </ul>
+      </li>
     </ul>
   </div>
 </template>
@@ -18,11 +23,38 @@ export default {
   },
   async fetch() {
     const contents = await this.$content({ deep: true }).only(['path']).fetch();
-    this.categories = contents.map(content => {
-      return content.path.split('/')[1]
+
+    let categories = [];
+
+    contents.map(content => {
+      let split = content.path.split('/');
+      let depth1 = split[1];
+      let depth2 = split[2];
+      let check = categories.map(obj => obj.name).indexOf(depth1);
+
+      if (check === -1) {
+        if (split.length > 3) {
+          categories.push({name: depth1, depth2: [{name: depth2}]});
+        } else {
+          categories.push({name: depth1, depth2: []});
+        }
+      } else {
+        if (split.length > 3) {
+          let check2 = categories[check].depth2.map(obj => obj.name).indexOf(depth2);
+          if (check2 === -1) {
+            categories[check].depth2.push({name: depth2});
+          }
+        }
+      }
     });
-    this.categories = new Set(this.categories);
-    this.categories = [...this.categories].sort();
+
+    console.log(categories);
+    this.categories = categories;
+    this.categories = [...this.categories].sort((a, b) => {
+      if (a.depth1 > b.depth1) return 1;
+      if (a.depth1 < b.depth1) return -1;
+      return 0;
+    });
   },
   data() {
     return {
@@ -39,10 +71,20 @@ export default {
   }
   .gnb {
     > li {
-      > a {display: block; padding: 8px 5px; font-size: 15px; text-align: center;
+      > a {display: block; padding: 8px 5px; font-size: 17px; text-align: center;
         &:hover {text-decoration: underline;}
       }
-      &.on > a {font-weight: 700; background: #2c343e;}
+      > ul {padding: 8px;
+        > li {
+          > a {display: block; padding: 5px 5px; font-size: 13px; text-align: center;
+            &:hover {text-decoration: underline;}
+          }
+          &.on > a {font-weight: 700;}
+        }
+      }
+      &.on {background: #2c343e;
+        > a {font-weight: 700; background: #2c343e;}
+      }
     }
   }
 }
