@@ -44,7 +44,7 @@
   > .filename {position: absolute; top: 5px; right: 10px; color: #a8b4c2;}
 }
 
-:not(pre) > code {padding: .1em .3em; border-radius: .3em; color: #db4c69; background: #f5f2f0;}
+:not(pre) > code {padding: .1em .3em; border-radius: .3em; color: #db4c69; background: #222222;}
 
 pre[class*="language-"],
 code[class*="language-"] {color: #d4d4d4; font-size: 14px; text-shadow: none; font-family: Consolas, "Andale Mono", "Ubuntu Mono", "Courier New", monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; -moz-tab-size: 4; -o-tab-size: 4; tab-size: 4; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none;
