@@ -17,6 +17,9 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  server: {
+    port: 8000
+  },
   alias: {
     'images': resolve(__dirname, './assets/images')
   },
