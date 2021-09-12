@@ -3,7 +3,7 @@
     <ArticleHead>
       <h1>{{ article.title }}</h1>
       <div class="info">
-        <div class="date">마지막 수정 : {{ formatDate(article.createdAt) }}</div>
+        <div class="date">작성일 : {{ article.date }}</div>
         <div class="writer">작성자 : {{ article.author }}</div>
       </div>
     </ArticleHead>

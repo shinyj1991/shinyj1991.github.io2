@@ -6,7 +6,7 @@
           <div class="category">{{ article.dir.replace('/', '') }}</div>
           <div class="subject">{{ article.title }}</div>
           <div class="info">
-            <div class="date">{{ formatDate(article.createdAt) }}</div>
+            <div class="date">{{ article.date }}</div>
             <div class="author">{{ article.author }}</div>
           </div>
         </NuxtLink>
@@ -23,7 +23,7 @@ export default {
   async asyncData({ $content, params }) {
     const visibleLength = 10;
     let articles = await $content({ deep: true })
-      .sortBy('createdAt', 'desc')
+      .sortBy('date', 'desc')
       .fetch()
 
     articles = articles.map(article => {
@@ -56,7 +56,7 @@ export default {
   watch: {
     page: async function(newVal, oldVal) {
       let articles = await this.$content({ deep: true })
-        .sortBy('createdAt', 'desc')
+        .sortBy('date', 'desc')
         .limit(this.visibleLength)
         .skip(this.visibleLength * oldVal)
         .fetch()
