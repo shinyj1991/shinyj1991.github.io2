@@ -9,6 +9,7 @@
           (id ? id.split('-')[0] : id) === depth2.name}"><NuxtLink :to="`/article/${ depth1.name }-${depth2.name}`">{{ depth2.name }}</NuxtLink></li>
         </ul>
       </li>
+      <li :class="{on: $route.name === 'about'}"><NuxtLink to="/about">About</NuxtLink></li>
     </ul>
   </div>
 </template>
@@ -35,7 +36,7 @@ export default {
       let check = categories.map(obj => obj.name).indexOf(depth1);
 
       if (check === -1) {
-        if (split.length > 3) {
+        if (depth1 !== '_' && split.length > 3) {
           categories.push({name: depth1, depth2: [{name: depth2}]});
         } else {
           if (depth1 !== '_') {
@@ -74,7 +75,7 @@ export default {
     }
   },
   mounted() {
-    console.log('mounted', this.params, this.id);
+    // console.log('mounted', this.params, this.$route.name);
   }
 }
 </script>
