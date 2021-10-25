@@ -3,7 +3,7 @@ import { resolve } from 'path'
 export default {
   target: 'static',
   head: {
-    title: '심플리즘',
+    title: 'SIMPLIZM',
     htmlAttrs: {
       lang: 'ko'
     },
