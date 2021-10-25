@@ -3,9 +3,9 @@ import { resolve } from 'path'
 export default {
   target: 'static',
   head: {
-    title: 'shinyj1991.github.io',
+    title: '심플리즘',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ko'
     },
     meta: [
       { charset: 'utf-8' },

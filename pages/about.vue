@@ -5,22 +5,10 @@
       <h3>이력</h3>
       <ol class="history">
         <li>
-          <div class="company">Wise C&amp;S</div>
-          <div class="period">근무기간 : 2013. 10 ~ 2014. 01 (4개월)</div>
-          <div class="skills">사용기술 : html, css, javascript, jquery</div>
-          <div class="detail">상세업무 : 테이블 구조의 공고 코딩, 인트라넷 구축</div>
-        </li>
-        <li>
-          <div class="company">메가코딩</div>
-          <div class="period">근무기간 : 2014. 02 ~ 2015. 03 (1년 2개월)</div>
-          <div class="skills">사용기술 : html, css, javascript, jquery</div>
-          <div class="detail">상세업무 : 웹 아웃소싱 구축 및 유지보수</div>
-        </li>
-        <li>
-          <div class="company">뉴리버</div>
-          <div class="period">근무기간 : 2015. 04 ~ 2018. 08 (3년 5개월)</div>
-          <div class="skills">사용기술 : html, css, javascript, jquery, vue.js, nuxt</div>
-          <div class="detail">상세업무 : 웹 아웃소싱 구축 및 유지보수, 웹퍼블리싱 팀장 업무 수행</div>
+          <div class="company">뉴본홀딩스</div>
+          <div class="period">근무기간 : 2019. 02 ~ {{ newborn.year }}. {{ newborn.month }} ({{ period }})</div>
+          <div class="skills">사용기술 : html, css, javascript, jquery, vue.js, nuxt, rivets</div>
+          <div class="detail">상세업무 : 인하우스 프로젝트 구축 및 고도화, 웹 아웃소싱 구축 및 유지보수</div>
         </li>
         <li>
           <div class="company">프리랜서</div>
@@ -29,10 +17,22 @@
           <div class="detail">상세업무 : 웹 아웃소싱 구축 및 유지보수, 플러그인 제작</div>
         </li>
         <li>
-          <div class="company">뉴본홀딩스</div>
-          <div class="period">근무기간 : 2019. 02 ~ {{ newborn.year }}. {{ newborn.month }} ({{ period }})</div>
-          <div class="skills">사용기술 : html, css, javascript, jquery, vue.js, nuxt, rivets</div>
-          <div class="detail">상세업무 : 인하우스 프로젝트 구축 및 고도화, 웹 아웃소싱 구축 및 유지보수</div>
+          <div class="company">뉴리버</div>
+          <div class="period">근무기간 : 2015. 04 ~ 2018. 08 (3년 5개월)</div>
+          <div class="skills">사용기술 : html, css, javascript, jquery, vue.js, nuxt</div>
+          <div class="detail">상세업무 : 웹 아웃소싱 구축 및 유지보수, 웹퍼블리싱 팀장 업무 수행</div>
+        </li>
+        <li>
+          <div class="company">메가코딩</div>
+          <div class="period">근무기간 : 2014. 02 ~ 2015. 03 (1년 2개월)</div>
+          <div class="skills">사용기술 : html, css, javascript, jquery</div>
+          <div class="detail">상세업무 : 웹 아웃소싱 구축 및 유지보수</div>
+        </li>
+        <li>
+          <div class="company">Wise C&amp;S</div>
+          <div class="period">근무기간 : 2013. 10 ~ 2014. 01 (4개월)</div>
+          <div class="skills">사용기술 : html, css, javascript, jquery</div>
+          <div class="detail">상세업무 : 테이블 구조의 공고 코딩, 인트라넷 구축</div>
         </li>
       </ol>
     </section>
@@ -90,7 +90,7 @@ export default {
   h2 {margin-bottom: 50px; font-weight: 700; font-size: 30px;}
   section {
     &:not(:last-child) {margin-bottom: 50px;}
-    h3 {margin-bottom: 24px; font-size: 20px;}
+    h3 {margin-bottom: 1em; font-size: 20px;}
     .history {padding: 0 1em;
       li {position: relative; padding-left: 100px;
         &:not(:last-child) {margin-bottom: 30px;}
