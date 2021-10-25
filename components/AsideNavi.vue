@@ -2,11 +2,17 @@
   <div class="aside_navi">
     <h1 class="logo"><NuxtLink to="/">SIMPLIZM</NuxtLink></h1>
     <ul class="gnb">
-      <li v-for="depth1 of categories" :key="depth1.name" :class="{on: (params ? params.split('-')[0] : params) === depth1.name}">
+      <!-- <li v-for="depth1 of categories" :key="depth1.name" :class="{on: (params ? params.split('-')[0] : params) === depth1.name}">
         <NuxtLink :to="`/article/${depth1.name}`">{{ depth1.text }}</NuxtLink>
         <ul v-if="depth1.depth2.length > 0">
           <li v-for="depth2 of depth1.depth2" :key="depth2.name" :class="{on: (params ? params.split('-')[1] : params) === depth2.name || 
           (id ? id.split('-')[0] : id) === depth2.name}"><NuxtLink :to="`/article/${ depth1.name }-${depth2.name}`">{{ depth2.name }}</NuxtLink></li>
+        </ul>
+      </li> -->
+      <li :class="{on: $route.path.split('/')[1] === 'blog'}">
+        <NuxtLink to="/blog">Blog</NuxtLink>
+        <ul>
+          <li v-for="directory of directory_list" :key="directory" :class="{on: params === directory}"><NuxtLink :to="`/blog/${ directory }`">{{ directory }}</NuxtLink></li>
         </ul>
       </li>
       <li :class="{on: $route.name === 'about'}"><NuxtLink to="/about">About</NuxtLink></li>
@@ -28,59 +34,26 @@ export default {
   async fetch() {
     const contents = await this.$content({ deep: true }).only(['path']).fetch();
 
-    let categories = [];
+    let directory_list = [];
 
-    contents.map(content => {
-      let split = content.path.split('/');
-      let depth1 = split[1];
-      let depth2 = split[2];
-      let check = categories.map(obj => obj.name).indexOf(depth1);
+    for (let directory of contents) {
+      let directory_name = directory.path.split('/')[1];
 
-      if (check === -1) {
-        if (depth1 !== '_' && split.length > 3) {
-          categories.push({
-            name: depth1, 
-            text: `${depth1.charAt(0).toUpperCase()}${depth1.slice(1)}`,
-            depth2: [{name: depth2}]
-          });
-        } else {
-          if (depth1 !== '_') {
-            categories.push({name: depth1, depth2: []});
-          }
-        }
-      } else {
-        if (split.length > 3) {
-          let check2 = categories[check].depth2.map(obj => obj.name).indexOf(depth2);
-          if (check2 === -1) {
-            categories[check].depth2.push({name: depth2});
-          }
-        }
+      if (directory_list.indexOf(directory_name) === -1) {
+        directory_list.push(directory_name);
       }
-    });
+    }
 
-    categories.sort((a, b) => {
-      if (a.name > b.name) return 1;
-      if (a.name < b.name) return -1;
-      return 0;
-    }).map(depth1 => {
-      if (depth1.depth2.length > 1) {
-        depth1.depth2.sort((a, b) => {
-          if (a.name > b.name) return 1;
-          if (a.name < b.name) return -1;
-          return 0;
-        });
-      }
-    })
-
-    this.categories = categories;
+    this.directory_list = directory_list;
   },
   data() {
     return {
-      categories: []
+      categories: [],
+      directory_list: []
     }
   },
   mounted() {
-    // console.log('mounted', this.params, this.$route.name);
+    console.log('mounted', this.params, this.$route.path);
   }
 }
 </script>

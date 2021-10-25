@@ -2,7 +2,7 @@
   <ArticleList>
     <ul>
       <li v-for="article of articles" :key="article.path">
-        <NuxtLink :to="{ path: article.url }">
+        <NuxtLink :to="{ path: `/blog${article.path}` }">
           <div class="category">{{ article.dir.replace('/', '') }}</div>
           <div class="subject">{{ article.title }}</div>
           <div class="info">
@@ -25,23 +25,12 @@ export default {
   },*/
   async asyncData({ $content, params }) {
     const visibleLength = 10;
-    let articles = await $content(params.directory.replace('-', '/'), { deep: true })
+    let articles = await $content(params.directory, { deep: true })
       .sortBy('date', 'desc')
       .fetch()
 
-    articles = articles.map(article => {
-      article.url = '/article';
-      article.split = article.path.split('/');
-      for (var i = 1; i < article.split.length; i++) {
-        var prefix = i < 3 ? '/' : '-';
-        article.url += `${prefix}${article.split[i]}`;
-      }
-      return article;
-    });
-
     const totalArticles = articles.length;
     const lastPage = Math.ceil(totalArticles / visibleLength);
-
     const firstArticles = articles.slice(0, visibleLength);
 
     return {
@@ -73,21 +62,11 @@ export default {
   },
   watch: {
     page: async function(newVal, oldVal) {
-      let articles = await this.$content(this.directory.replace('-', '/'), { deep: true })
+      let articles = await this.$content(this.directory, { deep: true })
         .sortBy('date', 'desc')
         .limit(this.visibleLength)
         .skip(this.visibleLength * oldVal)
         .fetch()
-
-      articles = articles.map(article => {
-        article.url = '/article';
-        article.split = article.path.split('/');
-        for (var i = 1; i < article.split.length; i++) {
-          var prefix = i < 3 ? '/' : '-';
-          article.url += `${prefix}${article.split[i]}`;
-        }
-        return article;
-      });
 
       this.articles = [...this.articles, ...articles];
     }
