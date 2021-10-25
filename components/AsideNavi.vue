@@ -3,13 +3,14 @@
     <h1 class="logo"><NuxtLink to="/">SIMPLIZM</NuxtLink></h1>
     <ul class="gnb">
       <li v-for="depth1 of categories" :key="depth1.name" :class="{on: (params ? params.split('-')[0] : params) === depth1.name}">
-        <NuxtLink :to="`/article/${depth1.name}`">{{ depth1.name }}</NuxtLink>
+        <NuxtLink :to="`/article/${depth1.name}`">{{ depth1.text }}</NuxtLink>
         <ul v-if="depth1.depth2.length > 0">
           <li v-for="depth2 of depth1.depth2" :key="depth2.name" :class="{on: (params ? params.split('-')[1] : params) === depth2.name || 
           (id ? id.split('-')[0] : id) === depth2.name}"><NuxtLink :to="`/article/${ depth1.name }-${depth2.name}`">{{ depth2.name }}</NuxtLink></li>
         </ul>
       </li>
       <li :class="{on: $route.name === 'about'}"><NuxtLink to="/about">About</NuxtLink></li>
+      <li :class="{on: $route.name === 'project'}"><NuxtLink to="/project">Project</NuxtLink></li>
     </ul>
   </div>
 </template>
@@ -37,7 +38,11 @@ export default {
 
       if (check === -1) {
         if (depth1 !== '_' && split.length > 3) {
-          categories.push({name: depth1, depth2: [{name: depth2}]});
+          categories.push({
+            name: depth1, 
+            text: `${depth1.charAt(0).toUpperCase()}${depth1.slice(1)}`,
+            depth2: [{name: depth2}]
+          });
         } else {
           if (depth1 !== '_') {
             categories.push({name: depth1, depth2: []});
