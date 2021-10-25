@@ -2,13 +2,6 @@
   <div class="aside_navi">
     <h1 class="logo"><NuxtLink to="/">SIMPLIZM</NuxtLink></h1>
     <ul class="gnb">
-      <!-- <li v-for="depth1 of categories" :key="depth1.name" :class="{on: (params ? params.split('-')[0] : params) === depth1.name}">
-        <NuxtLink :to="`/article/${depth1.name}`">{{ depth1.text }}</NuxtLink>
-        <ul v-if="depth1.depth2.length > 0">
-          <li v-for="depth2 of depth1.depth2" :key="depth2.name" :class="{on: (params ? params.split('-')[1] : params) === depth2.name || 
-          (id ? id.split('-')[0] : id) === depth2.name}"><NuxtLink :to="`/article/${ depth1.name }-${depth2.name}`">{{ depth2.name }}</NuxtLink></li>
-        </ul>
-      </li> -->
       <li :class="{on: $route.path.split('/')[1] === 'blog'}">
         <NuxtLink to="/blog">Blog</NuxtLink>
         <ul>
@@ -48,12 +41,8 @@ export default {
   },
   data() {
     return {
-      categories: [],
       directory_list: []
     }
-  },
-  mounted() {
-    console.log('mounted', this.params, this.$route.path);
   }
 }
 </script>

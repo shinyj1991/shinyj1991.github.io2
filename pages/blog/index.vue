@@ -12,9 +12,10 @@
         </NuxtLink>
       </li>
     </ul>
-    <div class="btn_area" v-if="page < lastPage">
+    <div class="btn_area" v-if="page < lastPage && !loading">
       <button @click="page++">더보기</button>
     </div>
+    <div class="loading" v-if="loading">Loading...</div>
   </ArticleList>
 </template>
 
@@ -39,18 +40,23 @@ export default {
   },
   data() {
     return {
-      page: 1
+      page: 1,
+      loading: false
     }
   },
   watch: {
     page: async function(newVal, oldVal) {
+      this.loading = true;
       let articles = await this.$content({ deep: true })
         .sortBy('date', 'desc')
         .limit(this.visibleLength)
         .skip(this.visibleLength * oldVal)
         .fetch()
 
-      this.articles = [...this.articles, ...articles];
+      setTimeout(() => {
+        this.loading = false;
+        this.articles = [...this.articles, ...articles];
+      }, 300);
     }
   },
   methods: {
