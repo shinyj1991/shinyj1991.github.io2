@@ -33,7 +33,7 @@
         <div class="detail">상세업무 : 테이블 구조의 공고 코딩, 인트라넷 구축</div>
       </li>
     </ol>
-    <p class="total">총 경력 : {{ total_period }}</p>
+    <p class="total">Total : {{ total_period }}</p>
   </div>
 </template>
 
