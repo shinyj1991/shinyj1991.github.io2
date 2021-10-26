@@ -65,7 +65,7 @@ export default {
   watch: {
     page: async function(newVal, oldVal) {
       this.loading = true;
-      let articles = await this.$content(this.directory, { deep: true })
+      let articles = await this.$content(this.directory)
         .sortBy('date', 'desc')
         .limit(this.visibleLength)
         .skip(this.visibleLength * oldVal)

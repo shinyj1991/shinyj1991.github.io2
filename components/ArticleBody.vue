@@ -10,7 +10,7 @@
   a {color: #4fb9fe;
     &:hover {text-decoration: underline;}
   }
-  h2 {margin: 2em 0 0.3em; font-weight: 700; font-size: 22px;
+  h2 {margin: 3em 0 1em; font-weight: 700; font-size: 22px;
    + p {margin-top: 0;}
   }
   h3 {margin: 1.2em 0; font-weight: 700; font-size: 16px;

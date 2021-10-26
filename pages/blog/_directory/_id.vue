@@ -18,10 +18,8 @@
     /*middleware () {
       console.log('middleware');
     },*/
-    async asyncData({ $content, params, query }) {
-      console.log(params);
-      const article = await $content(params.directory, params.id.replace('-', '/')).fetch()
-      console.log(article);
+    async asyncData({ $content, params }) {
+      const article = await $content(params.directory, params.id).fetch()
       return {
         article
       }
