@@ -228,6 +228,13 @@ export default {
           tag_list: ['구축', 'jquery'],
           show: true
         },
+        {
+          img: require('~/assets/images/project/cntmart.png'),
+          url: 'https://www.cntmart.com/',
+          tit: 'CNTmart',
+          tag_list: ['구축', '유지보수', 'jquery'],
+          show: true
+        },
       ],
       sort_list: []
     }
