@@ -46,9 +46,7 @@ export default {
   },
   build: {},
   plugins: [
-    '~/plugins/axios.js',
-    '~/plugins/index.js',
-    {src: '~/plugins/persistedState.js', ssr: true}
+    '~/plugins/index.js'
   ],
   router: {
     middleware: ['index']
