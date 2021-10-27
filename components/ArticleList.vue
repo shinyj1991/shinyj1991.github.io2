@@ -24,5 +24,6 @@
       &:hover {text-decoration: underline;}
     }
   }
+  .loading {margin-top: 30px; padding: 12px 30px;}
 }
 </style>

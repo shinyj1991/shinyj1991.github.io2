@@ -57,10 +57,10 @@ a, button {
   &:hover, &:focus {text-decoration: none;}
 }
 
-.page-enter-active,
+/*.page-enter-active,
 .page-leave-active {transition: all 200ms;}
 .page-enter,
-.page-leave-active {opacity: 0; transform: translateY(15px);}
+.page-leave-active {opacity: 0; transform: translateY(15px);}*/
 
 .fade1-enter-active,
 .fade1-leave-active {transition: all 2000ms;}

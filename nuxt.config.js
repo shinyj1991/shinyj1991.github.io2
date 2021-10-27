@@ -19,6 +19,11 @@ export default {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' }
     ]
   },
+  loading: {
+    color: '#f3b605',
+    height: '2px',
+    throttle: 0
+  },
   server: {
     port: 8000
   },

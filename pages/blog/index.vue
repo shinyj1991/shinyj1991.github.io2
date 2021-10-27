@@ -23,19 +23,19 @@
 export default {
   async asyncData({ $content, params }) {
     const visibleLength = 10;
+    const totalArticles = await $content({ deep: true }).only([]).fetch();
+    const lastPage = Math.ceil(totalArticles.length / visibleLength);
+
     let articles = await $content({ deep: true })
+      .limit(visibleLength)
       .sortBy('date', 'desc')
       .fetch()
-
-    const totalArticles = articles.length;
-    const lastPage = Math.ceil(totalArticles / visibleLength);
-    const firstArticles = articles.slice(0, visibleLength);
 
     return {
       visibleLength,
       lastPage,
       directory: params.directory,
-      articles: firstArticles
+      articles: articles
     }
   },
   data() {

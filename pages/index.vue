@@ -1,6 +1,6 @@
 <template>
   <div id="home">
-    <p>index</p>
+    <p>Simplicity is the ultimate sophistication.</p>
   </div>
 </template>
 
