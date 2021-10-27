@@ -7,5 +7,5 @@ export default async (context) => {
 
   console.log([...setList].sort());
 
-  // store.commit('APP_LOADED');
+  context.store.commit('APP_LOADED');
 }

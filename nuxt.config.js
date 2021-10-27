@@ -35,7 +35,8 @@ export default {
   ],
   modules: [
     ['nuxt-highlightjs', {style: 'obsidian'}],
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/axios'
   ],
   styleResources: {
     scss: [
@@ -44,7 +45,11 @@ export default {
     ]
   },
   build: {},
-  plugins: ['~/plugins/index.js'],
+  plugins: [
+    '~/plugins/axios.js',
+    '~/plugins/index.js',
+    {src: '~/plugins/persistedState.js', ssr: true}
+  ],
   router: {
     middleware: ['index']
   },
