@@ -235,6 +235,13 @@ export default {
           tag_list: ['구축', '유지보수', 'jquery'],
           show: true
         },
+        {
+          img: require('~/assets/images/project/handysoft.png'),
+          url: 'https://www.handysoft.co.kr/',
+          tit: '핸디소프트',
+          tag_list: ['구축', '적응형', 'jquery'],
+          show: true
+        },
       ],
       sort_list: []
     }
