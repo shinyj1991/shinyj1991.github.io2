@@ -1,22 +1,11 @@
 <template>
-  <ArticleList>
-    <ul>
-      <li v-for="article of articles" :key="article.path">
-        <NuxtLink :to="{ path: `/blog${article.path}` }">
-          <div class="category">{{ article.dir.replace('/', '') }}</div>
-          <div class="subject">{{ article.title }}</div>
-          <div class="info">
-            <div class="date">{{ article.date }}</div>
-            <div class="author">{{ article.author }}</div>
-          </div>
-        </NuxtLink>
-      </li>
-    </ul>
-    <div class="btn_area" v-if="page < lastPage && !loading">
-      <button @click="page++">더보기</button>
-    </div>
-    <div class="loading" v-if="loading">Loading...</div>
-  </ArticleList>
+  <ArticleList 
+    :articles="articles" 
+    :page="page" 
+    :lastPage="lastPage" 
+    :loading="loading" 
+    @incrementPage="page++" 
+  />
 </template>
 
 <script>

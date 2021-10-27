@@ -1,8 +1,34 @@
 <template>
   <div class="article_list">
-    <slot></slot>
+    <ul>
+      <li v-for="(article, index) of articles" :key="index">
+        <NuxtLink :to="{ path: `/blog${article.path}` }">
+          <div class="category">{{ article.dir.replace('/', '') }}</div>
+          <div class="subject">{{ article.title }}</div>
+          <div class="info">
+            <div class="date">{{ article.date }}</div>
+            <div class="author">{{ article.author }}</div>
+          </div>
+        </NuxtLink>
+      </li>
+    </ul>
+    <div class="btn_area" v-if="page < lastPage && !loading">
+      <button @click="$emit('incrementPage')">더보기</button>
+    </div>
+    <div class="loading" v-if="loading">Loading...</div>
   </div>
 </template>
+
+<script>
+export default {
+  props: {
+    articles: Array,
+    page: Number,
+    lastPage: Number,
+    loading: Boolean
+  }
+}
+</script>
 
 <style lang="scss">
 .article_list {padding: 50px 50px 100px; max-width: 1000px;
