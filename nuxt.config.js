@@ -10,7 +10,8 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { name: 'description', content: '' },
+      { name: 'keyword', content: '프론트엔드, 프론트엔드개발자, 웹퍼블리셔, SIMPLIZM, 심플리즘' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
