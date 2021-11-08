@@ -242,6 +242,13 @@ export default {
           tag_list: ['구축', '적응형', 'jquery'],
           show: true
         },
+        {
+          img: require('~/assets/images/project/momstouch.png'),
+          url: 'https://www.momstouch.co.kr/',
+          tit: '맘스터치',
+          tag_list: ['유지보수', 'jquery'],
+          show: true
+        },
       ],
       sort_list: []
     }
