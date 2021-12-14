@@ -45,7 +45,7 @@ export default {
       setTimeout(() => {
         this.loading = false;
         this.articles = [...this.articles, ...articles];
-      }, 300);
+      }, 100);
     }
   },
   methods: {
