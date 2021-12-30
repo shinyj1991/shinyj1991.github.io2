@@ -249,6 +249,13 @@ export default {
           tag_list: ['유지보수', 'jquery'],
           show: true
         },
+        {
+          img: require('~/assets/images/project/eurodental.png'),
+          url: 'http://www.eurodental.co.kr/',
+          tit: '서울유로치과',
+          tag_list: ['구축', '유지보수', 'jquery'],
+          show: true
+        },
       ],
       sort_list: []
     }
