@@ -2,6 +2,9 @@
   <div id="resume">
     <div class="page">
       <div class="profile">
+        <div class="photo">
+          <img src="~images/profile.png" alt="">
+        </div>
         <dl class="info">
           <dt>신용준</dt>
           <dd class="birth"><i class="material-icons">cake</i> 1991. 11. 11</dd>
@@ -10,18 +13,14 @@
           <dd class="blog"><a href="https://shinyj1991.github.io/blog" target="_blank"><i class="material-icons">home</i> https://shinyj1991.github.io/blog</a></dd>
           <dd class="github"><a href="https://github.com/shinyj1991" target="_blank"><i class="material-icons">home</i> https://github.com/shinyj1991</a></dd>
         </dl>
-        <div class="photo">
-
-        </div>
       </div>
       <section class="ability">
         <h2>핵심 역량</h2>
         <ul>
           <li>Html, SCSS, Javascript를 사용한 빠르고 정확한 하드코딩</li>
           <li>Photoshop, Zeplin을 이용한 디자인 협업 능력</li>
-          <li>jQuery 라이브러리 제작 경험</li>
-          <li>비동기서버통신(Ajax)을 사용하여 프론트엔드 개발 경험</li>
           <li>vue.js(nuxt.js) 마크업 및 프론트엔드 개발 경험</li>
+          <li>jQuery 라이브러리 제작 경험</li>
           <li>차트 라이브러리(amchart, chart.js)를 사용한 데이터 시각화 능력</li>
         </ul>
       </section>
@@ -79,16 +78,43 @@
       <section class="academic">
         <h2>자기 소개서</h2>
         <div class="contents">
-          군대 전역후 누나의 권유로 국비지원과정을 수료하고 웹퍼블리셔의 길로 들어섰습니다.
-          23살에 처음 취업한 회사는 잡*리아 위탁업 테이블 태그를 이용한 채용공고페이지를 코딩하는 곳이었는데 속도
+          군대 전역 후 누나의 권유로 웹퍼블리셔의 길로 들어섰습니다.<br>
+          23살에 처음 취업한 회사는 테이블태그로 공고를 코딩하는 회사였습니다.<br>
+          당일 올라온 요청을 처리하여 없애는 방식의 업무였고 속도와 정확도가 중요했던 걸로 기억합니다.<br><br>
+
+          24살에 입사한 두 번째 회사는 웹퍼블리셔로만 이루어진 아웃소싱 전문 업체였습니다.<br>
+          디자인업체에서 디자인 파일을 전달받으면 퍼블리싱만 해서 다시 웹 개발 업체에 넘겨주는 업무를 했습니다.<br>
+          2014년 당시는 한국에 인터넷익스플로러 점유율이 높았던 시기라 IE7, 어떨 때는 IE6까지도 크로스브라우징을 확인하며 작업했습니다.<br><br>
+
+          25살에 입사한 세 번째 회사는 기획부터 디자인, 퍼블리싱, 개발까지 모든 팀이 있는 웹 에이전시였습니다.<br>
+          회사소개, 프랜차이즈 사이트, 솔루션 쇼핑몰, 자사몰, 하이브리드 웹앱, 다국어 사이트까지 정말 다양한 프로젝트를 진행하였고
+          개인 프로젝트로는 jquery를 이용한 UI 라이브러리를 개발하였습니다.<br><br>
+
+          29살에 입사한 마지막 회사는 변액보험을 관리하는 자사플랫폼을 만드는 팀에 퍼블리셔로 들어갔습니다.<br>
+          처음에는 퍼블리싱 업무만 하다가 욕심이 생겨 vue.js를 사용한 프론트엔드 개발까지 맡아 하게 되었습니다.<br>
+          자사플랫폼 사이트가 끝나고 나선 웹에이전시 업무를 이어서 하게 되었는데 nuxt.js를 이용하여 SSR방식의 프론트엔드 개발을 했습니다.<br><br>
+
+          계획적인 성격이 장점입니다. 모든 업무는 계획을 수립한 후에 실행해야 효율이 높다는 사실을 경험으로 체득했습니다.<br>
+          꾸준히 기록하는 편입니다. 문제를 해결할 때마다 개인 블로그에 해결 과정을 정리하고 있습니다.<br>
+          항상 성장하는 개발자가 되겠습니다. 감사합니다.
+        </div>
+      </section>
+      <section class="portfolio">
+        <h2>포트폴리오</h2>
+        <div class="contents">
+          수행 프로젝트 : <a href="https://shinyj1991.github.io/project/" target="_blank">https://shinyj1991.github.io/project/</a><br><br>
+          제작 라이브러리<br>
+          Datepicker(jquery) : <a href="https://github.com/shinyj1991/kronos" target="_blank">https://github.com/shinyj1991/kronos</a><br>
+          ImageSlider(jquery) : <a href="https://github.com/shinyj1991/eclipse" target="_blank">https://github.com/shinyj1991/eclipse</a>
         </div>
       </section>
       <section class="academic">
-        <h2>연봉사항</h2>
-      </section>
-      <section class="academic">
         <h2>기타사항</h2>
-        <p>군대, 학원 (국비지원)</p>
+        <div class="contents">
+          병역 : 육군 만기 제대 (2011년 4월 ~ 2013년 1월)<br>
+          현재연봉 : 5,040만원<br>
+          희망연봉 : 면접 후 협의
+        </div>
       </section>
     </div>
   </div>
@@ -118,15 +144,22 @@ export default {
     > section {position: relative;
       > h2 {margin-bottom: 12px; font-weight: 700; font-size: 20px; color: #023859;}
       &:not(:first-child) {margin-top: 50px;}
+      a {color: #f29f05;
+        &:hover {text-decoration: underline;}
+      }
     }
   }
 
-  .profile {display: flex; justify-content: space-between; align-items: center;
+  .profile {display: flex; column-gap: 30px; align-items: center;
     .info {
       dt {margin-bottom: 24px; font-weight: 700; font-size: 40px; color: #f27649;}
-      dd {display: flex; align-items: center; line-height: 2;}
+      dd {display: flex; align-items: center; line-height: 2;
+        a:hover {text-decoration: underline;}
+      }
     }
-    .photo {width: 200px; height: 240px; background: #cccccc;}
+    .photo {width: 200px; height: 240px; background: #f7f7f7;
+      img {width: 100%;}
+    }
   }
 
   .ability {
