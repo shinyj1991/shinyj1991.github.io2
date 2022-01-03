@@ -78,12 +78,17 @@
       </section>
       <section class="academic">
         <h2>자기 소개서</h2>
+        <div class="contents">
+          군대 전역후 누나의 권유로 국비지원과정을 수료하고 웹퍼블리셔의 길로 들어섰습니다.
+          23살에 처음 취업한 회사는 잡*리아 위탁업 테이블 태그를 이용한 채용공고페이지를 코딩하는 곳이었는데 속도
+        </div>
       </section>
       <section class="academic">
         <h2>연봉사항</h2>
       </section>
       <section class="academic">
         <h2>기타사항</h2>
+        <p>군대, 학원 (국비지원)</p>
       </section>
     </div>
   </div>
