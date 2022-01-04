@@ -21,7 +21,7 @@
           <li>Photoshop, Zeplin을 이용한 디자인 협업 능력</li>
           <li>vue.js(nuxt.js) 마크업 및 프론트엔드 개발 경험</li>
           <li>jQuery 라이브러리 제작 경험</li>
-          <li>차트 라이브러리(amchart, chart.js)를 사용한 데이터 시각화 능력</li>
+          <li>차트 라이브러리(amchart, chart.js)를 활용한 데이터 시각화 능력</li>
         </ul>
       </section>
       <section class="history">
@@ -32,10 +32,10 @@
             <div class="company">뉴본홀딩스</div>
             <div class="position">웹퍼블리셔, 프론트엔드 (과장)</div>
             <div class="description">
-              변액보험 플랫폼, 자사 ERP 퍼블리싱 및 프론트개발(rivets.js, vue.js)<br>
-              고객사 웹사이트 및 플랫폼 아웃소싱(nuxt.js)<br>
-              차트 라이브러리를 사용한 데이터 시각화<br>
-              팀소개 페이지에 각 팀원들의 정체성을 반영한 인터렉션 
+              변액보험 플랫폼, 자사 ERP 퍼블리싱 및 프론트개발(rivets, vue.js)<br>
+              고객사 웹사이트 및 플랫폼 아웃소싱(vue.js, nuxt.js)<br>
+              차트 라이브러리를 활용한 데이터 시각화<br>
+              각 팀원들의 정체성을 반영한 인터렉션 페이지 제작 
             </div>
           </li>
           <li>
@@ -44,7 +44,7 @@
             <div class="position">웹퍼블리셔 (팀장)</div>
             <div class="description">
               웹사이트 구축 및 유지보수 아웃소싱<br>
-              parallax, flip, masonry 등 여러 인터렉션 구현<br>
+              parallax, flip, masonry 등 다양한 인터렉션 구현<br>
               jquery plugin 제작 (datepicker, imageslider)
             </div>
           </li>
@@ -68,9 +68,9 @@
             <div class="company">WiseC&amp;S</div>
             <div class="position">웹퍼블리셔</div>
             <div class="description">
-              잡코리아에 올라가는 공고를 테이블 코딩<br>
-              유료 공고 템플릿 신규개발<br>
-              내부적으로 리소스를 공유하는 인트라넷 구축
+              잡코리아 공고페이지 테이블 코딩<br>
+              프리미엄 공고 템플릿 신규개발<br>
+              내부 리소스 공유 백오피스 구축
             </div>
           </li>
         </ol>
