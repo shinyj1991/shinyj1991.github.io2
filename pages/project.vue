@@ -31,114 +31,119 @@ export default {
     return {
       year_list: [
         {
-          year: 2014,
+          year: 2021,
           project_list: [
             {
-              img: require('~/assets/images/project/clipartkorea.png'),
-              url: 'https://www.clipartkorea.co.kr/',
-              tit: '클립아트코리아',
-              tag_list: ['구축', 'jquery'],
+              img: require('~/assets/images/project/codenewborn.svg'),
+              url: 'https://codenewborn.com/',
+              tit: '코드뉴본',
+              tag_list: ['구축', '반응형', 'scss', 'vue', 'nuxt'],
               show: true
             },
             {
-              img: require('~/assets/images/project/imagetoday.png'),
-              url: 'https://www.imagetoday.co.kr/',
-              tit: '이미지투데이',
-              tag_list: ['구축', 'jquery'],
+              img: require('~/assets/images/project/gachon.png'),
+              url: 'https://www.gachonin.or.kr/',
+              tit: '가천대학교 총동문회',
+              tag_list: ['구축', '적응형', 'scss', 'jquery', 'vue'],
               show: true
             },
             {
-              img: require('~/assets/images/project/tongroimages.png'),
-              url: 'https://www.tongro.co.kr/',
-              tit: '통로이미지',
-              tag_list: ['구축', 'jquery'],
+              img: require('~/assets/images/project/jament.svg'),
+              url: 'https://jament.co.kr/',
+              tit: '잼엔터테인먼트',
+              tag_list: ['구축', '반응형', 'jquery', 'rivets'],
               show: true
             },
             {
-              img: require('~/assets/images/project/alphascan.gif'),
-              url: 'https://www.alphascan.co.kr/',
-              tit: '알파스캔',
-              tag_list: ['구축', 'jquery'],
+              img: require('~/assets/images/project/slorder.svg'),
+              url: 'https://slorder.co.kr/',
+              tit: '슬로더',
+              tag_list: ['구축', '적응형', 'jquery', 'rivets'],
               show: true
             },
           ]
         },
         {
-          year: 2015,
+          year: 2020,
           project_list: [
             {
-              img: require('~/assets/images/project/acecounter.png'),
-              url: 'https://www.acecounter.com/',
-              tit: '에이스카운터',
-              tag_list: ['구축', 'jquery'],
+              img: require('~/assets/images/project/nbholdings.svg'),
+              url: 'https://nbholdings.co.kr/',
+              tit: '뉴본홀딩스',
+              tag_list: ['구축', '반응형', 'scss', 'vue', 'nuxt'],
               show: true
             },
             {
-              img: require('~/assets/images/project/gumbook.gif'),
-              url: 'http://www.gumbook.co.kr/',
-              tit: '껌북',
-              tag_list: ['구축', 'jquery'],
-              show: true
-            },
-            {
-              img: require('~/assets/images/project/coffinegurunaru.png'),
-              url: 'http://www.coffine.co.kr/',
-              tit: '커핀그루나루',
-              tag_list: ['구축', 'jquery'],
-              show: true
-            },
-            {
-              img: require('~/assets/images/project/momstouch.png'),
-              url: 'https://www.momstouch.co.kr/',
-              tit: '맘스터치',
-              tag_list: ['유지보수', 'jquery'],
+              img: require('~/assets/images/project/allround.svg'),
+              url: 'https://the-allround.com/',
+              tit: '올라운드',
+              tag_list: ['구축', '유지보수', 'chart', 'jquery', 'rivets', 'vue'],
               show: true
             },
           ]
         },
         {
-          year: 2016,
+          year: 2019,
           project_list: [
             {
-              img: require('~/assets/images/project/xeohair.png'),
-              url: 'http://www.xeohair.com/',
-              tit: '제오헤어',
-              tag_list: ['구축', '유지보수', '반응형', 'jquery'],
+              img: require('~/assets/images/project/myearn.svg'),
+              url: 'https://myearn.co.kr/',
+              tit: '마이언',
+              tag_list: ['구축', '유지보수', '반응형', 'chart', 'jquery', 'rivets'],
               show: true
             },
             {
-              img: require('~/assets/images/project/samsungshi.gif'),
-              url: 'http://www.samsungshi.com/',
-              tit: '삼성중공업',
-              tag_list: ['유지보수', 'jquery'],
+              img: require('~/assets/images/project/sulwhasoo.png'),
+              url: 'https://www.sulwhasoo.com/',
+              tit: '설화수',
+              tag_list: ['프로모션', 'video', 'jquery'],
+              show: true
+            },
+          ]
+        },
+        {
+          year: 2018,
+          project_list: [
+            {
+              img: require('~/assets/images/project/handysoft.png'),
+              url: 'https://www.handysoft.co.kr/',
+              tit: '핸디소프트',
+              tag_list: ['구축', '적응형', 'jquery'],
               show: true
             },
             {
-              img: require('~/assets/images/project/megabox.png'),
-              url: 'https://www.megabox.co.kr/',
-              tit: '메가박스',
-              tag_list: ['프로모션', '유지보수', 'jquery'],
+              img: require('~/assets/images/project/newriver.png'),
+              url: 'http://www.newriver.co.kr/',
+              tit: 'Newriver',
+              tag_list: ['구축', '반응형', 'jquery', 'angular'],
               show: true
             },
             {
-              img: require('~/assets/images/project/gongcha.png'),
-              url: 'https://www.gong-cha.co.kr/',
-              tit: '공차',
-              tag_list: ['구축', '유지보수', 'jquery'],
+              img: require('~/assets/images/project/newdinmall.png'),
+              url: 'http://www.newdinmall.com/',
+              tit: '뉴딘몰',
+              tag_list: ['구축', '고도몰', 'jquery'],
               show: true
             },
             {
-              img: require('~/assets/images/project/eurodental.png'),
-              url: 'http://www.eurodental.co.kr/',
-              tit: '서울유로치과',
-              tag_list: ['구축', '유지보수', 'jquery'],
+              img: require('~/assets/images/project/insper.png'),
+              url: 'https://www.insper.co.kr/main.do',
+              tit: 'Insper',
+              tag_list: ['구축', 'jquery'],
               show: true
             },
             {
-              img: require('~/assets/images/project/cntmart.png'),
-              url: 'https://www.cntmart.com/',
-              tit: 'CNTmart',
-              tag_list: ['구축', '유지보수', 'jquery'],
+              img: require('~/assets/images/project/bnc.png'),
+              url: 'http://www.brandncompany.com/',
+              tit: 'Brand &amp; Company',
+              tag_list: ['구축', '적응형', 'jquery'],
+              show: true
+            },
+            {
+              img: require('~/assets/images/project/momntalk.png'),
+              url: 'https://www.momntalk.com/',
+              tit: 'Mom &amp; Talk',
+              tag_list: ['구축', 'masonry', 'jquery'],
               show: true
             },
           ]
@@ -191,112 +196,114 @@ export default {
           ]
         },
         {
-          year: 2018,
+          year: 2016,
           project_list: [
             {
-              img: require('~/assets/images/project/handysoft.png'),
-              url: 'https://www.handysoft.co.kr/',
-              tit: '핸디소프트',
-              tag_list: ['구축', '적응형', 'jquery'],
+              img: require('~/assets/images/project/xeohair.png'),
+              url: 'http://www.xeohair.com/',
+              tit: '제오헤어',
+              tag_list: ['구축', '유지보수', '반응형', 'jquery'],
               show: true
             },
             {
-              img: require('~/assets/images/project/newriver.png'),
-              url: 'http://www.newriver.co.kr/',
-              tit: 'Newriver',
-              tag_list: ['구축', '반응형', 'jquery', 'angular'],
+              img: require('~/assets/images/project/samsungshi.gif'),
+              url: 'http://www.samsungshi.com/',
+              tit: '삼성중공업',
+              tag_list: ['유지보수', 'jquery'],
               show: true
             },
             {
-              img: require('~/assets/images/project/newdinmall.png'),
-              url: 'http://www.newdinmall.com/',
-              tit: '뉴딘몰',
-              tag_list: ['구축', '고도몰', 'jquery'],
+              img: require('~/assets/images/project/megabox.png'),
+              url: 'https://www.megabox.co.kr/',
+              tit: '메가박스',
+              tag_list: ['프로모션', '유지보수', 'jquery'],
               show: true
             },
             {
-              img: require('~/assets/images/project/insper.png'),
-              url: 'https://www.insper.co.kr/main.do',
-              tit: 'Insper',
+              img: require('~/assets/images/project/gongcha.png'),
+              url: 'https://www.gong-cha.co.kr/',
+              tit: '공차',
+              tag_list: ['구축', '유지보수', 'jquery'],
+              show: true
+            },
+            {
+              img: require('~/assets/images/project/eurodental.png'),
+              url: 'http://www.eurodental.co.kr/',
+              tit: '서울유로치과',
+              tag_list: ['구축', '유지보수', 'jquery'],
+              show: true
+            },
+            {
+              img: require('~/assets/images/project/cntmart.png'),
+              url: 'https://www.cntmart.com/',
+              tit: 'CNTmart',
+              tag_list: ['구축', '유지보수', 'jquery'],
+              show: true
+            },
+          ]
+        },
+        {
+          year: 2015,
+          project_list: [
+            {
+              img: require('~/assets/images/project/acecounter.png'),
+              url: 'https://www.acecounter.com/',
+              tit: '에이스카운터',
               tag_list: ['구축', 'jquery'],
               show: true
             },
-          ]
-        },
-        {
-          year: 2019,
-          project_list: [
             {
-              img: require('~/assets/images/project/bnc.png'),
-              url: 'http://www.brandncompany.com/',
-              tit: 'Brand &amp; Company',
-              tag_list: ['구축', '적응형', 'jquery'],
+              img: require('~/assets/images/project/gumbook.gif'),
+              url: 'http://www.gumbook.co.kr/',
+              tit: '껌북',
+              tag_list: ['구축', 'jquery'],
               show: true
             },
             {
-              img: require('~/assets/images/project/momntalk.png'),
-              url: 'https://www.momntalk.com/',
-              tit: 'Mom &amp; Talk',
-              tag_list: ['구축', 'masonry', 'jquery'],
+              img: require('~/assets/images/project/coffinegurunaru.png'),
+              url: 'http://www.coffine.co.kr/',
+              tit: '커핀그루나루',
+              tag_list: ['구축', 'jquery'],
               show: true
             },
             {
-              img: require('~/assets/images/project/sulwhasoo.png'),
-              url: 'https://www.sulwhasoo.com/',
-              tit: '설화수',
-              tag_list: ['프로모션', 'video', 'jquery'],
+              img: require('~/assets/images/project/momstouch.png'),
+              url: 'https://www.momstouch.co.kr/',
+              tit: '맘스터치',
+              tag_list: ['유지보수', 'jquery'],
               show: true
             },
           ]
         },
         {
-          year: 2020,
+          year: 2014,
           project_list: [
             {
-              img: require('~/assets/images/project/myearn.svg'),
-              url: 'https://myearn.co.kr/',
-              tit: '마이언',
-              tag_list: ['구축', '유지보수', '반응형', 'chart', 'jquery', 'rivets'],
+              img: require('~/assets/images/project/clipartkorea.png'),
+              url: 'https://www.clipartkorea.co.kr/',
+              tit: '클립아트코리아',
+              tag_list: ['구축', 'jquery'],
               show: true
             },
             {
-              img: require('~/assets/images/project/allround.svg'),
-              url: 'https://the-allround.com/',
-              tit: '올라운드',
-              tag_list: ['구축', '유지보수', 'chart', 'jquery', 'rivets', 'vue'],
+              img: require('~/assets/images/project/imagetoday.png'),
+              url: 'https://www.imagetoday.co.kr/',
+              tit: '이미지투데이',
+              tag_list: ['구축', 'jquery'],
               show: true
             },
             {
-              img: require('~/assets/images/project/nbholdings.svg'),
-              url: 'https://nbholdings.co.kr/',
-              tit: '뉴본홀딩스',
-              tag_list: ['구축', '반응형', 'scss', 'vue', 'nuxt'],
-              show: true
-            },
-          ]
-        },
-        {
-          year: 2021,
-          project_list: [
-            {
-              img: require('~/assets/images/project/jament.svg'),
-              url: 'https://jament.co.kr/',
-              tit: '잼엔터테인먼트',
-              tag_list: ['구축', '반응형', 'jquery', 'rivets'],
+              img: require('~/assets/images/project/tongroimages.png'),
+              url: 'https://www.tongro.co.kr/',
+              tit: '통로이미지',
+              tag_list: ['구축', 'jquery'],
               show: true
             },
             {
-              img: require('~/assets/images/project/slorder.svg'),
-              url: 'https://slorder.co.kr/',
-              tit: '슬로더',
-              tag_list: ['구축', '적응형', 'jquery', 'rivets'],
-              show: true
-            },
-            {
-              img: require('~/assets/images/project/gachon.png'),
-              url: false,
-              tit: '가천대학교 총동문회',
-              tag_list: ['구축', '적응형', 'scss', 'jquery', 'vue'],
+              img: require('~/assets/images/project/alphascan.gif'),
+              url: 'https://www.alphascan.co.kr/',
+              tit: '알파스캔',
+              tag_list: ['구축', 'jquery'],
               show: true
             },
           ]

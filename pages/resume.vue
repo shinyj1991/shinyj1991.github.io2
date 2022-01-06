@@ -25,17 +25,16 @@
         </ul>
       </section>
       <section class="history">
-        <h2>경력 사항</h2>
+        <h2>경력 사항 (총 7년 11개월)</h2>
         <ol>
           <li>
             <div class="period">2019. 2 ~ 현재<br>(2년 11개월)</div>
             <div class="company">뉴본홀딩스</div>
-            <div class="position">웹퍼블리셔, 프론트엔드 (과장)</div>
+            <div class="position">웹퍼블리셔, 프론트엔드개발자 (과장)</div>
             <div class="description">
               변액보험 플랫폼, 자사 ERP 퍼블리싱 및 프론트개발(rivets, vue.js)<br>
               고객사 웹사이트 및 플랫폼 아웃소싱(vue.js, nuxt.js)<br>
-              차트 라이브러리를 활용한 데이터 시각화<br>
-              각 팀원들의 정체성을 반영한 인터렉션 페이지 제작 
+              차트 라이브러리를 활용한 데이터 시각화
             </div>
           </li>
           <li>
@@ -65,8 +64,8 @@
         <ol>
           <li>
             <div class="period">2013. 9 ~ 2014. 1<br>(5개월)</div>
-            <div class="company">WiseC&amp;S</div>
-            <div class="position">웹퍼블리셔</div>
+            <div class="company">WISEC&amp;S</div>
+            <div class="position">웹퍼블리셔 (사원)</div>
             <div class="description">
               잡코리아 공고페이지 테이블 코딩<br>
               프리미엄 공고 템플릿 신규개발<br>
@@ -75,40 +74,83 @@
           </li>
         </ol>
       </section>
-      <section class="academic">
-        <h2>자기 소개서</h2>
-        <div class="contents">
-          군대 전역 후 누나의 권유로 웹퍼블리셔의 길로 들어섰습니다.<br>
-          23살에 처음 취업한 회사는 테이블태그로 공고를 코딩하는 회사였습니다.<br>
-          당일 올라온 요청을 처리하여 없애는 방식의 업무였고 속도와 정확도가 중요했던 걸로 기억합니다.<br><br>
-
-          24살에 입사한 두 번째 회사는 웹퍼블리셔로만 이루어진 아웃소싱 전문 업체였습니다.<br>
-          디자인업체에서 디자인 파일을 전달받으면 퍼블리싱만 해서 다시 웹 개발 업체에 넘겨주는 업무를 했습니다.<br>
-          2014년 당시는 한국에 인터넷익스플로러 점유율이 높았던 시기라 IE7, 어떨 때는 IE6까지도 크로스브라우징을 확인하며 작업했습니다.<br><br>
-
-          25살에 입사한 세 번째 회사는 기획부터 디자인, 퍼블리싱, 개발까지 모든 팀이 있는 웹 에이전시였습니다.<br>
-          회사소개, 프랜차이즈 사이트, 솔루션 쇼핑몰, 자사몰, 하이브리드 웹앱, 다국어 사이트까지 정말 다양한 프로젝트를 진행하였고
-          개인 프로젝트로는 jquery를 이용한 UI 라이브러리를 개발하였습니다.<br><br>
-
-          29살에 입사한 마지막 회사는 변액보험을 관리하는 자사플랫폼을 만드는 팀에 퍼블리셔로 들어갔습니다.<br>
-          처음에는 퍼블리싱 업무만 하다가 욕심이 생겨 vue.js를 사용한 프론트엔드 개발까지 맡아 하게 되었습니다.<br>
-          자사플랫폼 사이트가 끝나고 나선 웹에이전시 업무를 이어서 하게 되었는데 nuxt.js를 이용하여 SSR방식의 프론트엔드 개발을 했습니다.<br><br>
-
-          계획적인 성격이 장점입니다. 모든 업무는 계획을 수립한 후에 실행해야 효율이 높다는 사실을 경험으로 체득했습니다.<br>
-          꾸준히 기록하는 편입니다. 문제를 해결할 때마다 개인 블로그에 해결 과정을 정리하고 있습니다.<br>
-          항상 성장하는 개발자가 되겠습니다. 감사합니다.
-        </div>
-      </section>
       <section class="portfolio">
         <h2>포트폴리오</h2>
         <div class="contents">
-          수행 프로젝트 : <a href="https://shinyj1991.github.io/project/" target="_blank">https://shinyj1991.github.io/project/</a><br><br>
-          제작 라이브러리<br>
+          프로젝트<br>
+          <a href="https://shinyj1991.github.io/project/" target="_blank">https://shinyj1991.github.io/project/</a><br><br>
+          라이브러리<br>
           Datepicker(jquery) : <a href="https://github.com/shinyj1991/kronos" target="_blank">https://github.com/shinyj1991/kronos</a><br>
           ImageSlider(jquery) : <a href="https://github.com/shinyj1991/eclipse" target="_blank">https://github.com/shinyj1991/eclipse</a>
         </div>
       </section>
-      <section class="academic">
+      <section class="introduce">
+        <h2>자기소개서</h2>
+        <div class="contents">
+          <strong>시간</strong><br>
+          세상의 많은 가치 중에서 제가 가장 중요하게 생각하는 것은 시간입니다.<br>
+          제시간뿐 아니라 다른 사람의 시간 역시 소중하기에 시간약속만큼은 반드시 지키기 위해 노력합니다.<br>
+          제가 "알겠습니다." 라고 대답하는 순간 반드시 지켜진다는 믿음을 주는 사람이 되겠습니다.<br><br>
+          <strong>계획</strong><br>
+          요즘 유행하는 MBTI검사에서 INTJ유형이 나왔습니다.<br>
+          결과를 맹신하진 않지만 INTJ의 "용의주도한 전략가"라는 설명은 제 마음에 쏙 듭니다.<br>
+          저는 짧게는 일일업무부터 길게는 은퇴 후 노후준비까지 모든 일에 계획을 세우는 것을 좋아합니다.<br>
+          하루 업무를 체크리스트 작성으로 시작하는 저의 습관은 "용의주도한 전략가"와 같다고 생각합니다.<br><br>
+          <strong>기준</strong><br>
+          코딩을 할 때 이유를 깊이 고민하는 편입니다.<br>
+          정답이 여러 가지일 수 있는 코딩의 세계에서 내가 왜 이렇게 코딩했는지 이유를 설명할 수 있어야<br>
+          다음에 같은 작업을 했을 때 같은 코딩을 할 수 있기 때문입니다.<br>
+          신입 때 고민에 많은 시간을 할애하느라 작업이 길어지기도 했지만<br>
+          기준이 명확해진 지금은 신속한 작업속도를 저의 최대 장점으로 꼽을 수 있습니다.<br><br>
+          <strong>포부</strong><br>
+          "우리는 가장 많은 시간을 함께 보내는 다섯 사람의 평균이다" 강연가 짐 론이 한 말입니다.<br>
+          직장동료는 같이 일하는 사람 이면서 가장 많은 시간을 보내는 사람이라고 생각합니다.<br>
+          입사 후 동료의 평균을 높여주는 사람이 되도록 노력하겠습니다.<br><br>
+          읽어주셔서 감사합니다.
+        </div>
+      </section>
+    </div>
+    <div class="page">
+      <section class="license">
+        <h2>자격증</h2>
+        <ul class="contents">
+          <li>
+            <div class="date">2006. 4</div>
+            <div class="name">정보기기운용기능사</div>
+            <div class="publish">한국산업인력관리공단</div>
+          </li>
+          <li>
+            <div class="date">2005. 10</div>
+            <div class="name">정보처리기능사</div>
+            <div class="publish">한국산업인력관리공단</div>
+          </li>
+          <li>
+            <div class="date">2005. 5</div>
+            <div class="name">컴퓨터활용능력 2급</div>
+            <div class="publish">대한상공회의소</div>
+          </li>
+          <li>
+            <div class="date">2004. 12</div>
+            <div class="name">워드프로세서 2급</div>
+            <div class="publish">대한상공회의소</div>
+          </li>
+        </ul>
+      </section>
+      <section class="awarded">
+        <h2>수상</h2>
+        <ul class="contents">
+          <li>
+            <div class="date">2006</div>
+            <div class="name">제12회 서울특별시 컴퓨터경시대회 대상</div>
+            <div class="publish">한국학원총연합회, 전국컴퓨터교육협의회</div>
+            <div class="desc">
+              - 인터넷부문 대상<br>
+              - 서울특별시교육감 수여
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="etcetera">
         <h2>기타사항</h2>
         <div class="contents">
           병역 : 육군 만기 제대 (2011년 4월 ~ 2013년 1월)<br>
@@ -157,7 +199,7 @@ export default {
         a:hover {text-decoration: underline;}
       }
     }
-    .photo {width: 200px; height: 240px; background: #f7f7f7;
+    .photo {width: 180px; background: #f7f7f7;
       img {width: 100%;}
     }
   }
@@ -175,6 +217,33 @@ export default {
         .company {font-weight: 700; color: #023859;}
         .position {margin-bottom: 10px; color: #f29f05;}
       }
+    }
+  }
+
+  .license {
+    ul {display: grid; row-gap: 20px;
+      li {display: flex; align-items: center;
+        .date {font-size: 14px; color: #023859; width: 80px;}
+        .name {font-weight: 700;}
+        .publish {margin-left: 10px; font-size: 12px;}
+      }
+    }
+  }
+
+  .awarded {
+    ul {display: grid; row-gap: 20px;
+      li {display: flex; align-items: center; flex-wrap: wrap;
+        .date {font-size: 14px; color: #023859; width: 80px;}
+        .name {font-weight: 700;}
+        .publish {margin-left: 10px; font-size: 12px;}
+        .desc {width: 100%; padding-left: 80px; margin-top: 6px;}
+      }
+    }
+  }
+
+  .introduce {
+    .contents {
+      strong {color: #f29f05; font-weight: 700;}
     }
   }
 
