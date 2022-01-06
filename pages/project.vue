@@ -34,9 +34,9 @@ export default {
           year: 2021,
           project_list: [
             {
-              img: require('~/assets/images/project/codenewborn.svg'),
-              url: 'https://codenewborn.com/',
-              tit: '코드뉴본',
+              img: require('~/assets/images/project/nbholdings.svg'),
+              url: 'https://nbholdings.co.kr/',
+              tit: '뉴본홀딩스',
               tag_list: ['구축', '반응형', 'scss', 'vue', 'nuxt'],
               show: true
             },
@@ -67,9 +67,9 @@ export default {
           year: 2020,
           project_list: [
             {
-              img: require('~/assets/images/project/nbholdings.svg'),
-              url: 'https://nbholdings.co.kr/',
-              tit: '뉴본홀딩스',
+              img: require('~/assets/images/project/codenewborn.svg'),
+              url: 'https://codenewborn.com/',
+              tit: '코드뉴본',
               tag_list: ['구축', '반응형', 'scss', 'vue', 'nuxt'],
               show: true
             },
