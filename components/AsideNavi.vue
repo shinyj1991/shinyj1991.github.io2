@@ -32,7 +32,7 @@ export default {
     for (let directory of contents) {
       let directory_name = directory.path.split('/')[1];
 
-      if (directory_list.indexOf(directory_name) === -1) {
+      if (directory_list.indexOf(directory_name) === -1 && directory_name !== 'java') {
         directory_list.push(directory_name);
       }
     }
