@@ -106,7 +106,7 @@
           "우리는 가장 많은 시간을 함께 보내는 다섯 사람의 평균이다" 강연가 짐 론이 한 말입니다.<br>
           직장동료는 같이 일하는 사람 이면서 가장 많은 시간을 보내는 사람이라고 생각합니다.<br>
           입사 후 동료의 평균을 높여주는 사람이 되도록 노력하겠습니다.<br><br>
-          읽어주셔서 감사합니다.
+          감사합니다.
         </div>
       </section>
     </div>
@@ -150,14 +150,14 @@
           </li>
         </ul>
       </section>
-      <section class="etcetera">
+      <!-- <section class="etcetera">
         <h2>기타사항</h2>
         <div class="contents">
           병역 : 육군 만기 제대 (2011년 4월 ~ 2013년 1월)<br>
           현재연봉 : 5,040만원<br>
           희망연봉 : 면접 후 협의
         </div>
-      </section>
+      </section> -->
     </div>
   </div>
 </template>
