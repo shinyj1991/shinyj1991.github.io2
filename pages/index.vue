@@ -35,11 +35,14 @@
       </p>
     </section>
     <section class="project">
-      <h2>플러그인</h2>
-      <ul>
-        <li>날짜선택 플러그인(jquery) : <a href="https://github.com/shinyj1991/kronos" target="_blank">https://github.com/shinyj1991/kronos</a></li>
-        <li>이미지슬라이더 플러그인(jquery) : <a href="https://github.com/shinyj1991/eclipse" target="_blank">https://github.com/shinyj1991/eclipse</a></li>
-      </ul>
+      <h2>바로가기</h2>
+      <div class="contents">
+        기술 블로그 (<nuxt-link to="/blog">바로가기</nuxt-link>)<br><br>
+        진행했던 프로젝트 (<nuxt-link to="/project">바로가기</nuxt-link>)<br><br>
+        플러그인<br>
+        Datepicker (<a href="https://github.com/shinyj1991/kronos" target="_blank">바로가기</a>)<br>
+        Image Slider (<a href="https://github.com/shinyj1991/eclipse" target="_blank">바로가기</a>)
+      </div>
     </section>
     <section class="project">
       <h2>문의</h2>
@@ -62,8 +65,10 @@ export default {
 <style lang="scss" scoped>
 #home {display: grid; row-gap: 150px; padding: 50px 50px 100px; font-weight: 300; font-size: 16px; line-height: 1.8;
   h2 {margin-bottom: 30px; font-weight: 700; font-size: 24px; color: #ffffff;}
-  > section {color: #eee;
-    &.greeting {}
+  > section {color: #ccc;
+    a {color: #ffffff;
+      &:hover {text-decoration: underline;}
+    }
     &.ability {
       ul {
         li {
