@@ -54,7 +54,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.aside_navi {position: fixed; top: 0; left: 0; width: 240px; min-height: 100%; background: #2c343e; padding: 50px 12px;
+.aside_navi {position: absolute; top: 0; left: 0; width: 240px; min-height: 100%; background: #2c343e; padding: 50px 12px;
   .logo {margin-bottom: 30px; padding: 0 12px; text-align: center;
     a {display: block; font-weight: 700; font-size: 32px;}
   }
