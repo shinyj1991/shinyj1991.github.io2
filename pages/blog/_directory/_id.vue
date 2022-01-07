@@ -49,5 +49,7 @@
 </script>
 
 <style lang="scss" scoped>
-.article_wrap {padding: 50px 50px 100px; max-width: 1000px;}
+.article_wrap {padding: 50px 50px 100px; max-width: 1000px;
+  @media screen and (max-width: 1200px) {padding: 50px 20px 50px;}
+}
 </style>

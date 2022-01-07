@@ -386,5 +386,29 @@ export default {
       }
     }
   }
+
+  @media screen and (max-width: 1200px) {padding: 50px 20px 50px;
+    .year_list {
+      > li {
+        .project_list {grid-template-columns: repeat(3, 1fr);}
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .year_list {
+      > li {
+        .project_list {grid-template-columns: repeat(2, 1fr);}
+      }
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .year_list {
+      > li {
+        .project_list {grid-template-columns: repeat(1, 1fr);}
+      }
+    }
+  }
 }
 </style>

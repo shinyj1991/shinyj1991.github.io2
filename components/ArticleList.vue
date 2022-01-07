@@ -51,5 +51,7 @@ export default {
     }
   }
   .loading {margin-top: 30px; padding: 12px 30px;}
+
+  @media screen and (max-width: 1200px) {padding: 50px 20px 50px;}
 }
 </style>

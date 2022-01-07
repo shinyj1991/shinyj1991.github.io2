@@ -6,13 +6,13 @@
       <p>
         2013년 10월 웹퍼블리셔로 처음 취업하여 경력을 쌓기 시작했습니다.<br>
         웹퍼블리셔라는 직업은 생겨나고부터 지금까지 계속 그 역할이 확장되어 왔습니다.<br><br>
-        웹 표준, 웹 접근성의 전문화로 생겨난 이 직업은 점차 크로스 브라우징,<br>
+        웹 표준과 웹 접근성의 전문화로 생겨난 이 직업은 점차 크로스 브라우징,<br>
         검색엔진 최적화, 데이터시각화 등의 능력이 추가로 요구되었습니다.<br><br>
         최근엔 모던 개발(react, vue)환경에 맞춰 컴포넌트단위로 마크업하고<br>
         폼데이터 벨리데이션, UI/UX 인터렉션 등의 역할이 추가됨에 따라<br>
         마크업개발자로 그 명칭이 변화하고 있습니다.<br><br>
         마크업개발자는 많은 변화를 겪어왔고 또 앞으로도 많은 변화가 예상되는 직업입니다.<br>
-        계속 변화에 대응하며 성장하는 마크업개발자가 되는것이 제 꿈입니다.
+        이러한 변화에 대응하며 성장하는 마크업개발자가 되는것이 제 꿈입니다.
       </p>
     </section>
     <section class="ability">
@@ -72,7 +72,7 @@ export default {
   h1 {margin-bottom: 30px; font-weight: 700; font-size: 24px; color: #f27649;}
   h2 {margin-bottom: 12px; font-weight: 700; font-size: 20px; color: #f29f05;}
   > section {color: #eeeeee;
-    a {color: #f29f05; text-decoration: underline;}
+    a {color: #f3b605; text-decoration: underline;}
     &.ability {
       ul {
         li {
@@ -81,5 +81,7 @@ export default {
       }
     }
   }
+
+  @media screen and (max-width: 1200px) {padding: 50px 20px 100px; row-gap: 100px; font-size: 14px;}
 }
 </style>
