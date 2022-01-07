@@ -44,7 +44,7 @@
     <section class="project">
       <h2>플러그인.</h2>
       <div class="contents">
-        jQuery 플러그인입니다.<br>
+        제가 제작한 jQuery 플러그인입니다.<br>
         Datepicker <a href="https://github.com/shinyj1991/kronos" target="_blank">바로가기</a><br>
         ImageSlider <a href="https://github.com/shinyj1991/eclipse" target="_blank">바로가기</a>
       </div>
