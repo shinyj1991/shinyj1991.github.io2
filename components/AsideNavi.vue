@@ -4,6 +4,8 @@
     <button type="button" class="btn_menu" @click="toggle_menu"><span>메뉴열기</span></button>
     <nav class="gnb">
       <ul>
+        <li :class="{on: $route.name === 'about'}"><NuxtLink to="/about">About</NuxtLink></li>
+        <li :class="{on: $route.name === 'project'}"><NuxtLink to="/project">Project</NuxtLink></li>
         <li :class="{on: $route.path.split('/')[1] === 'blog'}">
           <NuxtLink to="/blog">Blog</NuxtLink>
           <ul>
@@ -11,7 +13,6 @@
           </ul>
         </li>
         <!-- <li :class="{on: $route.name === 'history'}"><NuxtLink to="/history">History</NuxtLink></li> -->
-        <li :class="{on: $route.name === 'project'}"><NuxtLink to="/project">Project</NuxtLink></li>
       </ul>
     </nav>
   </div>
