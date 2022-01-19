@@ -90,4 +90,4 @@ sw.*
 *.swp
 
 
-# /pages/resume.vue
+/pages/resume.vue
