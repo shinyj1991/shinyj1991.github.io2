@@ -1,6 +1,5 @@
 <template>
   <div id="project">
-    <h2>Project</h2>
     <!-- <div class="sort_area" v-if="sort_list.length">
       <div class="sort" v-for="(sort, index) in sort_list" :key="index">{{ sort }}<button type="button" class="delete" @click="delete_sort(sort)">close</button></div>
     </div> -->
@@ -9,15 +8,17 @@
         <div class="year">{{ year.year }}</div>
         <ul class="project_list">
           <li v-for="(project, index) in year.project_list" :key="index" v-show="project.show">
-            <a :href="project.url" target="_blank" class="img">
-              <img :src="project.img" alt="">
-            </a>
-            <div class="desc">
-              <a :href="project.url" target="_blank" class="tit" v-html="project.tit"></a>
-              <div class="tag">
-                <button type="button" v-for="(tag, index) in project.tag_list" :key="index" @click="regist_sort(tag)">{{ tag }}</button>
+            <a :href="project.url" target="_blank">
+              <div class="img">
+                <img :src="project.img" alt="">
               </div>
-            </div>
+              <div class="desc">
+                <div class="tit" v-html="project.tit"></div>
+                <div class="tag">
+                  <div v-for="(tag, index) in project.tag_list" :key="index">{{ tag }}</div>
+                </div>
+              </div>
+            </a>
           </li>
         </ul>
       </li>
@@ -27,6 +28,7 @@
 
 <script>
 export default {
+  layout: 'embed',
   data() {
     return {
       year_list: [
@@ -352,7 +354,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#project {padding: 50px 50px 100px;
+#project {padding: 50px 20px 100px; max-width: 708px; margin: 0 auto;
   h2 {margin-bottom: 24px; font-weight: 700; font-size: 30px;}
   .sort_area {display: flex; margin-bottom: 30px;
     .sort {display: flex; align-items: center; padding: 3px 8px; border: 1px solid #ffffff; border-radius: 16px;
@@ -364,33 +366,25 @@ export default {
   }
   .year_list {display: grid; row-gap: 100px;
     > li {
-      .year {margin-bottom: 12px; font-size: 20px; color: #ffffff;}
-      .project_list {display: grid; grid-template-columns: repeat(4, 1fr); column-gap: 30px; row-gap: 30px; max-width: 1200px;
-        > li {color: #cccccc;
-          .img {display: flex; justify-content: center; align-items: center; height: 120px; padding: 12px; background: #ffffff; transition: box-shadow 150ms;
-            img {max-width: 60%; max-height: 60%;}
-          }
-          .tit {display: inline-block; margin-top: 12px; font-size: 16px;}
-          .tag {display: flex; flex-wrap: wrap; margin-top: 2px;
-            button {font-size: 12px; cursor: default;
-              &:not(:last-child) {margin-right: 6px;}
-              /*&:hover {text-decoration: underline; color: #f3b605;}*/
-              &:before {content: '#';}
+      .year {margin-bottom: 12px; font-size: 20px; color: #000000;}
+      .project_list {display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 30px; row-gap: 30px; max-width: 1200px;
+        > li {color: #000000;
+          a {display: block;
+            .img {display: flex; justify-content: center; align-items: center; height: 120px; padding: 12px; background: #f7f7f7; transition: box-shadow 150ms;
+              img {max-width: 60%; max-height: 60%;}
+            }
+            .tit {display: inline-block; margin-top: 12px; font-size: 16px;}
+            .tag {display: flex; flex-wrap: wrap; margin-top: 2px;
+              div {font-size: 12px;
+                &:not(:last-child) {margin-right: 6px;}
+                &:before {content: '#';}
+              }
+            }
+            &:hover {
+              .img {box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.3);}
             }
           }
-          &:hover {
-            .img {box-shadow: 0 0 12px 0 #ffffff;}
-            .tit {color: #ffffff;}
-          }
         }
-      }
-    }
-  }
-
-  @media screen and (max-width: 1200px) {padding: 50px 20px 50px;
-    .year_list {
-      > li {
-        .project_list {grid-template-columns: repeat(3, 1fr);}
       }
     }
   }
