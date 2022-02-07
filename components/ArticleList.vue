@@ -2,7 +2,7 @@
   <div class="article_list">
     <ul>
       <li v-for="(article, index) of articles" :key="index">
-        <NuxtLink :to="{ path: `/blog${article.path}` }">
+        <NuxtLink :to="{ path: article.path }">
           <div class="category">{{ article.dir.replace('/', '') }}</div>
           <div class="subject">{{ article.title }}</div>
           <div class="info">

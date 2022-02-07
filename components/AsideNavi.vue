@@ -4,14 +4,15 @@
     <button type="button" class="btn_menu" @click="toggle_menu"><span>메뉴열기</span></button>
     <nav class="gnb">
       <ul>
-        <li :class="{on: $route.name === 'about'}"><NuxtLink to="/about">About</NuxtLink></li>
+        <li v-for="directory of directory_list" :key="directory" :class="{on: params === directory}"><NuxtLink :to="`/${ directory }`">{{ directory }}</NuxtLink></li>
+        <!-- <li :class="{on: $route.name === 'about'}"><NuxtLink to="/about">About</NuxtLink></li>
         <li :class="{on: $route.name === 'project'}"><NuxtLink to="/project">Project</NuxtLink></li>
         <li :class="{on: $route.path.split('/')[1] === 'blog'}">
           <NuxtLink to="/blog">Blog</NuxtLink>
           <ul>
             <li v-for="directory of directory_list" :key="directory" :class="{on: params === directory}"><NuxtLink :to="`/blog/${ directory }`">{{ directory }}</NuxtLink></li>
           </ul>
-        </li>
+        </li> -->
         <!-- <li :class="{on: $route.name === 'history'}"><NuxtLink to="/history">History</NuxtLink></li> -->
       </ul>
     </nav>
