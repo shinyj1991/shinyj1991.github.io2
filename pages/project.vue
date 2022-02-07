@@ -354,7 +354,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#project {padding: 50px 20px 100px; max-width: 708px; margin: 0 auto;
+#project {padding: 0 20px; max-width: 708px; margin: 0 auto;
   h2 {margin-bottom: 24px; font-weight: 700; font-size: 30px;}
   .sort_area {display: flex; margin-bottom: 30px;
     .sort {display: flex; align-items: center; padding: 3px 8px; border: 1px solid #ffffff; border-radius: 16px;
