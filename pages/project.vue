@@ -96,7 +96,7 @@ export default {
             },
             {
               img: require('~/assets/images/project/sulwhasoo.png'),
-              url: 'https://www.sulwhasoo.com/',
+              url: null,
               tit: '설화수',
               tag_list: ['프로모션', 'video', 'jquery'],
               show: true
@@ -216,7 +216,7 @@ export default {
             },
             {
               img: require('~/assets/images/project/megabox.png'),
-              url: 'https://www.megabox.co.kr/',
+              url: null,
               tit: '메가박스',
               tag_list: ['프로모션', '유지보수', 'jquery'],
               show: true
