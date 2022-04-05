@@ -1,5 +1,5 @@
 <template>
-  <ArticleList 
+  <article-list 
     :articles="articles" 
     :page="page" 
     :lastPage="lastPage" 

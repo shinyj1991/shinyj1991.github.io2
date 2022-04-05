@@ -1,7 +1,7 @@
 <template>
   <div id="resumeWrap">
     <div class="resumeInner">
-      <Nuxt />
+      <nuxt />
     </div>
   </div>
 </template>

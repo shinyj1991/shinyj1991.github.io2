@@ -1,11 +1,11 @@
 <template>
-  <section class="article_body">
+  <section class="article-body">
     <slot></slot>
   </section>
 </template>
 
 <style lang="scss">
-.article_body {font-size: 14px; line-height: 1.8;
+.article-body {font-size: 14px; line-height: 1.8;
   p {margin: 1.2em 0;}
   a {color: #4fb9fe;
     &:hover {text-decoration: underline;}

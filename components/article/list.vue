@@ -2,14 +2,14 @@
   <div class="article_list">
     <ul>
       <li v-for="(article, index) of articles" :key="index">
-        <NuxtLink :to="{ path: article.path }">
+        <nuxt-link :to="{ path: article.path }">
           <div class="category">{{ article.dir.replace('/', '') }}</div>
           <div class="subject">{{ article.title }}</div>
           <div class="info">
             <div class="date">{{ article.date }}</div>
             <div class="author">{{ article.author }}</div>
           </div>
-        </NuxtLink>
+        </nuxt-link>
       </li>
     </ul>
     <div class="btn_area" v-if="page < lastPage && !loading">
@@ -19,15 +19,16 @@
   </div>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import Vue from 'vue'
+export default Vue.extend({
   props: {
     articles: Array,
     page: Number,
     lastPage: Number,
     loading: Boolean
-  }
-}
+  },
+})
 </script>
 
 <style lang="scss">

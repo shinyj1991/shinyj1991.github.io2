@@ -1,8 +1,8 @@
 <template>
   <div id="wrap">
-    <AsideNavi/>
+    <aside-navi />
     <div id="container">
-      <Nuxt />
+      <nuxt />
     </div>
   </div>
 </template>
