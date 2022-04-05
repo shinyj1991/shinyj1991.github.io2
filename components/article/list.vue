@@ -1,5 +1,5 @@
 <template>
-  <div class="article_list">
+  <div class="article-list">
     <ul>
       <li v-for="(article, index) of articles" :key="index">
         <nuxt-link :to="{ path: article.path }">
@@ -32,7 +32,7 @@ export default Vue.extend({
 </script>
 
 <style lang="scss">
-.article_list {padding: 50px 50px 100px; max-width: 1000px;
+.article-list {padding: 50px 50px 100px; max-width: 1000px;
   ul {
     li {border-left: 3px solid #2c343e;
       &:not(:first-child) {margin-top: 24px;}

@@ -15,30 +15,12 @@
 
 <script>
   export default {
-    /*middleware () {
-      console.log('middleware');
-    },*/
     async asyncData({ $content, params }) {
       const article = await $content(params.directory, params.id).fetch()
       return {
         article
       }
     },
-    /*beforeCreate() {
-      console.log('beforeCreate');
-    },
-    created() {
-      console.log('created');
-    },
-    beforeMount() {
-      console.log('beforeMount');
-    },
-    fetch() {
-      console.log('fetch');
-    },
-    mounted() {
-      console.log('mounted');
-    },*/
     methods: {
       formatDate(date) {
         const options = { year: 'numeric', month: 'long', day: 'numeric' }
