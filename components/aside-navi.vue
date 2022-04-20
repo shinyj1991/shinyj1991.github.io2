@@ -4,16 +4,7 @@
     <button type="button" class="btn_menu" @click="toggle_menu"><span>메뉴열기</span></button>
     <nav class="gnb">
       <ul>
-        <li v-for="directory of directory_list" :key="directory" :class="{on: params === directory}"><NuxtLink :to="`/${ directory }`">{{ directory }}</NuxtLink></li>
-        <!-- <li :class="{on: $route.name === 'about'}"><NuxtLink to="/about">About</NuxtLink></li>
-        <li :class="{on: $route.name === 'project'}"><NuxtLink to="/project">Project</NuxtLink></li>
-        <li :class="{on: $route.path.split('/')[1] === 'blog'}">
-          <NuxtLink to="/blog">Blog</NuxtLink>
-          <ul>
-            <li v-for="directory of directory_list" :key="directory" :class="{on: params === directory}"><NuxtLink :to="`/blog/${ directory }`">{{ directory }}</NuxtLink></li>
-          </ul>
-        </li> -->
-        <!-- <li :class="{on: $route.name === 'history'}"><NuxtLink to="/history">History</NuxtLink></li> -->
+        <li v-for="category of category_list" :key="category" :class="{on: params === category}"><NuxtLink :to="`/${ category }`">{{ category }}</NuxtLink></li>
       </ul>
     </nav>
   </div>
@@ -33,27 +24,27 @@ export default {
   async fetch() {
     const contents = await this.$content({ deep: true }).only(['path']).fetch();
 
-    let directory_list = [];
+    let category_list = [];
 
-    for (let directory of contents) {
-      let directory_name = directory.path.split('/')[1];
+    for (let category of contents) {
+      let category_name = category.path.split('/')[1];
 
-      if (directory_list.indexOf(directory_name) === -1 && directory_name !== 'java') {
-        directory_list.push(directory_name);
+      if (category_list.indexOf(category_name) === -1 && category_name !== 'java') {
+        category_list.push(category_name);
       }
     }
 
-    directory_list.sort((a, b) => {
+    category_list.sort((a, b) => {
       if (a > b) return 1;
       if (a < b) return -1;
       return 0;
     });
 
-    this.directory_list = directory_list;
+    this.category_list = category_list;
   },
   data() {
     return {
-      directory_list: []
+      category_list: []
     }
   },
   methods: {

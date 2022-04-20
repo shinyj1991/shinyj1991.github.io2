@@ -16,7 +16,7 @@
 <script>
   export default {
     async asyncData({ $content, params }) {
-      const article = await $content(params.directory, params.id).fetch()
+      const article = await $content(params.category, params.id).fetch()
       return {
         article
       }

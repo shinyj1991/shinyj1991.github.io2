@@ -1,5 +1,5 @@
 <template>
-  <ArticleList 
+  <article-list 
     :articles="articles" 
     :page="page" 
     :lastPage="lastPage" 
@@ -23,7 +23,7 @@ export default {
     return {
       visibleLength,
       lastPage,
-      directory: params.directory,
+      category: params.category,
       articles: articles
     }
   },

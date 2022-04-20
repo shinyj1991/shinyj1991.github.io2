@@ -10,15 +10,12 @@
 
 <script>
 export default {
-  /*middleware () {
-    console.log('middleware');
-  },*/
   async asyncData({ $content, params }) {
     const visibleLength = 10;
-    const totalArticles = await $content(params.directory).only([]).fetch();
+    const totalArticles = await $content(params.category).only([]).fetch();
     const lastPage = Math.ceil(totalArticles.length / visibleLength);
 
-    let articles = await $content(params.directory, { deep: true })
+    let articles = await $content(params.category, { deep: true })
       .limit(visibleLength)
       .sortBy('date', 'desc')
       .fetch()
@@ -28,24 +25,9 @@ export default {
     return {
       visibleLength,
       lastPage,
-      directory: params.directory,
+      category: params.category,
       articles: articles
     }
-  },
-  /*beforeCreate() {
-    console.log('beforeCreate');
-  },
-  created() {
-    console.log('created');
-  },
-  beforeMount() {
-    console.log('beforeMount');
-  },
-  fetch() {
-    console.log('fetch');
-  },*/
-  mounted() {
-    // console.log('mounted', this.articles);
   },
   data() {
     return {
@@ -56,7 +38,7 @@ export default {
   watch: {
     page: async function(newVal, oldVal) {
       this.loading = true;
-      let articles = await this.$content(this.directory)
+      let articles = await this.$content(this.category)
         .sortBy('date', 'desc')
         .limit(this.visibleLength)
         .skip(this.visibleLength * oldVal)
