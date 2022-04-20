@@ -3,7 +3,7 @@
     :articles="articles" 
     :page="page" 
     :lastPage="lastPage" 
-    :loading="loading" 
+    :loading.sync="loading" 
     @incrementPage="page++" 
   />
 </template>
@@ -19,8 +19,6 @@ export default {
       .limit(visibleLength)
       .sortBy('date', 'desc')
       .fetch()
-
-    console.log(articles);
 
     return {
       visibleLength,
@@ -47,7 +45,7 @@ export default {
       setTimeout(() => {
         this.loading = false;
         this.articles = [...this.articles, ...articles];
-      }, 10);
+      }, 500);
     }
   },
   methods: {

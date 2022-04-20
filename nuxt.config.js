@@ -20,9 +20,9 @@ export default {
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
   loading: {
-    color: "#f3b605",
+    color: "#ffffff",
     height: "2px",
-    throttle: 0,
+    throttle: 500,
   },
   server: {
     port: 8000,

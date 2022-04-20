@@ -4,6 +4,15 @@
   </section>
 </template>
 
+<script>
+export default {
+  setup() {
+    
+  },
+}
+</script>
+
+
 <style lang="scss">
 .article-body {font-size: 14px; line-height: 1.8;
   p {margin: 1.2em 0;}

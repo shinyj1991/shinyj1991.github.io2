@@ -3,7 +3,7 @@
     :articles="articles" 
     :page="page" 
     :lastPage="lastPage" 
-    :loading="loading" 
+    :loading.sync="loading" 
     @incrementPage="page++" 
   />
 </template>
@@ -45,7 +45,7 @@ export default {
       setTimeout(() => {
         this.loading = false;
         this.articles = [...this.articles, ...articles];
-      }, 100);
+      }, 500);
     }
   },
   methods: {
