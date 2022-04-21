@@ -14,8 +14,6 @@ export default {
   },
   computed: {
     active: function() {
-      console.log(this.$route.query)
-      console.log(this.$route.params)
       let active = []
 
       if (this.$route.path.split('/')[1] === 'blog') {

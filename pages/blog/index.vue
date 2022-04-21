@@ -9,36 +9,24 @@
 
 <script>
 export default {
-  async asyncData({ $content, query }) {
-    const visibleLength = 10;
-    const path = query.category ? query.category.replace(/_/gi, '/') : '/';
-    const totalArticles = await $content(`${path}`, { deep: true }).only([]).fetch();
-    const lastPage = Math.ceil(totalArticles.length / visibleLength);
-
-    let articles = await $content(`${path}`, { deep: true })
-      .limit(visibleLength)
-      .sortBy('date', 'desc')
-      .fetch()
-
-    return {
-      visibleLength,
-      lastPage,
-      category: query.category,
-      articles: articles
-    }
-  },
   data() {
     return {
-      page: 1
+      page: 1,
+      visibleLength: 0,
+      lastPage: 0,
+      category: null,
+      articles: []
     }
   },
   computed: {
     path: function() {
-      return this.$route.query.category ? this.$route.query.category.replace(/_/gi, '/') : '/'
+      return this.$route.query ? this.$route.query.category.replace(/_/gi, '/') : '/'
     }
   },
-  watchQuery: ['category'],
   watch: {
+    path: async function() {
+      this.get_articles()
+    },
     page: async function(newVal, oldVal) {
       let articles = await this.$content(this.path, { deep: true })
         .sortBy('date', 'desc')
@@ -49,7 +37,23 @@ export default {
       this.articles = [...this.articles, ...articles];
     }
   },
+  created() {
+    this.get_articles()
+  },
   methods: {
+    async get_articles() {
+      const visibleLength = 10;
+      const totalArticles = await this.$content(this.path, { deep: true }).only([]).fetch();
+
+      let articles = await this.$content(this.path, { deep: true })
+        .limit(visibleLength)
+        .sortBy('date', 'desc')
+        .fetch()
+
+      this.visibleLength = visibleLength;
+      this.lastPage = Math.ceil(totalArticles.length / visibleLength);
+      this.articles = articles;
+    },
     formatDate(date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
       return new Date(date).toLocaleDateString('ko', options)

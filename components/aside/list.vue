@@ -42,7 +42,6 @@ export default {
           })
           parent.push(categories[categories.length - 1])
           parent.sort((a, b) => {
-            console.log(a.name, b.name)
             if (a.name > b.name) {
               return 1
             } else {
@@ -59,9 +58,6 @@ export default {
     return {
       category_list: []
     }
-  },
-  mounted() {
-    console.log(this.articles);
   },
   methods: {
     toggle_menu() {
