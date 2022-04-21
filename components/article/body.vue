@@ -18,6 +18,9 @@ export default {
   font-size: 14px; 
   line-height: 1.8;
 
+  hr {
+    border-color: #666;
+  }
   p {
     margin: 1em 0;
   }
