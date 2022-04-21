@@ -20,7 +20,7 @@ export default {
   },
   computed: {
     path: function() {
-      return this.$route.query ? this.$route.query.category.replace(/_/gi, '/') : '/'
+      return this.$route.query.category ? this.$route.query.category.replace(/_/gi, '/') : '/'
     }
   },
   watch: {
