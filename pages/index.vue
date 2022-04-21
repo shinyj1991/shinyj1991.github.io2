@@ -1,6 +1,6 @@
 <template>
   <div class="page-index">
-    <nuxt-link to="/blog">Nuxt2 Markdown Blog -></nuxt-link>
+    <h1>Home</h1>
   </div>
 </template>
 

@@ -38,11 +38,13 @@ export default {
     }
   },
   created() {
+    console.log('created', this.path)
     this.get_articles()
   },
   methods: {
     async get_articles() {
       const path = this.$route.query.category ? this.$route.query.category.replace(/_/gi, '/') : '/';
+      console.log('methods', path)
       const visibleLength = 10;
       const totalArticles = await this.$content(path, { deep: true }).only([]).fetch();
 
