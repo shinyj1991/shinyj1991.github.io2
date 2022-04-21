@@ -42,10 +42,11 @@ export default {
   },
   methods: {
     async get_articles() {
+      const path = this.$route.query.category ? this.$route.query.category.replace(/_/gi, '/') : '/';
       const visibleLength = 10;
-      const totalArticles = await this.$content(this.path, { deep: true }).only([]).fetch();
+      const totalArticles = await this.$content(path, { deep: true }).only([]).fetch();
 
-      let articles = await this.$content(this.path, { deep: true })
+      let articles = await this.$content(path, { deep: true })
         .limit(visibleLength)
         .sortBy('date', 'desc')
         .fetch()
