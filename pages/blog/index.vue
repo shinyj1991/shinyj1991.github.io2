@@ -44,14 +44,19 @@ export default {
   methods: {
     async get_articles() {
       const path = this.$route.query.category ? this.$route.query.category.replace(/_/gi, '/') : '/';
-      console.log('methods', path)
+      console.log('methods path : ', path)
+      console.log('methods this.path : ', this.path)
       const visibleLength = 10;
       const totalArticles = await this.$content(path, { deep: true }).only([]).fetch();
+
+      console.log('methods totalArticles : ', totalArticles)
 
       let articles = await this.$content(path, { deep: true })
         .limit(visibleLength)
         .sortBy('date', 'desc')
         .fetch()
+
+      console.log('methods articles : ', articles)
 
       this.visibleLength = visibleLength;
       this.lastPage = Math.ceil(totalArticles.length / visibleLength);
