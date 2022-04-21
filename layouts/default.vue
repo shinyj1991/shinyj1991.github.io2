@@ -1,18 +1,24 @@
 <template>
   <div id="wrap">
-    <aside-navi />
+    <aside-wrap />
     <div id="container">
       <nuxt />
     </div>
+    <loader v-if="is_loading" />
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import Vue from 'vue'
+import { mapState } from 'vuex'
 
-export default Vue.extend({
-  // transition: 'none'
-})
+export default {
+  computed: {
+    ...mapState({
+      is_loading: state => state.is_loading
+    })
+  }
+}
 </script>
 
 <style lang="scss" scoped>

@@ -14,16 +14,31 @@ export default {
 
 
 <style lang="scss">
-.article-body {font-size: 14px; line-height: 1.8;
-  p {margin: 1.2em 0;}
-  a {color: #4fb9fe;
-    &:hover {text-decoration: underline;}
+.article-body {
+  font-size: 14px; 
+  line-height: 1.8;
+
+  p {
+    margin: 1em 0;
   }
-  h2 {margin: 3em 0 1em; font-weight: 700; font-size: 22px;
-   + p {margin-top: 0;}
+  a {
+    color: #4fb9fe;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
-  h3 {margin: 1.2em 0; font-weight: 700; font-size: 16px;
-   + p {margin-top: 0;}
+  h1 {
+    margin: 1em 0;
+  }
+  h2 {
+    margin: 1em 0; 
+    font-weight: 700; 
+    font-size: 22px;}
+  h3 {
+    margin: 1em 0; 
+    font-weight: 700; 
+    font-size: 16px;
   }
   .terminal {display: inline-block; background: #222222; margin: 0 3px; padding: 0 5px; border-radius: 3px; color: #e4aa68;}
   pre {margin: 1.8em 0;

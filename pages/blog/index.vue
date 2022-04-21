@@ -1,21 +1,21 @@
 <template>
   <article-list 
     :articles="articles" 
-    :page="page" 
-    :lastPage="lastPage" 
-    :loading.sync="loading" 
+    :page.sync="page" 
+    :lastPage="lastPage"
     @incrementPage="page++" 
   />
 </template>
 
 <script>
 export default {
-  async asyncData({ $content, params }) {
+  async asyncData({ $content, query }) {
     const visibleLength = 10;
-    const totalArticles = await $content(params.category).only([]).fetch();
+    const path = query.category ? query.category.replace(/_/gi, '/') : '/';
+    const totalArticles = await $content(`${path}`, { deep: true }).only([]).fetch();
     const lastPage = Math.ceil(totalArticles.length / visibleLength);
 
-    let articles = await $content(params.category, { deep: true })
+    let articles = await $content(`${path}`, { deep: true })
       .limit(visibleLength)
       .sortBy('date', 'desc')
       .fetch()
@@ -23,29 +23,30 @@ export default {
     return {
       visibleLength,
       lastPage,
-      category: params.category,
+      category: query.category,
       articles: articles
     }
   },
   data() {
     return {
-      page: 1,
-      loading: false
+      page: 1
     }
   },
+  computed: {
+    path: function() {
+      return this.$route.query.category ? this.$route.query.category.replace(/_/gi, '/') : '/'
+    }
+  },
+  watchQuery: ['category'],
   watch: {
     page: async function(newVal, oldVal) {
-      this.loading = true;
-      let articles = await this.$content(this.category)
+      let articles = await this.$content(this.path, { deep: true })
         .sortBy('date', 'desc')
         .limit(this.visibleLength)
         .skip(this.visibleLength * oldVal)
         .fetch()
 
-      setTimeout(() => {
-        this.loading = false;
-        this.articles = [...this.articles, ...articles];
-      }, 500);
+      this.articles = [...this.articles, ...articles];
     }
   },
   methods: {

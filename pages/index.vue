@@ -1,58 +1,19 @@
 <template>
-  <article-list 
-    :articles="articles" 
-    :page="page" 
-    :lastPage="lastPage" 
-    :loading.sync="loading" 
-    @incrementPage="page++" 
-  />
+  <div class="page-index">
+    <nuxt-link to="/blog">Nuxt2 Markdown Blog -></nuxt-link>
+  </div>
 </template>
 
 <script>
-export default {
-  async asyncData({ $content, params }) {
-    const visibleLength = 10;
-    const totalArticles = await $content({ deep: true }).only([]).fetch();
-    const lastPage = Math.ceil(totalArticles.length / visibleLength);
+export default {}
+</script>
 
-    let articles = await $content({ deep: true })
-      .limit(visibleLength)
-      .sortBy('date', 'desc')
-      .fetch()
+<style lang="scss" scoped>
+.page-index {
+  padding: 50px;
 
-    return {
-      visibleLength,
-      lastPage,
-      category: params.category,
-      articles: articles
-    }
-  },
-  data() {
-    return {
-      page: 1,
-      loading: false
-    }
-  },
-  watch: {
-    page: async function(newVal, oldVal) {
-      this.loading = true;
-      let articles = await this.$content({ deep: true })
-        .sortBy('date', 'desc')
-        .limit(this.visibleLength)
-        .skip(this.visibleLength * oldVal)
-        .fetch()
-
-      setTimeout(() => {
-        this.loading = false;
-        this.articles = [...this.articles, ...articles];
-      }, 500);
-    }
-  },
-  methods: {
-    formatDate(date) {
-      const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('ko', options)
-    }
+  a {
+    text-decoration: underline;
   }
 }
-</script>
+</style>

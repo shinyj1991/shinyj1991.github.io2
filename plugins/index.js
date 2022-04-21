@@ -1,3 +1,3 @@
 export default async (context) => {
-  context.store.commit('APP_LOADED');
-}
+  context.store.commit("app_loaded");
+};

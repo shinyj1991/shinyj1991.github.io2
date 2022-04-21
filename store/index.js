@@ -1,8 +1,7 @@
 const state = () => ({
   is_menu: false,
-  app_load: false,
-  params: '',
-  id: ''
+  app_loaded: false,
+  is_loading: false,
 });
 
 const mutations = {
@@ -12,18 +11,15 @@ const mutations = {
   close_menu(state) {
     state.is_menu = false;
   },
-  APP_LOADED(state) {
-    state.app_load = true;
+  app_loaded(state) {
+    state.app_loaded = true;
   },
-  SET_PARAMS(state, params) {
-    state.params = params;
+  set_loading(state, payload) {
+    state.is_loading = payload;
   },
-  SET_ID(state, id) {
-    state.id = id;
-  }
-}
+};
 
 export default {
   state,
-  mutations
-}
+  mutations,
+};

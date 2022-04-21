@@ -2,7 +2,7 @@
   <div class="article-list">
     <ul>
       <li v-for="(article, index) of articles" :key="index">
-        <button type="button" @click="delayLink(article.path)">
+        <button type="button" @click="delay_router(article.path)">
           <div class="category">{{ article.dir.replace('/', '') }}</div>
           <div class="subject">{{ article.title }}</div>
           <div class="info">
@@ -12,28 +12,41 @@
         </button>
       </li>
     </ul>
-    <div class="btn_area" v-if="page < lastPage && !loading">
-      <button @click="$emit('incrementPage')">더보기</button>
+    <div class="btn_area">
+      <button type="button" v-if="page < lastPage && !is_loading" @click="more_articles">더보기</button>
     </div>
-    <loader v-if="loading" />
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import Vue from 'vue'
+import { mapState } from 'vuex'
+
 export default Vue.extend({
   props: {
     articles: Array,
     page: Number,
-    lastPage: Number,
-    loading: Boolean
+    lastPage: Number
+  },
+  computed: {
+    ...mapState({
+      is_loading: state => state.is_loading
+    })
   },
   methods: {
-    delayLink(path: string) {
-      this.$emit('update:loading', true)
+    delay_router(path) {
+      this.$store.commit('set_loading', true)
       setTimeout(() => {
-        this.$router.push({path: path})
-      }, 500)
+        this.$router.push({path: `/blog/${path.slice(1).replace(/\//gi, '_')}`})
+      }, 300)
+    },
+    more_articles() {
+      this.$store.commit('set_loading', true)
+
+      setTimeout(() => {
+        this.$store.commit('set_loading', false)
+        this.$emit('update:page', this.page + 1)
+      }, 300)
     }
   }
 })
@@ -49,12 +62,12 @@ export default Vue.extend({
     row-gap: 24px;
 
     li {
-      border-left: 3px solid #2c343e;
 
       button {
         display: block;
         width: 100%;
         padding: 12px 24px;
+        border-left: 3px solid #2c343e;
         text-align: left;
 
         &:hover {
@@ -77,10 +90,12 @@ export default Vue.extend({
     }
   }
   .btn_area {
+    height: 40px;
     margin-top: 30px;
 
     button {
-      padding: 12px 30px;
+      height: 40px;
+      padding: 0 30px;
       transition: all 300ms;
 
       &:hover {

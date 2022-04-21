@@ -15,11 +15,15 @@
 
 <script>
   export default {
-    async asyncData({ $content, params }) {
-      const article = await $content(params.category, params.id).fetch()
+    async asyncData({ $content, params, store }) {
+      const article = await $content(params.slug.replace(/_/gi, '/'), params.id).fetch()
+
       return {
         article
       }
+    },
+    created() {
+      this.$store.commit('set_loading', false)
     },
     methods: {
       formatDate(date) {
