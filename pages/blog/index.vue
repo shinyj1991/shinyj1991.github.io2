@@ -47,6 +47,8 @@ export default {
       const visibleLength = 10;
       const totalArticles = await this.$content(path, { deep: true }).only([]).fetch();
 
+      // console.log(totalArticles.map(file => `/blog/${file.path.replace(/\//gi, '_').slice(1)}`))
+
       let articles = await this.$content(path, { deep: true })
         .limit(visibleLength)
         .sortBy('date', 'desc')

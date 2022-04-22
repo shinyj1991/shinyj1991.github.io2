@@ -22,9 +22,6 @@
         article
       }
     },
-    created() {
-      this.$store.commit('set_loading', false)
-    },
     methods: {
       formatDate(date) {
         const options = { year: 'numeric', month: 'long', day: 'numeric' }

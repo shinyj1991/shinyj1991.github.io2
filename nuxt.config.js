@@ -38,6 +38,14 @@ export default {
     "@nuxt/content",
     "@nuxtjs/axios",
   ],
+  generate: {
+    async routes () {
+      const { $content } = require('@nuxt/content')
+      const files = await $content({ deep: true }).only(['path']).fetch()
+
+      return files.map(file => `/blog/${file.path.replace(/\//gi, '_').slice(1)}`)
+    }
+  },
   styleResources: {
     scss: ["~/assets/css/_variable.scss", "~/assets/css/_mixin.scss"],
   },
