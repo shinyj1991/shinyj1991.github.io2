@@ -41,9 +41,13 @@ export default {
   generate: {
     async routes () {
       const { $content } = require('@nuxt/content')
-      const files = await $content({ deep: true }).only(['path']).fetch()
+      const articles = await $content({ deep: true }).only(['path']).fetch()
 
-      return files.map(file => `/blog/${file.path.replace(/\//gi, '_').slice(1)}`)
+      const result = articles.map(article => `/blog/${article.path.replace(/\//gi, '_').slice(1)}`);
+
+      result.push('/blog/index');
+
+      return result
     }
   },
   styleResources: {
