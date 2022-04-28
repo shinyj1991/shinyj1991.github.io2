@@ -45,8 +45,6 @@ export default {
       const result = [];
 
       articles.map(article => {
-        result.push(`/blog/detail/${article.path.replace(/\//gi, '_').slice(1)}`);
-
         let directories = article.path.split('/');
 
         directories.shift();
@@ -54,6 +52,10 @@ export default {
 
         let depth = directories.length;
         let path = '';
+
+        if (directories[0] === 'private') return false;
+
+        result.push(`/blog/detail/${article.path.replace(/\//gi, '_').slice(1)}`);
   
         for (let i = 0; i < depth; i++) {
           path += i > 0 ? '_' + directories[i] : directories[i];

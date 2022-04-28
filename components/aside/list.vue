@@ -25,6 +25,8 @@ export default {
       directories.shift();
       directories.pop();
 
+      if (directories[0] === 'private') return false;
+
       let depth = directories.length;
       var path = '';
 
