@@ -15,7 +15,7 @@ export default {
     const totalArticles = await $content(path, { deep: true }).only([]).fetch();
     const lastPage = Math.ceil(totalArticles.length / visibleLength);
 
-    let articles = await this.$content(path, { deep: true })
+    let articles = await $content(path, { deep: true })
       .limit(visibleLength)
       .sortBy('date', 'desc')
       .fetch()
