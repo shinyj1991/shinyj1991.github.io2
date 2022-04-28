@@ -12,4 +12,8 @@ export default function ({ store, route }) {
     // detail
     store.commit('set_blog_depth', route.params.slug.split('_'));
   }
+
+  if (route.name !== 'blog-list-category' && route.name !== 'blog-detail-slug') {
+    store.commit('set_blog_depth', []);
+  }
 }
