@@ -48,7 +48,7 @@
   bottom: 0;
   left: 0;
   z-index: 1001;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.15);
 }
 
 .loader10 {

@@ -35,6 +35,8 @@ export default Vue.extend({
   },
   methods: {
     delay_router(path) {
+      this.$store.commit('set_loading', true)
+
       this.$router.push({path: `/blog/${path.slice(1).replace(/\//gi, '_')}`})
     },
     more_articles() {
