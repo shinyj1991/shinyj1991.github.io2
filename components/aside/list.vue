@@ -16,9 +16,9 @@ export default {
     })
   },
   async fetch() {
-    const category_list = []
-    const articles = await this.$content({ deep: true }).only(['path']).fetch()
-    const categories = []
+    const category_list = [];
+    const categories = [];
+    const articles = await this.$content({ deep: true }).only(['path']).fetch();
 
     articles.map(article => {
       let directories = article.path.split('/');

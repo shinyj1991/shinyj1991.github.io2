@@ -37,12 +37,32 @@ export default {
   ],
   generate: {
     async routes() {
-      const { $content } = require('@nuxt/content')
-      const articles = await $content({ deep: true }).only(['path']).fetch()
+      const { $content } = require('@nuxt/content');
 
-      const result = articles.map(article => `/blog/${article.path.replace(/\//gi, '_').slice(1)}`);
+      const articles = await $content({ deep: true }).only(['path']).fetch();
 
-      result.push('/blog/index');
+      const categories = [];
+      const result = [];
+
+      articles.map(article => {
+        result.push(`/blog/detail/${article.path.replace(/\//gi, '_').slice(1)}`);
+
+        let directories = article.path.split('/');
+
+        directories.shift();
+        directories.pop();
+
+        let depth = directories.length;
+        let path = '';
+  
+        for (let i = 0; i < depth; i++) {
+          path += i > 0 ? '_' + directories[i] : directories[i];
+          if (!categories.includes(path)) {
+            categories.push(path);
+            result.push(`/blog/list/${path}`)
+          }
+        }
+      });
 
       return result
     }
