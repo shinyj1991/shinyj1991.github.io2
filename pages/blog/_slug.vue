@@ -1,5 +1,9 @@
 <template>
   <div class="article_wrap">
+    <config-head
+      :title="`SIMPLIZM | ${article.title}`"
+      :description="article"
+    />
     <article-head>
       <h1>{{ article.title }}</h1>
       <div class="info">
