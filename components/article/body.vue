@@ -21,6 +21,9 @@ export default {
   font-size: 14px; 
   line-height: 1.8;
 
+  img {
+    max-width: 100%;
+  }
   hr {
     border-color: #666;
   }
@@ -46,19 +49,36 @@ export default {
     font-weight: 700; 
     font-size: 16px;
   }
-  .terminal {display: inline-block; background: #222222; margin: 0 3px; padding: 0 5px; border-radius: 3px; color: #e4aa68;}
+  .terminal {
+    display: inline-block; 
+    background: #222222; 
+    margin: 0 3px; 
+    padding: 0 5px; 
+    border-radius: 3px; 
+    color: #e4aa68;
+  }
   pre {margin: 1.8em 0;
     .token.operator,
     .token.entity,
     .token.url,
     .language-css .token.string,
-    .style .token.string {background: none;}
+    .style .token.string {
+      background: none;
+    }
   }
 
-  p {white-space: pre-wrap; word-break: keep-all;}
-  li {word-break: keep-all;}
+  p {
+    white-space: pre-wrap; 
+    word-break: keep-all;
+  }
+  li {
+    word-break: keep-all;
+  }
+  ul {
+    margin-left: 1.8em; 
+    margin-top: 1.8em; 
+    margin-bottom: 1.8em;
 
-  ul {margin-left: 1.8em; margin-top: 1.8em; margin-bottom: 1.8em;
     li {list-style: circle;
       &:not(:first-child) {margin-top: 0.2em;}
     }
@@ -88,7 +108,6 @@ code[class*="language-"] {color: #d4d4d4; font-size: 14px; text-shadow: none; fo
 }
 
 pre[class*="language-"] {padding: 1em; margin: 1.8em 0; overflow: auto; background: #1e1e1e;}
-
 .namespace {opacity: .7;}
 .token.doctype .token.doctype-tag {color: #569CD6;}
 .token.doctype .token.name {color: #9cdcfe;}

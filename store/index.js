@@ -2,6 +2,7 @@ const state = () => ({
   is_menu: false,
   app_loaded: false,
   is_loading: false,
+  blog_depth: []
 });
 
 const mutations = {
@@ -17,6 +18,9 @@ const mutations = {
   set_loading(state, payload) {
     state.is_loading = payload;
   },
+  set_blog_depth(state, payload) {
+    state.blog_depth = payload;
+  }
 };
 
 export default {

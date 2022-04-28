@@ -11,10 +11,12 @@ export default {
     },
     description: {
       type: String,
-      required: true
+      required: false,
+      default: null
     },
     image: {
       type: String,
+      required: false,
       default: null
     }
   },
