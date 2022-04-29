@@ -53,7 +53,7 @@ export default {
         let depth = directories.length;
         let path = '';
 
-        if (directories[0] === 'private') return false;
+        if (directories[0].charAt(0) === '_') return false;
 
         result.push(`/blog/detail/${article.path.replace(/\//gi, '_').slice(1)}`);
   
@@ -61,9 +61,11 @@ export default {
           path += i > 0 ? '_' + directories[i] : directories[i];
           if (!categories.includes(path)) {
             categories.push(path);
-            result.push(`/blog/list/${path}`)
+            result.push(`/blog/list/${path}`);
           }
         }
+
+        result.push('/blog/list/index');
       });
 
       return result

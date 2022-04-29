@@ -5,7 +5,7 @@ export default function ({ store, route }) {
 
   if (route.name === 'blog-list-category') {
     // list
-    store.commit('set_blog_depth', route.params.category.split('_'));
+    store.commit('set_blog_depth', route.params.category ? route.params.category.split('_') : []);
   }
 
   if (route.name === 'blog-detail-slug') {
