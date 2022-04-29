@@ -39,11 +39,12 @@ export default {
   }
   h1 {
     margin: 1em 0;
+    font-size: 24px;
   }
   h2 {
     margin: 1em 0; 
     font-weight: 700; 
-    font-size: 22px;}
+    font-size: 20px;}
   h3 {
     margin: 1em 0; 
     font-weight: 700; 

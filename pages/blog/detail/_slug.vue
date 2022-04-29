@@ -1,7 +1,7 @@
 <template>
-  <div class="article_wrap">
+  <div class="page-blog-detail">
     <config-head
-      :title="`SIMPLIZM | ${article.title}`"
+      :title="pageTitle"
     />
     <article-head>
       <h1>{{ article.title }}</h1>
@@ -22,6 +22,7 @@
       const article = await $content(params.slug.replace(/_/gi, '/'), params.id).fetch()
 
       return {
+        pageTitle: `SIMPLIZM | ${params.title}`,
         article
       }
     },
@@ -35,7 +36,12 @@
 </script>
 
 <style lang="scss" scoped>
-.article_wrap {padding: 50px 50px 100px; max-width: 1000px;
-  @media screen and (max-width: 1200px) {padding: 50px 20px 50px;}
+.page-blog-detail {
+  padding: 50px 50px 100px;
+  max-width: 1000px;
+
+  @media screen and (max-width: 1200px) {
+    padding: 50px 20px 50px;
+  }
 }
 </style>

@@ -73,77 +73,78 @@ export default {
 </script>
 
 <style lang="scss">
+.aside-list {
+  padding: 20px 0;
+
+  ul {
+    display: grid;
+    padding-left: 20px;
+
+    li {
+      a {
+        display: block;
+        color: #999;
+        // text-transform: uppercase;
+        text-transform: capitalize;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      &.on {
+        > a {color: #fff;}
+      }
+    }
+    &.depth-0 {
+      row-gap: 30px;
+      font-size: 24px;
+
+      > li {
+        > a {
+          text-transform: uppercase;
+          font-weight: 700;
+        }
+      }
+    }
+    &.depth-1 {
+      margin-top: 12px;
+      row-gap: 12px;
+      font-size: 18px;
+    }
+    &.depth-2 {
+      margin-top: 12px;
+      row-gap: 12px;
+      font-size: 12px;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
   .aside-list {
-    padding: 20px 0;
+    overflow: hidden; 
+    display: flex; 
+    position: fixed; 
+    top: 0; 
+    right: 0; 
+    left: 0; 
+    height: 0; 
+    padding: 0; 
+    opacity: 0; 
+    z-index: 100; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    background: rgba(0, 0, 0, 0.9);
 
     ul {
-      display: grid;
-      padding-left: 20px;
+      padding-left: 0;
+    }
 
-      li {
-        a {
-          display: block;
-          padding: 0 1em;
-          color: #999;
-          text-transform: uppercase;
-
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-        &.on {
-          > a {color: #fff;}
-        }
-      }
-      &.depth-0 {
-        row-gap: 30px;
-        font-size: 24px;
-
-        > li {
-          > a {
-            font-weight: 700;
-          }
-        }
-      }
-      &.depth-1 {
-        margin-top: 12px;
-        row-gap: 12px;
-        font-size: 18px;
-      }
-      &.depth-2 {
-        margin-top: 8px;
-        row-gap: 8px;
-        font-size: 12px;
-      }
+    .open & {
+      height: 100%;
+      opacity: 1;
+      transition: opacity 300ms;
     }
   }
-
-  @media screen and (max-width: 1200px) {
-    .aside-list {
-      overflow: hidden; 
-      display: flex; 
-      position: fixed; 
-      top: 0; 
-      right: 0; 
-      left: 0; 
-      height: 0; 
-      padding: 0; 
-      opacity: 0; 
-      z-index: 100; 
-      justify-content: center; 
-      align-items: center; 
-      text-align: center; 
-      background: rgba(0, 0, 0, 0.9);
-
-      ul {
-        padding-left: 0;
-      }
-
-      .open & {
-        height: 100%;
-        opacity: 1;
-        transition: opacity 300ms;
-      }
-    }
-  }
+}
 </style>
