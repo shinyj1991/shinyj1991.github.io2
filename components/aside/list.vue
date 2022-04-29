@@ -80,13 +80,29 @@ export default {
       display: grid;
       padding-left: 20px;
 
+      li {
+        a {
+          display: block;
+          padding: 0 1em;
+          color: #999;
+          text-transform: uppercase;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+        &.on {
+          > a {color: #fff;}
+        }
+      }
       &.depth-0 {
         row-gap: 30px;
         font-size: 24px;
 
-        > li > a {
-          font-weight: 700;
-          text-transform: uppercase;
+        > li {
+          > a {
+            font-weight: 700;
+          }
         }
       }
       &.depth-1 {
@@ -98,20 +114,6 @@ export default {
         margin-top: 8px;
         row-gap: 8px;
         font-size: 12px;
-      }
-      li {
-        a {
-          display: block;
-          padding: 0 1em;
-          color: #999;
-
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-        &.on {
-          > a {color: #fff;}
-        }
       }
     }
   }
@@ -137,7 +139,11 @@ export default {
         padding-left: 0;
       }
 
-      .open & {height: 100vh; opacity: 1; transition: opacity 300ms;}
+      .open & {
+        height: 100%;
+        opacity: 1;
+        transition: opacity 300ms;
+      }
     }
   }
 </style>

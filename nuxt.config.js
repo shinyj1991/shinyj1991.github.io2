@@ -35,6 +35,9 @@ export default {
     "@nuxt/content",
     "@nuxtjs/axios",
   ],
+  content: {
+    dir: 'content/public'
+  },
   generate: {
     async routes() {
       const { $content } = require('@nuxt/content');
@@ -65,7 +68,7 @@ export default {
           }
         }
 
-        result.push('/blog/list/index');
+        result.push('/blog/list');
       });
 
       return result

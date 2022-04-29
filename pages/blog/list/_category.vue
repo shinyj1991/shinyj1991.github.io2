@@ -20,6 +20,8 @@ export default {
       .sortBy('date', 'desc')
       .fetch()
 
+    console.log(articles);
+
     return {
       visibleLength,
       lastPage,
