@@ -30,7 +30,7 @@ export default {
   left: 0; 
   width: 240px; 
   min-height: 100%; 
-  background: #2c343e; 
+  background: #222; 
   padding: 50px 12px;
 
   .logo {

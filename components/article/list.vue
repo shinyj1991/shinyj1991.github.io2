@@ -47,11 +47,11 @@ export default Vue.extend({
       display: block;
       width: 100%;
       padding: 12px 24px;
-      border-left: 3px solid #2c343e;
+      border-left: 3px solid #222;
       text-align: left;
 
       &:hover {
-        background: #2c343e;
+        background: #222;
       }
       .category {
         margin-bottom: 5px;

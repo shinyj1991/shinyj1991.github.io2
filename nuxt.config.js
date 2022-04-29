@@ -56,8 +56,6 @@ export default {
         let depth = directories.length;
         let path = '';
 
-        if (directories[0].charAt(0) === '_') return false;
-
         result.push(`/blog/detail/${article.path.replace(/\//gi, '_').slice(1)}`);
   
         for (let i = 0; i < depth; i++) {

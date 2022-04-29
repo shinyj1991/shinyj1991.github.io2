@@ -25,11 +25,6 @@ export default {
       directories.shift();
       directories.pop();
 
-      if (directories[0].charAt(0) === '_') {
-        // 1depth 폴더명이 '_'로 시작하면 스킵
-        return false;
-      }
-
       let depth = directories.length;
       var path = '';
 

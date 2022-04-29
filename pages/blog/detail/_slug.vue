@@ -22,7 +22,7 @@
       const article = await $content(params.slug.replace(/_/gi, '/'), params.id).fetch()
 
       return {
-        pageTitle: `SIMPLIZM | ${params.title}`,
+        pageTitle: `SIMPLIZM | ${article.title}`,
         article
       }
     },
