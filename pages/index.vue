@@ -1,6 +1,7 @@
 <template>
   <div class="page-index">
-    <h1>Home</h1>
+    <h1>Nuxt2 Markdown Blog</h1>
+    <p></p>
   </div>
 </template>
 
@@ -11,9 +12,5 @@ export default {}
 <style lang="scss" scoped>
 .page-index {
   padding: 50px;
-
-  a {
-    text-decoration: underline;
-  }
 }
 </style>

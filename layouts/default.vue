@@ -1,7 +1,7 @@
 <template>
-  <div id="wrap">
+  <div class="layout-default">
     <aside-wrap />
-    <div id="container">
+    <div class="container">
       <nuxt />
     </div>
     <loader v-if="isLoading" />
@@ -21,10 +21,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#wrap {
+.layout-default {
+  width: 100%;
+  height: 100%;
   min-width: 360px;
   padding: 0 0 0 240px;
   color: #ffffff;
+
+  .container {
+    height: 100%;
+  }
 
   @media screen and (max-width: 1200px) {
     padding: 50px 0 0;
