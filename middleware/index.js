@@ -1,7 +1,7 @@
 export default function ({ store, route }) {
   store.commit("close_menu");
 
-  console.log(route.name)
+  // console.log('global middleware', route.name)
 
   if (route.name === 'blog-list-category') {
     // list

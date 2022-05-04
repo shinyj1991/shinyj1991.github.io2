@@ -23,7 +23,14 @@ const mutations = {
   }
 };
 
+const actions = {
+  async nuxtServerInit(store, { app }) {
+    console.log('nuxtServerInit');
+  }
+}
+
 export default {
   state,
   mutations,
+  actions,
 };

@@ -16,6 +16,9 @@ export default {
     ...mapState({
       isLoading: state => state.is_loading
     })
+  },
+  middleware: (context) => {
+    // console.log('layout middleware')
   }
 }
 </script>

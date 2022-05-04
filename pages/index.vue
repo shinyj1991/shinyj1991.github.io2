@@ -1,7 +1,6 @@
 <template>
   <div class="page-index">
     <h1>Nuxt2 Markdown Blog</h1>
-    <p></p>
   </div>
 </template>
 
