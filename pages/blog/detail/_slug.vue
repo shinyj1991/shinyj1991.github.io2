@@ -21,6 +21,8 @@
     async asyncData({ $content, params, store }) {
       const article = await $content(params.slug.replace(/_/gi, '/'), params.id).fetch()
 
+      console.log(article);
+
       return {
         pageTitle: `SIMPLIZM | ${article.title}`,
         article
