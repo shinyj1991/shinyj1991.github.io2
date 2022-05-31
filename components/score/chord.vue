@@ -46,6 +46,7 @@ export default {
 .score-chord {
   display: grid;
   row-gap: 30px;
+  font-size: 16px;
 
   .section {
     display: grid;
@@ -57,7 +58,6 @@ export default {
       .chord-item {
         flex-grow: var(--grow);
         flex-basis: 100%;
-        font-size: 16px;
         text-align: left;
         padding: 0 5px;
 
@@ -67,8 +67,16 @@ export default {
       }
     }
     .lyrics {
-      font-size: 16px;
+      white-space: nowrap;
     }
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 12px;
   }
 }
 </style>
