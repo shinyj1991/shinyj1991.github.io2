@@ -1,7 +1,7 @@
 <template>
   <div class="page-blog-detail">
-    <div v-if="article.extension === '.md'">
-      <config-head :title="pageTitle" />
+    <!-- <div v-if="article.extension === '.md'">
+      <config-head :title="`EXIT 5 | ${article.title}`" />
       <article-head>
         <h1>{{ article.title }}</h1>
         <div class="info">
@@ -11,18 +11,15 @@
       <article-body>
         <nuxt-content :document="article" />
       </article-body>
-    </div>
-
-    <div v-if="article.contentType === 'MUSIC_SCORE'">
-      <config-head :title="`EXIT 5 | ${article.singer} - ${article.title}`" />
-      <article-head>
-        <h1>{{ article.singer }} - {{ article.title }}</h1>
-        <div class="info">
-          <div class="date">작성일 : {{ article.date }}</div>
-        </div>
-      </article-head>
-      <score-chord :music="article" />
-    </div>
+    </div> -->
+    <config-head :title="`EXIT 5 | ${article.singer} - ${article.title}`" />
+    <article-head>
+      <h1>{{ article.singer }} - {{ article.title }}</h1>
+      <div class="info">
+        <div class="date">작성일 : {{ article.date }}</div>
+      </div>
+    </article-head>
+    <score-chord :music="article" />
   </div>
 </template>
 
@@ -31,10 +28,7 @@ export default {
   async asyncData({ $content, params, store }) {
     const article = await $content(params.slug.replace(/_/gi, '/'), params.id).fetch()
 
-    console.log(article);
-
     return {
-      pageTitle: `SIMPLIZM | ${article.title}`,
       article
     }
   },

@@ -21,7 +21,7 @@ export default {
     const articles = await this.$content({ deep: true }).only(['path']).fetch();
 
     articles
-      .filter(article => article.path.indexOf('/chord') === -1) // chord 폴더 제외
+      .filter(article => article.path.indexOf('/chord') === -1)
       .map(article => {
         let directories = article.path.split('/');
         directories.shift();
