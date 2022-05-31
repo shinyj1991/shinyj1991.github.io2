@@ -1,6 +1,6 @@
 <template>
   <div class="page-index">
-    <h1>Nuxt2 Markdown Blog</h1>
+    <p>감성 힐링 출구, 5번 출구</p>
   </div>
 </template>
 

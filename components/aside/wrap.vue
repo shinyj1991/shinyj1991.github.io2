@@ -39,7 +39,8 @@ export default {
     text-align: center;
 
     a {
-      display: block; 
+      display: block;
+      color: #fff;
       font-weight: 700; 
       font-size: 32px;
     }

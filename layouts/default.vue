@@ -29,7 +29,7 @@ export default {
   height: 100%;
   min-width: 360px;
   padding: 0 0 0 240px;
-  color: #ffffff;
+  color: #000;
 
   .container {
     height: 100%;

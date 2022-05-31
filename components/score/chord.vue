@@ -62,7 +62,7 @@ export default {
         padding: 0 5px;
 
         &:hover {
-          background: #333;
+          background: #f7f7f7;
         }
       }
     }

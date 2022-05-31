@@ -102,6 +102,10 @@ export default {
           width: 120px;
           border-bottom: 1px solid #000;
 
+          @media screen and (max-width: 768px) {
+            width: 80px;
+          }
+
           .circle {
             position: absolute;
             top: -7px;

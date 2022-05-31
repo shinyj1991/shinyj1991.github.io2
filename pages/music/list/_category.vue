@@ -1,5 +1,5 @@
 <template>
-  <div class="page-blog-list">
+  <div class="page-music-list">
     <config-head
       :title="pageTitle"
     />
@@ -35,7 +35,7 @@ export default {
       .fetch();
 
     return {
-      pageTitle: `SIMPLIZM | ${params.category ? params.category.replace(/_/gi, ' ').toUpperCase() : 'BLOG'}`,
+      pageTitle: `EXIT 5 | ${params.category ? params.category.replace(/_/gi, ' ').toUpperCase() : 'MUSIC'}`,
       visibleLength,
       lastPage,
       articles,
@@ -72,7 +72,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.page-blog-list {
+.page-music-list {
   padding: 50px 50px 100px;
   max-width: 1000px;
 

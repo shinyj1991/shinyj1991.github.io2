@@ -3,7 +3,7 @@
     <li v-for="(article, index) of articles" :key="index">
       <button type="button" @click="delayRouter(article.path)">
         <div class="category">{{ article.dir.replace('/', '') }}</div>
-        <div class="subject">{{ article.title }}</div>
+        <div class="subject">{{ article.singer }} - {{ article.title }}</div>
         <div class="info">
           <div class="date">{{ article.date }}</div>
           <div class="author">{{ article.author }}</div>
@@ -30,7 +30,7 @@ export default Vue.extend({
     delayRouter(path) {
       this.$store.commit('set_loading', true)
 
-      this.$router.push({path: `/blog/detail/${path.slice(1).replace(/\//gi, '_')}`})
+      this.$router.push({path: `/music/detail/${path.slice(1).replace(/\//gi, '_')}`})
     },
   }
 })
@@ -51,7 +51,7 @@ export default Vue.extend({
       text-align: left;
 
       &:hover {
-        background: #222;
+        background: #f7f7f7;
       }
       .category {
         margin-bottom: 5px;

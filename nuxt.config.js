@@ -42,7 +42,9 @@ export default {
     async routes() {
       const { $content } = require('@nuxt/content');
 
-      const articles = await $content({ deep: true }).only(['path']).fetch();
+      const articles = await $content('/music', {
+        deep: true
+      }).only(['path']).fetch();
 
       const categories = [];
       const result = [];
@@ -56,17 +58,17 @@ export default {
         let depth = directories.length;
         let path = '';
 
-        result.push(`/blog/detail/${article.path.replace(/\//gi, '_').slice(1)}`);
+        result.push(`/music/detail/${article.path.replace(/\//gi, '_').slice(1)}`);
   
         for (let i = 0; i < depth; i++) {
           path += i > 0 ? '_' + directories[i] : directories[i];
           if (!categories.includes(path)) {
             categories.push(path);
-            result.push(`/blog/list/${path}`);
+            result.push(`/music/list/${path}`);
           }
         }
 
-        result.push('/blog/list');
+        result.push('/music/list');
       });
 
       return result

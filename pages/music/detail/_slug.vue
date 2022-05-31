@@ -1,5 +1,5 @@
 <template>
-  <div class="page-blog-detail">
+  <div class="page-music-detail">
     <!-- <div v-if="article.extension === '.md'">
       <config-head :title="`EXIT 5 | ${article.title}`" />
       <article-head>
@@ -42,7 +42,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.page-blog-detail {
+.page-music-detail {
   padding: 50px 50px 100px;
   max-width: 1000px;
 

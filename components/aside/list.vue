@@ -18,10 +18,11 @@ export default {
   async fetch() {
     const category_list = [];
     const categories = [];
-    const articles = await this.$content({ deep: true }).only(['path']).fetch();
+    const articles = await this.$content('/music', {
+      deep: true
+    }).only(['path']).fetch();
 
     articles
-      .filter(article => article.path.indexOf('/chord') === -1)
       .map(article => {
         let directories = article.path.split('/');
         directories.shift();
