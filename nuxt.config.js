@@ -3,13 +3,13 @@ import { resolve } from "path";
 export default {
   target: "static",
   head: {
-    title: "SIMPLIZM",
+    title: "EXIT 5",
     htmlAttrs: {
       lang: "ko",
     },
     meta: [
       { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { name: "viewport", content: "width=750, initial-scale=1" },
       { name: "description", content: "" },
       { name: "keyword", content: "프론트엔드, 프론트엔드개발자, 웹퍼블리셔, SIMPLIZM, 심플리즘" },
       { name: "format-detection", content: "telephone=no" },

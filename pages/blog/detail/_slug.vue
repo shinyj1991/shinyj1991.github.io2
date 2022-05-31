@@ -1,40 +1,50 @@
 <template>
   <div class="page-blog-detail">
-    <config-head
-      :title="pageTitle"
-    />
-    <article-head>
-      <h1>{{ article.title }}</h1>
-      <div class="info">
-        <div class="date">작성일 : {{ article.date }}</div>
-        <div class="writer">작성자 : {{ article.author }}</div>
-      </div>
-    </article-head>
-    <article-body>
-      <nuxt-content :document="article" />
-    </article-body>
+    <div v-if="article.extension === '.md'">
+      <config-head :title="pageTitle" />
+      <article-head>
+        <h1>{{ article.title }}</h1>
+        <div class="info">
+          <div class="date">작성일 : {{ article.date }}</div>
+        </div>
+      </article-head>
+      <article-body>
+        <nuxt-content :document="article" />
+      </article-body>
+    </div>
+
+    <div v-if="article.contentType === 'MUSIC_SCORE'">
+      <config-head :title="`EXIT 5 | ${article.singer} - ${article.title}`" />
+      <article-head>
+        <h1>{{ article.singer }} - {{ article.title }}</h1>
+        <div class="info">
+          <div class="date">작성일 : {{ article.date }}</div>
+        </div>
+      </article-head>
+      <score-chord :music="article" />
+    </div>
   </div>
 </template>
 
 <script>
-  export default {
-    async asyncData({ $content, params, store }) {
-      const article = await $content(params.slug.replace(/_/gi, '/'), params.id).fetch()
+export default {
+  async asyncData({ $content, params, store }) {
+    const article = await $content(params.slug.replace(/_/gi, '/'), params.id).fetch()
 
-      console.log(article);
+    console.log(article);
 
-      return {
-        pageTitle: `SIMPLIZM | ${article.title}`,
-        article
-      }
-    },
-    methods: {
-      formatDate(date) {
-        const options = { year: 'numeric', month: 'long', day: 'numeric' }
-        return new Date(date).toLocaleDateString('ko', options)
-      }
+    return {
+      pageTitle: `SIMPLIZM | ${article.title}`,
+      article
+    }
+  },
+  methods: {
+    formatDate(date) {
+      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      return new Date(date).toLocaleDateString('ko', options)
     }
   }
+}
 </script>
 
 <style lang="scss" scoped>

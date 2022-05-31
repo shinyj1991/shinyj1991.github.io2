@@ -20,37 +20,39 @@ export default {
     const categories = [];
     const articles = await this.$content({ deep: true }).only(['path']).fetch();
 
-    articles.map(article => {
-      let directories = article.path.split('/');
-      directories.shift();
-      directories.pop();
+    articles
+      .filter(article => article.path.indexOf('/chord') === -1) // chord 폴더 제외
+      .map(article => {
+        let directories = article.path.split('/');
+        directories.shift();
+        directories.pop();
 
-      let depth = directories.length;
-      var path = '';
+        let depth = directories.length;
+        var path = '';
 
-      for (let i = 0; i < depth; i++) {
-        let parent = i > 0 ? categories.find(obj => obj.name === directories[i - 1]).child : category_list;
+        for (let i = 0; i < depth; i++) {
+          let parent = i > 0 ? categories.find(obj => obj.name === directories[i - 1]).child : category_list;
 
-        path += i > 0 ? '_' + directories[i] : directories[i];
+          path += i > 0 ? '_' + directories[i] : directories[i];
 
-        if (!categories.find(obj => obj.name === directories[i])) {
-          categories.push({
-            name: directories[i],
-            path: path,
-            depth: i,
-            child: []
-          })
-          parent.push(categories[categories.length - 1])
-          parent.sort((a, b) => {
-            if (a.name > b.name) {
-              return 1
-            } else {
-              return -1
-            }
-          })
+          if (!categories.find(obj => obj.name === directories[i])) {
+            categories.push({
+              name: directories[i],
+              path: path,
+              depth: i,
+              child: []
+            })
+            parent.push(categories[categories.length - 1])
+            parent.sort((a, b) => {
+              if (a.name > b.name) {
+                return 1
+              } else {
+                return -1
+              }
+            })
+          }
         }
-      }
-    })
+      })
 
     this.category_list = category_list
   },

@@ -9,9 +9,6 @@ export default {
   created() {
     this.$store.commit('set_loading', false)
   },
-  setup() {
-    
-  },
 }
 </script>
 

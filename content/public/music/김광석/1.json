@@ -1,8 +1,10 @@
 {
+  "contentType": "MUSIC_SCORE",
   "singer": "김광석",
   "year": 1992,
   "title": "잊어야 한다는 마음으로",
   "measure": 4,
+  "date": "2022-05-31",
   "score": [
     {"chord": [{"name": "G"}, {"name": "D"}], "lyrics": "잊어야 한다는"},
     {"chord": [{"name": "Em"}, {"name": "Bm"}], "lyrics": "마음으로"},
