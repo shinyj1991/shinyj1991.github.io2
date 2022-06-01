@@ -1,0 +1,80 @@
+{
+  "singer": "안치환",
+  "title": "내가 만일",
+  "year": 1995,
+  "capo": 1,
+  "measure": 4,
+  "date": "2022-06-01",
+  "score": [
+    {
+      "type": "tab",
+      "src": "/folk/2-1.png"
+    },
+    {
+      "type": "chord",
+      "contents": [
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": "내가 만일 하늘이라"},
+        {"chord": [{"name": "C"}], "lyrics": "면"},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": "그대 얼굴에 물들고 싶"},
+        {"chord": [{"name": "Am"}], "lyrics": "어-"},
+        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": "붉게 물든 저녁"},
+        {"chord": [{"name": "D"}, {"name": "G"}], "lyrics": "저 노을처럼 나"},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": "그대 뺨에 물들고 싶"},
+        {"chord": [{"name": "C"}], "lyrics": "어-"},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": "내가 만일 시인이라"},
+        {"chord": [{"name": "C"}], "lyrics": "면"},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": "그대 위해 노래하겠"},
+        {"chord": [{"name": "Am"}], "lyrics": "어-"},
+        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": "엄마 품에 안긴 어"},
+        {"chord": [{"name": "D"}, {"name": "G"}], "lyrics": "린 아이 처럼 나"},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": "행복하게 노래하고 싶"},
+        {"chord": [{"name": "C"}], "lyrics": "어-"},
+        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": "세상에 그"},
+        {"chord": [{"name": "G"}, {"name": "Am"}], "lyrics": "무엇이라도"},
+        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": "그대 위해 되고 싶"},
+        {"chord": [{"name": "G"}], "lyrics": "어-"},
+        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": "오늘 처럼 우리"},
+        {"chord": [{"name": "G"}, {"name": "Am"}], "lyrics": "함께 있음이 내겐"},
+        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": "얼마나 큰 기쁨인"},
+        {"chord": [{"name": "G"}], "lyrics": "지-"},
+        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": "사랑하는 나의 사람아"},
+        {"chord": [{"name": "G"}, {"name": "Am"}], "lyrics": "너는 아니 워-"},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": "이런 나의 마"},
+        {"chord": [{"name": "C"}], "lyrics": "음을-"}
+      ]
+    },
+    {
+      "type": "tab",
+      "src": "/folk/2-1.png"
+    },
+    {
+      "type": "chord",
+      "contents": [
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": "내가 만일 구름이라"},
+        {"chord": [{"name": "C"}], "lyrics": "면"},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": "그대 위해 비가 되겠"},
+        {"chord": [{"name": "Am"}], "lyrics": "어-"},
+        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": "더운 여름 날의"},
+        {"chord": [{"name": "D"}, {"name": "G"}], "lyrics": "소나기 처럼 나"},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": "시원하게 내리고 싶"},
+        {"chord": [{"name": "C"}], "lyrics": "어-"},
+        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": "세상에 그"},
+        {"chord": [{"name": "G"}, {"name": "Am"}], "lyrics": "무엇이라도"},
+        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": "그대 위해 되고 싶"},
+        {"chord": [{"name": "G"}], "lyrics": "어-"},
+        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": "오늘 처럼 우리"},
+        {"chord": [{"name": "G"}, {"name": "Am"}], "lyrics": "함께 있음이 내겐"},
+        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": "얼마나 큰 기쁨인"},
+        {"chord": [{"name": "G"}], "lyrics": "지-"},
+        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": "사랑하는 나의 사람아"},
+        {"chord": [{"name": "G"}, {"name": "Am"}], "lyrics": "너는 아니 워-"},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": "이런 나의 마"},
+        {"chord": [{"name": "C"}], "lyrics": "음을-"}
+      ]
+    },
+    {
+      "type": "tab",
+      "src": "/folk/2-2.png"
+    }
+  ]
+}

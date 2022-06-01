@@ -14,7 +14,12 @@
     </div> -->
     <config-head :title="`EXIT 5 | ${music.singer} - ${music.title}`" />
     <score-head :music="music" />
-    <score-chord :music="music" />
+    <div class="score-contents">
+      <section v-for="(score, index) in music.score" :key="index">
+        <score-tab v-if="score.type === 'tab'" :src="score.src" />
+        <score-chord v-if="score.type === 'chord'" :measure="music.measure" :score="score" />
+      </section>
+    </div>
   </div>
 </template>
 
@@ -41,8 +46,12 @@ export default {
   padding: 50px 50px 100px;
   max-width: 1000px;
 
-  @media screen and (max-width: 1200px) {
-    padding: 50px 20px 50px;
+  .score-contents {
+    display: grid;
+    row-gap: 100px;
   }
-}
+
+@media screen and (max-width: 1200px) {
+  padding: 50px 20px 50px;
+}}
 </style>

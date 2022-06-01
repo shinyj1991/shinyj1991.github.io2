@@ -1,6 +1,6 @@
 <template>
-  <div class="score-chord" :style="`grid-template-columns: repeat(${music.measure}, 1fr);`">
-    <div class="section" v-for="(section, index) in music.score" :key="index">
+  <div class="score-chord" :style="`grid-template-columns: repeat(${measure}, 1fr);`">
+    <div class="section" v-for="(section, index) in score.contents" :key="index">
       <div class="chord">
         <button 
           type="button"
@@ -24,7 +24,11 @@ export default {
     isPopupChord: false,
   }),
   props: {
-    music: {
+    measure: {
+      measure: Number,
+      default: 4
+    },
+    score: {
       type: Object,
       default: {}
     }

@@ -1,6 +1,8 @@
 <template>
   <div class="page-index">
-    <p>감성 힐링 출구, 5번 출구</p>
+    <ul class="link-list">
+      <li><nuxt-link to="/article/list/music" class="link">🎼 악보 게시판</nuxt-link></li>
+    </ul>
   </div>
 </template>
 
@@ -11,5 +13,17 @@ export default {}
 <style lang="scss" scoped>
 .page-index {
   padding: 50px;
+
+  .link-list {
+    li {
+      a {
+        font-size: 24px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
 </style>
