@@ -38,7 +38,8 @@ export default {
   },
   methods: {
     async openPopupChord(name) {
-      const result = await this.$content(`chord/${name.replace(/\//gi, '-')}`).fetch();
+      const chordName = name.replace('♯', 'sharp').replace('♭', 'flat').replace(/\//gi, '-');
+      const result = await this.$content(`chord/${chordName}`).fetch();
       this.chord = result;
       this.isPopupChord = true;
     }
