@@ -6,6 +6,7 @@
 
 <script>
 import { mapState } from 'vuex'
+import singer from '@/utils/singer'
 
 export default {
   computed: {
@@ -39,16 +40,19 @@ export default {
           if (!categories.find(obj => obj.name === directories[i])) {
             categories.push({
               name: directories[i],
+              kor: singer.get(directories[i]),
               path: path,
               depth: i,
               child: []
             })
             parent.push(categories[categories.length - 1])
             parent.sort((a, b) => {
-              if (a.name > b.name) {
-                return 1
+              if (a.kor) {
+                if (a.kor > b.kor) return 1
+                else return -1
               } else {
-                return -1
+                if (a.name > b.name) return 1
+                else return -1
               }
             })
           }
