@@ -1,8 +1,8 @@
 <template>
   <div
-    v-if="isPopupChord"
     class="popup-chord"
     @click.self="$emit('update:isPopupChord', false)"
+    v-if="isPopupChord"
   >
     <div class="inner">
       <h1 class="chord-name">{{ chord.name }}</h1>
@@ -18,7 +18,9 @@
             v-for="(line, y) in plat"
             :key="y"
           >
-            <div class="circle" v-if="line == 1"></div>
+            <div class="mute" v-if="line === 'mute'"></div>
+            <div class="open" v-if="line === 'open'"></div>
+            <div class="circle" v-if="line === 1"></div>
           </div>
         </div>
       </div>
@@ -37,7 +39,7 @@ export default {
       type: Boolean,
       default: false
     }
-  }
+  },
 }
 </script>
 
@@ -55,7 +57,7 @@ export default {
   color: #000;
 
   .inner {
-    padding: 20px;
+    padding: 20px 20px 20px 40px;
     background: #fff;
 
     .chord-name {
@@ -115,9 +117,55 @@ export default {
             border-radius: 50%;
             background: #000;
           }
+          .mute {
+            position: absolute;
+            top: -7px;
+            left: -24px;
+            width: 16px;
+            height: 16px;
+
+            &::before {
+              display: block;
+              content: '';
+              width: 1px;
+              height: 100%;
+              background: #000;
+              position: absolute;
+              top: 0;
+              left: 7px;
+              transform: rotate(-45deg);
+            }
+            &::after {
+              display: block;
+              content: '';
+              width: 1px;
+              height: 100%;
+              background: #000;
+              position: absolute;
+              top: 0;
+              left: 7px;
+              transform: rotate(45deg);
+            }
+          }
+          .open {
+            position: absolute;
+            top: -7px;
+            left: -24px;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            border: 1px solid #000;
+          }
         }
       }
     }
   }
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 </style>

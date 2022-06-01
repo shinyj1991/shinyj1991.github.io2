@@ -12,24 +12,19 @@
         <nuxt-content :document="article" />
       </article-body>
     </div> -->
-    <config-head :title="`EXIT 5 | ${article.singer} - ${article.title}`" />
-    <article-head>
-      <h1>{{ article.singer }} - {{ article.title }}</h1>
-      <div class="info">
-        <div class="date">작성일 : {{ article.date }}</div>
-      </div>
-    </article-head>
-    <score-chord :music="article" />
+    <config-head :title="`EXIT 5 | ${music.singer} - ${music.title}`" />
+    <score-head :music="music" />
+    <score-chord :music="music" />
   </div>
 </template>
 
 <script>
 export default {
   async asyncData({ $content, params, store }) {
-    const article = await $content(params.slug.replace(/_/gi, '/'), params.id).fetch()
+    const music = await $content(params.slug.replace(/_/gi, '/'), params.id).fetch()
 
     return {
-      article
+      music
     }
   },
   methods: {

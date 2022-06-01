@@ -3,7 +3,7 @@
     <config-head
       :title="pageTitle"
     />
-    <article-list
+    <score-list
       :articles="articles"
       :page.sync="page"
       :lastPage="lastPage"

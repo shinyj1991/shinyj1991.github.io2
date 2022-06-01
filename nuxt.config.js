@@ -10,8 +10,8 @@ export default {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { name: "description", content: "" },
-      { name: "keyword", content: "프론트엔드, 프론트엔드개발자, 웹퍼블리셔, SIMPLIZM, 심플리즘" },
+      { name: "description", content: "감성 힐링 출구, 5번 출구" },
+      { name: "keyword", content: "기타, 악보, 코드" },
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],

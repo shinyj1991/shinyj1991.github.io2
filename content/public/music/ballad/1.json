@@ -1,0 +1,30 @@
+{
+  "singer": "유재하",
+  "title": "가리워진 길",
+  "year": 1986,
+  "capo": 0,
+  "measure": 4,
+  "date": "2022-06-01",
+  "score": [
+    {"chord": [{"name": "C"}, {"name": "Dm7"}], "lyrics": "보일듯 말듯 가"},
+    {"chord": [{"name": "Em"}, {"name": "E7"}], "lyrics": "물거리는"},
+    {"chord": [{"name": "Am7"}, {"name": "G"}], "lyrics": "안개 속에 쌓"},
+    {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": "인 길"},
+    {"chord": [{"name": "C"}, {"name": "Dm7"}], "lyrics": "잡힐 듯 말듯 멀"},
+    {"chord": [{"name": "Em"}, {"name": "E7"}], "lyrics": "어져가는"},
+    {"chord": [{"name": "Am7"}, {"name": "G"}], "lyrics": "무지개와 같"},
+    {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": "은 길"},
+    {"chord": [{"name": "F"}, {"name": "Em"}], "lyrics": "그 어디에서 날"},
+    {"chord": [{"name": "Dm7"}, {"name": "C"}], "lyrics": "기다리는지"},
+    {"chord": [{"name": "F"}, {"name": "Em"}], "lyrics": "둘러 보아도 찾"},
+    {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": "을 수 없네"},
+    {"chord": [{"name": "C"}], "lyrics": "그대여 힘이 되"},
+    {"chord": [{"name": "Am7"}, {"name": "A7"}], "lyrics": "주- 오-"},
+    {"chord": [{"name": "Dm7"}], "lyrics": "나에게 주어진 길"},
+    {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": "찾을 수 있도록"},
+    {"chord": [{"name": "C"}], "lyrics": "그대여 길을 터"},
+    {"chord": [{"name": "Am7"}, {"name": "A7"}], "lyrics": "주- 오-"},
+    {"chord": [{"name": "Dm7"}, {"name": "F"}], "lyrics": "가리워진 나의"},
+    {"chord": [{"name": "C"}], "lyrics": "길-"}
+  ]
+}

@@ -1,8 +1,8 @@
 {
-  "name": "Em7",
+  "name": "E7",
   "start": 0,
   "position": [
-    ["open", "open", "open", "open", 0, "open"],
+    ["open", "open", 1, "open", 0, "open"],
     [0, 0, 0, 0, 1, 0],
     [0, 0, 0, 0, 0, 0]
   ]
