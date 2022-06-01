@@ -56,7 +56,7 @@ export default {
 <style lang="scss" scoped>
 .score-chord {
   display: grid;
-  row-gap: 20px;
+  row-gap: 16px;
   column-gap: 5px;
   font-size: 16px;
 
