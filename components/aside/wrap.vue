@@ -55,8 +55,8 @@ export default {
     align-items: center; 
     width: 100%; 
     min-height: 0; 
-    height: 50px; 
-    padding: 0 20px; 
+    height: 70px; 
+    padding: 0 30px; 
     z-index: 100;
 
     .logo {
