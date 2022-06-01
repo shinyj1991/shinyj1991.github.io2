@@ -7,7 +7,10 @@
           class="chord-item" 
           v-for="(item, index) in section.chord" 
           :key="index" 
-          :style="`--grow: ${item.grow ? item.grow : 1}`"
+          :style="`
+            flex-grow: ${item.grow ? item.grow : 1};
+            flex-basis: ${100 * ((item.grow ? item.grow : 1) / section.chord.length)}%;
+          `"
           @click="openPopupChord(item.name)"
         >{{ item.name }}</button>
       </div>
@@ -67,8 +70,6 @@ export default {
       min-height: 1.5em;
 
       .chord-item {
-        flex-grow: var(--grow);
-        flex-basis: 100%;
         text-align: left;
         padding: 3px 5px;
 
