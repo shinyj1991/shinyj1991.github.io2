@@ -33,14 +33,14 @@
         {"chord": [{"name": "Em7"}, {"name": "C"}], "lyrics": "긴긴 밤을"},
         {"chord": [{"name": "Am"}, {"name": "G"}], "lyrics": "또 잊지 못해"},
         {"chord": [{"name": "D"}], "lyrics": "새울까"},
-        {"chord": [{"name": "D"}, {"name": "G"}], "lyrics": "창틈에 기다리던"},
-        {"chord": [{"name": "G"}, {"name": "D"}], "lyrics": "새벽이 오면"},
-        {"chord": [{"name": "Em7"}, {"name": "C"}], "lyrics": "어제 보다 커진"},
-        {"chord": [{"name": "Am"}, {"name": "G"}], "lyrics": "내 방안에"},
-        {"chord": [{"name": "D"}, {"name": "G"}], "lyrics": "하얗게 밝아온"},
-        {"chord": [{"name": "G"}, {"name": "D"}], "lyrics": "유리창에"},
-        {"chord": [{"name": "Em7"}, {"name": "C"}], "lyrics": "썼다 지운다"},
-        {"chord": [{"name": "Am"}, {"name": "G"}], "lyrics": "널 사랑해"}
+        {"chord": [{"name": "G"}, {"name": "D"}], "lyrics": "창틈에 기다리던"},
+        {"chord": [{"name": "Em"}, {"name": "Bm"}], "lyrics": "새벽이 오면"},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": "어제 보다 커진"},
+        {"chord": [{"name": "D"}, {"name": "G"}], "lyrics": "내 방안에"},
+        {"chord": [{"name": "G"}, {"name": "D"}], "lyrics": "하얗게 밝아온"},
+        {"chord": [{"name": "Em"}, {"name": "Bm"}], "lyrics": "유리창에"},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": "썼다 지운다"},
+        {"chord": [{"name": "D"}, {"name": "G"}], "lyrics": "널 사랑해"}
       ]
     }
   ]
