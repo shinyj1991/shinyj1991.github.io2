@@ -11,7 +11,10 @@
           @click="openPopupChord(item.name)"
         >{{ item.name }}</button>
       </div>
-      <div class="lyrics">{{ section.lyrics }}</div>
+      <div class="lyrics" v-if="typeof section.lyrics === 'string'">{{ section.lyrics }}</div>
+      <div class="lyrics" v-else>
+        <div v-for="lyrics in section.lyrics">{{ lyrics }}</div>
+      </div>
     </div>
     <popup-chord :isPopupChord.sync="isPopupChord" :chord="chord" />
   </div>
@@ -35,7 +38,7 @@ export default {
   },
   methods: {
     async openPopupChord(name) {
-      const result = await this.$content(`chord/${name}`).fetch();
+      const result = await this.$content(`chord/${name.replace(/\//gi, '-')}`).fetch();
       this.chord = result;
       this.isPopupChord = true;
     }
@@ -49,15 +52,18 @@ export default {
 <style lang="scss" scoped>
 .score-chord {
   display: grid;
-  row-gap: 30px;
+  row-gap: 20px;
+  column-gap: 5px;
   font-size: 16px;
 
   .section {
     display: grid;
     row-gap: 5px;
+    border: 1px solid #cccccc;
 
     .chord {
       display: flex;
+      height: 1.5em;
 
       .chord-item {
         flex-grow: var(--grow);
@@ -71,7 +77,11 @@ export default {
       }
     }
     .lyrics {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 5px;
       white-space: nowrap;
+      height: 1.5em;
     }
   }
 

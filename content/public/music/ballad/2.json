@@ -1,0 +1,109 @@
+{
+  "singer": "도원경",
+  "title": "다시 사랑한다면",
+  "year": 2001,
+  "capo": 4,
+  "measure": 4,
+  "date": "2022-06-01",
+  "score": [
+    {
+      "type": "chord",
+      "contents": [
+        {"chord": [{"name": "G"}], "lyrics": ""},
+        {"chord": [{"name": "D/F♯"}], "lyrics": ""},
+        {"chord": [{"name": "Em"}], "lyrics": ""},
+        {"chord": [{"name": "Bm"}], "lyrics": ""},
+
+        {"chord": [{"name": "C"}], "lyrics": ""},
+        {"chord": [{"name": "G/B"}], "lyrics": ""},
+        {"chord": [{"name": "Dsus4"}], "lyrics": ""},
+        {"chord": [{"name": "D"}], "lyrics": ["", "다시"]},
+
+        {"chord": [{"name": "G"}], "lyrics": ["태어난다면", "다시"]},
+        {"chord": [{"name": "D"}], "lyrics": "사랑한다면"},
+        {"chord": [{"name": "Em"}], "lyrics": ["그 때는 우리", "이"]},
+        {"chord": [{"name": "Bm"}], "lyrics": ["러지 말아요", "조"]},
+
+        {"chord": [{"name": "C"}], "lyrics": ["금 덜 만나고", "조금"]},
+        {"chord": [{"name": "G"}], "lyrics": "덜 기대하며"},
+        {"chord": [{"name": "Am"}], "lyrics": ["많은 약속 않기로", "해"]},
+        {"chord": [{"name": "Dsus4"}, {"name": "D"}], "lyrics": ["요", "다시"]},
+
+        {"chord": [{"name": "G"}], "lyrics": ["이별이 와도", "서로"]},
+        {"chord": [{"name": "D"}], "lyrics": "큰 아픔 없이"},
+        {"chord": [{"name": "Em"}], "lyrics": "돌아설 수 있을 만큼"},
+        {"chord": [{"name": "Bm"}], "lyrics": ""},
+
+        {"chord": [{"name": "C"}], "lyrics": ["버려도 되는", "가벼"]},
+        {"chord": [{"name": "G"}], "lyrics": ["운 추억만", "서"]},
+        {"chord": [{"name": "Am"}], "lyrics": ["로의 가슴에", "만"]},
+        {"chord": [{"name": "D"}], "lyrics": ["들기로 해요", "이"]},
+
+        {"chord": [{"name": "G"}, {"name": "D"}], "lyrics": ["제 알아요", "너무"]},
+        {"chord": [{"name": "Em"}, {"name": "Bm"}], "lyrics": ["깊은 사랑은", "외려"]},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["슬픈 마지 막을", "가"]},
+        {"chord": [{"name": "Am"}, {"name": "D"}], "lyrics": ["져온다는 걸", "그"]},
+
+        {"chord": [{"name": "G"}, {"name": "D"}], "lyrics": ["대여 빌게요", "다음"]},
+        {"chord": [{"name": "Em"}, {"name": "Bm"}], "lyrics": ["번의 사랑은", "우"]},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["리 같지 않길", "부디"]},
+        {"chord": [{"name": "Am"}, {"name": "D"}], "lyrics": "아픔이 없이"},
+
+        {"chord": [{"name": "G"}, {"name": "D"}], "lyrics": "나 하 하아아하"},
+        {"chord": [{"name": "Em"}, {"name": "Bm"}], "lyrics": ["하아", "꼭"]},
+        {"chord": [{"name": "C"}], "lyrics": ["나보다 더", "행복"]},
+        {"chord": [{"name": "D"}], "lyrics": "해져야만"},
+
+        {"chord": [{"name": "E♭Maj7"}], "lyrics": "해"},
+        {"chord": [{"name": "F7"}], "lyrics": ""},
+        {"chord": [{"name": "B♭"}, {"name": "B♭Maj7"}], "lyrics": ""},
+        {"chord": [{"name": "Gm"}], "lyrics": ""},
+
+        {"chord": [{"name": "E♭Maj7"}], "lyrics": ""},
+        {"chord": [{"name": "F7"}], "lyrics": ""},
+        {"chord": [{"name": "G"}], "lyrics": ""},
+        {"chord": [{"name": "G"}], "lyrics": ["", "많은"]},
+
+        {"chord": [{"name": "G"}], "lyrics": ["시간이 흘러", "서로"]},
+        {"chord": [{"name": "D"}], "lyrics": "잊고 지내도"},
+        {"chord": [{"name": "Em"}], "lyrics": "지난 날을 회상하며"},
+        {"chord": [{"name": "Bm"}], "lyrics": ""},
+
+        {"chord": [{"name": "C"}], "lyrics": ["그 때도 이건", "사"]},
+        {"chord": [{"name": "G"}], "lyrics": ["랑이었다고", "말"]},
+        {"chord": [{"name": "Am"}], "lyrics": ["할 수 있다면", "그"]},
+        {"chord": [{"name": "D"}], "lyrics": ["걸로 된 거죠", "이"]},
+
+        {"chord": [{"name": "G"}, {"name": "D"}], "lyrics": ["제 알아요", "너무"]},
+        {"chord": [{"name": "Em"}, {"name": "Bm"}], "lyrics": ["깊은 사랑은", "외려"]},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["슬픈 마지 막을", "가"]},
+        {"chord": [{"name": "Am"}, {"name": "D"}], "lyrics": ["져온다는 걸", "그"]},
+
+        {"chord": [{"name": "G"}, {"name": "D"}], "lyrics": ["대여 빌게요", "다음"]},
+        {"chord": [{"name": "Em"}, {"name": "Bm"}], "lyrics": ["번의 사랑은", "우"]},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["리 같지 않길", "부디"]},
+        {"chord": [{"name": "Am"}, {"name": "D"}], "lyrics": ["아픔이 없이", "이"]},
+
+        {"chord": [{"name": "G"}, {"name": "D"}], "lyrics": ["제 알아요", "영원"]},
+        {"chord": [{"name": "Em"}, {"name": "Bm"}], "lyrics": ["할 줄 알았 던", "그대"]},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["와의 사랑 마저", "날"]},
+        {"chord": [{"name": "Am"}, {"name": "D"}], "lyrics": ["속였다는 게", "그"]},
+
+        {"chord": [{"name": "G"}, {"name": "D"}], "lyrics": ["보다 슬픈 건", "나"]},
+        {"chord": [{"name": "Em"}, {"name": "Bm"}], "lyrics": ["없이 그대 가", "행"]},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["복하게 지낼", "먼"]},
+        {"chord": [{"name": "Am"}, {"name": "D"}], "lyrics": ["훗날의 모 습"]},
+
+        {"chord": [{"name": "G"}, {"name": "D"}], "lyrics": "나 하 하아아하"},
+        {"chord": [{"name": "Em"}, {"name": "Bm"}], "lyrics": ["하아", "내"]},
+        {"chord": null, "lyrics": ["마음은", "하늘"]},
+        {"chord": null, "lyrics": ["만은", "알기"]},
+
+        {"chord": [{"name": "G"}], "lyrics": "를"},
+        {"chord": [{"name": "D"}], "lyrics": ""},
+        {"chord": [{"name": "Em"}, {"name": "D"}], "lyrics": ""},
+        {"chord": [{"name": "G"}], "lyrics": ""}
+      ]
+    }
+  ]
+}
