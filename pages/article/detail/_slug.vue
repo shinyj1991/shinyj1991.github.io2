@@ -53,5 +53,9 @@ export default {
 
 @media screen and (max-width: 1200px) {
   padding: 50px 20px 50px;
+
+  .score-contents {
+    row-gap: 50px;
+  }
 }}
 </style>
