@@ -30,7 +30,7 @@ export default Vue.extend({
     delayRouter(path) {
       this.$store.commit('set_loading', true)
 
-      this.$router.push({path: `/music/detail/${path.slice(1).replace(/\//gi, '_')}`})
+      this.$router.push({path: `/article/detail/${path.slice(1).replace(/\//gi, '_')}`})
     },
   }
 })

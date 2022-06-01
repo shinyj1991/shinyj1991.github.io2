@@ -58,17 +58,17 @@ export default {
         let depth = directories.length;
         let path = '';
 
-        result.push(`/music/detail/${article.path.replace(/\//gi, '_').slice(1)}`);
+        result.push(`/article/detail/${article.path.replace(/\//gi, '_').slice(1)}`);
   
         for (let i = 0; i < depth; i++) {
           path += i > 0 ? '_' + directories[i] : directories[i];
           if (!categories.includes(path)) {
             categories.push(path);
-            result.push(`/music/list/${path}`);
+            result.push(`/article/list/${path}`);
           }
         }
 
-        result.push('/music/list');
+        result.push('/article/list');
       });
 
       return result

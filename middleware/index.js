@@ -3,17 +3,17 @@ export default function ({ store, route }) {
 
   // console.log('global middleware', route.name)
 
-  if (route.name === 'music-list-category') {
+  if (route.name === 'article-list-category') {
     // list
     store.commit('set_blog_depth', route.params.category ? route.params.category.split('_') : []);
   }
 
-  if (route.name === 'music-detail-slug') {
+  if (route.name === 'article-detail-slug') {
     // detail
     store.commit('set_blog_depth', route.params.slug.split('_'));
   }
 
-  if (route.name !== 'music-list-category' && route.name !== 'music-detail-slug') {
+  if (route.name !== 'article-list-category' && route.name !== 'article-detail-slug') {
     store.commit('set_blog_depth', []);
   }
 }
