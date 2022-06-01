@@ -59,18 +59,18 @@ export default {
 
   .section {
     display: grid;
-    row-gap: 5px;
+    align-items: flex-start;
     border: 1px solid #cccccc;
 
     .chord {
       display: flex;
-      height: 1.5em;
+      min-height: 1.5em;
 
       .chord-item {
         flex-grow: var(--grow);
         flex-basis: 100%;
         text-align: left;
-        padding: 0 5px;
+        padding: 3px 5px;
 
         &:hover {
           background: #f7f7f7;
@@ -80,9 +80,8 @@ export default {
     .lyrics {
       display: flex;
       justify-content: space-between;
-      padding: 0 5px;
-      white-space: nowrap;
-      height: 1.5em;
+      padding: 3px 5px;
+      min-height: 1.5em;
     }
   }
 
