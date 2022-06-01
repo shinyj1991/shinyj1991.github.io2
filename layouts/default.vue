@@ -25,9 +25,9 @@ export default {
 
 <style lang="scss" scoped>
 .layout-default {
-  width: 100%;
-  height: 100%;
-  min-width: 600px;
+  // width: 100%;
+  // height: 100%;
+  // min-width: 600px;
   padding: 0 0 0 240px;
   color: #000;
 

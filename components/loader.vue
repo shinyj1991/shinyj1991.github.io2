@@ -42,13 +42,13 @@
 
 <style lang="scss" scoped>
 .loader-outer {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: 1001;
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .loader10 {
@@ -85,8 +85,8 @@
   height: 57.74%;
   left: 0;
   top: 21.13%;
-  border-left: 2px solid #fff;
-  border-right: 2px solid #fff;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
 }
 
 .hex0 {
