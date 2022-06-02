@@ -46,6 +46,8 @@ export default {
   }
 
 @media screen and (max-width: 768px) {
+padding: 20px 20px 50px;
+
   .chord-list {
     grid-template-columns: repeat(2, 1fr);
   }
