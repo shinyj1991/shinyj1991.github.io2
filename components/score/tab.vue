@@ -61,7 +61,8 @@ export default {
 <style lang="scss" scoped>
 .score-tab {
   display: grid;
-  row-gap: 30px;
+  row-gap: 60px;
+  padding-top: 30px;
 
   .measure {
     display: flex;
@@ -75,7 +76,7 @@ export default {
     }
     .chord-list {
       position: absolute;
-      top: -1.8em;
+      top: -30px;
       left: 0;
       width: 100%;
       display: flex;
