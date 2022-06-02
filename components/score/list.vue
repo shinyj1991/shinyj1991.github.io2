@@ -39,7 +39,9 @@ export default Vue.extend({
 <style lang="scss">
 .article-list {
   display: grid;
-  row-gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 15px;
+  column-gap: 15px;
 
   li {
 
@@ -47,7 +49,7 @@ export default Vue.extend({
       display: block;
       width: 100%;
       padding: 12px 24px;
-      border-left: 3px solid #222;
+      border: 1px solid #ccc;
       text-align: left;
 
       &:hover {
@@ -68,5 +70,7 @@ export default Vue.extend({
       }
     }
   }
-}
+@media screen and (max-width: 768px) {
+  grid-template-columns: repeat(2, 1fr);
+}}
 </style>

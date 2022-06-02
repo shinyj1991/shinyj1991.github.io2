@@ -4,27 +4,7 @@
     @click.self="$emit('update:isPopupChord', false)"
     v-if="isPopupChord"
   >
-    <div class="inner">
-      <h1 class="chord-name">{{ chord.name }}</h1>
-      <div class="chord-score" :class="`start-${chord.start}`">
-        <div
-          class="plat"
-          v-for="(plat, x) in chord.position"
-          :key="x"
-        >
-          <div class="plat-number">{{ chord.start + x }}</div>
-          <div
-            class="line"
-            v-for="(line, y) in plat"
-            :key="y"
-          >
-            <div class="mute" v-if="line === 'mute'"></div>
-            <div class="open" v-if="line === 'open'"></div>
-            <div class="circle" v-if="line === 1"></div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <article-chord :chord="chord" />
   </div>
 </template>
 

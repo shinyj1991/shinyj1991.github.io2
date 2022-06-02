@@ -80,11 +80,11 @@ export default {
 
   ul {
     display: grid;
-    padding-left: 20px;
 
     li {
       a {
         display: block;
+        text-align: center;
         color: #999;
         // text-transform: uppercase;
         text-transform: capitalize;

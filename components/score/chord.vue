@@ -16,7 +16,7 @@
       </div>
       <div class="lyrics" v-if="typeof section.lyrics === 'string'">{{ section.lyrics }}</div>
       <div class="lyrics" v-else>
-        <div v-for="lyrics in section.lyrics">{{ lyrics }}</div>
+        <div v-for="(lyrics, index) in section.lyrics" :key="index">{{ lyrics }}</div>
       </div>
     </div>
     <popup-chord :isPopupChord.sync="isPopupChord" :chord="chord" />
