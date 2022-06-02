@@ -29,7 +29,13 @@ export default {
   },
   css: ["@/assets/css/reset.scss"],
   components: true,
-  buildModules: ["@nuxt/typescript-build"],
+  buildModules: [
+    "@nuxt/typescript-build",
+    '@nuxtjs/google-analytics'
+  ],
+  googleAnalytics: {
+    id: 'G-7K43G97QC2'
+  },
   modules: [
     ["nuxt-highlightjs", { style: "obsidian" }],
     "@nuxt/content",
