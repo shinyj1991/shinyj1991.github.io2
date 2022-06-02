@@ -21,6 +21,7 @@
 
 <script>
 import { mapState } from 'vuex';
+import singer from '@/utils/singer'
 
 export default {
   async asyncData({ $content, params, store }) {
@@ -28,6 +29,8 @@ export default {
     const visibleLength = 10;
     const totalArticles = await $content(path, { deep: true }).only([]).fetch();
     const lastPage = Math.ceil(totalArticles.length / visibleLength);
+    const arrayParams = params.category.split('_');
+    const title = singer.get(arrayParams[1]) ?? 'MUSIC';
 
     let articles = await $content(path, { deep: true })
       .limit(visibleLength)
@@ -35,7 +38,7 @@ export default {
       .fetch();
 
     return {
-      pageTitle: `EXIT 5 | ${params.category ? params.category.replace(/_/gi, ' ').toUpperCase() : 'MUSIC'}`,
+      pageTitle: `EXIT 5 | ${title}`,
       visibleLength,
       lastPage,
       articles,

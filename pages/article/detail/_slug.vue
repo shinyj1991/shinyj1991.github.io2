@@ -12,7 +12,7 @@
         <nuxt-content :document="article" />
       </article-body>
     </div> -->
-    <config-head :title="`EXIT 5 | ${music.singer} - ${music.title}`" />
+    <config-head :title="title" />
     <score-head :music="music" />
     <div class="score-contents">
       <section v-for="(score, index) in music.score" :key="index">
@@ -24,12 +24,17 @@
 </template>
 
 <script>
+import singer from '@/utils/singer'
+
 export default {
   async asyncData({ $content, params, store }) {
-    const music = await $content(params.slug.replace(/_/gi, '/'), params.id).fetch()
+    const music = await $content(params.slug.replace(/_/gi, '/'), params.id).fetch();
+    const arrayParams = params.slug.split('_');
+    const title = `EXIT 5 | ${singer.get(arrayParams[1])} - ${music.title}`;
 
     return {
-      music
+      music,
+      title
     }
   },
   methods: {
