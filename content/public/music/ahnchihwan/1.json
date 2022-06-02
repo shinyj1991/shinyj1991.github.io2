@@ -8,6 +8,58 @@
   "score": [
     {
       "type": "tab",
+      "contents": [
+        {
+          "nodelist": [
+            {"grow": 1, "node": [null, null, null, null, 3, null]},
+            {"grow": 1, "node": [null, null, 0, null, null, null]},
+            {"grow": 1, "node": [null, 1, null, null, null, null]},
+            {"grow": 1, "node": [null, 3, null, null, null, null]},
+            {"grow": 1, "node": [0, null, null, null, null, 3]},
+            {"grow": 1, "node": [null, 3, null, null, null, null]},
+            {"grow": 1, "node": [null, 1, null, null, null, null]},
+            {"grow": 1, "node": [null, 0, null, null, null, null]}
+          ]
+        },
+        {
+          "nodelist": [
+            {"grow": 1, "node": [null, null, 2, null, 0, null]},
+            {"grow": 1, "node": [null, 0, null, null, null, null]},
+            {"grow": 1, "node": [null, 1, null, null, null, null]},
+            {"grow": 1, "node": [null, 3, null, null, null, null]},
+            {"grow": 1, "node": [null, 0, null, null, 2, null]},
+            {"grow": 1, "node": [null, null, 0, null, null, null]},
+            {"grow": 1, "node": [null, null, null, 0, null, null]},
+            {"grow": 1, "node": [null, null, 0, null, null, null]}
+          ]
+        },
+        {
+          "nodelist": [
+            {"grow": 1, "node": [null, null, null, null, 3, null]},
+            {"grow": 1, "node": [null, null, 0, null, null, null]},
+            {"grow": 1, "node": [null, 1, null, null, null, null]},
+            {"grow": 1, "node": [null, 3, null, null, null, null]},
+            {"grow": 1, "node": [1, null, null, null, null, 0]},
+            {"grow": 1, "node": [null, 3, null, null, null, null]},
+            {"grow": 1, "node": [null, 1, null, null, null, null]},
+            {"grow": 1, "node": [null, 0, null, null, null, null]}
+          ]
+        },
+        {
+          "nodelist": [
+            {"grow": 1, "node": [null, 1, null, null, 3, null]},
+            {"grow": 1, "node": [null, null, 0, null, null, null]},
+            {"grow": 1, "node": [1, null, null, null, null, null]},
+            {"grow": 0.5, "node": [null, null, 0, null, null, null]},
+            {"grow": 0.25, "node": [3, null, null, null, null, null]},
+            {"grow": 0.25, "node": [1, null, null, null, null, null]},
+            {"grow": 2, "node": [0, null, null, null, null, null]}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "image",
       "src": "/folk/2-1.png"
     },
     {
@@ -44,7 +96,7 @@
       ]
     },
     {
-      "type": "tab",
+      "type": "image",
       "src": "/folk/2-1.png"
     },
     {
@@ -73,7 +125,7 @@
       ]
     },
     {
-      "type": "tab",
+      "type": "image",
       "src": "/folk/2-2.png"
     }
   ]

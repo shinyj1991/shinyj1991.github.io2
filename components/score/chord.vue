@@ -1,22 +1,22 @@
 <template>
   <div class="score-chord" :style="`grid-template-columns: repeat(${measure}, 1fr);`">
-    <div class="section" v-for="(section, index) in score.contents" :key="index">
+    <div class="measure" v-for="(measure, index) in score.contents" :key="index">
       <div class="chord">
         <button 
           type="button"
           class="chord-item" 
-          v-for="(item, index) in section.chord" 
+          v-for="(item, index) in measure.chord" 
           :key="index" 
           :style="`
             flex-grow: ${item.grow ? item.grow : 1};
-            flex-basis: ${100 * ((item.grow ? item.grow : 1) / section.chord.length)}%;
+            flex-basis: ${100 * ((item.grow ? item.grow : 1) / measure.chord.length)}%;
           `"
           @click="openPopupChord(item.name)"
         >{{ item.name }}</button>
       </div>
-      <div class="lyrics" v-if="typeof section.lyrics === 'string'">{{ section.lyrics }}</div>
+      <div class="lyrics" v-if="typeof measure.lyrics === 'string'">{{ measure.lyrics }}</div>
       <div class="lyrics" v-else>
-        <div v-for="(lyrics, index) in section.lyrics" :key="index">{{ lyrics }}</div>
+        <div v-for="(lyrics, index) in measure.lyrics" :key="index">{{ lyrics }}</div>
       </div>
     </div>
     <popup-chord :isPopupChord.sync="isPopupChord" :chord="chord" />
@@ -60,7 +60,7 @@ export default {
   column-gap: 5px;
   font-size: 16px;
 
-  .section {
+  .measure {
     display: grid;
     align-items: flex-start;
     border: 1px solid #cccccc;
