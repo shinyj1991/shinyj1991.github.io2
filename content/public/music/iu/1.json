@@ -1,0 +1,51 @@
+{
+  "singer": "아이유",
+  "title": "겨울잠",
+  "year": 2021,
+  "capo": 0,
+  "measure": 4,
+  "date": "2022-06-02",
+  "score": [
+    {
+      "type": "chord",
+      "contents": [
+        {"chord": [{"name": "C"}, {"name": "Am"}], "lyrics": ["때 이른 봄 몇 송이 꺾어다 너"]},
+        {"chord": [{"name": "Dm"}, {"name": "G"}], "lyrics": ["의 방문 앞에 두 었어 긴"]},
+        {"chord": [{"name": "Em"}, {"name": "Am"}], "lyrics": ["잠 실컷 자고 나오면 그때쯤엔"]},
+        {"chord": [{"name": "Dm"}, {"name": "G"}], "lyrics": ["예쁘게 피어 있겠다 별"]},
+        {"chord": [{"name": "C"}, {"name": "Am"}], "lyrics": ["띄운 여름 한 컵 따라다 너"]},
+        {"chord": [{"name": "Dm"}, {"name": "G"}], "lyrics": ["의 머리맡에 두었어 금"]},
+        {"chord": [{"name": "Em"}, {"name": "Am"}], "lyrics": ["세 다 녹아버릴 텐데 너는 아직"]},
+        {"chord": [{"name": "Dm"}, {"name": "G"}], "lyrics": ["혼자 쉬고 싶은가 봐 너"]},
+        {"chord": [{"name": "F"}, {"name": "G"}, {"name": "Em"}, {"name": "Am"}], "lyrics": ["없이 보는 첫봄이 여름이 괜"]},
+        {"chord": [{"name": "Dm"}, {"name": "G"}, {"name": "C", "grow": 2}], "lyrics": ["히 왜 이렇게 예쁘니 다"]},
+        {"chord": [{"name": "Dm"}, {"name": "G"}, {"name": "Em"}, {"name": "A"}], "lyrics": ["가기 전에 널 보여줘야 하는데 으음"]},
+        {"chord": [{"name": "Dm"}, {"name": "G"}], "lyrics": ["꼭 봐야 하- 는데 내게"]},
+        {"chord": [{"name": "C"}, {"name": "E"}, {"name": "F"}, {"name": "G"}], "lyrics": ["기대어 조각잠을 자던"]},
+        {"chord": [{"name": "Em"}, {"name": "Am"}, {"name": "Dm"}, {"name": "G"}], "lyrics": ["그 모습 그대로 잠들었구나 무슨"]},
+        {"chord": [{"name": "C"}, {"name": "E"}, {"name": "Am", "grow": 2}], "lyrics": ["꿈을 꾸니", "깨어나면"]},
+        {"chord": [{"name": "Dm"}, {"name": "Em"}, {"name": "Dm"}, {"name": "G"}], "lyrics": ["이야기해 줄 거지 언제 나의 아침처"]},
+        {"chord": [{"name": "F"}, {"name": "G"}, {"name": "Em"}, {"name": "Am"}], "lyrics": ["럼 음 음"]},
+        {"chord": [{"name": "Dm"}, {"name": "A♭"}], "lyrics": ["", "빼"]},
+        {"chord": [{"name": "D♭"}, {"name": "B♭m"}], "lyrics": ["곡한 가을 한 장 접어다 너"]},
+        {"chord": [{"name": "E♭m"}, {"name": "A♭"}], "lyrics": ["의 우체통에 넣었어 가"]},
+        {"chord": [{"name": "Fm"}, {"name": "B♭m"}], "lyrics": ["장 좋았던 문장 아래 밑줄 그어"]},
+        {"chord": [{"name": "E♭m"}, {"name": "A♭"}], "lyrics": ["나 만나면 읽어줄래 새"]},
+        {"chord": [{"name": "D♭"}, {"name": "B♭m"}], "lyrics": ["하얀 겨울 한 숨 속에다 나"]},
+        {"chord": [{"name": "E♭m"}, {"name": "A♭"}], "lyrics": ["의 혼잣말을 담았어 줄"]},
+        {"chord": [{"name": "Fm"}, {"name": "B♭m"}], "lyrics": ["곧 잘 참아내다가도 가끔은 철"]},
+        {"chord": [{"name": "E♭m"}, {"name": "A♭"}], "lyrics": ["없이 보고 싶어 새"]},
+        {"chord": [{"name": "G♭"}, {"name": "A♭"}, {"name": "Fm"}, {"name": "B♭m"}], "lyrics": ["삼 차가운 연말의 공기가 뼈"]},
+        {"chord": [{"name": "E♭m"}, {"name": "A♭"}, {"name": "D♭", "grow": 2}], "lyrics": ["틈 사이사이 시려와 움"]},
+        {"chord": [{"name": "E♭m"}, {"name": "A♭"}, {"name": "Fm"}, {"name": "B♭"}], "lyrics": ["츠려 있을 너의 그 마른 어깨를 꼭"]},
+        {"chord": [{"name": "E♭m"}, {"name": "A♭"}], "lyrics": ["안아 줘야 하는데 내게"]},
+        {"chord": [{"name": "D♭"}, {"name": "F"}, {"name": "G♭"}, {"name": "A♭"}], "lyrics": ["기대어 조각잠을 자던"]},
+        {"chord": [{"name": "Fm"}, {"name": "B♭m"}, {"name": "E♭m"}, {"name": "A♭"}], "lyrics": ["그 모습 그대로 잠들었구나 무슨"]},
+        {"chord": [{"name": "D♭"}, {"name": "F"}, {"name": "B♭m", "grow": 2}], "lyrics": ["꿈을 꾸니 깨어나면"]},
+        {"chord": [{"name": "E♭m"}, {"name": "Fm"}, {"name": "E♭m"}, {"name": "A♭"}], "lyrics": ["이야기해 줄 거지 언제 나의 아침처"]},
+        {"chord": [{"name": "G♭"}, {"name": "A♭"}, {"name": "Fm"}, {"name": "B♭m"}], "lyrics": ["럼 음 음"]},
+        {"chord": [{"name": "E♭m"}, {"name": "A♭"}], "lyrics": [""]}
+      ]
+    }
+  ]
+}

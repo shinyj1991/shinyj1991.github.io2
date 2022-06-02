@@ -5,4 +5,5 @@ export default new Map([
   ['leemoonse', '이문세'],
   ['yoojaeha', '유재하'],
   ['choihosub', '최호섭'],
+  ['iu', '아이유'],
 ])
