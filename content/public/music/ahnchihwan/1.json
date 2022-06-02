@@ -10,6 +10,7 @@
       "type": "tab",
       "contents": [
         {
+          "chordlist": [{"name": "C"}, {"name": "G"}], 
           "nodelist": [
             {"grow": 1, "node": [null, null, null, null, 3, null]},
             {"grow": 1, "node": [null, null, 0, null, null, null]},
@@ -22,6 +23,7 @@
           ]
         },
         {
+          "chordlist": [{"name": "Am"}, {"name": "G/B"}], 
           "nodelist": [
             {"grow": 1, "node": [null, null, 2, null, 0, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]},
@@ -34,6 +36,7 @@
           ]
         },
         {
+          "chordlist": [{"name": "C"}, {"name": "G"}], 
           "nodelist": [
             {"grow": 1, "node": [null, null, null, null, 3, null]},
             {"grow": 1, "node": [null, null, 0, null, null, null]},
@@ -46,21 +49,18 @@
           ]
         },
         {
+          "chordlist": [{"name": "Csus4", "grow": 1.7}, {"name": "C"}],
           "nodelist": [
             {"grow": 1, "node": [null, 1, null, null, 3, null]},
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [1, null, null, null, null, null]},
             {"grow": 0.5, "node": [null, null, 0, null, null, null]},
-            {"grow": 0.25, "node": [3, null, null, null, null, null]},
-            {"grow": 0.25, "node": [1, null, null, null, null, null]},
-            {"grow": 2, "node": [0, null, null, null, null, null]}
+            {"grow": 0.4, "node": [3, null, null, null, null, null]},
+            {"grow": 0.4, "node": [1, null, null, null, null, null]},
+            {"grow": 1.7, "node": [0, null, null, null, null, null]}
           ]
         }
       ]
-    },
-    {
-      "type": "image",
-      "src": "/folk/2-1.png"
     },
     {
       "type": "chord",
@@ -96,8 +96,60 @@
       ]
     },
     {
-      "type": "image",
-      "src": "/folk/2-1.png"
+      "type": "tab",
+      "contents": [
+        {
+          "chordlist": [{"name": "C"}, {"name": "G"}], 
+          "nodelist": [
+            {"grow": 1, "node": [null, null, null, null, 3, null]},
+            {"grow": 1, "node": [null, null, 0, null, null, null]},
+            {"grow": 1, "node": [null, 1, null, null, null, null]},
+            {"grow": 1, "node": [null, 3, null, null, null, null]},
+            {"grow": 1, "node": [0, null, null, null, null, 3]},
+            {"grow": 1, "node": [null, 3, null, null, null, null]},
+            {"grow": 1, "node": [null, 1, null, null, null, null]},
+            {"grow": 1, "node": [null, 0, null, null, null, null]}
+          ]
+        },
+        {
+          "chordlist": [{"name": "Am"}, {"name": "G/B"}], 
+          "nodelist": [
+            {"grow": 1, "node": [null, null, 2, null, 0, null]},
+            {"grow": 1, "node": [null, 0, null, null, null, null]},
+            {"grow": 1, "node": [null, 1, null, null, null, null]},
+            {"grow": 1, "node": [null, 3, null, null, null, null]},
+            {"grow": 1, "node": [null, 0, null, null, 2, null]},
+            {"grow": 1, "node": [null, null, 0, null, null, null]},
+            {"grow": 1, "node": [null, null, null, 0, null, null]},
+            {"grow": 1, "node": [null, null, 0, null, null, null]}
+          ]
+        },
+        {
+          "chordlist": [{"name": "C"}, {"name": "G"}], 
+          "nodelist": [
+            {"grow": 1, "node": [null, null, null, null, 3, null]},
+            {"grow": 1, "node": [null, null, 0, null, null, null]},
+            {"grow": 1, "node": [null, 1, null, null, null, null]},
+            {"grow": 1, "node": [null, 3, null, null, null, null]},
+            {"grow": 1, "node": [1, null, null, null, null, 0]},
+            {"grow": 1, "node": [null, 3, null, null, null, null]},
+            {"grow": 1, "node": [null, 1, null, null, null, null]},
+            {"grow": 1, "node": [null, 0, null, null, null, null]}
+          ]
+        },
+        {
+          "chordlist": [{"name": "Csus4", "grow": 1.7}, {"name": "C"}],
+          "nodelist": [
+            {"grow": 1, "node": [null, 1, null, null, 3, null]},
+            {"grow": 1, "node": [null, null, 0, null, null, null]},
+            {"grow": 1, "node": [1, null, null, null, null, null]},
+            {"grow": 0.5, "node": [null, null, 0, null, null, null]},
+            {"grow": 0.4, "node": [3, null, null, null, null, null]},
+            {"grow": 0.4, "node": [1, null, null, null, null, null]},
+            {"grow": 1.7, "node": [0, null, null, null, null, null]}
+          ]
+        }
+      ]
     },
     {
       "type": "chord",
@@ -125,8 +177,58 @@
       ]
     },
     {
-      "type": "image",
-      "src": "/folk/2-2.png"
+      "type": "tab",
+      "contents": [
+        {
+          "chordlist": [{"name": "C"}, {"name": "G"}], 
+          "nodelist": [
+            {"grow": 1, "node": [null, null, null, null, 3, null]},
+            {"grow": 1, "node": [null, null, 0, null, null, null]},
+            {"grow": 1, "node": [null, 1, null, null, null, null]},
+            {"grow": 1, "node": [null, 3, null, null, null, null]},
+            {"grow": 1, "node": [0, null, null, null, null, 3]},
+            {"grow": 1, "node": [null, 3, null, null, null, null]},
+            {"grow": 1, "node": [null, 1, null, null, null, null]},
+            {"grow": 1, "node": [null, 0, null, null, null, null]}
+          ]
+        },
+        {
+          "chordlist": [{"name": "Am"}, {"name": "G/B"}], 
+          "nodelist": [
+            {"grow": 1, "node": [null, null, 2, null, 0, null]},
+            {"grow": 1, "node": [null, 0, null, null, null, null]},
+            {"grow": 1, "node": [null, 1, null, null, null, null]},
+            {"grow": 1, "node": [null, 3, null, null, null, null]},
+            {"grow": 1, "node": [null, 0, null, null, 2, null]},
+            {"grow": 1, "node": [null, null, 0, null, null, null]},
+            {"grow": 1, "node": [null, null, null, 0, null, null]},
+            {"grow": 1, "node": [null, null, 0, null, null, null]}
+          ]
+        },
+        {
+          "chordlist": [{"name": "C"}, {"name": "G"}], 
+          "nodelist": [
+            {"grow": 1, "node": [null, null, null, null, 3, null]},
+            {"grow": 1, "node": [null, null, 0, null, null, null]},
+            {"grow": 1, "node": [null, 1, null, null, null, null]},
+            {"grow": 1, "node": [null, 3, null, null, null, null]},
+            {"grow": 1, "node": [1, null, null, null, null, 0]},
+            {"grow": 1, "node": [null, 3, null, null, null, null]},
+            {"grow": 1, "node": [null, 1, null, null, null, null]},
+            {"grow": 1, "node": [null, 0, null, null, null, null]}
+          ]
+        },
+        {
+          "chordlist": [{"name": "Csus4", "grow": 1.9}, {"name": "C"}],
+          "nodelist": [
+            {"grow": 1, "node": [null, null, null, null, 3, null]},
+            {"grow": 1, "node": [null, null, 0, null, null, null]},
+            {"grow": 1, "node": [1, 1, null, null, null, null]},
+            {"grow": 1, "node": [null, null, 0, null, null, null]},
+            {"grow": 2, "node": [0, 1, 0, 2, 3, null]}
+          ]
+        }
+      ]
     }
   ]
 }

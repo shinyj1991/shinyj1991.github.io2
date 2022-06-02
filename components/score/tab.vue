@@ -1,6 +1,15 @@
 <template>
   <div class="score-tab" :style="`grid-template-columns: repeat(${measure}, 1fr);`">
     <div class="measure" v-for="(measure, index) in score.contents" :key="index">
+      <div class="chord-list">
+        <button type="button" class="chord" v-for="(chord, index) in measure.chordlist" :key="index"
+          :style="`
+            flex-grow: ${chord.grow ? chord.grow : 1};
+            flex-basis: ${100 * ((chord.grow ? chord.grow : 1) / measure.chordlist.length)}%;
+          `"
+          @click="openPopupChord(chord.name)"
+        >{{ chord.name }}</button>
+      </div>
       <div class="line-list">
         <div class="line" v-for="(line, index) in 6" :key="index"></div>
       </div>
@@ -13,11 +22,16 @@
         <div class="node" v-for="(node, index) in nodelist.node" :key="index">{{ node !== null ? node : '' }}</div>
       </div>
     </div>
+    <popup-chord :isPopupChord.sync="isPopupChord" :chord="chord" />
   </div>
 </template>
 
 <script>
 export default {
+  data: () => ({
+    chord: null,
+    isPopupChord: false,
+  }),
   props: {
     measure: {
       measure: Number,
@@ -32,7 +46,15 @@ export default {
     dynamicImage() {
       return require(`~/assets/images/tab${this.src}`);
     }
-  }
+  },
+  methods: {
+    async openPopupChord(name) {
+      const chordName = name.replace(/\//gi, '-');
+      const result = await this.$content(`chord/${chordName}`).fetch();
+      this.chord = result;
+      this.isPopupChord = true;
+    }
+  },
 };
 </script>
 
@@ -46,8 +68,28 @@ export default {
     position: relative;
     height: 66px;
     border-right: 1px solid #000;
-    padding: 0 5.555555%;
+    padding: 0 4%;
 
+    &:nth-child(4n + 1) {
+      border-left: 1px solid #000;
+    }
+    .chord-list {
+      position: absolute;
+      top: -1.8em;
+      left: 0;
+      width: 100%;
+      display: flex;
+
+      .chord {
+        font-size: 14px;
+        text-align: left;
+        padding: 3px 5px;
+
+        &:hover {
+          background: #f7f7f7;
+        }
+      }
+    }
     .line-list {
       position: absolute;
       top: 0;
@@ -68,6 +110,7 @@ export default {
       text-align: left;
       z-index: 1;
       margin: -6px 0;
+      padding: 0 2px;
 
       .node {
         position: relative;
