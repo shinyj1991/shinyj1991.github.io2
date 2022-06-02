@@ -1,6 +1,9 @@
 <template>
   <section class="score-head">
-    <h1>{{ music.singer }} - {{ music.title }}</h1>
+    <div class="hgroup">
+      <h1>{{ music.singer }} - {{ music.title }}</h1>
+      <div class="year">{{ music.year }}</div>
+    </div>
     <div class="info">
       <div class="date">Capo : {{ music.capo }}</div>
     </div>
@@ -24,10 +27,19 @@ export default {
   margin-bottom: 50px; 
   border-bottom: 2px solid #dddddd;
 
-  h1 {
+  .hgroup {
+    text-align: center;
     margin-bottom: 30px; 
-    font-weight: 700; 
-    font-size: 32px;
+
+    h1 {
+      font-weight: 700; 
+      font-size: 32px;
+    }
+    .year {
+      margin-top: 5px;
+      font-size: 14px;
+      color: #666;
+    }
   }
   .info {
     display: flex; 
@@ -40,15 +52,10 @@ export default {
   }
 
 @media screen and (max-width: 1200px) {
-  h1 {
-    margin-bottom: 20px;
-    font-size: 26px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 20px;
+  .hgroup {
+    h1 {
+      font-size: 26px;
+    }
   }
 }}
 </style>

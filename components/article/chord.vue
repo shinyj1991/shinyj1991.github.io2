@@ -13,8 +13,9 @@
           v-for="(line, y) in plat"
           :key="y"
         >
-          <div class="mute" v-if="line === 'mute'"></div>
-          <div class="open" v-if="line === 'open'"></div>
+          <div class="mute" v-if="line === 'M'"></div>
+          <div class="open" v-if="line === 'O'"></div>
+          <div class="barre" :style="`--barreHeight: ${line.charAt(1)}`" v-if="typeof line === 'string' && line.charAt(0) === 'B'"></div>
           <div class="circle" v-if="line === 1"></div>
         </div>
       </div>
@@ -133,6 +134,15 @@ export default {
           height: 16px;
           border-radius: 50%;
           border: 1px solid #000;
+        }
+        .barre {
+          position: absolute;
+          top: -10px;
+          left: calc(50% - 8px);
+          width: 16px;
+          height: calc(21px * var(--barreHeight));
+          border-radius: 8px;
+          background: #000;
         }
       }
     }
