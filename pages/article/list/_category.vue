@@ -1,8 +1,6 @@
 <template>
   <div class="page-music-list">
-    <config-head
-      :title="pageTitle"
-    />
+    <config-head :title="title" :keywords="keywords" />
     <score-list
       :articles="articles"
       :page.sync="page"
@@ -21,7 +19,8 @@
 
 <script>
 import { mapState } from 'vuex';
-import singer from '@/utils/singer'
+import singers from '@/utils/singer';
+import meta from '@/utils/meta';
 
 export default {
   async asyncData({ $content, params, store }) {
@@ -30,7 +29,9 @@ export default {
     const totalArticles = await $content(path, { deep: true }).only([]).fetch();
     const lastPage = Math.ceil(totalArticles.length / visibleLength);
     const arrayParams = params.category.split('_');
-    const title = singer.get(arrayParams[1]) ?? 'MUSIC';
+    const singer = singers.get(arrayParams[1]) ?? false;
+    const title = singer ? `EXIT5 | ${singer} - 악보 자료실` : meta.title;
+    const keywords = `${singer}, ${meta.keywords}`;
 
     let articles = await $content(path, { deep: true })
       .limit(visibleLength)
@@ -38,7 +39,8 @@ export default {
       .fetch();
 
     return {
-      pageTitle: `EXIT5 | ${title}`,
+      title,
+      keywords,
       visibleLength,
       lastPage,
       articles,

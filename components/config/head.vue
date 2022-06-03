@@ -3,21 +3,24 @@
 </template>
 
 <script>
+import meta from '@/utils/meta';
+
 export default {
   props: {
     title: {
       type: String,
-      required: true
+      required: true,
+      default: meta.title
     },
     description: {
       type: String,
       required: false,
-      default: null
+      default: meta.description
     },
     keywords: {
       type: String,
       required: false,
-      default: null
+      default: meta.keywords
     },
     image: {
       type: String,

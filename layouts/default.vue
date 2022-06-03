@@ -1,5 +1,6 @@
 <template>
   <div class="layout-default">
+    <config-head :title="title" :description="description" :keywords="keywords" />
     <aside-wrap />
     <main class="container">
       <nuxt />
@@ -9,9 +10,15 @@
 </template>
 
 <script>
-import { mapState } from 'vuex'
+import { mapState } from 'vuex';
+import meta from '@/utils/meta';
 
 export default {
+  data: () => ({
+    title: meta.title,
+    description: meta.description,
+    keywords: meta.keywords,
+  }),
   computed: {
     ...mapState({
       isLoading: state => state.is_loading

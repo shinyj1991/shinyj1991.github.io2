@@ -3,15 +3,12 @@ import { resolve } from "path";
 export default {
   target: "static",
   head: {
-    title: "EXIT5 | 악보 자료실",
     htmlAttrs: {
       lang: "ko",
     },
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: 'description', name: "description", content: "감성 힐링 출구, 5번 출구" },
-      { hid: 'keywords', name: "keywords", content: "기타, 통기타, 어쿠스틱기타, 기타악보, 코드악보, 7080, 8090, 악보, 자료실, 포크송, 발라드, 타브악보" },
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
