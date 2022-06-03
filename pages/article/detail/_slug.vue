@@ -32,9 +32,9 @@ export default {
     const music = await $content(params.slug.replace(/_/gi, '/'), params.id).fetch();
     const arrayParams = params.slug.split('_');
     const musicSinger = singer.get(arrayParams[1]);
-    const title = `${musicSinger} - ${music.title} | 악보`;
-    const description = `${music.year}년도에 발매된 ${musicSinger}의 곡 ${music.title} | 가사, 코드, 악보, 기타`;
-    const keywords = `${musicSinger}, ${music.title}, 가사, 코드, 악보, 기타`;
+    const title = `${musicSinger} - ${music.title} 악보, 가사, 코드`;
+    const description = `${music.year}년도에 발매된 ${musicSinger}의 곡 ${music.title} 악보, 가사, 코드`;
+    const keywords = `${musicSinger}, ${music.title}, 기타, 통기타, 어쿠스틱기타, 기타악보, 코드악보, 7080, 8090, 악보, 자료실, 포크송, 발라드, 타브악보`;
 
     return {
       music,
