@@ -1,0 +1,64 @@
+{
+  "singer": "변진섭",
+  "title": "너에게로 또다시",
+  "year": 1989,
+  "capo": 3,
+  "measure": 4,
+  "date": "2022-06-03",
+  "score": [
+    {
+      "type": "chord",
+      "contents": [
+        {"chord": [{"name": ""}, {"name": "Am"}], "lyrics": [""]},
+        {"chord": [{"name": "Em"}], "lyrics": [""]},
+        {"chord": [{"name": "F"}], "lyrics": [""]},
+        {"chord": [{"name": "Em"}], "lyrics": [""]},
+
+        {"chord": [{"name": "Fmaj7"}], "lyrics": [""]},
+        {"chord": [{"name": "Dm"}], "lyrics": [""]},
+        {"chord": [{"name": "E7"}], "lyrics": [""]},
+        {"chord": [{"name": "Am6"}, {"name": "E7"}], "lyrics": ["", "그"]},
+
+        {"chord": [{"name": "Am"}], "lyrics": ["얼마나", "오랜"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["시간을", "짙은"]},
+        {"chord": [{"name": "F"}], "lyrics": ["어둠에서", "서성"]},
+        {"chord": [{"name": "Em", "grow": 2}, {"name": "F"}, {"name": "E7"}], "lyrics": ["거렸나", "내"]},
+
+        {"chord": [{"name": "Am"}], "lyrics": ["마음을", "닫아"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["둔 채로", "헤"]},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["매이다 흘 러"]},
+        {"chord": [{"name": "Asus4"}, {"name": "A"}], "lyrics": ["간 시간", "잊"]},
+
+        {"chord": [{"name": "Am"}], "lyrics": ["고싶던", "모든"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["일들은", "때론"]},
+        {"chord": [{"name": "F"}], "lyrics": ["잊은듯이", "생각"]},
+        {"chord": [{"name": "Em", "grow": 2}, {"name": "F"}, {"name": "E7"}], "lyrics": ["됐지만", "고개"]},
+
+        {"chord": [{"name": "Am"}], "lyrics": ["저어도", "떠오"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["르는건", "나"]},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["를 보던", "젖은"]},
+        {"chord": [{"name": "Am"}], "lyrics": ["그 얼굴", "아"]},
+
+        {"chord": [{"name": "G"}], "lyrics": ["무런 말없이", "떠나"]},
+        {"chord": [{"name": "C"}], "lyrics": ["버려도", "때로"]},
+        {"chord": [{"name": "Dm"}, {"name": "G7"}], "lyrics": ["는 모진 말 로 멍들이며"]},
+        {"chord": [{"name": "C"}], "lyrics": ["울 려 도"]},
+
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["내 깊은 방황을", "변함"]},
+        {"chord": [{"name": "Em"}, {"name": "Am"}], "lyrics": ["없이 따 듯한"]},
+        {"chord": [{"name": "F"}], "lyrics": ["눈으로 - 지켜 보던"]},
+        {"chord": [{"name": "Esus4"}, {"name": "E7"}], "lyrics": ["너 - -"]},
+
+        {"chord": [{"name": "Am"}], "lyrics": ["너에게로 또다시", "돌아"]},
+        {"chord": [{"name": "Dm"}], "lyrics": ["오기까지가 -"]},
+        {"chord": [{"name": "G"}], "lyrics": ["왜 이리 힘 들 었을"]},
+        {"chord": [{"name": "C"}, {"name": "E7"}], "lyrics": ["까 -"]},
+
+        {"chord": [{"name": "Am"}], "lyrics": ["이제 나는 알았어 내가"]},
+        {"chord": [{"name": "Dm"}], "lyrics": ["죽 는 날 까지 -"]},
+        {"chord": [{"name": "F"}, {"name": "E7"}], "lyrics": ["널 떠날 수 없다는"]},
+        {"chord": [{"name": "Am"}], "lyrics": ["걸 -"]}
+      ]
+    }
+  ]
+}

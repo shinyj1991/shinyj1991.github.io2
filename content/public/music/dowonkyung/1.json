@@ -54,12 +54,12 @@
         {"chord": [{"name": "C"}], "lyrics": ["나보다 더", "행복"]},
         {"chord": [{"name": "D"}], "lyrics": "해져야만"},
 
-        {"chord": [{"name": "E♭Maj7"}], "lyrics": "해"},
+        {"chord": [{"name": "E♭maj7"}], "lyrics": "해"},
         {"chord": [{"name": "F7"}], "lyrics": ""},
-        {"chord": [{"name": "B♭"}, {"name": "B♭Maj7"}], "lyrics": ""},
+        {"chord": [{"name": "B♭"}, {"name": "B♭maj7"}], "lyrics": ""},
         {"chord": [{"name": "Gm"}], "lyrics": ""},
 
-        {"chord": [{"name": "E♭Maj7"}], "lyrics": ""},
+        {"chord": [{"name": "E♭maj7"}], "lyrics": ""},
         {"chord": [{"name": "F7"}], "lyrics": ""},
         {"chord": [{"name": "G"}], "lyrics": ""},
         {"chord": [{"name": "G"}], "lyrics": ["", "많은"]},

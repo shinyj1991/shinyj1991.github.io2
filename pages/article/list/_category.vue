@@ -13,7 +13,7 @@
       <button 
         type="button" 
         v-if="page < lastPage && !is_loading" 
-        @click="more_articles"
+        @click="moreArticles"
       >더보기</button>
     </div>
   </div>
@@ -26,7 +26,7 @@ import singer from '@/utils/singer'
 export default {
   async asyncData({ $content, params, store }) {
     const path = params.category ? params.category.replace(/_/gi, '/') : '/';
-    const visibleLength = 10;
+    const visibleLength = 24;
     const totalArticles = await $content(path, { deep: true }).only([]).fetch();
     const lastPage = Math.ceil(totalArticles.length / visibleLength);
     const arrayParams = params.category.split('_');
@@ -62,7 +62,7 @@ export default {
     }
   },
   methods: {
-    more_articles() {
+    moreArticles() {
       this.$store.commit('set_loading', true);
 
       setTimeout(() => {
