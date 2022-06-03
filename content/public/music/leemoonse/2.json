@@ -25,7 +25,7 @@
         {"chord": [{"name": "B♭maj7"}, {"name": "C7"}], "lyrics": ["없어요"]},
 
         {"chord": [{"name": "F"}, {"name": "F7"}], "lyrics": ["노을진 창가에 앉"]},
-        {"chord": [{"name": "Dm"}, {"name": "A"}], "lyrics": ["어", "멀리"]},
+        {"chord": [{"name": "Dm"}, {"name": "A"}], "lyrics": ["아", "멀리"]},
         {"chord": [{"name": "B♭"}, {"name": "C7"}], "lyrics": ["떠가는 구름을 보"]},
         {"chord": [{"name": "F"}, {"name": "F7"}], "lyrics": ["면"]},
 
