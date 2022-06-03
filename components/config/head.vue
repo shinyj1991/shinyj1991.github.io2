@@ -14,6 +14,11 @@ export default {
       required: false,
       default: null
     },
+    keywords: {
+      type: String,
+      required: false,
+      default: null
+    },
     image: {
       type: String,
       required: false,
@@ -25,9 +30,19 @@ export default {
       title: this.title,
       meta: [
         {
+          hid: 'title',
+          name: 'title',
+          content: this.title
+        },
+        {
           hid: 'description',
           name: 'description',
           content: this.description
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: this.keywords
         },
         {
           hid: 'twitter:title',

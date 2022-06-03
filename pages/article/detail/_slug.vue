@@ -12,7 +12,7 @@
         <nuxt-content :document="article" />
       </article-body>
     </div> -->
-    <config-head :title="title" />
+    <config-head :title="title" :description="description" :keywords="keywords" />
     <score-head :music="music" />
     <div class="score-contents">
       <section v-for="(score, index) in music.score" :key="index">
@@ -31,11 +31,16 @@ export default {
   async asyncData({ $content, params, store }) {
     const music = await $content(params.slug.replace(/_/gi, '/'), params.id).fetch();
     const arrayParams = params.slug.split('_');
-    const title = `EXIT 5 | ${singer.get(arrayParams[1])} - ${music.title}`;
+    const musicSinger = singer.get(arrayParams[1]);
+    const title = `${musicSinger} - ${music.title} | 악보`;
+    const description = `${music.year}년도에 발매된 ${musicSinger}의 곡 ${music.title} | 가사, 코드, 악보, 기타`;
+    const keywords = `${musicSinger}, ${music.title}, 가사, 코드, 악보, 기타`;
 
     return {
       music,
-      title
+      title,
+      description,
+      keywords
     }
   },
   methods: {

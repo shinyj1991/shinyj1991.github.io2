@@ -3,7 +3,7 @@ import { resolve } from "path";
 export default {
   target: "static",
   head: {
-    title: "EXIT 5",
+    title: "EXIT5",
     htmlAttrs: {
       lang: "ko",
     },
@@ -11,7 +11,6 @@ export default {
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "description", content: "감성 힐링 출구, 5번 출구" },
-      { name: "keyword", content: "기타, 악보, 코드" },
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
