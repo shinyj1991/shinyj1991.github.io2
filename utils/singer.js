@@ -7,4 +7,5 @@ export default new Map([
   ['choihosub', '최호섭'],
   ['iu', '아이유'],
   ['byunjinsub', '변진섭'],
+  ['leejeok', '이적'],
 ])
