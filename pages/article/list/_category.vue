@@ -38,7 +38,7 @@ export default {
       .fetch();
 
     return {
-      pageTitle: `EXIT 5 | ${title}`,
+      pageTitle: `EXIT5 | ${title}`,
       visibleLength,
       lastPage,
       articles,

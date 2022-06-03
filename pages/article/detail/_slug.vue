@@ -1,7 +1,7 @@
 <template>
   <div class="page-music-detail">
     <!-- <div v-if="article.extension === '.md'">
-      <config-head :title="`EXIT 5 | ${article.title}`" />
+      <config-head :title="`EXIT5 | ${article.title}`" />
       <article-head>
         <h1>{{ article.title }}</h1>
         <div class="info">

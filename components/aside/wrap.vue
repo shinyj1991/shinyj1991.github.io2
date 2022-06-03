@@ -1,6 +1,6 @@
 <template>
   <div class="aside-wrap" :class="{open: is_menu}">
-    <h1 class="logo"><nuxt-link to="/">EXIT 5</nuxt-link></h1>
+    <h1 class="logo"><nuxt-link to="/">EXIT5</nuxt-link></h1>
     <button type="button" class="btn_menu" @click="toggle_menu"><span>메뉴열기</span></button>
     <aside-list />
   </div>
