@@ -1,9 +1,9 @@
 <template>
   <div class="layout-default">
     <aside-wrap />
-    <div class="container">
+    <main class="container">
       <nuxt />
-    </div>
+    </main>
     <loader v-if="isLoading" />
   </div>
 </template>

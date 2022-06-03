@@ -1,5 +1,5 @@
 <template>
-  <div class="page-music-detail">
+  <article class="page-music-detail">
     <!-- <div v-if="article.extension === '.md'">
       <config-head :title="`EXIT5 | ${article.title}`" />
       <article-head>
@@ -15,13 +15,13 @@
     <config-head :title="title" :description="description" :keywords="keywords" />
     <score-head :music="music" />
     <div class="score-contents">
-      <section v-for="(score, index) in music.score" :key="index">
+      <div v-for="(score, index) in music.score" :key="index">
         <score-tab v-if="score.type === 'tab'" :score="score" :measure="music.measure" />
         <score-image v-if="score.type === 'image'" :src="score.src" />
         <score-chord v-if="score.type === 'chord'" :measure="music.measure" :score="score" />
-      </section>
+      </div>
     </div>
-  </div>
+  </article>
 </template>
 
 <script>

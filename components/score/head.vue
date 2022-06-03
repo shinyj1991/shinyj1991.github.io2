@@ -1,13 +1,13 @@
 <template>
-  <section class="score-head">
+  <header class="score-head">
     <div class="hgroup">
-      <h1>{{ music.singer }} - {{ music.title }}</h1>
+      <h2>{{ music.singer }} - {{ music.title }}</h2>
       <div class="year">{{ music.year }}</div>
     </div>
     <div class="info">
       <div class="date">Capo : {{ music.capo }}</div>
     </div>
-  </section>
+  </header>
 </template>
 
 <script>

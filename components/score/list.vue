@@ -1,5 +1,5 @@
 <template>
-  <ul class="article-list">
+  <ul class="score-list">
     <li v-for="(article, index) of articles" :key="index">
       <button type="button" @click="delayRouter(article.path)">
         <div class="category">{{ article.dir.replace('/', '') }}</div>
@@ -37,7 +37,7 @@ export default Vue.extend({
 </script>
 
 <style lang="scss">
-.article-list {
+.score-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 15px;

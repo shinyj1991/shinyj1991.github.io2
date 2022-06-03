@@ -1,5 +1,5 @@
 <template>
-  <div class="article-chord">
+  <article class="article-chord">
     <h1 class="chord-name">{{ chord.name }}</h1>
     <div class="chord-score" :class="`start-${chord.start}`">
       <div
@@ -20,7 +20,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </article>
 </template>
 
 <script>
