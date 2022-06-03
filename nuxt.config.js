@@ -30,11 +30,19 @@ export default {
   components: true,
   buildModules: [
     "@nuxt/typescript-build",
-    '@nuxtjs/google-analytics'
+    ['@nuxtjs/google-gtag', {
+      id: 'G-7K43G97QC2',
+      config: {
+        anonymize_ip: true, // anonymize IP 
+        send_page_view: false, // might be necessary to avoid duplicated page track on page reload
+        linker: {
+          domains: ['exit5.co.kr']
+        }
+      },
+      debug: true, // enable to track in dev mode
+      disableAutoPageTrack: false, // disable if you don't want to track each page route with router.afterEach(...).
+    }]
   ],
-  googleAnalytics: {
-    id: 'G-7K43G97QC2'
-  },
   modules: [
     ["nuxt-highlightjs", { style: "obsidian" }],
     "@nuxt/content",
