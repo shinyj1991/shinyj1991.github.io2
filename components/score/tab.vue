@@ -1,25 +1,37 @@
 <template>
   <div class="score-tab" :style="`grid-template-columns: repeat(${measure}, 1fr);`">
-    <div class="measure" v-for="(measure, index) in score.contents" :key="index">
+    <div 
+      class="measure"
+      :class="{
+        isChord: measure.chord,
+        isLyrics: measure.lyrics,
+      }"
+      v-for="(measure, index) in score.contents" :key="index"
+    >
       <div class="chord-list">
-        <button type="button" class="chord" v-for="(chord, index) in measure.chordlist" :key="index"
+        <button type="button" class="chord" v-for="(chord, index) in measure.chord" :key="index"
           :style="`
             flex-grow: ${chord.grow ? chord.grow : 1};
-            flex-basis: ${100 * ((chord.grow ? chord.grow : 1) / measure.chordlist.length)}%;
+            flex-basis: ${100 * ((chord.grow ? chord.grow : 1) / measure.chord.length)}%;
           `"
           @click="openPopupChord(chord.name)"
         >{{ chord.name }}</button>
       </div>
-      <div class="line-list">
-        <div class="line" v-for="(line, index) in 6" :key="index"></div>
+      <div class="tab-area">
+        <div class="line-list">
+          <div class="line" v-for="(line, index) in 6" :key="index"></div>
+        </div>
+        <div class="node-list" v-for="(nodelist, index) in measure.nodelist" :key="index" 
+          :style="`
+            flex-grow: ${nodelist.grow};
+            flex-basis: ${100 * ((nodelist.grow) / measure.nodelist.length)}%;
+          `"
+        >
+          <div class="node" v-for="(node, index) in nodelist.node" :key="index">{{ node !== null ? node : '' }}</div>
+        </div>
       </div>
-      <div class="node-list" v-for="(nodelist, index) in measure.nodelist" :key="index" 
-        :style="`
-          flex-grow: ${nodelist.grow};
-          flex-basis: ${100 * ((nodelist.grow) / measure.nodelist.length)}%;
-        `"
-      >
-        <div class="node" v-for="(node, index) in nodelist.node" :key="index">{{ node !== null ? node : '' }}</div>
+      <div class="lyrics-list">
+        <div class="lyrics" v-for="lyrics in measure.lyrics">{{ lyrics }}</div>
       </div>
     </div>
     <popup-chord :isPopupChord.sync="isPopupChord" :chord="chord" />
@@ -62,21 +74,25 @@ export default {
 .score-tab {
   display: grid;
   row-gap: 60px;
-  padding-top: 30px;
 
   .measure {
-    display: flex;
     position: relative;
-    height: 66px;
-    border-right: 1px solid #000;
-    padding: 0 4%;
+
+    &.isChord {
+      padding-top: 30px;
+    }
+    &.isLyrics {
+      padding-bottom: 30px;
+    }
 
     &:nth-child(4n + 1) {
-      border-left: 1px solid #000;
+      .line-list {
+        border-left: 1px solid #000;
+      }
     }
     .chord-list {
       position: absolute;
-      top: -30px;
+      top: 0;
       left: 0;
       width: 100%;
       display: flex;
@@ -91,35 +107,56 @@ export default {
         }
       }
     }
-    .line-list {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+    .tab-area {
+      position: relative;
       display: flex;
-      flex-flow: column;
-      justify-content: space-between;
+      height: 66px;
+      padding: 0 5px;
 
-      .line {
+      .line-list {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
         width: 100%;
-        border-bottom: 1px solid #000;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        border-right: 1px solid #000;
+
+        .line {
+          width: 100%;
+          border-bottom: 1px solid #bbb;
+        }
+      }
+      .node-list {
+        position: relative;
+        text-align: left;
+        z-index: 1;
+        margin: -6px 0;
+        padding: 0 0 0 5px;
+
+        .node {
+          position: relative;
+          z-index: 1;
+          height: 13px;
+          font-size: 12px;
+          line-height: 13px;
+          text-shadow: -2px 0 #fff, 0 2px #fff, 2px 0 #fff, 0 -2px #fff;
+        }
       }
     }
-    .node-list {
-      position: relative;
-      text-align: left;
-      z-index: 1;
-      margin: -6px 0;
-      padding: 0 2px;
+    .lyrics-list {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 5px;
 
-      .node {
-        position: relative;
-        z-index: 1;
-        height: 13px;
-        font-size: 12px;
-        line-height: 13px;
-        text-shadow: -2px 0 #fff, 0 2px #fff, 2px 0 #fff, 0 -2px #fff;
+      .lyrics {
+        font-size: 14px;
       }
     }
   }

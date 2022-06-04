@@ -35,6 +35,9 @@ export default {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
       return new Date(date).toLocaleDateString('ko', options)
     }
+  },
+  created() {
+    this.$store.commit('set_loading', false)
   }
 }
 </script>

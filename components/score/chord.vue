@@ -47,9 +47,6 @@ export default {
       this.isPopupChord = true;
     }
   },
-  created() {
-    this.$store.commit('set_loading', false)
-  },
 }
 </script>
 
