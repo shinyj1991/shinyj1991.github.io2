@@ -44,7 +44,7 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [null, 1, null, null, null, null]},
             {"grow": 1, "node": [null, 3, null, null, null, null]},
-            {"grow": 1, "node": [1, null, null, null, null, 0]},
+            {"grow": 1, "node": [0, null, null, null, null, 3]},
             {"grow": 1, "node": [null, 3, null, null, null, null]},
             {"grow": 1, "node": [null, 1, null, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
@@ -127,7 +127,7 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [null, 1, null, null, null, null]},
             {"grow": 1, "node": [null, 3, null, null, null, null]},
-            {"grow": 1, "node": [1, null, null, null, null, 0]},
+            {"grow": 1, "node": [0, null, null, null, null, 3]},
             {"grow": 1, "node": [null, 3, null, null, null, null]},
             {"grow": 1, "node": [null, 1, null, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
@@ -202,7 +202,7 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [null, 1, null, null, null, null]},
             {"grow": 1, "node": [null, 3, null, null, null, null]},
-            {"grow": 1, "node": [1, null, null, null, null, 0]},
+            {"grow": 1, "node": [0, null, null, null, null, 3]},
             {"grow": 1, "node": [null, 3, null, null, null, null]},
             {"grow": 1, "node": [null, 1, null, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
