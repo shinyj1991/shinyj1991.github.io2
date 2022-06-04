@@ -10,7 +10,7 @@
       "type": "tab",
       "contents": [
         {
-          "chordlist": [{"name": "C"}, {"name": "G"}], 
+          "chord": [{"name": "C"}, {"name": "G"}], 
           "nodelist": [
             {"grow": 1, "node": [null, null, null, null, 3, null]},
             {"grow": 1, "node": [null, null, 0, null, null, null]},
@@ -20,10 +20,11 @@
             {"grow": 1, "node": [null, 3, null, null, null, null]},
             {"grow": 1, "node": [null, 1, null, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
-          ]
+          ],
+          "lyrics": []
         },
         {
-          "chordlist": [{"name": "Am"}, {"name": "G/B"}], 
+          "chord": [{"name": "Am"}, {"name": "G/B"}], 
           "nodelist": [
             {"grow": 1, "node": [null, null, 2, null, 0, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]},
@@ -33,10 +34,11 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [null, null, null, 0, null, null]},
             {"grow": 1, "node": [null, null, 0, null, null, null]}
-          ]
+          ],
+          "lyrics": []
         },
         {
-          "chordlist": [{"name": "C"}, {"name": "G"}], 
+          "chord": [{"name": "C"}, {"name": "G"}], 
           "nodelist": [
             {"grow": 1, "node": [null, null, null, null, 3, null]},
             {"grow": 1, "node": [null, null, 0, null, null, null]},
@@ -46,10 +48,11 @@
             {"grow": 1, "node": [null, 3, null, null, null, null]},
             {"grow": 1, "node": [null, 1, null, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
-          ]
+          ],
+          "lyrics": []
         },
         {
-          "chordlist": [{"name": "Csus4", "grow": 1.7}, {"name": "C"}],
+          "chord": [{"name": "Csus4", "grow": 1.7}, {"name": "C"}],
           "nodelist": [
             {"grow": 1, "node": [null, 1, null, null, 3, null]},
             {"grow": 1, "node": [null, null, 0, null, null, null]},
@@ -58,48 +61,39 @@
             {"grow": 0.4, "node": [3, null, null, null, null, null]},
             {"grow": 0.4, "node": [1, null, null, null, null, null]},
             {"grow": 1.7, "node": [0, null, null, null, null, null]}
-          ]
-        }
-      ]
-    },
-    {
-      "type": "chord",
-      "contents": [
-        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": "내가 만일 하늘이라"},
-        {"chord": [{"name": "C"}], "lyrics": "면"},
-        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": "그대 얼굴에 물들고 싶"},
-        {"chord": [{"name": "Am"}], "lyrics": "어-"},
-        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": "붉게 물든 저녁"},
-        {"chord": [{"name": "D"}, {"name": "G"}], "lyrics": "저 노을처럼 나"},
-        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": "그대 뺨에 물들고 싶"},
-        {"chord": [{"name": "C"}], "lyrics": "어-"},
-        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": "내가 만일 시인이라"},
-        {"chord": [{"name": "C"}], "lyrics": "면"},
-        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": "그대 위해 노래하겠"},
-        {"chord": [{"name": "Am"}], "lyrics": "어-"},
-        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": "엄마 품에 안긴 어"},
-        {"chord": [{"name": "D"}, {"name": "G"}], "lyrics": "린 아이 처럼 나"},
-        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": "행복하게 노래하고 싶"},
-        {"chord": [{"name": "C"}], "lyrics": "어-"},
-        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": "세상에 그"},
-        {"chord": [{"name": "G"}, {"name": "Am"}], "lyrics": "무엇이라도"},
-        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": "그대 위해 되고 싶"},
-        {"chord": [{"name": "G"}], "lyrics": "어-"},
-        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": "오늘 처럼 우리"},
-        {"chord": [{"name": "G"}, {"name": "Am"}], "lyrics": "함께 있음이 내겐"},
-        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": "얼마나 큰 기쁨인"},
-        {"chord": [{"name": "G"}], "lyrics": "지-"},
-        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": "사랑하는 나의 사람아"},
-        {"chord": [{"name": "G"}, {"name": "Am"}], "lyrics": "너는 아니 워-"},
-        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": "이런 나의 마"},
-        {"chord": [{"name": "C"}], "lyrics": "음을-"}
-      ]
-    },
-    {
-      "type": "tab",
-      "contents": [
+          ],
+          "lyrics": []
+        },
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["내가 만일 하늘이라"]},
+        {"chord": [{"name": "C"}], "lyrics": ["면"]},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["그대 얼굴에 물들고 싶"]},
+        {"chord": [{"name": "Am"}], "lyrics": ["어-"]},
+        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": ["붉게 물든 저녁"]},
+        {"chord": [{"name": "D"}, {"name": "G"}], "lyrics": ["저 노을처럼 나"]},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["그대 뺨에 물들고 싶"]},
+        {"chord": [{"name": "C"}], "lyrics": ["어-"]},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["내가 만일 시인이라"]},
+        {"chord": [{"name": "C"}], "lyrics": ["면"]},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["그대 위해 노래하겠"]},
+        {"chord": [{"name": "Am"}], "lyrics": ["어-"]},
+        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": ["엄마 품에 안긴 어"]},
+        {"chord": [{"name": "D"}, {"name": "G"}], "lyrics": ["린 아이 처럼 나"]},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["행복하게 노래하고 싶"]},
+        {"chord": [{"name": "C"}], "lyrics": ["어-"]},
+        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": ["세상에 그"]},
+        {"chord": [{"name": "G"}, {"name": "Am"}], "lyrics": ["무엇이라도"]},
+        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": ["그대 위해 되고 싶"]},
+        {"chord": [{"name": "G"}], "lyrics": ["어-"]},
+        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": ["오늘 처럼 우리"]},
+        {"chord": [{"name": "G"}, {"name": "Am"}], "lyrics": ["함께 있음이 내겐"]},
+        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": ["얼마나 큰 기쁨인"]},
+        {"chord": [{"name": "G"}], "lyrics": ["지-"]},
+        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": ["사랑하는 나의 사람아"]},
+        {"chord": [{"name": "G"}, {"name": "Am"}], "lyrics": ["너는 아니 워-"]},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["이런 나의 마"]},
+        {"chord": [{"name": "C"}], "lyrics": ["음을-"]},
         {
-          "chordlist": [{"name": "C"}, {"name": "G"}], 
+          "chord": [{"name": "C"}, {"name": "G"}], 
           "nodelist": [
             {"grow": 1, "node": [null, null, null, null, 3, null]},
             {"grow": 1, "node": [null, null, 0, null, null, null]},
@@ -109,10 +103,11 @@
             {"grow": 1, "node": [null, 3, null, null, null, null]},
             {"grow": 1, "node": [null, 1, null, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
-          ]
+          ],
+          "lyrics": []
         },
         {
-          "chordlist": [{"name": "Am"}, {"name": "G/B"}], 
+          "chord": [{"name": "Am"}, {"name": "G/B"}], 
           "nodelist": [
             {"grow": 1, "node": [null, null, 2, null, 0, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]},
@@ -122,10 +117,11 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [null, null, null, 0, null, null]},
             {"grow": 1, "node": [null, null, 0, null, null, null]}
-          ]
+          ],
+          "lyrics": []
         },
         {
-          "chordlist": [{"name": "C"}, {"name": "G"}], 
+          "chord": [{"name": "C"}, {"name": "G"}], 
           "nodelist": [
             {"grow": 1, "node": [null, null, null, null, 3, null]},
             {"grow": 1, "node": [null, null, 0, null, null, null]},
@@ -135,10 +131,11 @@
             {"grow": 1, "node": [null, 3, null, null, null, null]},
             {"grow": 1, "node": [null, 1, null, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
-          ]
+          ],
+          "lyrics": []
         },
         {
-          "chordlist": [{"name": "Csus4", "grow": 1.7}, {"name": "C"}],
+          "chord": [{"name": "Csus4", "grow": 1.7}, {"name": "C"}],
           "nodelist": [
             {"grow": 1, "node": [null, 1, null, null, 3, null]},
             {"grow": 1, "node": [null, null, 0, null, null, null]},
@@ -147,40 +144,31 @@
             {"grow": 0.4, "node": [3, null, null, null, null, null]},
             {"grow": 0.4, "node": [1, null, null, null, null, null]},
             {"grow": 1.7, "node": [0, null, null, null, null, null]}
-          ]
-        }
-      ]
-    },
-    {
-      "type": "chord",
-      "contents": [
-        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": "내가 만일 구름이라"},
-        {"chord": [{"name": "C"}], "lyrics": "면"},
-        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": "그대 위해 비가 되겠"},
-        {"chord": [{"name": "Am"}], "lyrics": "어-"},
-        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": "더운 여름 날의"},
-        {"chord": [{"name": "D"}, {"name": "G"}], "lyrics": "소나기 처럼 나"},
-        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": "시원하게 내리고 싶"},
-        {"chord": [{"name": "C"}], "lyrics": "어-"},
-        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": "세상에 그"},
-        {"chord": [{"name": "G"}, {"name": "Am"}], "lyrics": "무엇이라도"},
-        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": "그대 위해 되고 싶"},
-        {"chord": [{"name": "G"}], "lyrics": "어-"},
-        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": "오늘 처럼 우리"},
-        {"chord": [{"name": "G"}, {"name": "Am"}], "lyrics": "함께 있음이 내겐"},
-        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": "얼마나 큰 기쁨인"},
-        {"chord": [{"name": "G"}], "lyrics": "지-"},
-        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": "사랑하는 나의 사람아"},
-        {"chord": [{"name": "G"}, {"name": "Am"}], "lyrics": "너는 아니 워-"},
-        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": "이런 나의 마"},
-        {"chord": [{"name": "C"}], "lyrics": "음을-"}
-      ]
-    },
-    {
-      "type": "tab",
-      "contents": [
+          ],
+          "lyrics": []
+        },
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["내가 만일 구름이라"]},
+        {"chord": [{"name": "C"}], "lyrics": ["면"]},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["그대 위해 비가 되겠"]},
+        {"chord": [{"name": "Am"}], "lyrics": ["어-"]},
+        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": ["더운 여름 날의"]},
+        {"chord": [{"name": "D"}, {"name": "G"}], "lyrics": ["소나기 처럼 나"]},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["시원하게 내리고 싶"]},
+        {"chord": [{"name": "C"}], "lyrics": ["어-"]},
+        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": ["세상에 그"]},
+        {"chord": [{"name": "G"}, {"name": "Am"}], "lyrics": ["무엇이라도"]},
+        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": ["그대 위해 되고 싶"]},
+        {"chord": [{"name": "G"}], "lyrics": ["어-"]},
+        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": ["오늘 처럼 우리"]},
+        {"chord": [{"name": "G"}, {"name": "Am"}], "lyrics": ["함께 있음이 내겐"]},
+        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": ["얼마나 큰 기쁨인"]},
+        {"chord": [{"name": "G"}], "lyrics": ["지-"]},
+        {"chord": [{"name": "C"}, {"name": "F"}], "lyrics": ["사랑하는 나의 사람아"]},
+        {"chord": [{"name": "G"}, {"name": "Am"}], "lyrics": ["너는 아니 워-"]},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["이런 나의 마"]},
+        {"chord": [{"name": "C"}], "lyrics": ["음을-"]},
         {
-          "chordlist": [{"name": "C"}, {"name": "G"}], 
+          "chord": [{"name": "C"}, {"name": "G"}], 
           "nodelist": [
             {"grow": 1, "node": [null, null, null, null, 3, null]},
             {"grow": 1, "node": [null, null, 0, null, null, null]},
@@ -190,10 +178,11 @@
             {"grow": 1, "node": [null, 3, null, null, null, null]},
             {"grow": 1, "node": [null, 1, null, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
-          ]
+          ],
+          "lyrics": []
         },
         {
-          "chordlist": [{"name": "Am"}, {"name": "G/B"}], 
+          "chord": [{"name": "Am"}, {"name": "G/B"}], 
           "nodelist": [
             {"grow": 1, "node": [null, null, 2, null, 0, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]},
@@ -203,10 +192,11 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [null, null, null, 0, null, null]},
             {"grow": 1, "node": [null, null, 0, null, null, null]}
-          ]
+          ],
+          "lyrics": []
         },
         {
-          "chordlist": [{"name": "C"}, {"name": "G"}], 
+          "chord": [{"name": "C"}, {"name": "G"}], 
           "nodelist": [
             {"grow": 1, "node": [null, null, null, null, 3, null]},
             {"grow": 1, "node": [null, null, 0, null, null, null]},
@@ -216,17 +206,19 @@
             {"grow": 1, "node": [null, 3, null, null, null, null]},
             {"grow": 1, "node": [null, 1, null, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
-          ]
+          ],
+          "lyrics": []
         },
         {
-          "chordlist": [{"name": "Csus4", "grow": 1.9}, {"name": "C"}],
+          "chord": [{"name": "Csus4", "grow": 1.9}, {"name": "C"}],
           "nodelist": [
             {"grow": 1, "node": [null, null, null, null, 3, null]},
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [1, 1, null, null, null, null]},
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 2, "node": [0, 1, 0, 2, 3, null]}
-          ]
+          ],
+          "lyrics": []
         }
       ]
     }

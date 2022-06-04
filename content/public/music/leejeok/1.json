@@ -7,11 +7,11 @@
   "date": "2022-06-03",
   "score": [
     {
-      "type": "chord",
+      "type": "tab",
       "contents": [
         {"chord": [], "lyrics": [""]},
         {"chord": [], "lyrics": [""]},
-        {"chord": [{"name": "E"}, {"name": "B7sus4"}], "lyrics": [""]},
+        {"chord": [{"name": "B7sus4"}], "lyrics": [""]},
         {"chord": [{"name": "A"}], "lyrics": [""]},
 
         {"chord": [{"name": "E"}], "lyrics": [""]},

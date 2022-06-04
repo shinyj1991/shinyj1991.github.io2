@@ -5,6 +5,7 @@
       :class="{
         isChord: measure.chord,
         isLyrics: measure.lyrics,
+        isTab: measure.nodelist,
       }"
       v-for="(measure, index) in score.contents" :key="index"
     >
@@ -17,7 +18,7 @@
           @click="openPopupChord(chord.name)"
         >{{ chord.name }}</button>
       </div>
-      <div class="tab-area">
+      <div class="tab-area" v-if="measure.nodelist">
         <div class="line-list">
           <div class="line" v-for="(line, index) in 6" :key="index"></div>
         </div>
@@ -73,18 +74,27 @@ export default {
 <style lang="scss" scoped>
 .score-tab {
   display: grid;
-  row-gap: 60px;
+  row-gap: 30px;
 
   .measure {
     position: relative;
 
     &.isChord {
-      padding-top: 30px;
+      padding-top: 35px;
     }
     &.isLyrics {
-      padding-bottom: 30px;
+      padding-bottom: 40px;
     }
+    &:not(.isTab) {
+      border: 1px solid #ccc;
+      padding: 0;
+      height: 60px;
+      margin: 0 3px;
 
+      .lyrics-list {
+        background: none;
+      }
+    }
     &:nth-child(4n + 1) {
       .line-list {
         border-left: 1px solid #000;
@@ -99,8 +109,9 @@ export default {
 
       .chord {
         font-size: 14px;
+        line-height: 30px;
         text-align: left;
-        padding: 3px 5px;
+        padding: 0 5px;
 
         &:hover {
           background: #f7f7f7;
@@ -154,9 +165,11 @@ export default {
       display: flex;
       justify-content: space-between;
       padding: 0 5px;
+      background: #f7f7f7;
 
       .lyrics {
         font-size: 14px;
+        line-height: 30px;
       }
     }
   }
