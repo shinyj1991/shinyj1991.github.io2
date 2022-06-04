@@ -62,7 +62,7 @@ export default {
   },
   methods: {
     async openPopupChord(name) {
-      const chordName = name.replace(/\//gi, '-');
+      const chordName = name.replace(/\//gi, '_');
       const result = await this.$content(`chord/${chordName}`).fetch();
       this.chord = result;
       this.isPopupChord = true;
@@ -170,6 +170,7 @@ export default {
       .lyrics {
         font-size: 14px;
         line-height: 30px;
+        height: 30px;
       }
     }
   }

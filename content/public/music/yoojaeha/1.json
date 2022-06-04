@@ -2,33 +2,99 @@
   "singer": "유재하",
   "title": "가리워진 길",
   "year": 1986,
-  "capo": 2,
+  "capo": 0,
   "measure": 4,
   "date": "2022-06-01",
   "score": [
     {
       "type": "tab",
       "contents": [
-        {"chord": [{"name": "C"}, {"name": "Dm7"}], "lyrics": ["보일듯 말듯", "가"]},
-        {"chord": [{"name": "Em"}, {"name": "E7"}], "lyrics": ["물거리는"]},
-        {"chord": [{"name": "Am7"}, {"name": "G"}], "lyrics": ["안개 속에", "쌓"]},
-        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["인 길"]},
-        {"chord": [{"name": "C"}, {"name": "Dm7"}], "lyrics": ["잡힐 듯 말듯", "멀"]},
-        {"chord": [{"name": "Em"}, {"name": "E7"}], "lyrics": ["어져가는"]},
-        {"chord": [{"name": "Am7"}, {"name": "G"}], "lyrics": ["무지개와", "같"]},
-        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["은 길"]},
-        {"chord": [{"name": "F"}, {"name": "Em"}], "lyrics": ["그 어디에서", "날"]},
-        {"chord": [{"name": "Dm7"}, {"name": "C"}], "lyrics": ["기다리는지"]},
-        {"chord": [{"name": "F"}, {"name": "Em"}], "lyrics": ["둘러 보아도", "찾"]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["을 수 없네"]},
-        {"chord": [{"name": "C"}], "lyrics": ["그대여 힘이 되"]},
-        {"chord": [{"name": "Am7"}, {"name": "A7"}], "lyrics": ["주- 오-"]},
-        {"chord": [{"name": "Dm7"}], "lyrics": ["나에게 주어진 길"]},
-        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["찾을 수 있도록"]},
-        {"chord": [{"name": "C"}], "lyrics": ["그대여 길을 터"]},
-        {"chord": [{"name": "Am7"}, {"name": "A7"}], "lyrics": ["주- 오-"]},
-        {"chord": [{"name": "Dm7"}, {"name": "F"}], "lyrics": ["가리워진 나의"]},
-        {"chord": [{"name": "C"}], "lyrics": ["길-"]}
+        {
+          "chord": [{"name": "Cmaj7"}, {"name": "G/B"}, {"name": "A7"}, {"name": "D7"}], 
+          "nodelist": [
+            {"grow": 1, "node": [0, 0, null, null, 3, null]},
+            {"grow": 1, "node": [3, 3, null, null, 2, null]},
+            {"grow": 1, "node": [0, 2, 0, 2, null, null]},
+            {"grow": 1, "node": [0, 1, 2, 0, null, null]}
+          ],
+          "lyrics": [""]
+        },
+        {
+          "chord": [{"name": "G"}],
+          "nodelist": [
+            {"grow": 1, "node": [null, null, null, null, null, null]},
+            {"grow": 1, "node": [null, null, null, null, null, null]},
+            {"grow": 1, "node": [null, null, null, null, null, null]},
+            {"grow": 1, "node": [null, null, null, null, null, null]}
+          ],
+          "lyrics": [""]
+        },
+        {
+          "chord": [{"name": "Gmaj7"}],
+          "nodelist": [
+            {"grow": 1, "node": [null, null, null, null, null, null]},
+            {"grow": 1, "node": [null, null, null, null, null, null]},
+            {"grow": 1, "node": [null, null, null, null, null, null]},
+            {"grow": 1, "node": [null, null, null, null, null, null]}
+          ],
+          "lyrics": [""]
+        },
+        {
+          "chord": [{"name": "Bm7"}, {"name": "E7-9"}],
+          "nodelist": [
+            {"grow": 1, "node": [null, null, null, null, null, null]},
+            {"grow": 1, "node": [null, null, null, null, null, null]},
+            {"grow": 1, "node": [null, null, null, null, null, null]},
+            {"grow": 1, "node": [null, null, null, null, null, null]}
+          ],
+          "lyrics": [""]
+        },
+
+        {"chord": [{"name": "Am"}, {"name": "D7"}], "lyrics": [""]},
+        {"chord": [{"name": "G"}, {"name": "Gsus4"}], "lyrics": [""]},
+        {"chord": [{"name": "G"}, {"name": "Am7"}], "lyrics": ["보일듯 말듯", "가"]},
+        {"chord": [{"name": "Bm"}, {"name": "B"}], "lyrics": ["물거리는"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["안개 속에", "쌓"]},
+        {"chord": [{"name": "Am7"}, {"name": "D7"}], "lyrics": ["인 길"]},
+        {"chord": [{"name": "G"}, {"name": "Am7"}], "lyrics": ["잡힐 듯 말듯", "멀"]},
+        {"chord": [{"name": "Bm"}, {"name": "B"}], "lyrics": ["어져가는"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["무지개와", "같"]},
+        {"chord": [{"name": "Am7"}, {"name": "D7"}], "lyrics": ["은 길"]},
+        {"chord": [{"name": "Cmaj7"}, {"name": "Bm7"}], "lyrics": ["그 어디에서", "날"]},
+        {"chord": [{"name": "Am7"}, {"name": "G"}], "lyrics": ["기다리는지"]},
+        {"chord": [{"name": "Cmaj7"}, {"name": "Bm7"}], "lyrics": ["둘러 보아도", "찾"]},
+        {"chord": [{"name": "Am7"}, {"name": "D"}], "lyrics": ["을 수 없네"]},
+        {"chord": [{"name": "G"}], "lyrics": ["그대여 힘이 되"]},
+        {"chord": [{"name": "E"}], "lyrics": ["주- 오-"]},
+        {"chord": [{"name": "Am7"}], "lyrics": ["나에게 주어진 길"]},
+        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["찾을 수 있도록"]},
+        {"chord": [{"name": "G"}], "lyrics": ["그대여 길을 터"]},
+        {"chord": [{"name": "E"}], "lyrics": ["주- 오-"]},
+        {"chord": [{"name": "Am"}, {"name": "D7"}], "lyrics": ["가리워진 나의"]},
+        {"chord": [{"name": "G"}], "lyrics": ["길 -"]},
+
+        {"chord": [{"name": ""}, {"name": "Am7"}], "lyrics": ["이리로 갈까", "저"]},
+        {"chord": [{"name": "Bm"}, {"name": "B"}], "lyrics": ["리로 갈 까"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["아득하기만", "한"]},
+        {"chord": [{"name": "Am7"}, {"name": "D7"}], "lyrics": ["데"]},
+        {"chord": [{"name": "G"}, {"name": "Am7"}], "lyrics": ["이끌려 가 듯", "떠"]},
+        {"chord": [{"name": "Bm"}, {"name": "B"}], "lyrics": ["나는이는"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["제갈길을", "찾"]},
+        {"chord": [{"name": "Am7"}, {"name": "D7"}], "lyrics": ["았 나"]},
+        {"chord": [{"name": "Cmaj7"}, {"name": "Bm7"}], "lyrics": ["손을 흔들며", "떠"]},
+        {"chord": [{"name": "Am7"}, {"name": "G"}], "lyrics": ["나 보낸 뒤"]},
+        {"chord": [{"name": "Cmaj7"}, {"name": "Bm7"}], "lyrics": ["외로움 만 이", "나"]},
+        {"chord": [{"name": "Am7"}, {"name": "D"}], "lyrics": ["를 감 쌀 때"]},
+        {"chord": [{"name": "G"}], "lyrics": ["그대여 힘이 되"]},
+        {"chord": [{"name": "E"}], "lyrics": ["주- 오-"]},
+        {"chord": [{"name": "Am7"}], "lyrics": ["나에게 주어진 길"]},
+        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["찾을 수 있도록"]},
+        {"chord": [{"name": "G"}], "lyrics": ["그대여 길을 터"]},
+        {"chord": [{"name": "E"}], "lyrics": ["주- 오-"]},
+        {"chord": [{"name": "Am"}, {"name": "D7"}], "lyrics": ["가리워진 나"]},
+        {"chord": [{"name": "D7", "grow": 2}, {"name": "Cmaj7"}, {"name": "G/B"}], "lyrics": ["의 길 -"]},
+        {"chord": [{"name": "A7"}, {"name": "D", "grow": 3}], "lyrics": [""]},
+        {"chord": [{"name": "G"}], "lyrics": [""]}
       ]
     }
   ]
