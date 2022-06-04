@@ -92,7 +92,7 @@ export default {
       margin: 0 3px;
 
       .lyrics-list {
-        background: none;
+        // background: none;
       }
     }
     &:nth-child(4n + 1) {
