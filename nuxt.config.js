@@ -39,6 +39,11 @@ export default {
       },
       debug: true, // enable to track in dev mode
       disableAutoPageTrack: false, // disable if you don't want to track each page route with router.afterEach(...).
+    }],
+    ['@nuxtjs/google-adsense', {
+      id: 'ca-pub-9651346957596746',
+      analyticsUacct: 'G-7K43G97QC2',
+      analyticsDomainName: 'exit5.co.kr'
     }]
   ],
   modules: [
