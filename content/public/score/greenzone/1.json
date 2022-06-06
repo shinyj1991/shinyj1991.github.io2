@@ -64,8 +64,45 @@
 
         {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["차라리 나", "(차라"]},
         {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["리나) 기다리라 말을"]},
-        {"chord": [{"name": "Csus4"}], "lyrics": ["해"]},
-        {"chord": [{"name": "G"}], "lyrics": ["-"]}
+        {"chord": [{"name": "Gsus4"}], "lyrics": ["해"]},
+        {"chord": [{"name": "G"}], "lyrics": ["-"]},
+
+        {"chord": [{"name": "G"}], "lyrics": ["아무것도 미안해 하지마"]},
+        {"chord": [{"name": "D"}], "lyrics": ["", "아무것도"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["걱정하지말고"]},
+        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["", "나는 괜찮아"]},
+        {"chord": [{"name": "G"}], "lyrics": ["그래도 사는동안"]},
+        {"chord": [{"name": "D"}], "lyrics": ["함께나눈 추억이 있잖아"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["다행이야"]},
+        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["감사할께"]},
+
+        {"chord": [{"name": "C"}], "lyrics": ["아 그댈 보낼 오늘이"]},
+        {"chord": [{"name": "G"}], "lyrics": ["수월할 수 있도"]},
+        {"chord": [{"name": "D"}, {"name": "D♯dim"}], "lyrics": ["록", "미 운기억"]},
+        {"chord": [{"name": "Em"}, {"name": "D"}], "lyrics": ["을 주지"]},
+        {"chord": [{"name": "D"}], "lyrics": ["", "그랬어"]},
+        {"chord": [{"name": "G"}], "lyrics": [""]},
+
+        {"chord": [{"name": "G"}, {"name": "Bm"}], "lyrics": ["하 루만", "오늘"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["더 하루만", "준비"]},
+        {"chord": [{"name": "C"}], "lyrics": ["할 수 있 도록", "시"]},
+        {"chord": [{"name": "D"}], "lyrics": ["간을 내게 줘", "안"]},
+
+        {"chord": [{"name": "G"}, {"name": "Bm"}], "lyrics": ["돼 지금은"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["로 떠나는 걸"]},
+        {"chord": [{"name": "C"}], "lyrics": ["그냥 볼 수 는 없어"]},
+        {"chord": [{"name": "D"}], "lyrics": ["-"]},
+
+        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["차라리 나", "(차라"]},
+        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["리나) 기다리라 말을"]},
+        {"chord": [{"name": "Gsus4"}], "lyrics": ["해"]},
+        {"chord": [{"name": "G"}], "lyrics": ["-"]},
+
+        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["영원토록"]},
+        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["바라 볼 수"]},
+        {"chord": [{"name": ""}], "lyrics": ["", "있도"]},
+        {"chord": [{"name": "G"}, {"name": "Bm"}], "lyrics": ["록"]},
+        {"chord": [{"name": "Em"}], "lyrics": [""]}
       ]
     }
   ]
