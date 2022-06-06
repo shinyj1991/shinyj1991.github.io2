@@ -9,14 +9,14 @@
     {
       "type": "tab",
       "contents": [
-        {"chord": [{"name": "G"}], "lyrics": ""},
-        {"chord": [{"name": "D/F♯"}], "lyrics": ""},
-        {"chord": [{"name": "Em"}], "lyrics": ""},
-        {"chord": [{"name": "Bm"}], "lyrics": ""},
+        {"chord": [{"name": "G"}], "lyrics": [""]},
+        {"chord": [{"name": "D/F♯"}], "lyrics": [""]},
+        {"chord": [{"name": "Em"}], "lyrics": [""]},
+        {"chord": [{"name": "Bm"}], "lyrics": [""]},
 
-        {"chord": [{"name": "C"}], "lyrics": ""},
-        {"chord": [{"name": "G/B"}], "lyrics": ""},
-        {"chord": [{"name": "Dsus4"}], "lyrics": ""},
+        {"chord": [{"name": "C"}], "lyrics": [""]},
+        {"chord": [{"name": "G/B"}], "lyrics": [""]},
+        {"chord": [{"name": "Dsus4"}], "lyrics": [""]},
         {"chord": [{"name": "D"}], "lyrics": ["", "다시"]},
 
         {"chord": [{"name": "G"}], "lyrics": ["태어난다면", "다시"]},
@@ -32,7 +32,7 @@
         {"chord": [{"name": "G"}], "lyrics": ["이별이 와도", "서로"]},
         {"chord": [{"name": "D"}], "lyrics": ["큰 아픔 없이"]},
         {"chord": [{"name": "Em"}], "lyrics": ["돌아설 수 있을 만큼"]},
-        {"chord": [{"name": "Bm"}], "lyrics": ""},
+        {"chord": [{"name": "Bm"}], "lyrics": [""]},
 
         {"chord": [{"name": "C"}], "lyrics": ["버려도 되는", "가벼"]},
         {"chord": [{"name": "G"}], "lyrics": ["운 추억만", "서"]},
@@ -55,19 +55,19 @@
         {"chord": [{"name": "D"}], "lyrics": ["해져야만"]},
 
         {"chord": [{"name": "E♭maj7"}], "lyrics": ["해"]},
-        {"chord": [{"name": "F7"}], "lyrics": ""},
-        {"chord": [{"name": "B♭"}, {"name": "B♭maj7"}], "lyrics": ""},
-        {"chord": [{"name": "Gm"}], "lyrics": ""},
+        {"chord": [{"name": "F7"}], "lyrics": [""]},
+        {"chord": [{"name": "B♭"}, {"name": "B♭maj7"}], "lyrics": [""]},
+        {"chord": [{"name": "Gm"}], "lyrics": [""]},
 
-        {"chord": [{"name": "E♭maj7"}], "lyrics": ""},
-        {"chord": [{"name": "F7"}], "lyrics": ""},
-        {"chord": [{"name": "G"}], "lyrics": ""},
+        {"chord": [{"name": "E♭maj7"}], "lyrics": [""]},
+        {"chord": [{"name": "F7"}], "lyrics": [""]},
+        {"chord": [{"name": "G"}], "lyrics": [""]},
         {"chord": [{"name": "G"}], "lyrics": ["", "많은"]},
 
         {"chord": [{"name": "G"}], "lyrics": ["시간이 흘러", "서로"]},
         {"chord": [{"name": "D"}], "lyrics": ["잊고 지내도"]},
         {"chord": [{"name": "Em"}], "lyrics": ["지난 날을 회상하며"]},
-        {"chord": [{"name": "Bm"}], "lyrics": ""},
+        {"chord": [{"name": "Bm"}], "lyrics": [""]},
 
         {"chord": [{"name": "C"}], "lyrics": ["그 때도 이건", "사"]},
         {"chord": [{"name": "G"}], "lyrics": ["랑이었다고", "말"]},
@@ -100,9 +100,9 @@
         {"chord": null, "lyrics": ["만은", "알기"]},
 
         {"chord": [{"name": "G"}], "lyrics": ["를"]},
-        {"chord": [{"name": "D"}], "lyrics": ""},
-        {"chord": [{"name": "Em"}, {"name": "D"}], "lyrics": ""},
-        {"chord": [{"name": "G"}], "lyrics": ""}
+        {"chord": [{"name": "D"}], "lyrics": [""]},
+        {"chord": [{"name": "Em"}, {"name": "D"}], "lyrics": [""]},
+        {"chord": [{"name": "G"}], "lyrics": [""]}
       ]
     }
   ]

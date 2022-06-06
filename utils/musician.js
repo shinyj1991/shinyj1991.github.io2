@@ -47,4 +47,8 @@ export default [
     kor: '녹색지대',
     eng: 'greenzone'
   },
+  {
+    kor: '김연숙',
+    eng: 'kimyeonsook'
+  },
 ];
