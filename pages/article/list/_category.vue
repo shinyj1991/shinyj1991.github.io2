@@ -1,7 +1,7 @@
 <template>
   <div class="page-music-list">
     <header>
-      <h2 v-if="singer">🎼 {{ singer }} - 악보 게시판</h2>
+      <h2 v-if="musician">🎼 {{ musician }} - 악보 게시판</h2>
       <h2 v-else>🎼 악보 게시판</h2>
     </header>
     <config-head :title="title" :keywords="keywords" />
@@ -23,7 +23,7 @@
 
 <script>
 import { mapState } from 'vuex';
-import singers from '@/utils/singer';
+import musicians from '@/utils/musician';
 import meta from '@/utils/meta';
 
 export default {
@@ -33,9 +33,9 @@ export default {
     const totalArticles = await $content(path, { deep: true }).only([]).fetch();
     const lastPage = Math.ceil(totalArticles.length / visibleLength);
     const arrayParams = params.category.split('_');
-    const singer = singers.get(arrayParams[1]) ?? false;
-    const title = singer ? `EXIT5 | ${singer} - 악보 자료실` : meta.title;
-    const keywords = `${singer}, ${meta.keywords}`;
+    const musician = arrayParams[1] ? musicians.find(m => m.eng === arrayParams[1])['kor'] : false;
+    const title = musician ? `EXIT5 | ${musician} - 악보 자료실` : meta.title;
+    const keywords = `${musician}, ${meta.keywords}`;
 
     let articles = await $content(path, { deep: true })
       .limit(visibleLength)
@@ -43,7 +43,7 @@ export default {
       .fetch();
 
     return {
-      singer,
+      musician,
       title,
       keywords,
       visibleLength,

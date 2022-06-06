@@ -3,7 +3,7 @@
     <li v-for="(article, index) of articles" :key="index">
       <button type="button" @click="delayRouter(article.path)">
         <div class="category">{{ article.dir.replace('/', '') }}</div>
-        <div class="subject">{{ article.singer }} - {{ article.title }}</div>
+        <div class="subject">{{ article.musician }} - {{ article.title }}</div>
         <div class="info">
           <div class="date">{{ article.date }}</div>
           <div class="author">{{ article.author }}</div>

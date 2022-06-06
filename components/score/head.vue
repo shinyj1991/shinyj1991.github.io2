@@ -1,7 +1,7 @@
 <template>
   <header class="score-head">
     <div class="hgroup">
-      <h2>{{ music.singer }} - {{ music.title }}</h2>
+      <h2>{{ music.musician }} - {{ music.title }}</h2>
       <div class="year">{{ music.year }}</div>
     </div>
     <div class="info">

@@ -14,16 +14,18 @@
 </template>
 
 <script>
-import singer from '@/utils/singer';
+import musicians from '@/utils/musician';
 import meta from '@/utils/meta';
 
 export default {
   async asyncData({ $content, params, store }) {
     const music = await $content(params.slug.replace(/_/gi, '/'), params.id).fetch();
     const arrayParams = params.slug.split('_');
-    const musicSinger = singer.get(arrayParams[1]);
-    const title = `${musicSinger} - ${music.title} 악보, 가사, 코드`;
-    const keywords = `${musicSinger}, ${music.title}, ${meta.keywords}`;
+    const musician = musicians.find(m => m.eng === arrayParams[1])['kor'];
+    const title = `${musician} - ${music.title} 악보, 가사, 코드`;
+    const keywords = `${musician}, ${music.title}, ${meta.keywords}`;
+
+    console.log(musician)
 
     return {
       music,

@@ -6,7 +6,7 @@
 
 <script>
 import { mapState } from 'vuex'
-import singer from '@/utils/singer'
+import musician from '@/utils/musician'
 
 export default {
   computed: {
@@ -40,7 +40,7 @@ export default {
           if (!categories.find(obj => obj.name === directories[i])) {
             categories.push({
               name: directories[i],
-              kor: singer.get(directories[i]),
+              kor: musician.get(directories[i]),
               path: path,
               depth: i,
               child: []
