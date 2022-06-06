@@ -43,4 +43,8 @@ export default [
     kor: '안치환',
     eng: 'ahnchihwan'
   },
+  {
+    kor: '녹색지대',
+    eng: 'greenzone'
+  },
 ];

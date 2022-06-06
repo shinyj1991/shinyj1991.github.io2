@@ -58,7 +58,7 @@ export default {
     async routes() {
       const { $content } = require('@nuxt/content');
 
-      const articles = await $content('/music', {
+      const articles = await $content('/score', {
         deep: true
       }).only(['path']).fetch();
 
