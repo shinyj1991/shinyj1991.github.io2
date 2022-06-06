@@ -1,0 +1,129 @@
+{
+  "singer": "자우림",
+  "title": "스물다섯, 스물하나",
+  "year": 2013,
+  "capo": 0,
+  "measure": 4,
+  "date": "2022-06-05",
+  "score": [
+    {
+      "type": "tab",
+      "contents": [
+        {"chord": [{"name": "C"}], "lyrics": ["바람에 날려 꽃이"]},
+        {"chord": [{"name": "G"}], "lyrics": ["지는 계절엔"]},
+        {"chord": [{"name": "Dm"}], "lyrics": ["아직도 너의 손을"]},
+        {"chord": [{"name": "G"}], "lyrics": ["잡은 듯 그런 듯 해"]},
+
+        {"chord": [{"name": "C"}], "lyrics": ["그때는 아직 꽃이"]},
+        {"chord": [{"name": "G"}], "lyrics": ["아름다운 걸"]},
+        {"chord": [{"name": "Dm"}], "lyrics": ["지금처럼 사무치게"]},
+        {"chord": [{"name": "G"}], "lyrics": ["알지 못했어"]},
+
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["우 -", "너의"]},
+        {"chord": [{"name": "Am"}, {"name": "D"}], "lyrics": ["향기가"]},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["바람에 실려 오네"]},
+        {"chord": [{"name": "Am"}], "lyrics": [""]},
+
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["우 -", "영원할"]},
+        {"chord": [{"name": "Am"}, {"name": "D"}], "lyrics": ["줄 알았던"]},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["스물다섯, 스물"]},
+        {"chord": [{"name": "C"}], "lyrics": ["하나"]},
+
+        {"chord": [{"name": "C"}], "lyrics": ["그 날의 바다는 퍽"]},
+        {"chord": [{"name": "G"}], "lyrics": ["다정했었지"]},
+        {"chord": [{"name": "Dm"}], "lyrics": ["아직도 나의 손에"]},
+        {"chord": [{"name": "G"}], "lyrics": ["잡힐 듯 그런 듯 해"]},
+
+        {"chord": [{"name": "C"}], "lyrics": ["부서지는 햇살 속에"]},
+        {"chord": [{"name": "G"}], "lyrics": ["너와 내가 있어"]},
+        {"chord": [{"name": "Dm"}], "lyrics": ["가슴 시리도록 행복한"]},
+        {"chord": [{"name": "G"}], "lyrics": ["꿈을 꾸었지"]},
+
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["우 -", "그날의"]},
+        {"chord": [{"name": "Am"}, {"name": "D"}], "lyrics": ["노래가"]},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["바람에 실려 오네"]},
+        {"chord": [{"name": "Am"}], "lyrics": [""]},
+
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["우 -", "영원할"]},
+        {"chord": [{"name": "Am"}, {"name": "D"}], "lyrics": ["줄 알았던"]},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["지난날의 너와 나"]},
+        {"disabled": true},
+
+        {"chord": [{"name": "F"}], "lyrics": ["너의 목소리도"]},
+        {"chord": [{"name": "Am"}], "lyrics": ["너의 눈동자도"]},
+        {"chord": [{"name": "Dm"}], "lyrics": ["애틋하던 너의 체온마"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["저도"]},
+
+        {"chord": [{"name": "F"}], "lyrics": ["기억해내면 할수록"]},
+        {"chord": [{"name": "Am"}], "lyrics": ["멀어져 가는데"]},
+        {"chord": [{"name": "Dm"}], "lyrics": ["흩어지는 널 붙잡을 수"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["없어"]},
+
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": [""]},
+        {"chord": [{"name": "Am"}, {"name": "D"}], "lyrics": [""]},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": [""]},
+        {"chord": [{"name": "Am"}], "lyrics": [""]},
+
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": [""]},
+        {"chord": [{"name": "Am"}, {"name": "D"}], "lyrics": [""]},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": [""]},
+        {"disabled": true},
+
+        {"chord": [{"name": "C"}], "lyrics": ["바람에 날려 꽃이"]},
+        {"chord": [{"name": "G"}], "lyrics": ["지는 계절엔"]},
+        {"chord": [{"name": "Dm"}], "lyrics": ["아직도 너의 손을"]},
+        {"chord": [{"name": "G"}], "lyrics": ["잡은 듯 그런 듯 해"]},
+
+        {"chord": [{"name": "C"}], "lyrics": ["그때는 아직 꽃이"]},
+        {"chord": [{"name": "G"}], "lyrics": ["아름다운 걸"]},
+        {"chord": [{"name": "Dm"}], "lyrics": ["지금처럼 사무치게"]},
+        {"chord": [{"name": "G"}], "lyrics": ["알지 못했어"]},
+
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["우 -", "너의"]},
+        {"chord": [{"name": "Am"}, {"name": "D"}], "lyrics": ["향기가"]},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["바람에 실려 오네"]},
+        {"chord": [{"name": "Am"}], "lyrics": [""]},
+
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["우 -", "영원할"]},
+        {"chord": [{"name": "Am"}, {"name": "D"}], "lyrics": ["줄 알았던"]},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["스물다섯, 스물하나"]},
+        {"disabled": true},
+
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["우 -", "그날의"]},
+        {"chord": [{"name": "Am"}, {"name": "D"}], "lyrics": ["노래가"]},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["바람에 실려 오네"]},
+        {"chord": [{"name": "Am"}], "lyrics": [""]},
+
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["우 -", "영원할"]},
+        {"chord": [{"name": "Am"}, {"name": "D"}], "lyrics": ["줄 알았던"]},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["지난날의 너와 나"]},
+        {"disabled": true},
+
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["우 -"]},
+        {"chord": [{"name": "Am"}], "lyrics": [""]},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["우 -"]},
+        {"chord": [{"name": "Am"}], "lyrics": [""]},
+
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["우 -", "영원할"]},
+        {"chord": [{"name": "Am"}, {"name": "D"}], "lyrics": ["줄 알았던"]},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["스물다섯, 스물"]},
+        {"chord": [{"name": "Am"}], "lyrics": ["하나", "오오오오"]},
+
+        {"chord": [{"name": "D"}], "lyrics": ["오 -"]},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["스물다섯, 스물하나"]},
+        {"chord": [{"name": "C"}], "lyrics": [""]},
+        {"chord": [], "lyrics": [""]},
+
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": [""]},
+        {"chord": [{"name": "Am"}, {"name": "D"}], "lyrics": [""]},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": [""]},
+        {"chord": [{"name": "Am"}], "lyrics": [""]},
+
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": [""]},
+        {"chord": [{"name": "Am"}, {"name": "D"}], "lyrics": [""]},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": [""]},
+        {"chord": [{"name": "C"}], "lyrics": [""]}
+      ]
+    }
+  ]
+}

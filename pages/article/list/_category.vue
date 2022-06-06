@@ -1,7 +1,11 @@
 <template>
   <div class="page-music-list">
+    <header>
+      <h2 v-if="singer">🎼 {{ singer }} - 악보 게시판</h2>
+      <h2 v-else>🎼 악보 게시판</h2>
+    </header>
     <config-head :title="title" :keywords="keywords" />
-    <score-list
+    <list-score
       :articles="articles"
       :page.sync="page"
       :lastPage="lastPage"
@@ -39,6 +43,7 @@ export default {
       .fetch();
 
     return {
+      singer,
       title,
       keywords,
       visibleLength,
@@ -72,15 +77,22 @@ export default {
         this.page++;
       }, 300);
     }
+  },
+  created() {
+    this.$store.commit('set_loading', false)
   }
 }
 </script>
 
 <style lang="scss" scoped>
 .page-music-list {
-  padding: 50px 50px 100px;
-  max-width: 1000px;
+  header {
+    margin-bottom: 20px;
 
+    h2 {
+      font-size: 24px;
+    }
+  }
   .btn_area {
     height: 40px;
     margin-top: 30px;
@@ -94,10 +106,6 @@ export default {
         text-decoration: underline;
       }
     }
-  }
-
-  @media screen and (max-width: 1200px) {
-    padding: 50px 20px 50px;
   }
 }
 </style>

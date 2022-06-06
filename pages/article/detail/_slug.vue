@@ -3,7 +3,7 @@
     <config-head :title="title" :keywords="keywords" />
     <score-head :music="music" />
     <div class="score-contents">
-      <config-adsense />
+      <!-- <config-adsense /> -->
       <div v-for="(score, index) in music.score" :key="index">
         <score-tab v-if="score.type === 'tab'" :score="score" :measure="music.measure" />
         <score-image v-if="score.type === 'image'" :src="score.src" />
@@ -45,17 +45,12 @@ export default {
 
 <style lang="scss" scoped>
 .page-music-detail {
-  padding: 50px 50px 100px;
-  max-width: 1000px;
-
   .score-contents {
     display: grid;
     row-gap: 100px;
   }
 
 @media screen and (max-width: 1200px) {
-  padding: 50px 20px 50px;
-
   .score-contents {
     row-gap: 50px;
   }

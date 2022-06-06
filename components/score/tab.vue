@@ -6,6 +6,7 @@
         isChord: measure.chord,
         isLyrics: measure.lyrics,
         isTab: measure.nodelist,
+        isDisabled: measure.disabled
       }"
       v-for="(measure, index) in score.contents" :key="index"
     >
@@ -99,6 +100,9 @@ export default {
       .line-list {
         border-left: 1px solid #000;
       }
+    }
+    &.isDisabled {
+      border: none;
     }
     .chord-list {
       position: absolute;

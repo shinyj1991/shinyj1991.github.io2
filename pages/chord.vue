@@ -1,5 +1,8 @@
 <template>
   <div class="page-chord">
+    <header>
+      <h2>🎶 코드표</h2>
+    </header>
     <ul class="chord-list">
       <li v-for="(chord, index) in chords" :key="index">
         <article-chord class="page" :chord="chord" />
@@ -31,9 +34,13 @@ export default {
 
 <style lang="scss" scoped>
 .page-chord {
-  padding: 50px 50px 100px;
-  max-width: 1000px;
+  header {
+    margin-bottom: 20px;
 
+    h2 {
+      font-size: 24px;
+    }
+  }
   .chord-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -46,8 +53,6 @@ export default {
   }
 
 @media screen and (max-width: 768px) {
-padding: 20px 20px 50px;
-
   .chord-list {
     grid-template-columns: repeat(2, 1fr);
   }

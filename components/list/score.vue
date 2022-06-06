@@ -1,5 +1,5 @@
 <template>
-  <ul class="score-list">
+  <ul class="list-score">
     <li v-for="(article, index) of articles" :key="index">
       <button type="button" @click="delayRouter(article.path)">
         <div class="category">{{ article.dir.replace('/', '') }}</div>
@@ -37,14 +37,13 @@ export default Vue.extend({
 </script>
 
 <style lang="scss">
-.score-list {
+.list-score {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 15px;
   column-gap: 15px;
 
   li {
-
     button {
       display: block;
       width: 100%;
@@ -70,6 +69,7 @@ export default Vue.extend({
       }
     }
   }
+
 @media screen and (max-width: 768px) {
   grid-template-columns: repeat(2, 1fr);
 }}

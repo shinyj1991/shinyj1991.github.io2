@@ -9,49 +9,6 @@
     {
       "type": "tab",
       "contents": [
-        {
-          "chord": [{"name": "Cmaj7"}, {"name": "G/B"}, {"name": "A7"}, {"name": "D7"}], 
-          "nodelist": [
-            {"grow": 1, "node": [0, 0, null, null, 3, null]},
-            {"grow": 1, "node": [3, 3, null, null, 2, null]},
-            {"grow": 1, "node": [0, 2, 0, 2, null, null]},
-            {"grow": 1, "node": [0, 1, 2, 0, null, null]}
-          ],
-          "lyrics": [""]
-        },
-        {
-          "chord": [{"name": "G"}],
-          "nodelist": [
-            {"grow": 1, "node": [null, null, null, null, null, null]},
-            {"grow": 1, "node": [null, null, null, null, null, null]},
-            {"grow": 1, "node": [null, null, null, null, null, null]},
-            {"grow": 1, "node": [null, null, null, null, null, null]}
-          ],
-          "lyrics": [""]
-        },
-        {
-          "chord": [{"name": "Gmaj7"}],
-          "nodelist": [
-            {"grow": 1, "node": [null, null, null, null, null, null]},
-            {"grow": 1, "node": [null, null, null, null, null, null]},
-            {"grow": 1, "node": [null, null, null, null, null, null]},
-            {"grow": 1, "node": [null, null, null, null, null, null]}
-          ],
-          "lyrics": [""]
-        },
-        {
-          "chord": [{"name": "Bm7"}, {"name": "E7-9"}],
-          "nodelist": [
-            {"grow": 1, "node": [null, null, null, null, null, null]},
-            {"grow": 1, "node": [null, null, null, null, null, null]},
-            {"grow": 1, "node": [null, null, null, null, null, null]},
-            {"grow": 1, "node": [null, null, null, null, null, null]}
-          ],
-          "lyrics": [""]
-        },
-
-        {"chord": [{"name": "Am"}, {"name": "D7"}], "lyrics": [""]},
-        {"chord": [{"name": "G"}, {"name": "Gsus4"}], "lyrics": [""]},
         {"chord": [{"name": "G"}, {"name": "Am7"}], "lyrics": ["보일듯 말듯", "가"]},
         {"chord": [{"name": "Bm"}, {"name": "B"}], "lyrics": ["물거리는"]},
         {"chord": [{"name": "Em"}], "lyrics": ["안개 속에", "쌓"]},

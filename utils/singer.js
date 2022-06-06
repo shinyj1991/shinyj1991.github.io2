@@ -9,4 +9,6 @@ export default new Map([
   ['byunjinsub', '변진섭'],
   ['leejeok', '이적'],
   ['deulgukhwa', '들국화'],
+  ['Bolbbalgan4', '볼빨간사춘기'],
+  ['jaurim', '자우림'],
 ])

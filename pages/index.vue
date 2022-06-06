@@ -1,31 +1,67 @@
 <template>
   <div class="page-index">
-    <ul class="link-list">
-      <li><nuxt-link to="/article/list/music" class="link">🎼 악보 게시판</nuxt-link></li>
-      <li><nuxt-link to="/chord" class="link">🎶 코드표</nuxt-link></li>
-    </ul>
+    <section>
+      <header>
+        <h2>🎤 가수 게시판</h2>
+      </header>
+      <list-musician 
+        :musicians="musicians"
+      />
+    </section>
+    <section>
+      <header>
+        <h2>🎼 악보 게시판</h2>
+        <nuxt-link to="/article/list/score" class="btn-more">더보기 +</nuxt-link>
+      </header>
+      <list-score
+        :articles="articles"
+      />
+    </section>
+    <section>
+      <header>
+        <h2><nuxt-link to="/chord">🎶 코드표 →</nuxt-link></h2>
+      </header>
+    </section>
   </div>
 </template>
 
 <script>
-export default {}
+import musicians from '@/utils/musician';
+
+export default {
+  async asyncData({ $content, params, store }) {
+    let articles = await $content('/score', { deep: true })
+      .limit(12)
+      .sortBy('date', 'desc')
+      .fetch();
+
+    return {
+      articles,
+    }
+  },
+  data: () => ({
+    musicians: musicians.sort((a, b) => a.kor < b.kor ? -1 : a.kor > b.kor ? 1 : 0),
+  }),
+}
 </script>
 
 <style lang="scss" scoped>
 .page-index {
-  padding: 50px;
+  display: grid;
+  row-gap: 50px;
 
-  .link-list {
-    display: grid;
-    row-gap: 20px;
+  > section {
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
 
-    li {
-      a {
+      h2 {
         font-size: 24px;
-
-        &:hover {
-          text-decoration: underline;
-        }
+      }
+      .btn-more {
+        text-decoration: underline;
       }
     }
   }
