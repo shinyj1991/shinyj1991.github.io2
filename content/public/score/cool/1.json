@@ -10,7 +10,7 @@
       "type": "tab",
       "contents": [
         {
-          "chord": [{"name": "C6/B"}], 
+          "chord": [{"name": "Am7"}], 
           "nodelist": [
             {"grow": 1, "node": [0, 1, 0, 2, 0, null]},
             {"grow": 1, "node": [null, null, null, 2, null, null]},
