@@ -3,13 +3,13 @@
     <config-head :title="title" :keywords="keywords" />
     <score-head :music="music" />
     <div class="score-contents">
-      <banner-adsense />
+      <!-- <banner-adsense /> -->
       <div v-for="(score, index) in music.score" :key="index">
         <score-tab v-if="score.type === 'tab'" :score="score" :measure="music.measure" />
         <score-image v-if="score.type === 'image'" :src="score.src" />
         <score-chord v-if="score.type === 'chord'" :measure="music.measure" :score="score" />
       </div>
-      <banner-coupang />
+      <!-- <banner-coupang /> -->
     </div>
     <config-reply />
   </article>

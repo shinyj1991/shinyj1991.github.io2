@@ -30,10 +30,7 @@ import musicians from '@/utils/musician';
 
 export default {
   async asyncData({ $content, params, store }) {
-    let articles = await $content('/score', { deep: true })
-      .limit(12)
-      .sortBy('date', 'desc')
-      .fetch();
+    let articles = await $content('/score', { deep: true }).limit(12).sortBy('date', 'desc').fetch();
 
     return {
       articles,

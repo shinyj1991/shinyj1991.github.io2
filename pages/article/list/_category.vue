@@ -30,7 +30,7 @@ export default {
   async asyncData({ $content, params, store }) {
     const path = params.category ? params.category.replace(/_/gi, '/') : '/';
     const visibleLength = 24;
-    const totalArticles = await $content(path, { deep: true }).only([]).fetch();
+    const totalArticles = await $content(path, { deep: true }).fetch();
     const lastPage = Math.ceil(totalArticles.length / visibleLength);
     const arrayParams = params.category.split('_');
     const musician = arrayParams[1] ? musicians.find(m => m.eng === arrayParams[1])['kor'] : false;
