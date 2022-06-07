@@ -1,10 +1,5 @@
 <template>
-  <div>
-    <h6>
-      <span>Reply</span>
-      <small class="text-xs">Must have a Github account</small>
-    </h6>
-  </div>
+  <div class="config-reply" />
 </template>
 
 <script>
@@ -23,10 +18,14 @@ export default {
 }
 </script>
 
-<style>
-.utterances {
+<style lang="scss" scoped>
+.config-reply {
   width: 100%;
-  margin: 100px 0 0 !important;
+  margin-top: 100px;
   max-width: 100%;
-}
+
+
+@media screen and (max-width: 1200px) {
+  margin-top: 50px;
+}}
 </style>
