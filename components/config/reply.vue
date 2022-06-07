@@ -24,7 +24,6 @@ export default {
   margin-top: 100px;
   max-width: 100%;
 
-
 @media screen and (max-width: 1200px) {
   margin-top: 50px;
 }}
