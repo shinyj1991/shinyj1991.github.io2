@@ -10,6 +10,7 @@
       </div>
       <config-adsense />
     </div>
+    <config-reply />
   </article>
 </template>
 
