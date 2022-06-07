@@ -25,8 +25,6 @@ export default {
     const title = `${musician} - ${music.title} 악보, 가사, 코드`;
     const keywords = `${musician}, ${music.title}, ${meta.keywords}`;
 
-    console.log(musician)
-
     return {
       music,
       title,
