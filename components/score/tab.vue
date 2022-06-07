@@ -172,9 +172,11 @@ export default {
       background: #f7f7f7;
 
       .lyrics {
+        display: flex;
+        align-items: center;
         font-size: 14px;
-        line-height: 30px;
-        height: 30px;
+        line-height: 15px;
+        min-height: 30px;
       }
     }
   }

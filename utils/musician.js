@@ -51,4 +51,8 @@ export default [
     kor: '김연숙',
     eng: 'kimyeonsook'
   },
+  {
+    kor: '쿨',
+    eng: 'cool'
+  },
 ];

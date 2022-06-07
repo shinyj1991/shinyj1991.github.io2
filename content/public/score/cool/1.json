@@ -1,0 +1,96 @@
+{
+  "musician": "쿨",
+  "title": "아로하",
+  "year": 2001,
+  "capo": 3,
+  "measure": 4,
+  "date": "2022-06-07",
+  "score": [
+    {
+      "type": "tab",
+      "contents": [
+        {
+          "chord": [{"name": "C6/B"}], 
+          "nodelist": [
+            {"grow": 1, "node": [0, 1, 0, 2, 0, null]},
+            {"grow": 1, "node": [null, null, null, 2, null, null]},
+            {"grow": 1, "node": [null, null, 0, null, null, null]},
+            {"grow": 0.6666, "node": [null, 0, null, null, null, null]},
+            {"grow": 0.6666, "node": [null, 1, null, null, null, null]},
+            {"grow": 0.6666, "node": [null, 0, null, null, null, null]},
+            {"grow": 1, "node": [null, null, null, 2, null, null]},
+            {"grow": 1, "node": [null, null, 0, null, null, null]},
+            {"grow": 2, "node": [null, 1, null, null, null, null]}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "nodelist": [
+            {"grow": 1, "node": [0, 0, 0, 2, 2, 0]},
+            {"grow": 1, "node": [null, null, null, 2, null, null]},
+            {"grow": 1, "node": [0, null, null, null, null, null]},
+            {"grow": 1, "node": [null, 0, null, null, null, null]},
+            {"grow": 1, "node": [null, null, 0, null, null, null]}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}], 
+          "nodelist": [
+            {"grow": 1, "node": [1, 1, 0, 0, null, null]},
+            {"grow": 1, "node": [null, null, 2, null, null, null]},
+            {"grow": 1, "node": [1, null, null, null, null, null]},
+            {"grow": 1, "node": [null, 1, null, null, null, null]},
+            {"grow": 1, "node": [null, null, 2, null, null, null]}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "nodelist": [
+            {"grow": 1, "node": [3, 0, 0, 0, 2, 3]}
+          ],
+          "lyrics": ["", "어두운"]
+        },
+        {"chord": [{"name": "C"}], "lyrics": ["불빛아래 촛불하나"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["", "와인잔"]},
+        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["에 담긴 약속하나"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["", "항상 너"]},
+        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["의 곁에서", "널"]},
+        {"chord": [{"name": "Em"}, {"name": "Am7"}], "lyrics": ["지켜줄꺼야", "날"]},
+        {"chord": [{"name": "Dm7"}], "lyrics": ["믿어준 너였잖아"]},
+        {"chord": [{"name": "G"}], "lyrics": ["", "나"]},
+        {"chord": [{"name": "C"}], "lyrics": ["바라는건 오직 하나"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["", "영원한"]},
+        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["행복을 꿈꾸지만"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["", "화려하"]},
+        {"chord": [{"name": "Dm"}, {"name": "G"}], "lyrics": ["지 않아도", "꿈"]},
+        {"chord": [{"name": "Em"}, {"name": "Am7"}], "lyrics": ["같지않아도", "너"]},
+        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["만있어 주면 돼"]},
+        {"chord": [{"name": "C"}], "lyrics": ["", "걱정마"]},
+        {"chord": [{"name": "Am"}], "lyrics": ["I Believe", "언제나"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["I Believe", "이순"]},
+        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["간을 잊지 않을께"]},
+        {"chord": [{"name": "C"}], "lyrics": ["", "내품에"]},
+        {"chord": [{"name": "Am"}], "lyrics": ["I Believe", "안긴 너"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["의 미소가", "영"]},
+        {"chord": [{"name": "Dm7"}], "lyrics": ["원히 빛을 잃어", "가"]},
+        {"chord": [{"name": "G"}], "lyrics": ["지 않게 Cause your"]},
+        {"chord": [{"name": "C"}], "lyrics": ["love is so sweet You are my"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["everything", "첫날"]},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["밤의 단 꿈에 젖어"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["", "하는 말"]},
+        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["이 아냐", "난 변하"]},
+        {"chord": [{"name": "Em"}, {"name": "Am7"}], "lyrics": ["지 않아", "오직"]},
+        {"chord": [{"name": "Dm7"}], "lyrics": ["너만 바라 볼꺼야"]},
+        {"chord": [{"name": "G"}], "lyrics": ["oh oh", "You're"]},
+        {"chord": [{"name": "C"}], "lyrics": ["light of my life You are the one"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["in my life", "내 모"]},
+        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["든걸다 잃는대도"]},
+        {"chord": [{"name": "Em"}], "lyrics": ["", "후회하"]},
+        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["지 않아 오직 너"]},
+        {"chord": [{"name": "Em"}, {"name": "Am7"}], "lyrics": ["를 위한", "변하"]},
+        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["지 않는 사랑으로"]},
+        {"chord": [{"name": "C"}], "lyrics": [""]}
+      ]
+    }
+  ]
+}
