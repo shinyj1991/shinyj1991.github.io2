@@ -19,7 +19,12 @@
     </section>
     <section>
       <header>
-        <h2><nuxt-link to="/chord">🎶 코드표 →</nuxt-link></h2>
+        <h2><nuxt-link to="/chord">🎶 코드표 보러 가기</nuxt-link></h2>
+      </header>
+    </section>
+    <section>
+      <header>
+        <h2><nuxt-link to="/request">💌 악보 신청 하기</nuxt-link></h2>
       </header>
     </section>
   </div>
@@ -56,9 +61,20 @@ export default {
 
       h2 {
         font-size: 24px;
+
+        a {
+          &:hover {
+            background: #f7f7f7;
+          }
+        }
       }
       .btn-more {
-        text-decoration: underline;
+        border: 1px solid #ccc;
+        padding: 5px 10px;
+
+        &:hover {
+          background: #f7f7f7;
+        }
       }
     }
   }
