@@ -43,6 +43,7 @@ export default {
       .fetch();
 
     return {
+      path,
       musician,
       title,
       keywords,
