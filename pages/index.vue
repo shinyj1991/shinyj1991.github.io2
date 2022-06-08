@@ -60,7 +60,7 @@ export default {
       margin-bottom: 20px;
 
       h2 {
-        font-size: 24px;
+        font-size: 22px;
 
         a {
           &:hover {
@@ -70,7 +70,8 @@ export default {
       }
       .btn-more {
         border: 1px solid #ccc;
-        padding: 5px 10px;
+        padding: 8px 10px;
+        font-size: 14px;
 
         &:hover {
           background: #f7f7f7;

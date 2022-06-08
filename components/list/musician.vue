@@ -38,6 +38,7 @@ export default Vue.extend({
       padding: 12px 24px;
       border: 1px solid #ccc;
       text-align: left;
+      font-size: 14px;
 
       &:hover {
         background: #f7f7f7;
