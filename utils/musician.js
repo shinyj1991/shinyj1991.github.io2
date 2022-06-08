@@ -55,4 +55,8 @@ export default [
     kor: '쿨',
     eng: 'cool'
   },
+  {
+    kor: '동물원',
+    eng: 'dongmulwon'
+  },
 ];
