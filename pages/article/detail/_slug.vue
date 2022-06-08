@@ -10,6 +10,9 @@
         <score-chord v-if="score.type === 'chord'" :measure="music.measure" :score="score" />
       </div>
       <!-- <banner-coupang /> -->
+      <div class="this-musician">
+        <nuxt-link :to="`/article/list/score_${musicianEng}`">{{ musicianKor }} 노래 악보 더보기 +</nuxt-link>
+      </div>
     </div>
     <config-reply />
   </article>
@@ -23,14 +26,17 @@ export default {
   async asyncData({ $content, params, store }) {
     const music = await $content(params.slug.replace(/_/gi, '/'), params.id).fetch();
     const arrayParams = params.slug.split('_');
-    const musician = musicians.find(m => m.eng === arrayParams[1])['kor'];
-    const title = `${musician} - ${music.title} 악보, 가사, 코드`;
-    const keywords = `${musician}, ${music.title}, ${meta.keywords}`;
+    const musicianKor = musicians.find(m => m.eng === arrayParams[1])['kor'];
+    const musicianEng = arrayParams[1];
+    const title = `${musicianKor} - ${music.title} 악보, 가사, 코드`;
+    const keywords = `${musicianKor}, ${music.title}, ${meta.keywords}`;
 
     return {
       music,
       title,
-      keywords
+      keywords,
+      musicianKor,
+      musicianEng
     }
   },
   methods: {
@@ -50,6 +56,14 @@ export default {
   .score-contents {
     display: grid;
     row-gap: 100px;
+  }
+  .this-musician {
+    a {
+      display: inline-block;
+      border: 1px solid #ccc;
+      padding: 8px 10px;
+      font-size: 14px;
+    }
   }
 
 @media screen and (max-width: 1200px) {
