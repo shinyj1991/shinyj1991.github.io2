@@ -10,6 +10,9 @@
       <li>
         <nuxt-link to="/chord">Chord</nuxt-link>
       </li>
+      <li>
+        <nuxt-link to="/request">Request</nuxt-link>
+      </li>
     </ul>
   </nav>
 </template>
@@ -48,7 +51,7 @@ export default {
   bottom: 0;
   left: 0;
   z-index: 100;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.7);
 
   ul {
     display: grid;
