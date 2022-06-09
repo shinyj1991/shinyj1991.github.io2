@@ -16,7 +16,7 @@
             flex-grow: ${chord.grow ? chord.grow : 1};
             flex-basis: ${100 * ((chord.grow ? chord.grow : 1) / measure.chord.length)}%;
           `"
-          @click="openPopupChord(chord.name.replace(/\//gi, '_'))"
+          @click="openPopupChord(chord.name.replace(/\//gi, '_').replace('M', 'maj'))"
         >{{ chord.name }}</button>
       </div>
       <div class="tab-area" v-if="measure.nodelist">

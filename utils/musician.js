@@ -59,4 +59,8 @@ export default [
     kor: '동물원',
     eng: 'dongmulwon'
   },
+  {
+    kor: '잔나비',
+    eng: 'jannabi'
+  },
 ];

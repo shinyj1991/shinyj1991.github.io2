@@ -26,7 +26,7 @@
         
         {"chord": [{"name": "E"}], "lyrics": ["", "검은 절벽"]},
         {"chord": [{"name": "A"}], "lyrics": ["끝", "더 이상"]},
-        {"chord": [{"name": "Dmaj7"}], "lyrics": ["발 디딜 곳 하나 없었"]},
+        {"chord": [{"name": "DM7"}], "lyrics": ["발 디딜 곳 하나 없었"]},
         {"chord": [{"name": "A"}], "lyrics": ["지"]},
         
         {"chord": [{"name": "E"}], "lyrics": ["", "자꾸 목이 메"]},
@@ -57,7 +57,7 @@
         {"chord": [{"name": "C♯m"}], "lyrics": ["그대 마음"]},
         {"chord": [{"name": "F♯"}], "lyrics": ["속", "으로"]},
         {"chord": [{"name": "B7"}], "lyrics": [""]},
-        {"chord": [{"name": "Amaj7"}, {"name": "B7"}], "lyrics": ["영원토록 달려갈거야"]},
+        {"chord": [{"name": "AM7"}, {"name": "B7"}], "lyrics": ["영원토록 달려갈거야"]},
         
         {"chord": [{"name": "E"}], "lyrics": [""]},
         {"chord": [{"name": "Bsus4"}], "lyrics": [""]},
@@ -71,7 +71,7 @@
         
         {"chord": [{"name": "E"}], "lyrics": ["", "오랜 꿈들"]},
         {"chord": [{"name": "A"}], "lyrics": ["이", "공허한"]},
-        {"chord": [{"name": "Dmaj7"}], "lyrics": ["어린 날의 착각 같았"]},
+        {"chord": [{"name": "DM7"}], "lyrics": ["어린 날의 착각 같았"]},
         {"chord": [{"name": "A"}], "lyrics": ["지"]},
         
         {"chord": [{"name": "E"}], "lyrics": ["", "울먹임을 참"]},
@@ -102,7 +102,7 @@
         {"chord": [{"name": "C♯m"}], "lyrics": ["그대 마음"]},
         {"chord": [{"name": "F♯"}], "lyrics": ["속", "으로"]},
         {"chord": [{"name": "B7"}], "lyrics": [""]},
-        {"chord": [{"name": "Amaj7"}, {"name": "B7"}], "lyrics": ["영원토록 달려갈거야"]},
+        {"chord": [{"name": "AM7"}, {"name": "B7"}], "lyrics": ["영원토록 달려갈거야"]},
         
         {"chord": [{"name": "C"}], "lyrics": [""]},
         {"chord": [{"name": "C"}], "lyrics": [""]},
@@ -126,8 +126,8 @@
         
         {"chord": [{"name": "Em"}], "lyrics": [""]},
         {"chord": [{"name": "F♯7"}], "lyrics": [""]},
-        {"chord": [{"name": "Fmaj7"}], "lyrics": [""]},
-        {"chord": [{"name": "Fmaj7"}], "lyrics": ["", "마른 하늘"]},
+        {"chord": [{"name": "FM7"}], "lyrics": [""]},
+        {"chord": [{"name": "FM7"}], "lyrics": ["", "마른 하늘"]},
         
         {"chord": [{"name": "E"}], "lyrics": ["을 달려"]},
         {"chord": [{"name": "A"}], "lyrics": ["", "나"]},
@@ -147,7 +147,7 @@
         {"chord": [{"name": "C♯m"}], "lyrics": ["그대 마음"]},
         {"chord": [{"name": "F♯"}], "lyrics": ["속", "으로"]},
         {"chord": [{"name": "B7"}], "lyrics": [""]},
-        {"chord": [{"name": "Amaj7"}, {"name": "B7"}], "lyrics": ["영원토록 달려갈거야"]},
+        {"chord": [{"name": "AM7"}, {"name": "B7"}], "lyrics": ["영원토록 달려갈거야"]},
         
         {"chord": [{"name": "E"}], "lyrics": [""]},
         {"chord": [{"name": "A"}], "lyrics": [""]},

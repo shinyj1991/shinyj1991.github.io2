@@ -14,7 +14,7 @@
         {"chord": [{"name": "F"}], "lyrics": [""]},
         {"chord": [{"name": "Em"}], "lyrics": [""]},
 
-        {"chord": [{"name": "Fmaj7"}], "lyrics": [""]},
+        {"chord": [{"name": "FM7"}], "lyrics": [""]},
         {"chord": [{"name": "Dm"}], "lyrics": [""]},
         {"chord": [{"name": "E7"}], "lyrics": [""]},
         {"chord": [{"name": "Am6"}, {"name": "E7"}], "lyrics": ["", "그"]},

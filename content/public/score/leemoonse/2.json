@@ -16,13 +16,13 @@
 
         {"chord": [{"name": "F"}, {"name": "Am"}], "lyrics": ["내곁에만"]},
         {"chord": [{"name": "F7"}, {"name": "F6"}], "lyrics": ["머물러요", "떠나"]},
-        {"chord": [{"name": "B♭maj7"}], "lyrics": ["면", "안되"]},
+        {"chord": [{"name": "B♭M7"}], "lyrics": ["면", "안되"]},
         {"chord": [{"name": "Gm"}, {"name": "A7"}], "lyrics": ["요", "그리"]},
 
         {"chord": [{"name": "Dm"}, {"name": "F7"}], "lyrics": ["움 두고 머나먼"]},
         {"chord": [{"name": "B♭"}, {"name": "Bdim"}], "lyrics": ["길", "그대"]},
         {"chord": [{"name": "F"}, {"name": "Dm"}], "lyrics": ["무지개를 찾아올순"]},
-        {"chord": [{"name": "B♭maj7"}, {"name": "C7"}], "lyrics": ["없어요"]},
+        {"chord": [{"name": "B♭M7"}, {"name": "C7"}], "lyrics": ["없어요"]},
 
         {"chord": [{"name": "F"}, {"name": "F7"}], "lyrics": ["노을진 창가에 앉"]},
         {"chord": [{"name": "Dm"}, {"name": "A"}], "lyrics": ["아", "멀리"]},
@@ -52,7 +52,7 @@
         {"chord": [{"name": "Dm"}, {"name": "F7"}], "lyrics": [""]},
         {"chord": [{"name": "B♭"}, {"name": "G7"}], "lyrics": [""]},
         {"chord": [{"name": "F"}, {"name": "Dm"}], "lyrics": [""]},
-        {"chord": [{"name": "B♭maj7"}, {"name": "C7"}], "lyrics": [""]},
+        {"chord": [{"name": "B♭M7"}, {"name": "C7"}], "lyrics": [""]},
 
         {"chord": [{"name": "F"}, {"name": "F7"}], "lyrics": ["노을진 창가에 앉"]},
         {"chord": [{"name": "Dm"}, {"name": "A"}], "lyrics": ["아", "멀리"]},
