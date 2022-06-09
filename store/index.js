@@ -1,7 +1,8 @@
 const state = () => ({
   is_menu: false,
   app_loaded: false,
-  blog_depth: []
+  blog_depth: [],
+  isChordLoaded: false,
 });
 
 const mutations = {
@@ -16,6 +17,9 @@ const mutations = {
   },
   set_blog_depth(state, payload) {
     state.blog_depth = payload;
+  },
+  setChordLoaded(state, payload) {
+    state.isChordLoaded = payload;
   }
 };
 

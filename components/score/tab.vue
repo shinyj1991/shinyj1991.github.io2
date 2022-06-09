@@ -41,6 +41,8 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
+
 export default {
   data: () => ({
     chord: null,
@@ -57,16 +59,26 @@ export default {
     },
   },
   computed: {
-    dynamicImage() {
-      return require(`~/assets/images/tab${this.src}`);
-    }
+    ...mapState({
+      isChordLoaded: state => state.isChordLoaded,
+    })
   },
   methods: {
     async openPopupChord(name) {
+      if (!this.isChordLoaded) {
+        this.$nuxt.$loading.start();
+      }
+
       const chordName = name.replace(/\//gi, '_');
       const result = await this.$content(`chord/${chordName}`).fetch();
+
       this.chord = result;
       this.isPopupChord = true;
+
+      if (!this.isChordLoaded) {
+        this.$store.commit('setChordLoaded', true);
+        this.$nuxt.$loading.finish();
+      }
     }
   },
 };
