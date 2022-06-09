@@ -1,7 +1,7 @@
 <template>
   <ul class="list-musician">
     <li v-for="(musician, index) of musicians" :key="index">
-      <button type="button" @click="pushRouter(musician.eng)">{{ musician.kor }}</button>
+      <nuxt-link :to="`/article/list/score_${musician.eng}`">{{ musician.kor }}</nuxt-link>
     </li>
   </ul>
 </template>
@@ -13,13 +13,6 @@ import { mapState } from 'vuex'
 export default Vue.extend({
   props: {
     musicians: Array,
-  },
-  methods: {
-    pushRouter(path) {
-      this.$store.commit('set_loading', true)
-
-      this.$router.push({path: `/article/list/score_${path}`})
-    },
   }
 })
 </script>
@@ -32,7 +25,7 @@ export default Vue.extend({
   column-gap: 15px;
 
   li {
-    button {
+    a {
       display: block;
       width: 100%;
       padding: 12px 24px;

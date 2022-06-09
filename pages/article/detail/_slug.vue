@@ -45,9 +45,6 @@ export default {
       return new Date(date).toLocaleDateString('ko', options)
     }
   },
-  created() {
-    this.$store.commit('set_loading', false)
-  }
 }
 </script>
 

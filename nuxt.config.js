@@ -1,4 +1,5 @@
 import { resolve } from "path";
+import getRoutes from "./utils/getRoutes";
 
 export default {
   target: "static",
@@ -45,51 +46,23 @@ export default {
   modules: [
     ["nuxt-highlightjs", { style: "obsidian" }],
     "@nuxt/content",
+    "@nuxtjs/sitemap",
     "@nuxtjs/axios",
   ],
   content: {
     dir: 'content/public'
   },
   generate: {
-    async routes() {
-      const { $content } = require('@nuxt/content');
-
-      const articles = await $content('/score', {
-        deep: true
-      }).only(['path']).fetch();
-
-      const categories = [];
-      const result = [];
-
-      articles.map(article => {
-        let directories = article.path.split('/');
-
-        directories.shift();
-        directories.pop();
-
-        let depth = directories.length;
-        let path = '';
-
-        result.push(`/article/detail/${article.path.replace(/\//gi, '_').slice(1)}`);
-  
-        for (let i = 0; i < depth; i++) {
-          path += i > 0 ? '_' + directories[i] : directories[i];
-          if (!categories.includes(path)) {
-            categories.push(path);
-            result.push(`/article/list/${path}`);
-          }
-        }
-
-        result.push('/article/list');
-      });
-
-      return result
-    }
+    routes: () => getRoutes()
   },
   styleResources: {
     scss: ["~/assets/css/_variable.scss", "~/assets/css/_mixin.scss"],
   },
   build: {},
+  sitemap: {
+    hostname: 'http://exit5.co.kr/',
+    routes: () => getRoutes()
+  },
   plugins: ["~/plugins/index.js"],
   router: {
     middleware: ["index"],

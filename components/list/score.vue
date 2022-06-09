@@ -1,14 +1,14 @@
 <template>
   <ul class="list-score">
     <li v-for="(article, index) of articles" :key="index">
-      <button type="button" @click="delayRouter(article.path)">
+      <nuxt-link :to="`/article/detail/${article.path.slice(1).replace(/\//gi, '_')}`">
         <div class="category">{{ article.dir.replace('/', '') }}</div>
         <div class="subject">{{ article.musician }} - {{ article.title }}</div>
         <div class="info">
           <div class="date">{{ article.date }}</div>
           <div class="author">{{ article.author }}</div>
         </div>
-      </button>
+      </nuxt-link>
     </li>
   </ul>
 </template>
@@ -26,13 +26,6 @@ export default Vue.extend({
       is_loading: state => state.is_loading
     })
   },
-  methods: {
-    delayRouter(path) {
-      this.$store.commit('set_loading', true)
-
-      this.$router.push({path: `/article/detail/${path.slice(1).replace(/\//gi, '_')}`})
-    },
-  }
 })
 </script>
 
@@ -44,7 +37,7 @@ export default Vue.extend({
   column-gap: 15px;
 
   li {
-    button {
+    a {
       display: block;
       width: 100%;
       padding: 12px 24px;

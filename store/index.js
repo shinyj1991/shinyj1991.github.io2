@@ -1,7 +1,6 @@
 const state = () => ({
   is_menu: false,
   app_loaded: false,
-  is_loading: false,
   blog_depth: []
 });
 
@@ -15,9 +14,6 @@ const mutations = {
   app_loaded(state) {
     state.app_loaded = true;
   },
-  set_loading(state, payload) {
-    state.is_loading = payload;
-  },
   set_blog_depth(state, payload) {
     state.blog_depth = payload;
   }
@@ -25,7 +21,7 @@ const mutations = {
 
 const actions = {
   async nuxtServerInit(store, { app }) {
-    console.log('nuxtServerInit');
+    // console.log('nuxtServerInit');
   }
 }
 
