@@ -5,7 +5,7 @@
     </header>
     <list-musician :musicians="musicians" />
     <div class="btn-area">
-      <btn-more @click="$router.push('/article/list/score')">모든 악보 보기 +</btn-more>
+      <btn-more tag="nuxt-link" to="/article/list/score">모든 악보 보기 +</btn-more>
     </div>
   </div>
 </template>

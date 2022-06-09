@@ -12,8 +12,8 @@
       @incrementPage="page++"
     />
     <div class="btn-area">
-      <btn-more v-if="musician" @click="$router.push('/musician')">다른가수 보기 +</btn-more>
-      <btn-more v-if="page < lastPage && !is_loading" @click="page++">더보기 +</btn-more>
+      <btn-more tag="nuxt-link" to="/musician">다른가수 보기 +</btn-more>
+      <btn-more tag="button" v-if="page < lastPage && !is_loading" @click="page++">더보기 +</btn-more>
     </div>
   </div>
 </template>
@@ -33,8 +33,6 @@ export default {
     const musician = arrayParams[1] ? musicians.find(m => m.eng === arrayParams[1])['kor'] : false;
     const title = musician ? `EXIT5 | ${musician} - 악보 자료실` : meta.title;
     const keywords = `${musician}, ${meta.keywords}`;
-
-    console.log(arrayParams);
 
     let articles = await $content(path, { deep: true })
       .limit(visibleLength)

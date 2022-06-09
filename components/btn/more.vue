@@ -1,12 +1,27 @@
 <template>
-  <button type="button" class="btn-more" @click="$emit('click')">
+  <component 
+    :is="tag" 
+    :type="tag === 'button' ? 'button' : null"
+    :to="tag === 'nuxt-link' ? to : null"
+    class="btn-more"
+    @click="$emit('click')"
+  >
     <slot />
-  </button>
+  </component>
 </template>
 
 <script>
 export default {
-
+  props: {
+    tag: {
+      type: String,
+      default: 'button',
+    },
+    to: {
+      type: String,
+      default: '/',
+    },
+  }
 }
 </script>
 

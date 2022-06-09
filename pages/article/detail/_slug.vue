@@ -11,7 +11,7 @@
       </div>
       <!-- <banner-coupang /> -->
       <div class="btn-area">
-        <btn-more @click="$router.push(`/article/list/score_${musicianEng}`)">{{ musicianKor }} 악보 게시판 +</btn-more>
+        <btn-more tag="nuxt-link" :to="`/article/list/score_${musicianEng}`">{{ musicianKor }} 악보 게시판 +</btn-more>
       </div>
     </div>
     <config-reply />

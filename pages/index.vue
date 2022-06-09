@@ -8,8 +8,8 @@
     </section>
     <section>
       <header>
-        <h2 @click="test">🎼 악보 게시판</h2>
-        <btn-more @click="$router.push('/article/list/score')">더보기 +</btn-more>
+        <h2>🎼 악보 게시판</h2>
+        <btn-more tag="nuxt-link" to="/article/list/score">더보기 +</btn-more>
       </header>
       <list-score :articles="articles" />
     </section>
@@ -40,11 +40,6 @@ export default {
   data: () => ({
     musicians: musicians.sort((a, b) => a.kor < b.kor ? -1 : a.kor > b.kor ? 1 : 0),
   }),
-  methods: {
-    test() {
-      console.log('test');
-    }
-  }
 }
 </script>
 
