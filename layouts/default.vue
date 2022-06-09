@@ -6,7 +6,7 @@
     <main class="container">
       <nuxt />
     </main>
-    <loader v-if="isLoading" />
+    <!-- <loader v-if="isLoading" /> -->
   </div>
 </template>
 

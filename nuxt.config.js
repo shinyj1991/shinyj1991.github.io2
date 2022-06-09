@@ -18,11 +18,7 @@ export default {
       { defer: true, hid: 'adsense', src: '/adsense.js' }
     ]
   },
-  loading: {
-    color: "#ffffff",
-    height: "2px",
-    throttle: 500,
-  },
+  loading: '@/components/loader.vue',
   server: {
     port: 8000,
   },

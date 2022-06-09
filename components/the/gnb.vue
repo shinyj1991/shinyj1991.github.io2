@@ -55,12 +55,12 @@ export default {
 
   ul {
     display: grid;
-    row-gap: 30px;
+    row-gap: 12px;
 
     li {
       a {
         display: block;
-        font-size: 32px;
+        font-size: 24px;
         color: #fff;
       }
     }

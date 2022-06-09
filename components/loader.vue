@@ -1,5 +1,5 @@
 <template>
-  <div class="loader-outer">
+  <div class="loader-outer" v-if="loading">
     <div class='loader10'>
       <div class='spinner3'>
         <div class='container-B'>
@@ -40,6 +40,22 @@
   </div>
 </template>
 
+<script>
+  export default {
+    data: () => ({
+      loading: false
+    }),
+    methods: {
+      start() {
+        this.loading = true
+      },
+      finish() {
+        this.loading = false
+      }
+    }
+  }
+</script>
+
 <style lang="scss" scoped>
 .loader-outer {
   position: fixed;
@@ -48,7 +64,7 @@
   bottom: 0;
   left: 0;
   z-index: 1001;
-  background: rgba(255, 255, 255, 0.7);
+  // background: rgba(255, 255, 255, 0.7);
 }
 
 .loader10 {
