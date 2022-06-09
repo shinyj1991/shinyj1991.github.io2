@@ -16,7 +16,7 @@ export default {
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
     ],
     script: [
-      { defer: true, hid: 'adsense', src: '/adsense.js' }
+      // { defer: true, hid: 'adsense', src: '/adsense.js' }
     ]
   },
   loading: '@/components/loader.vue',
