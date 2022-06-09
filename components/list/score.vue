@@ -37,6 +37,9 @@ export default Vue.extend({
   column-gap: 15px;
 
   li {
+    flex: 1 0 auto;
+    overflow: hidden;
+
     a {
       display: block;
       width: 100%;
@@ -52,7 +55,11 @@ export default Vue.extend({
         font-size: 12px;
       }
       .subject {
+        width: 100%;
         font-size: 16px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
       .info {
         display: flex;
