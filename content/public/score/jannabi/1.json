@@ -1,0 +1,94 @@
+{
+  "musician": "잔나비",
+  "title": "뜨거운 여름밤은 가고 남은 건 볼품없지만",
+  "year": 2016,
+  "capo": 3,
+  "measure": 4,
+  "date": "2022-06-10",
+  "score": [
+    {
+      "type": "tab",
+      "contents": [
+        {"chord": [{"name": "C"}], "lyrics": ["그 땐"]},
+        {"chord": [{"name": "C"}], "lyrics": ["", "난 어떤 마음이"]},
+        {"chord": [{"name": "Am7"}], "lyrics": ["었 길래"]},
+        {"chord": [{"name": "Am7"}], "lyrics": [""]},
+        
+        {"chord": [{"name": "Dm7"}], "lyrics": ["내 모든걸 주고도"]},
+        {"chord": [{"name": "Dm7"}], "lyrics": ["", "웃을 수 있었"]},
+        {"chord": [{"name": "Fm"}], "lyrics": ["나"]},
+        {"chord": [{"name": "G"}], "lyrics": [""]},
+        
+        {"chord": [{"name": "C"}], "lyrics": ["그 대 는"]},
+        {"chord": [{"name": "C"}], "lyrics": ["", "또 어떤 마음이"]},
+        {"chord": [{"name": "Am7"}], "lyrics": ["었 길래"]},
+        {"chord": [{"name": "Am7"}], "lyrics": [""]},
+        
+        {"chord": [{"name": "Dm7"}], "lyrics": ["그 모든걸 갖고도"]},
+        {"chord": [{"name": "Dm7"}], "lyrics": ["", "돌아서 버렸"]},
+        {"chord": [{"name": "Fm"}], "lyrics": ["나"]},
+        {"chord": [{"name": "G"}], "lyrics": [""]},
+        
+        {"chord": [{"name": "C"}, {"name": "G/B"}], "lyrics": ["뜨 거 운", "여"]},
+        {"chord": [{"name": "Gm/B♭"}, {"name": "A7"}], "lyrics": ["름밤은 가고", "남은"]},
+        {"chord": [{"name": "Dm"}, {"name": "DmM7"}], "lyrics": ["건"]},
+        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["볼 품 없지만"]},
+        
+        {"chord": [{"name": "C"}, {"name": "G/B"}], "lyrics": ["또 다 시"]},
+        {"chord": [{"name": "Gm/B♭"}, {"name": "A7"}], "lyrics": ["찾 아 오 는", "누군"]},
+        {"chord": [{"name": "Dm", "grow": 2}, {"name": "Fm"}, {"name": "G"}], "lyrics": ["갈 위해서 남겨두겠"]},
+        {"chord": [{"name": "C", "grow": 2}, {"name": "Fm"}, {"name": "G"}], "lyrics": ["소"]},
+        
+        {"chord": [{"name": "C"}], "lyrics": [""]},
+        {"chord": [{"name": "C"}], "lyrics": [""]},
+        {"chord": [{"name": "Am7"}], "lyrics": [""]},
+        {"chord": [{"name": "Am7"}], "lyrics": [""]},
+        
+        {"chord": [{"name": "Dm7"}], "lyrics": [""]},
+        {"chord": [{"name": "Dm7"}], "lyrics": [""]},
+        {"chord": [{"name": "Fm"}], "lyrics": [""]},
+        {"chord": [{"name": "G"}], "lyrics": [""]},
+        
+        {"chord": [{"name": "C"}], "lyrics": ["다 짐 은"]},
+        {"chord": [{"name": "C"}], "lyrics": ["", "세워올린 모"]},
+        {"chord": [{"name": "Am7"}], "lyrics": ["래성은"]},
+        {"chord": [{"name": "Am7"}], "lyrics": [""]},
+        
+        {"chord": [{"name": "Dm7"}], "lyrics": ["심술이 또 터지면"]},
+        {"chord": [{"name": "Dm7"}], "lyrics": ["", "무너지겠지만"]},
+        {"chord": [{"name": "Fm"}], "lyrics": [""]},
+        {"chord": [{"name": "G"}], "lyrics": [""]},
+        
+        {"chord": [{"name": "C"}, {"name": "G/B"}], "lyrics": ["뜨 거 운", "여"]},
+        {"chord": [{"name": "Gm/B♭"}, {"name": "A7"}], "lyrics": ["름밤은 가고", "남은"]},
+        {"chord": [{"name": "Dm"}, {"name": "DmM7"}], "lyrics": ["건"]},
+        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["볼 품 없지만"]},
+        
+        {"chord": [{"name": "C"}, {"name": "G/B"}], "lyrics": ["또 다 시"]},
+        {"chord": [{"name": "Gm/B♭"}, {"name": "A7"}], "lyrics": ["찾 아 오 는", "누군"]},
+        {"chord": [{"name": "Dm", "grow": 2}, {"name": "Fm"}, {"name": "G"}], "lyrics": ["갈 위해서 남겨두겠"]},
+        {"chord": [{"name": "C", "grow": 2}, {"name": "Fm"}, {"name": "G"}], "lyrics": ["소"]},
+        
+        {"chord": [{"name": "C"}, {"name": "G/B"}], "lyrics": ["그 리 운", "그"]},
+        {"chord": [{"name": "Gm/B♭"}, {"name": "A7"}], "lyrics": ["마음 그대로", "영원"]},
+        {"chord": [{"name": "Dm"}, {"name": "DmM7"}], "lyrics": ["히"]},
+        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["담아둘거야"]},
+        
+        {"chord": [{"name": "C"}, {"name": "G/B"}], "lyrics": ["언 젠 가"]},
+        {"chord": [{"name": "Gm/B♭"}, {"name": "A7"}], "lyrics": ["불어오는", "바람"]},
+        {"chord": [{"name": "Dm", "grow": 2}, {"name": "Fm"}, {"name": "G"}], "lyrics": ["에 남몰래 날려보겠"]},
+        {"chord": [{"name": "C", "grow": 2}, {"name": "Fm"}, {"name": "G"}], "lyrics": ["소"]},
+        
+        {"chord": [{"name": "C"}, {"name": "G/B"}], "lyrics": ["눈이 부시던 그 순간들도"]},
+        {"chord": [{"name": "Gm/B♭"}, {"name": "A7"}], "lyrics": ["가슴아픈 그대의 거짓말도"]},
+        {"chord": [{"name": "Dm"}, {"name": "DmM7"}], "lyrics": [""]},
+        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["새하얗게 바래지고"]},
+        
+        {"chord": [{"name": "C"}, {"name": "G/B"}], "lyrics": ["비틀거리던 내 발걸음도"]},
+        {"chord": [{"name": "Gm/B♭"}, {"name": "A7"}], "lyrics": ["그늘아래 드리운 내 눈빛도"]},
+        {"chord": [{"name": "Dm"}, {"name": "DmM7"}], "lyrics": [""]},
+        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["아름답게 피어나길"]}
+      ]
+    }
+  ]
+}
