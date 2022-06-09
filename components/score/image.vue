@@ -1,6 +1,6 @@
 <template>
   <div class="score-image">
-    <img :src="dynamicImage" :alt="alt" />
+    <!-- <img :src="dynamicImage" :alt="alt" /> -->
   </div>
 </template>
 
@@ -18,7 +18,7 @@ export default {
   },
   computed: {
     dynamicImage() {
-      return require(`~/assets/images/tab${this.src}`);
+      // return require(`~/assets/images/tab${this.src}`);
     }
   }
 };
