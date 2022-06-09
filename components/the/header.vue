@@ -105,5 +105,9 @@ export default {
       transform: rotate(-45deg);
     }
   }
+}
+
+@media print {
+  display: none;
 }}
 </style>

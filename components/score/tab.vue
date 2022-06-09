@@ -91,10 +91,6 @@ export default {
       padding: 0;
       height: 60px;
       margin: 0 3px;
-
-      .lyrics-list {
-        // background: none;
-      }
     }
     &:nth-child(4n + 1) {
       .line-list {

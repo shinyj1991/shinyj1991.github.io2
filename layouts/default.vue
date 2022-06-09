@@ -44,5 +44,12 @@ export default {
   .container {
     padding: 20px 20px 50px;
   }
+}
+
+@media print {
+  .container {
+    padding: 50px 0 0;
+    -webkit-print-color-adjust: exact;
+  }
 }}
 </style>

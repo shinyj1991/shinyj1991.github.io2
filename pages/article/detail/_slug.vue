@@ -57,10 +57,11 @@ export default {
     display: grid;
     row-gap: 100px;
   }
-
-@media screen and (max-width: 1200px) {
+@media print {
   .score-contents {
-    row-gap: 50px;
+    .btn-area {
+      display: none;
+    }
   }
 }}
 </style>
