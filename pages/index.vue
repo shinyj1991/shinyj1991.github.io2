@@ -2,25 +2,25 @@
   <div class="page-index">
     <section>
       <header>
-        <h2>🎤 가수 게시판</h2>
+        <tit-h2>🎤 가수 게시판</tit-h2>
       </header>
       <list-musician :musicians="musicians" />
     </section>
     <section>
       <header>
-        <h2>🎼 악보 게시판</h2>
+        <tit-h2>🎼 악보 게시판</tit-h2>
         <btn-more tag="nuxt-link" to="/article/list/score">더보기 +</btn-more>
       </header>
       <list-score :articles="articles" />
     </section>
     <section>
       <header>
-        <h2><nuxt-link to="/chord">🎶 코드표 보러 가기</nuxt-link></h2>
+        <tit-h2><nuxt-link to="/chord">🎶 코드표 보러 가기</nuxt-link></tit-h2>
       </header>
     </section>
     <section>
       <header>
-        <h2><nuxt-link to="/request">💌 악보 신청 하기</nuxt-link></h2>
+        <tit-h2><nuxt-link to="/request">💌 악보 신청 하기</nuxt-link></tit-h2>
       </header>
     </section>
   </div>
@@ -55,9 +55,7 @@ export default {
       align-items: center;
       margin-bottom: 20px;
 
-      h2 {
-        font-size: 22px;
-
+      .tit-h2 {
         a {
           &:hover {
             background: #f7f7f7;

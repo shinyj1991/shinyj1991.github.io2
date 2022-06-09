@@ -1,7 +1,7 @@
 <template>
   <div class="page-chord">
     <header>
-      <h2>🎶 코드표</h2>
+      <tit-h2>🎶 코드표</tit-h2>
     </header>
     <ul class="chord-list">
       <li v-for="(chord, index) in chords" :key="index">
@@ -36,10 +36,6 @@ export default {
 .page-chord {
   header {
     margin-bottom: 20px;
-
-    h2 {
-      font-size: 24px;
-    }
   }
   .chord-list {
     display: grid;

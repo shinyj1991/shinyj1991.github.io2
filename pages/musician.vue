@@ -1,7 +1,7 @@
 <template>
   <div class="page-musician">
     <header>
-      <h2>🎤 가수 게시판</h2>
+        <tit-h2>🎤 가수 게시판</tit-h2>
     </header>
     <list-musician :musicians="musicians" />
     <div class="btn-area">
@@ -24,10 +24,6 @@ export default {
 .page-musician {
   header {
     margin-bottom: 20px;
-
-    h2 {
-      font-size: 24px;
-    }
   }
   .btn-area {
     display: flex;

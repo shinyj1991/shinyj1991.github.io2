@@ -1,8 +1,8 @@
 <template>
   <div class="page-music-list">
     <header>
-      <h2 v-if="musician">🎼 {{ musician }} - 악보 게시판</h2>
-      <h2 v-else>🎼 악보 게시판</h2>
+      <tit-h2 v-if="musician">🎼 {{ musician }} - 악보 게시판</tit-h2>
+      <tit-h2 v-else>🎼 악보 게시판</tit-h2>
     </header>
     <config-head :title="title" :keywords="keywords" />
     <list-score
@@ -73,10 +73,6 @@ export default {
 .page-music-list {
   header {
     margin-bottom: 20px;
-
-    h2 {
-      font-size: 24px;
-    }
   }
   .btn-area {
     display: flex;
