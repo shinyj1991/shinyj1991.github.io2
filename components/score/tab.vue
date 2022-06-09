@@ -41,8 +41,6 @@
 </template>
 
 <script>
-import { mapState } from 'vuex'
-
 export default {
   data: () => ({
     chord: null,
@@ -58,27 +56,14 @@ export default {
       required: true
     },
   },
-  computed: {
-    ...mapState({
-      isChordLoaded: state => state.isChordLoaded,
-    })
-  },
   methods: {
     async openPopupChord(name) {
-      if (!this.isChordLoaded) {
-        this.$nuxt.$loading.start();
-      }
-
       this.chord = await this.$content(`chord/${name}`).fetch();
       this.isPopupChord = true;
-
-      if (!this.isChordLoaded) {
-        this.$store.commit('setChordLoaded', true);
-        this.$nuxt.$loading.finish();
-      }
     }
   },
   async created() {
+    // 2022-06-09 코드 팝업이 처음 1회 늦게 뜨는 현상 방지
     this.chord = await this.$content(`chord/C`).fetch();
   }
 };
