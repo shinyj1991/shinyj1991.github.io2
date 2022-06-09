@@ -3,9 +3,10 @@
     <header>
       <h2>🎤 가수 게시판</h2>
     </header>
-    <list-musician 
-      :musicians="musicians"
-    />
+    <list-musician :musicians="musicians" />
+    <div class="btn-area">
+      <btn-more @click="$router.push('/article/list/score')">모든 악보 보기 +</btn-more>
+    </div>
   </div>
 </template>
 
@@ -27,6 +28,11 @@ export default {
     h2 {
       font-size: 24px;
     }
+  }
+  .btn-area {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 30px;
   }
 }
 </style>

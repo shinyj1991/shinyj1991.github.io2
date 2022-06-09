@@ -10,8 +10,8 @@
         <score-chord v-if="score.type === 'chord'" :measure="music.measure" :score="score" />
       </div>
       <!-- <banner-coupang /> -->
-      <div class="this-musician">
-        <nuxt-link :to="`/article/list/score_${musicianEng}`">{{ musicianKor }} 노래 악보 더보기 +</nuxt-link>
+      <div class="btn-area">
+        <btn-more @click="$router.push(`/article/list/score_${musicianEng}`)">{{ musicianKor }} 악보 게시판 +</btn-more>
       </div>
     </div>
     <config-reply />
@@ -56,14 +56,6 @@ export default {
   .score-contents {
     display: grid;
     row-gap: 100px;
-  }
-  .this-musician {
-    a {
-      display: inline-block;
-      border: 1px solid #ccc;
-      padding: 8px 10px;
-      font-size: 14px;
-    }
   }
 
 @media screen and (max-width: 1200px) {

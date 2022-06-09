@@ -11,12 +11,9 @@
       :lastPage="lastPage"
       @incrementPage="page++"
     />
-    <div class="btn_area">
-      <button 
-        type="button" 
-        v-if="page < lastPage && !is_loading" 
-        @click="moreArticles"
-      >더보기</button>
+    <div class="btn-area">
+      <btn-more v-if="musician" @click="$router.push('/musician')">다른가수 보기 +</btn-more>
+      <btn-more v-if="page < lastPage && !is_loading" @click="moreArticles">더보기 +</btn-more>
     </div>
   </div>
 </template>
@@ -94,19 +91,10 @@ export default {
       font-size: 24px;
     }
   }
-  .btn_area {
-    height: 40px;
+  .btn-area {
+    display: flex;
+    column-gap: 10px;
     margin-top: 30px;
-
-    button {
-      height: 40px;
-      padding: 0 30px;
-      transition: all 300ms;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
   }
 }
 </style>

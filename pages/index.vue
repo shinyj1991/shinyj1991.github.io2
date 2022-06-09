@@ -4,18 +4,14 @@
       <header>
         <h2>🎤 가수 게시판</h2>
       </header>
-      <list-musician 
-        :musicians="musicians"
-      />
+      <list-musician :musicians="musicians" />
     </section>
     <section>
       <header>
-        <h2>🎼 악보 게시판</h2>
-        <nuxt-link to="/article/list/score" class="btn-more">더보기 +</nuxt-link>
+        <h2 @click="test">🎼 악보 게시판</h2>
+        <btn-more @click="$router.push('/article/list/score')">더보기 +</btn-more>
       </header>
-      <list-score
-        :articles="articles"
-      />
+      <list-score :articles="articles" />
     </section>
     <section>
       <header>
@@ -44,6 +40,11 @@ export default {
   data: () => ({
     musicians: musicians.sort((a, b) => a.kor < b.kor ? -1 : a.kor > b.kor ? 1 : 0),
   }),
+  methods: {
+    test() {
+      console.log('test');
+    }
+  }
 }
 </script>
 
@@ -66,15 +67,6 @@ export default {
           &:hover {
             background: #f7f7f7;
           }
-        }
-      }
-      .btn-more {
-        border: 1px solid #ccc;
-        padding: 8px 10px;
-        font-size: 14px;
-
-        &:hover {
-          background: #f7f7f7;
         }
       }
     }
