@@ -16,7 +16,7 @@
             flex-grow: ${chord.grow ? chord.grow : 1};
             flex-basis: ${100 * ((chord.grow ? chord.grow : 1) / measure.chord.length)}%;
           `"
-          @click="openPopupChord(chord.name)"
+          @click="openPopupChord(chord.name.replace(/\//gi, '_'))"
         >{{ chord.name }}</button>
       </div>
       <div class="tab-area" v-if="measure.nodelist">
@@ -69,10 +69,7 @@ export default {
         this.$nuxt.$loading.start();
       }
 
-      const chordName = name.replace(/\//gi, '_');
-      const result = await this.$content(`chord/${chordName}`).fetch();
-
-      this.chord = result;
+      this.chord = await this.$content(`chord/${name}`).fetch();
       this.isPopupChord = true;
 
       if (!this.isChordLoaded) {
@@ -81,6 +78,9 @@ export default {
       }
     }
   },
+  async created() {
+    this.chord = await this.$content(`chord/C`).fetch();
+  }
 };
 </script>
 

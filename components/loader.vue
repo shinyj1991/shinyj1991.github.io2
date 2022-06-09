@@ -22,14 +22,14 @@
                       <div class='hex120'></div>
                       <div class='hex240'></div>
                       <div class='spinner3'>
-                          <div class='container-B'>
-                            <div class='hex0'></div>
-                            <div class='hex120'></div>
-                            <div class='hex240'></div>
-                          </div>
+                        <div class='container-B'>
+                          <div class='hex0'></div>
+                          <div class='hex120'></div>
+                          <div class='hex240'></div>
+                        </div>
                       </div>
                     </div>
-                </div>
+                  </div>
                 </div>
               </div>
             </div>
