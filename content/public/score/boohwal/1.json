@@ -1,0 +1,112 @@
+{
+  "musician": "부활",
+  "title": "비밀",
+  "year": 2011,
+  "capo": 3,
+  "measure": 4,
+  "date": "2022-06-11",
+  "score": [
+    {
+      "type": "tab",
+      "contents": [
+        {"chord": [{"name": "G"}], "lyrics": [""]},
+        {"chord": [{"name": "C"}], "lyrics": [""]},
+        {"chord": [{"name": "G"}], "lyrics": [""]},
+        {"chord": [{"name": "C"}], "lyrics": [""]},
+
+        {"chord": [{"name": "G"}], "lyrics": ["빈 의자와 마주 앉아서"]},
+        {"chord": [{"name": "C"}], "lyrics": ["", "가"]},
+        {"chord": [{"name": "Dsus4"}, {"name": "D"}], "lyrics": ["끔 나혼자서 말을 하고"]},
+        {"chord": [{"name": "G"}], "lyrics": ["", "언"]},
+
+        {"chord": [{"name": "Em7"}], "lyrics": ["제 부턴가 나도 모르는"]},
+        {"chord": [{"name": "A7"}], "lyrics": ["사이", "자"]},
+        {"chord": [{"name": "Am7"}], "lyrics": ["꾸 뒤돌아 보게 되고"]},
+        {"chord": [{"name": "Dsus4"}, {"name": "D"}], "lyrics": ["", "비"]},
+
+        {"chord": [{"name": "G"}], "lyrics": ["밀 처럼 계절이 흘러"]},
+        {"chord": [{"name": "C"}], "lyrics": ["", "상"]},
+        {"chord": [{"name": "Dsus4"}, {"name": "D"}], "lyrics": ["처 들이 아물어 가면"]},
+        {"chord": [{"name": "G"}], "lyrics": ["", "설"]},
+
+        {"chord": [{"name": "Em7"}, {"name": "Bm7"}], "lyrics": ["레이던 너는", "설"]},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["레이던 너는", "한"]},
+        {"chord": [{"name": "Am7"}, {"name": "A7"}], "lyrics": ["편의 시 가 되고"]},
+        {"chord": [{"name": "Dsus4"}, {"name": "D"}], "lyrics": ["", "너무나"]},
+
+        {"chord": [{"name": "G"}, {"name": "D"}], "lyrics": ["보고싶어서", "보고"]},
+        {"chord": [{"name": "Em7"}], "lyrics": ["싶어져서", "가끔씩"]},
+        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["홀로 두눈을 감곤해"]},
+        {"chord": [{"name": "Bm7"}], "lyrics": ["", "너와나"]},
+
+        {"chord": [{"name": "Em7"}, {"name": "Bm7"}], "lyrics": ["사랑을 하던 날들과"]},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["헤어지던 날을"]},
+        {"chord": [{"name": "Am"}, {"name": "A7"}], "lyrics": ["난 간직하게 돼"]},
+        {"chord": [{"name": "Dsus4"}, {"name": "D"}], "lyrics": ["", "너무나"]},
+
+        {"chord": [{"name": "G"}, {"name": "D"}], "lyrics": ["그리워 져서", "너무"]},
+        {"chord": [{"name": "Em7"}], "lyrics": ["그리워서", "너의 이"]},
+        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["름을 홀로 부르곤해"]},
+        {"chord": [{"name": "G"}], "lyrics": ["", "너무"]},
+
+        {"chord": [{"name": "Em7"}, {"name": "Bm7"}], "lyrics": ["사랑해서", "너무"]},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["사랑해서", "넌"]},
+        {"chord": [{"name": "Am7"}, {"name": "A7"}], "lyrics": ["내안에 늘 있나봐"]},
+        {"chord": [{"name": "D"}], "lyrics": ["있나봐"]},
+
+        {"chord": [{"name": "G"}], "lyrics": [""]},
+        {"chord": [{"name": "C"}], "lyrics": [""]},
+        {"chord": [{"name": "G"}], "lyrics": [""]},
+        {"chord": [{"name": "C"}], "lyrics": ["", "비"]},
+
+        {"chord": [{"name": "G"}], "lyrics": ["밀 처럼 계절이 흘러"]},
+        {"chord": [{"name": "C"}], "lyrics": ["", "상"]},
+        {"chord": [{"name": "Dsus4"}, {"name": "D"}], "lyrics": ["처 들이 아물어 가면"]},
+        {"chord": [{"name": "G"}], "lyrics": ["", "설"]},
+
+        {"chord": [{"name": "Em7"}, {"name": "Bm7"}], "lyrics": ["레이던 너는", "설"]},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["레이던 너는", "한"]},
+        {"chord": [{"name": "Am7"}, {"name": "A7"}], "lyrics": ["편의 시 가 되고"]},
+        {"chord": [{"name": "Dsus4"}], "lyrics": [""]},
+        {"chord": [{"name": "D"}], "lyrics": ["", "너무나"]},
+
+        {"chord": [{"name": "G"}, {"name": "D"}], "lyrics": ["보고싶어서", "보고"]},
+        {"chord": [{"name": "Em7"}], "lyrics": ["싶어져서", "가끔씩"]},
+        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["홀로 두눈을 감곤해"]},
+        {"chord": [{"name": "Bm7"}], "lyrics": ["", "너와나"]},
+
+        {"chord": [{"name": "Em7"}, {"name": "Bm7"}], "lyrics": ["사랑을 하던 날들과"]},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["헤어지던 날을"]},
+        {"chord": [{"name": "Am"}, {"name": "A7"}], "lyrics": ["난 간직하게 돼"]},
+        {"chord": [{"name": "Dsus4"}, {"name": "D"}], "lyrics": ["", "너무나"]},
+
+        {"chord": [{"name": "G"}, {"name": "D"}], "lyrics": ["그리워 져서", "너무"]},
+        {"chord": [{"name": "Em7"}], "lyrics": ["그리워서", "너의 이"]},
+        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["름을 홀로 부르곤해"]},
+        {"chord": [{"name": "G"}], "lyrics": ["", "너무"]},
+
+        {"chord": [{"name": "Em7"}, {"name": "Bm7"}], "lyrics": ["사랑해서", "너무"]},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["사랑해서", "넌"]},
+        {"chord": [{"name": "Am7"}, {"name": "A7"}], "lyrics": ["내안에 늘 있나봐"]},
+        {"chord": [{"name": "D"}], "lyrics": ["있나봐"]},
+        {"chord": [{"name": "D"}], "lyrics": ["", "너무나"]},
+
+        {"chord": [{"name": "G"}, {"name": "D"}], "lyrics": ["보고싶어서", "보고"]},
+        {"chord": [{"name": "Em7"}], "lyrics": ["싶어져서", "너의 이"]},
+        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["름을 홀로 부르곤해"]},
+        {"chord": [{"name": "G"}], "lyrics": ["", "너무"]},
+
+        {"chord": [{"name": "Em7"}, {"name": "Bm7"}], "lyrics": ["사랑해서", "너무"]},
+        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["사랑해서", "넌"]},
+        {"chord": [{"name": "Am7"}, {"name": "A7"}], "lyrics": ["내안에 늘 있나봐"]},
+        {"chord": [{"name": "D"}], "lyrics": ["있나봐"]},
+        {"chord": [{"name": "G"}], "lyrics": ["있 나 봐"]},
+
+        {"chord": [{"name": "G"}], "lyrics": [""]},
+        {"chord": [{"name": "C"}], "lyrics": [""]},
+        {"chord": [{"name": "G"}], "lyrics": [""]},
+        {"chord": [{"name": "C"}], "lyrics": [""]}
+      ]
+    }
+  ]
+}

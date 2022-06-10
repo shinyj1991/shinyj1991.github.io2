@@ -63,4 +63,8 @@ export default [
     kor: '잔나비',
     eng: 'jannabi'
   },
+  {
+    kor: '부활',
+    eng: 'boohwal'
+  },
 ];
