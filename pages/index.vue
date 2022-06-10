@@ -36,12 +36,9 @@ export default {
 
     return {
       articles,
+      musicians: musicians.sort(() => Math.random() - 0.5),
     }
   },
-  data: () => ({
-    // musicians: musicians.sort((a, b) => a.kor < b.kor ? -1 : a.kor > b.kor ? 1 : 0), ㄱㄴㄷ 순
-    musicians: musicians.sort(() => Math.random() - 0.5),
-  }),
 }
 </script>
 
