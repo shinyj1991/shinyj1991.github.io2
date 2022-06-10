@@ -57,7 +57,7 @@ export default {
   },
   build: {},
   sitemap: {
-    hostname: 'http://exit5.co.kr/',
+    hostname: 'https://exit5.co.kr/',
     routes: () => getRoutes()
   },
   plugins: ["~/plugins/index.js"],
