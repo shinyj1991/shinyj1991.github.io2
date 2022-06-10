@@ -27,6 +27,7 @@ export default {
 
 <style lang="scss" scoped>
 .btn-more {
+  display: inline-flex;
   border: 1px solid #ccc;
   padding: 8px 10px;
   font-size: 14px;

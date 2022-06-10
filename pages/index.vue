@@ -3,6 +3,7 @@
     <section>
       <header>
         <tit-h2>🎤 가수 게시판</tit-h2>
+        <btn-more tag="nuxt-link" to="/musician">더보기 +</btn-more>
       </header>
       <list-musician :musicians="musicians" />
     </section>
@@ -38,7 +39,8 @@ export default {
     }
   },
   data: () => ({
-    musicians: musicians.sort((a, b) => a.kor < b.kor ? -1 : a.kor > b.kor ? 1 : 0),
+    // musicians: musicians.sort((a, b) => a.kor < b.kor ? -1 : a.kor > b.kor ? 1 : 0), ㄱㄴㄷ 순
+    musicians: musicians.sort(() => Math.random() - 0.5),
   }),
 }
 </script>
@@ -63,6 +65,10 @@ export default {
         }
       }
     }
+  }
+  .list-musician {
+    overflow: hidden;
+    max-height: 107px;
   }
 }
 </style>

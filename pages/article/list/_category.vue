@@ -3,6 +3,8 @@
     <header>
       <tit-h2 v-if="musician">🎼 {{ musician }} - 악보 게시판</tit-h2>
       <tit-h2 v-else>🎼 악보 게시판</tit-h2>
+      <btn-more tag="nuxt-link" v-if="musician" to="/musician">다른가수 보기 +</btn-more>
+      <btn-more tag="nuxt-link" v-else to="/musician">가수별로 보기 +</btn-more>
     </header>
     <config-head :title="title" :keywords="keywords" />
     <list-score
@@ -12,7 +14,6 @@
       @incrementPage="page++"
     />
     <div class="btn-area">
-      <btn-more tag="nuxt-link" to="/musician">다른가수 보기 +</btn-more>
       <btn-more tag="button" v-if="page < lastPage && !is_loading" @click="page++">더보기 +</btn-more>
     </div>
   </div>
@@ -72,6 +73,9 @@ export default {
 <style lang="scss" scoped>
 .page-music-list {
   header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 20px;
   }
   .btn-area {

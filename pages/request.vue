@@ -2,7 +2,7 @@
   <div class="page-request">
     <p class="notice">
       아래 댓글로 원하는 악보를 남겨주세요.<br>
-      Github 아이디가 없으면 아래 메일주소로 보내주세요.<br><br>
+      Github 계정이 없는분은 아래 메일주소로 보내주세요.<br><br>
       Email : shinyj1991@gmail.com<br><br>
       💖
     </p>
