@@ -3,22 +3,11 @@
     <div 
       class="measure"
       :class="{
-        isChord: measure.chord,
-        isLyrics: measure.lyrics,
         isTab: measure.nodelist,
         isDisabled: measure.disabled
       }"
       v-for="(measure, index) in score.contents" :key="index"
     >
-      <div class="chord-list">
-        <button type="button" class="chord" v-for="(chord, index) in measure.chord" :key="index"
-          :style="`
-            flex-grow: ${chord.grow ? chord.grow : 1};
-            flex-basis: ${100 * ((chord.grow ? chord.grow : 1) / measure.chord.length)}%;
-          `"
-          @click="openPopupChord(chord)"
-        >{{ chord.name }}</button>
-      </div>
       <div class="tab-area" v-if="measure.nodelist">
         <div class="line-list">
           <div class="line" v-for="(line, index) in 6" :key="index"></div>
@@ -32,8 +21,19 @@
           <div class="node" v-for="(node, index) in nodelist.node" :key="index">{{ node !== null ? node : '' }}</div>
         </div>
       </div>
-      <div class="lyrics-list">
-        <div class="lyrics" v-for="lyrics in measure.lyrics">{{ lyrics }}</div>
+      <div class="chord-area">
+        <div class="chord-list">
+          <button type="button" class="chord" v-for="(chord, index) in measure.chord" :key="index"
+            :style="`
+              flex-grow: ${chord.grow ? chord.grow : 1};
+              flex-basis: ${100 * ((chord.grow ? chord.grow : 1) / measure.chord.length)}%;
+            `"
+            @click="openPopupChord(chord)"
+          >{{ chord.name }}</button>
+        </div>
+        <div class="lyrics-list">
+          <div class="lyrics" v-for="(lyrics, index) in measure.lyrics" :key="index">{{ lyrics }}</div>
+        </div>
       </div>
     </div>
     <popup-chord :isPopupChord.sync="isPopupChord" :chord="chord" />
@@ -73,46 +73,27 @@ export default {
 <style lang="scss" scoped>
 .score-tab {
   display: grid;
-  row-gap: 30px;
+  row-gap: 60px;
 
   .measure {
+    display: grid;
+    row-gap: 20px;
     position: relative;
 
-    &.isChord {
-      padding-top: 35px;
-    }
-    &.isLyrics {
-      padding-bottom: 40px;
-    }
-    &:not(.isTab) {
-      border: 1px solid #ccc;
-      padding: 0;
-      height: 60px;
-      margin: 0 3px;
-    }
     &:nth-child(4n + 1) {
-      .line-list {
+      .tab-area {
         border-left: 1px solid #000;
+      }
+      .chord-area {
+        border-left: 1px solid #ccc;
       }
     }
     &.isDisabled {
-      border: none;
-    }
-    .chord-list {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      display: flex;
+      .chord-area {
+        border-right: none;
 
-      .chord {
-        font-size: 14px;
-        line-height: 30px;
-        text-align: left;
-        padding: 0 5px;
-
-        &:hover {
-          background: #f7f7f7;
+        .lyrics-list {
+          border-top: none;
         }
       }
     }
@@ -121,6 +102,7 @@ export default {
       display: flex;
       height: 66px;
       padding: 0 5px;
+      border-right: 1px solid #000;
 
       .line-list {
         position: absolute;
@@ -131,7 +113,6 @@ export default {
         display: flex;
         flex-flow: column;
         justify-content: space-between;
-        border-right: 1px solid #000;
 
         .line {
           width: 100%;
@@ -155,24 +136,62 @@ export default {
         }
       }
     }
-    .lyrics-list {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      padding: 0 5px;
-      background: #f7f7f7;
+    .chord-area {
+      border-right: 1px solid #ccc;
 
-      .lyrics {
+      .chord-list {
+        width: 100%;
+        height: 30px;
+        display: flex;
+
+        .chord {
+          font-size: 14px;
+          line-height: 30px;
+          letter-spacing: -0.05em;
+          text-align: left;
+          padding: 0 5px;
+
+          &:hover {
+            background: #f7f7f7;
+          }
+        }
+      }
+      .lyrics-list {
+        border-top: 1px solid #ccc;
+        width: 100%;
+        height: 30px;
         display: flex;
         align-items: center;
-        font-size: 14px;
-        line-height: 15px;
-        min-height: 30px;
+        justify-content: space-between;
+        padding: 0 5px;
+
+        .lyrics {
+          display: flex;
+          font-size: 14px;
+          line-height: 15px;
+        }
       }
     }
   }
-}
+
+@media screen and (max-width: 768px) {
+  .measure {
+    .chord-area {
+      .chord-list {
+        height: 24px;
+        .chord {
+          font-size: 12px;
+          line-height: 24px;
+        }
+      }
+      .lyrics-list {
+        height: 24px;
+        .lyrics {
+          font-size: 12px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}}
 </style>

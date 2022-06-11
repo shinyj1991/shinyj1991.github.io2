@@ -7,7 +7,7 @@
   "date": "2022-06-11",
   "score": [
     {
-      "type": "tab",
+      "type": "v1",
       "contents": [
         {"chord": [{"name": "G"}, {"name": "C/G"}], "lyrics": [""]},
         {"chord": [{"name": "G"}, {"name": "D7"}], "lyrics": ["", "열린"]},

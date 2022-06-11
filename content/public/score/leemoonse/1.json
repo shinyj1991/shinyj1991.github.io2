@@ -7,7 +7,7 @@
   "date": "2022-06-01",
   "score": [
     {
-      "type": "tab",
+      "type": "v1",
       "contents": [
         {"chord": [{"name": "G"}, {"name": "D"}], "lyrics": ["남들도 모르게 서성"]},
         {"chord": [{"name": "Em"}, {"name": "B7"}], "lyrics": ["이다 울었지", "지"]},

@@ -7,7 +7,7 @@
   "date": "2022-06-06",
   "score": [
     {
-      "type": "tab",
+      "type": "v1",
       "contents": [
         {"chord": [{"name": "Am"}], "lyrics": [""]},
         {"chord": [{"name": "E7"}], "lyrics": [""]},

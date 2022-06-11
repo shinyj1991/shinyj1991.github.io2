@@ -7,7 +7,7 @@
   "date": "2022-06-02",
   "score": [
     {
-      "type": "tab",
+      "type": "v1",
       "contents": [
         {"chord": [{"name": "C"}, {"name": "Em"}], "lyrics": ["그대 나를 위해", "웃"]},
         {"chord": [{"name": "Am"}, {"name": "C"}], "lyrics": ["음을 보여도 ", "허"]},

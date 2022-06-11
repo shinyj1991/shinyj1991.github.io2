@@ -7,7 +7,7 @@
   "date": "2022-06-02",
   "score": [
     {
-      "type": "tab",
+      "type": "v1",
       "contents": [
         {"chord": [{"name": "C"}], "lyrics": ["때 이른 봄 몇 송이"]},
         {"chord": [{"name": "Am"}], "lyrics": ["꺾어다", "너"]},

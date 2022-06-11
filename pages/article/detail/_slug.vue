@@ -5,7 +5,7 @@
     <div class="score-contents">
       <!-- <banner-adsense /> -->
       <div v-for="(score, index) in music.score" :key="index">
-        <score-tab v-if="score.type === 'tab'" :score="score" :measure="music.measure" />
+        <score-v1 v-if="score.type === 'v1'" :score="score" :measure="music.measure" />
         <score-image v-if="score.type === 'image'" :src="score.src" />
         <score-chord v-if="score.type === 'chord'" :measure="music.measure" :score="score" />
       </div>

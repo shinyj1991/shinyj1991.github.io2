@@ -7,7 +7,7 @@
   "date": "2022-06-01",
   "score": [
     {
-      "type": "tab",
+      "type": "v1",
       "contents": [
         {"chord": [{"name": "G"}, {"name": "Am7"}], "lyrics": ["보일듯 말듯", "가"]},
         {"chord": [{"name": "Bm"}, {"name": "B"}], "lyrics": ["물거리는"]},

@@ -7,7 +7,7 @@
   "date": "2022-06-05",
   "score": [
     {
-      "type": "tab",
+      "type": "v1",
       "contents": [
         {"chord": [{"name": "C"}], "lyrics": ["바람에 날려 꽃이"]},
         {"chord": [{"name": "G"}], "lyrics": ["지는 계절엔"]},
@@ -112,7 +112,7 @@
         {"chord": [{"name": "D"}], "lyrics": ["오 -"]},
         {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["스물다섯, 스물하나"]},
         {"chord": [{"name": "C"}], "lyrics": [""]},
-        {"chord": [], "lyrics": [""]},
+        {"disabled": true},
 
         {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": [""]},
         {"chord": [{"name": "Am"}, {"name": "D"}], "lyrics": [""]},

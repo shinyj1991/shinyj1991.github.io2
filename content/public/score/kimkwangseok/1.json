@@ -7,7 +7,7 @@
   "date": "2022-05-31",
   "score": [
     {
-      "type": "tab",
+      "type": "v1",
       "contents": [
         {
           "chord": [{"name": "C6/B"}], 
@@ -23,7 +23,7 @@
           ]
         },
         {
-          "chord": [],
+          "chord": [{"name": "C6/B"}], 
           "nodelist": [
             {"grow": 1, "node": [null, 3, null, null, 2, null]},
             {"grow": 1, "node": [null, null, null, 0, null, null]},
@@ -49,7 +49,7 @@
           ]
         },
         {
-          "chord": [],
+          "chord": [{"name": "Cadd9"}],
           "nodelist": [
             {"grow": 1, "node": [null, 3, null, null, 3, null]},
             {"grow": 1, "node": [null, null, null, 2, null, null]},
@@ -75,7 +75,7 @@
           ]
         },
         {
-          "chord": [],
+          "chord": [{"name": "Amadd9"}],
           "nodelist": [
             {"grow": 1, "node": [null, 0, null, null, 0, null]},
             {"grow": 1, "node": [null, null, null, 2, null, null]},
@@ -101,7 +101,7 @@
           ]
         },
         {
-          "chord": [], 
+          "chord": [{"name": "Dadd9"}],
           "nodelist": [
             {"grow": 1, "node": [null, null, null, 0, null, null]},
             {"grow": 1, "node": [null, null, 2, null, null, null]},
