@@ -1,17 +1,14 @@
 <template>
   <div class="layout-default">
     <config-head :title="title" :description="description" :keywords="keywords" />
-    <!-- <aside-wrap /> -->
     <the-header />
     <main class="container">
       <nuxt />
     </main>
-    <!-- <loader v-if="isLoading" /> -->
   </div>
 </template>
 
 <script>
-import { mapState } from 'vuex';
 import meta from '@/utils/meta';
 
 export default {
@@ -20,11 +17,6 @@ export default {
     description: meta.description,
     keywords: meta.keywords,
   }),
-  computed: {
-    ...mapState({
-      isLoading: state => state.is_loading
-    })
-  },
 }
 </script>
 
