@@ -40,7 +40,7 @@
         {"chord": [{"name": "G"}, {"name": "G (4-1)", "isNotChord": true}], "lyrics": ["무더운 하늘"]},
         {"chord": [{"name": "G (4-2)", "isNotChord": true}, {"name": "G7"}], "lyrics": ["희뿌연 연기사이로"]},
         
-        {"chord": [{"name": "C"}, {"name": "Em"}], "lyrics": ["보이는", "아스팔트아스팔트"]},
+        {"chord": [{"name": "C"}, {"name": "Em"}], "lyrics": ["보이는", "아스팔트"]},
         {"chord": [{"name": "A7"}, {"name": "D7"}], "lyrics": [""]},
         
         {"chord": [{"name": "B7"}], "lyrics": ["답답한 도시를"]},
@@ -81,7 +81,7 @@
         {"chord": [{"name": "G"}, {"name": "G (4-1)", "isNotChord": true}], "lyrics": ["무더운 하늘"]},
         {"chord": [{"name": "G (4-2)", "isNotChord": true}, {"name": "G7"}], "lyrics": ["희뿌연 연기사이로"]},
         
-        {"chord": [{"name": "C"}, {"name": "Em"}], "lyrics": ["보이는", "아스팔트아스팔트"]},
+        {"chord": [{"name": "C"}, {"name": "Em"}], "lyrics": ["보이는", "아스팔트"]},
         {"chord": [{"name": "A7"}, {"name": "D7"}], "lyrics": [""]},
         
         {"chord": [{"name": "B7"}], "lyrics": ["답답한 도시를"]},
