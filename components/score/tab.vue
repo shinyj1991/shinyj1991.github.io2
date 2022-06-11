@@ -16,7 +16,7 @@
             flex-grow: ${chord.grow ? chord.grow : 1};
             flex-basis: ${100 * ((chord.grow ? chord.grow : 1) / measure.chord.length)}%;
           `"
-          @click="openPopupChord(chord.name.replace(/\//gi, '_').replace('M', 'maj'))"
+          @click="openPopupChord(chord)"
         >{{ chord.name }}</button>
       </div>
       <div class="tab-area" v-if="measure.nodelist">
@@ -57,8 +57,9 @@ export default {
     },
   },
   methods: {
-    async openPopupChord(name) {
-      this.chord = await this.$content(`chord/${name}`).fetch();
+    async openPopupChord(chord) {
+      if (chord.isNotChord) return;
+      this.chord = await this.$content(`chord/${chord.name.replace(/\//gi, '_').replace('M', 'maj')}`).fetch();
       this.isPopupChord = true;
     }
   },
