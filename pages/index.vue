@@ -65,7 +65,7 @@ export default {
   }
   .list-musician {
     overflow: hidden;
-    max-height: 109px;
+    padding-bottom: 2px;
   }
 }
 </style>
