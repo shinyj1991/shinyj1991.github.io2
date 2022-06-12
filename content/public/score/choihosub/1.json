@@ -12,111 +12,127 @@
         {
           "chord": [{"name": "C"}, {"name": "Em"}], 
           "lyrics": [
-            {"text": "그대 나를 위해"},
-            {"text": "웃"}
+            {"text": "그대 나를"},
+            {"text": "위해"},
+            {"text": "웃", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Am"}, {"name": "C"}], 
           "lyrics": [
-            {"text": "음을 보여도 "},
-            {"text": "허"}
+            {"text": "음을"},
+            {"text": "보여도"},
+            {"text": "허", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "F"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "탈한 표정 감출 순"},
-            {"text": "없"}
+            {"text": "탈한"},
+            {"text": "표정"},
+            {"text": "감출 순"},
+            {"text": "없", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "A"}], 
           "lyrics": [
             {"text": "어"},
-            {"text": "힘없"}
+            {"text": "힘없", "grow": 0}
           ]
         },
         
         {
           "chord": [{"name": "Dm"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "이 뒤돌아선"},
-            {"text": "그"}
+            {"text": "이 뒤돌"},
+            {"text": "아서는"},
+            {"text": "그", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "Am"}], 
           "lyrics": [
-            {"text": "대의 모습을"}
+            {"text": "대의 모습"},
+            {"text": "을"}
           ]
         },
         {
           "chord": [{"name": "F"}], 
           "lyrics": [
-            {"text": "흐린 눈으로 바라만"}
+            {"text": "흐린 눈으로"},
+            {"text": "바라만"}
           ]
         },
         {
           "chord": [{"name": "Dm"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "보네"}
+            {"text": "보 -"},
+            {"text": "네 -"}
           ]
         },
         
         {
           "chord": [{"name": "C"}, {"name": "Em"}], 
           "lyrics": [
-            {"text": "나는 알고 있어요"},
-            {"text": "우"}
+            {"text": "나는 알고"},
+            {"text": "있어요"},
+            {"text": "우", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Am"}, {"name": "C"}], 
           "lyrics": [
-            {"text": "리의 사랑이"},
-            {"text": "이"}
+            {"text": "리의 사랑"},
+            {"text": "이"},
+            {"text": "이", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "F"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "것이 마지막 이라는"}
+            {"text": "것이 마지"},
+            {"text": "막 이라는"}
           ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "A"}], 
           "lyrics": [
-            {"text": "것을"},
-            {"text": "서"}
+            {"text": "것 -"},
+            {"text": "을 -"},
+            {"text": "서", "grow": 0}
           ]
         },
         
         {
           "chord": [{"name": "F"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "로가 안된다 해도"},
-            {"text": "영원"}
+            {"text": "로가 원한"},
+            {"text": "다 해도"},
+            {"text": "영원", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "Am"}], 
           "lyrics": [
-            {"text": "할 수 없어요"},
-            {"text": "저"}
+            {"text": "할 수"},
+            {"text": "없어요"},
+            {"text": "저", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "F"}], 
           "lyrics": [
-            {"text": "흘러 가는 시간 앞에"}
+            {"text": "흘러 가는"},
+            {"text": "시간 앞에"}
           ]
         },
         {
           "chord": [{"name": "Dm"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "서는"},
-            {"text": "세월"}
+            {"text": "서 -"},
+            {"text": "는 -"},
+            {"text": "세월", "grow": 0}
           ]
         },
         
@@ -124,41 +140,45 @@
           "chord": [{"name": "C"}], 
           "lyrics": [
             {"text": "이 가면"},
-            {"text": "가슴"}
+            {"text": "가슴", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}], 
           "lyrics": [
-            {"text": "이 터질 듯한"}
+            {"text": "이 터질"},
+            {"text": "듯한"}
           ]
         },
         {
           "chord": [{"name": "A"}], 
           "lyrics": [
-            {"text": "그리운 마음이야"}
+            {"text": "그리운"},
+            {"text": "마음이야"}
           ]
         },
         {
           "chord": [{"name": "Dm"}], 
           "lyrics": [
             {"text": "잊는다 해도"},
-            {"text": "한없"}
+            {"text": "한없", "grow": 0}
           ]
         },
         
         {
           "chord": [{"name": "F"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "이 소중했던"},
-            {"text": "사랑"}
+            {"text": "이"},
+            {"text": "소중했던"},
+            {"text": "사랑", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "Am"}], 
           "lyrics": [
-            {"text": "이 있었음을"},
-            {"text": "잊"}
+            {"text": "이 있었음"},
+            {"text": "을"},
+            {"text": "잊", "grow": 0}
           ]
         },
         {
