@@ -137,7 +137,7 @@
         },
 
         {
-          "chord": [{"name": ""}, {"name": "Am7"}], 
+          "chord": [{"name": "G"}, {"name": "Am7"}], 
           "lyrics": [
             {"text": "이리로 갈까"},
             {"text": "저"}
