@@ -9,165 +9,842 @@
     {
       "type": "v1",
       "contents": [
-        {"chord": [], "lyrics": [""]},
-        {"chord": [], "lyrics": [""]},
-        {"chord": [{"name": "B7sus4"}], "lyrics": [""]},
-        {"chord": [{"name": "A"}], "lyrics": [""]},
+        {
+          "chord": [], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "B7sus4"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
 
-        {"chord": [{"name": "E"}], "lyrics": [""]},
-        {"chord": [{"name": "F♯"}], "lyrics": [""]},
-        {"chord": [{"name": "B7"}], "lyrics": [""]},
-        {"chord": [{"name": "F♯7"}], "lyrics": [""]},
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "F♯"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "B7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "F♯7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
         
-        {"chord": [{"name": "E"}], "lyrics": ["", "두근거렸"]},
-        {"chord": [{"name": "A"}], "lyrics": ["지", "누군가"]},
-        {"chord": [{"name": "E"}], "lyrics": ["나의 뒤를 쫓고있었"]},
-        {"chord": [{"name": "A"}], "lyrics": ["고"]},
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "두근거렸"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": "지"},
+            {"text": "누군가"}
+          ]
+        },
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": "나의 뒤를 쫓고있었"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": "고"}
+          ]
+        },
         
-        {"chord": [{"name": "E"}], "lyrics": ["", "검은 절벽"]},
-        {"chord": [{"name": "A"}], "lyrics": ["끝", "더 이상"]},
-        {"chord": [{"name": "DM7"}], "lyrics": ["발 디딜 곳 하나 없었"]},
-        {"chord": [{"name": "A"}], "lyrics": ["지"]},
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "검은 절벽"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": "끝"},
+            {"text": "더 이상"}
+          ]
+        },
+        {
+          "chord": [{"name": "DM7"}], 
+          "lyrics": [
+            {"text": "발 디딜 곳 하나 없었"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": "지"}
+          ]
+        },
         
-        {"chord": [{"name": "E"}], "lyrics": ["", "자꾸 목이 메"]},
-        {"chord": [{"name": "A"}], "lyrics": ["어", "간절히"]},
-        {"chord": [{"name": "E"}], "lyrics": ["네 이름을 되뇌었을"]},
-        {"chord": [{"name": "A"}], "lyrics": ["때", "귓가에"]},
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "자꾸 목이 메"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": "어"},
+            {"text": "간절히"}
+          ]
+        },
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": "네 이름을 되뇌었을"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": "때"},
+            {"text": "귓가에"}
+          ]
+        },
         
-        {"chord": [{"name": "E"}, {"name": "G"}], "lyrics": ["울리는 그대의"]},
-        {"chord": [{"name": "A"}, {"name": "C"}], "lyrics": ["뜨거운 목소리"]},
-        {"chord": [{"name": "D"}], "lyrics": ["그게 나의 구원이었"]},
-        {"chord": [{"name": "A"}], "lyrics": ["어", "마른 하늘"]},
+        {
+          "chord": [{"name": "E"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "울리는 그대의"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": "뜨거운 목소리"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": "그게 나의 구원이었"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": "어"},
+            {"text": "마른 하늘"}
+          ]
+        },
         
-        {"chord": [{"name": "E"}], "lyrics": ["을 달려"]},
-        {"chord": [{"name": "A"}], "lyrics": ["", "나"]},
-        {"chord": [{"name": "B7"}], "lyrics": ["그대에게 안길 수만"]},
-        {"chord": [{"name": "E"}], "lyrics": ["있으면 내 몸"]},
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": "을 달려"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "나"}
+          ]
+        },
+        {
+          "chord": [{"name": "B7"}], 
+          "lyrics": [
+            {"text": "그대에게 안길 수만"}
+          ]
+        },
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": "있으면 내 몸"}
+          ]
+        },
         
-        {"chord": [{"name": "C♯m"}], "lyrics": ["부서진대"]},
-        {"chord": [{"name": "F♯7"}], "lyrics": ["도", "좋아"]},
-        {"chord": [{"name": "Bsus4"}, {"name": "B"}], "lyrics": [""]},
-        {"chord": [{"name": "A7"}, {"name": "B"}], "lyrics": ["설혹 너무 태양 가까"]},
+        {
+          "chord": [{"name": "C♯m"}], 
+          "lyrics": [
+            {"text": "부서진대"}
+          ]
+        },
+        {
+          "chord": [{"name": "F♯7"}], 
+          "lyrics": [
+            {"text": "도"},
+            {"text": "좋아"}
+          ]
+        },
+        {
+          "chord": [{"name": "Bsus4"}, {"name": "B"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "A7"}, {"name": "B"}], 
+          "lyrics": [
+            {"text": "설혹 너무 태양 가까"}
+          ]
+        },
         
-        {"chord": [{"name": "E"}], "lyrics": ["이", "날아"]},
-        {"chord": [{"name": "A"}], "lyrics": ["", "두 다리"]},
-        {"chord": [{"name": "B7"}], "lyrics": ["모두 녹아 내린다고"]},
-        {"chord": [{"name": "E"}], "lyrics": ["해도", "내 맘"]},
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": "이"},
+            {"text": "날아"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "두 다리"}
+          ]
+        },
+        {
+          "chord": [{"name": "B7"}], 
+          "lyrics": [
+            {"text": "모두 녹아 내린다고"}
+          ]
+        },
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": "해도"},
+            {"text": "내 맘"}
+          ]
+        },
         
-        {"chord": [{"name": "C♯m"}], "lyrics": ["그대 마음"]},
-        {"chord": [{"name": "F♯"}], "lyrics": ["속", "으로"]},
-        {"chord": [{"name": "B7"}], "lyrics": [""]},
-        {"chord": [{"name": "AM7"}, {"name": "B7"}], "lyrics": ["영원토록 달려갈거야"]},
+        {
+          "chord": [{"name": "C♯m"}], 
+          "lyrics": [
+            {"text": "그대 마음"}
+          ]
+        },
+        {
+          "chord": [{"name": "F♯"}], 
+          "lyrics": [
+            {"text": "속"},
+            {"text": "으로"}
+          ]
+        },
+        {
+          "chord": [{"name": "B7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "AM7"}, {"name": "B7"}], 
+          "lyrics": [
+            {"text": "영원토록 달려갈거야"}
+          ]
+        },
         
-        {"chord": [{"name": "E"}], "lyrics": [""]},
-        {"chord": [{"name": "Bsus4"}], "lyrics": [""]},
-        {"chord": [{"name": "E"}], "lyrics": [""]},
-        {"chord": [{"name": "Bsus4"}], "lyrics": [""]},
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Bsus4"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Bsus4"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
         
-        {"chord": [{"name": "E"}], "lyrics": ["", "내가 미웠지"]},
-        {"chord": [{"name": "A"}], "lyrics": ["", "난 결국"]},
-        {"chord": [{"name": "E"}], "lyrics": ["이것밖에 안 돼 보였"]},
-        {"chord": [{"name": "A"}], "lyrics": ["고"]},
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "내가 미웠지"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "난 결국"}
+          ]
+        },
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": "이것밖에 안 돼 보였"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": "고"}
+          ]
+        },
         
-        {"chord": [{"name": "E"}], "lyrics": ["", "오랜 꿈들"]},
-        {"chord": [{"name": "A"}], "lyrics": ["이", "공허한"]},
-        {"chord": [{"name": "DM7"}], "lyrics": ["어린 날의 착각 같았"]},
-        {"chord": [{"name": "A"}], "lyrics": ["지"]},
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "오랜 꿈들"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": "이"},
+            {"text": "공허한"}
+          ]
+        },
+        {
+          "chord": [{"name": "DM7"}], 
+          "lyrics": [
+            {"text": "어린 날의 착각 같았"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": "지"}
+          ]
+        },
         
-        {"chord": [{"name": "E"}], "lyrics": ["", "울먹임을 참"]},
-        {"chord": [{"name": "A"}], "lyrics": ["고", "남 몰래"]},
-        {"chord": [{"name": "E"}], "lyrics": ["네 이름을 속삭였을"]},
-        {"chord": [{"name": "A"}], "lyrics": ["때", "귓가에"]},
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "울먹임을 참"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": "고"},
+            {"text": "남 몰래"}
+          ]
+        },
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": "네 이름을 속삭였을"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": "때"},
+            {"text": "귓가에"}
+          ]
+        },
         
-        {"chord": [{"name": "E"}, {"name": "G"}], "lyrics": ["울리는 그대의"]},
-        {"chord": [{"name": "A"}, {"name": "C"}], "lyrics": ["뜨거운 목소리"]},
-        {"chord": [{"name": "D"}], "lyrics": ["그게 나의 구원이었"]},
-        {"chord": [{"name": "A"}], "lyrics": ["어", "마른 하늘"]},
+        {
+          "chord": [{"name": "E"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "울리는 그대의"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": "뜨거운 목소리"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": "그게 나의 구원이었"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": "어"},
+            {"text": "마른 하늘"}
+          ]
+        },
         
-        {"chord": [{"name": "E"}], "lyrics": ["을 달려"]},
-        {"chord": [{"name": "A"}], "lyrics": ["", "나"]},
-        {"chord": [{"name": "B7"}], "lyrics": ["그대에게 안길 수만"]},
-        {"chord": [{"name": "E"}], "lyrics": ["있으면 내 몸"]},
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": "을 달려"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "나"}
+          ]
+        },
+        {
+          "chord": [{"name": "B7"}], 
+          "lyrics": [
+            {"text": "그대에게 안길 수만"}
+          ]
+        },
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": "있으면 내 몸"}
+          ]
+        },
         
-        {"chord": [{"name": "C♯m"}], "lyrics": ["부서진대"]},
-        {"chord": [{"name": "F♯7"}], "lyrics": ["도", "좋아"]},
-        {"chord": [{"name": "Bsus4"}, {"name": "B"}], "lyrics": [""]},
-        {"chord": [{"name": "A7"}, {"name": "B"}], "lyrics": ["설혹 너무 태양 가까"]},
+        {
+          "chord": [{"name": "C♯m"}], 
+          "lyrics": [
+            {"text": "부서진대"}
+          ]
+        },
+        {
+          "chord": [{"name": "F♯7"}], 
+          "lyrics": [
+            {"text": "도"},
+            {"text": "좋아"}
+          ]
+        },
+        {
+          "chord": [{"name": "Bsus4"}, {"name": "B"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "A7"}, {"name": "B"}], 
+          "lyrics": [
+            {"text": "설혹 너무 태양 가까"}
+          ]
+        },
         
-        {"chord": [{"name": "E"}], "lyrics": ["이", "날아"]},
-        {"chord": [{"name": "A"}], "lyrics": ["", "두 다리"]},
-        {"chord": [{"name": "B7"}], "lyrics": ["모두 녹아 내린다고"]},
-        {"chord": [{"name": "E"}], "lyrics": ["해도", "내 맘"]},
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": "이"},
+            {"text": "날아"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "두 다리"}
+          ]
+        },
+        {
+          "chord": [{"name": "B7"}], 
+          "lyrics": [
+            {"text": "모두 녹아 내린다고"}
+          ]
+        },
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": "해도"},
+            {"text": "내 맘"}
+          ]
+        },
         
-        {"chord": [{"name": "C♯m"}], "lyrics": ["그대 마음"]},
-        {"chord": [{"name": "F♯"}], "lyrics": ["속", "으로"]},
-        {"chord": [{"name": "B7"}], "lyrics": [""]},
-        {"chord": [{"name": "AM7"}, {"name": "B7"}], "lyrics": ["영원토록 달려갈거야"]},
+        {
+          "chord": [{"name": "C♯m"}], 
+          "lyrics": [
+            {"text": "그대 마음"}
+          ]
+        },
+        {
+          "chord": [{"name": "F♯"}], 
+          "lyrics": [
+            {"text": "속"},
+            {"text": "으로"}
+          ]
+        },
+        {
+          "chord": [{"name": "B7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "AM7"}, {"name": "B7"}], 
+          "lyrics": [
+            {"text": "영원토록 달려갈거야"}
+          ]
+        },
         
-        {"chord": [{"name": "C"}], "lyrics": [""]},
-        {"chord": [{"name": "C"}], "lyrics": [""]},
-        {"chord": [{"name": "C"}], "lyrics": ["", "허약한 내"]},
-        {"chord": [{"name": "Bm7"}], "lyrics": ["영혼에 힘"]},
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "허약한 내"}
+          ]
+        },
+        {
+          "chord": [{"name": "Bm7"}], 
+          "lyrics": [
+            {"text": "영혼에 힘"}
+          ]
+        },
         
-        {"chord": [{"name": "Em"}], "lyrics": ["을"]},
-        {"chord": [{"name": "Em"}], "lyrics": [""]},
-        {"chord": [{"name": "C"}], "lyrics": ["", "날개를 달"]},
-        {"chord": [{"name": "Bm7"}], "lyrics": ["수 있다면"]},
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "을"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "날개를 달"}
+          ]
+        },
+        {
+          "chord": [{"name": "Bm7"}], 
+          "lyrics": [
+            {"text": "수 있다면"}
+          ]
+        },
         
-        {"chord": [{"name": "Esus4"}], "lyrics": [""]},
-        {"chord": [{"name": "E"}], "lyrics": [""]},
-        {"chord": [{"name": "A"}], "lyrics": [""]},
-        {"chord": [{"name": "E"}], "lyrics": [""]},
+        {
+          "chord": [{"name": "Esus4"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
         
-        {"chord": [{"name": "F♯m7"}], "lyrics": [""]},
-        {"chord": [{"name": "E"}], "lyrics": [""]},
-        {"chord": [{"name": "A"}], "lyrics": [""]},
-        {"chord": [{"name": "E"}], "lyrics": [""]},
+        {
+          "chord": [{"name": "F♯m7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
         
-        {"chord": [{"name": "Em"}], "lyrics": [""]},
-        {"chord": [{"name": "F♯7"}], "lyrics": [""]},
-        {"chord": [{"name": "FM7"}], "lyrics": [""]},
-        {"chord": [{"name": "FM7"}], "lyrics": ["", "마른 하늘"]},
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "F♯7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "FM7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "FM7"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "마른 하늘"}
+          ]
+        },
         
-        {"chord": [{"name": "E"}], "lyrics": ["을 달려"]},
-        {"chord": [{"name": "A"}], "lyrics": ["", "나"]},
-        {"chord": [{"name": "B7"}], "lyrics": ["그대에게 안길 수만"]},
-        {"chord": [{"name": "E"}], "lyrics": ["있으면 내 몸"]},
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": "을 달려"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "나"}
+          ]
+        },
+        {
+          "chord": [{"name": "B7"}], 
+          "lyrics": [
+            {"text": "그대에게 안길 수만"}
+          ]
+        },
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": "있으면 내 몸"}
+          ]
+        },
         
-        {"chord": [{"name": "C♯m"}], "lyrics": ["부서진대"]},
-        {"chord": [{"name": "F♯7"}], "lyrics": ["도", "좋아"]},
-        {"chord": [{"name": "Bsus4"}, {"name": "B"}], "lyrics": [""]},
-        {"chord": [{"name": "A7"}, {"name": "B"}], "lyrics": ["설혹 너무 태양 가까"]},
+        {
+          "chord": [{"name": "C♯m"}], 
+          "lyrics": [
+            {"text": "부서진대"}
+          ]
+        },
+        {
+          "chord": [{"name": "F♯7"}], 
+          "lyrics": [
+            {"text": "도"},
+            {"text": "좋아"}
+          ]
+        },
+        {
+          "chord": [{"name": "Bsus4"}, {"name": "B"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "A7"}, {"name": "B"}], 
+          "lyrics": [
+            {"text": "설혹 너무 태양 가까"}
+          ]
+        },
         
-        {"chord": [{"name": "E"}], "lyrics": ["이", "날아"]},
-        {"chord": [{"name": "A"}], "lyrics": ["", "두 다리"]},
-        {"chord": [{"name": "B7"}], "lyrics": ["모두 녹아 내린다고"]},
-        {"chord": [{"name": "E"}], "lyrics": ["해도", "내 맘"]},
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": "이"},
+            {"text": "날아"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "두 다리"}
+          ]
+        },
+        {
+          "chord": [{"name": "B7"}], 
+          "lyrics": [
+            {"text": "모두 녹아 내린다고"}
+          ]
+        },
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": "해도"},
+            {"text": "내 맘"}
+          ]
+        },
         
-        {"chord": [{"name": "C♯m"}], "lyrics": ["그대 마음"]},
-        {"chord": [{"name": "F♯"}], "lyrics": ["속", "으로"]},
-        {"chord": [{"name": "B7"}], "lyrics": [""]},
-        {"chord": [{"name": "AM7"}, {"name": "B7"}], "lyrics": ["영원토록 달려갈거야"]},
+        {
+          "chord": [{"name": "C♯m"}], 
+          "lyrics": [
+            {"text": "그대 마음"}
+          ]
+        },
+        {
+          "chord": [{"name": "F♯"}], 
+          "lyrics": [
+            {"text": "속"},
+            {"text": "으로"}
+          ]
+        },
+        {
+          "chord": [{"name": "B7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "AM7"}, {"name": "B7"}], 
+          "lyrics": [
+            {"text": "영원토록 달려갈거야"}
+          ]
+        },
         
-        {"chord": [{"name": "E"}], "lyrics": [""]},
-        {"chord": [{"name": "A"}], "lyrics": [""]},
-        {"chord": [{"name": "B7"}], "lyrics": [""]},
-        {"chord": [{"name": "E"}], "lyrics": [""]},
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "B7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
         
-        {"chord": [{"name": "C♯m"}], "lyrics": [""]},
-        {"chord": [{"name": "F♯"}], "lyrics": [""]},
-        {"chord": [{"name": "B7"}], "lyrics": [""]},
-        {"chord": [{"name": "A"}, {"name": "B"}], "lyrics": [""]},
+        {
+          "chord": [{"name": "C♯m"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "F♯"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "B7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}, {"name": "B"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
         
-        {"chord": [{"name": "E"}], "lyrics": [""]},
-        {"chord": [{"name": "A"}], "lyrics": [""]},
-        {"chord": [{"name": "B7"}], "lyrics": [""]},
-        {"chord": [{"name": "E"}], "lyrics": [""]},
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "B7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "E"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
         
-        {"chord": [{"name": "C♯m"}], "lyrics": [""]},
-        {"chord": [{"name": "F♯7"}], "lyrics": [""]},
-        {"chord": [{"name": "B7"}], "lyrics": [""]},
-        {"chord": [], "lyrics": [""]}
+        {
+          "chord": [{"name": "C♯m"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "F♯7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "B7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        }
       ]
     }
   ]

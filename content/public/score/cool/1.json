@@ -48,119 +48,703 @@
           "nodelist": [
             {"grow": 1, "node": [3, 0, 0, 0, 2, 3]}
           ],
-          "lyrics": ["", "어두운"]
+          "lyrics": [
+            {"text": ""},
+            {"text": "어두운"}
+          ]
         },
-        {"chord": [{"name": "C"}], "lyrics": ["불빛아래 촛불하나"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["", "와인잔"]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["에 담긴 약속하나"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["", "항상 너"]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["의 곁에서", "널"]},
-        {"chord": [{"name": "Em"}, {"name": "Am7"}], "lyrics": ["지켜줄꺼야", "날"]},
-        {"chord": [{"name": "Dm7"}], "lyrics": ["믿어준 너였잖아"]},
-        {"chord": [{"name": "G"}], "lyrics": ["", "나"]},
-        {"chord": [{"name": "C"}], "lyrics": ["바라는건 오직 하나"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["", "영원한"]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["행복을 꿈꾸지만"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["", "화려하"]},
-        {"chord": [{"name": "Dm"}, {"name": "G"}], "lyrics": ["지 않아도", "꿈"]},
-        {"chord": [{"name": "Em"}, {"name": "Am7"}], "lyrics": ["같지않아도", "너"]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["만있어 주면 돼"]},
-        {"chord": [{"name": "C"}], "lyrics": ["", "걱정마"]},
-        {"chord": [{"name": "Am"}], "lyrics": ["I Believe", "언제나"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["I Believe", "이순"]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["간을 잊지 않을께"]},
-        {"chord": [{"name": "C"}], "lyrics": ["", "내품에"]},
-        {"chord": [{"name": "Am"}], "lyrics": ["I Believe", "안긴 너"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["의 미소가", "영"]},
-        {"chord": [{"name": "Dm7"}], "lyrics": ["원히 빛을 잃어", "가"]},
-        {"chord": [{"name": "G"}], "lyrics": ["지 않게 Cause your"]},
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "불빛아래 촛불하나"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "와인잔"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "에 담긴 약속하나"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "항상 너"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "의 곁에서"},
+            {"text": "널"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "Am7"}], 
+          "lyrics": [
+            {"text": "지켜줄꺼야"},
+            {"text": "날"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}], 
+          "lyrics": [
+            {"text": "믿어준 너였잖아"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "나"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "바라는건 오직 하나"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "영원한"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "행복을 꿈꾸지만"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "화려하"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "지 않아도"},
+            {"text": "꿈"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "Am7"}], 
+          "lyrics": [
+            {"text": "같지않아도"},
+            {"text": "너"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "만있어 주면 돼"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "걱정마"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": "I Believe"},
+            {"text": "언제나"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "I Believe"},
+            {"text": "이순"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "간을 잊지 않을께"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "내품에"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": "I Believe"},
+            {"text": "안긴 너"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "의 미소가"},
+            {"text": "영"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}], 
+          "lyrics": [
+            {"text": "원히 빛을 잃어"},
+            {"text": "가"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "지 않게 Cause your"}
+          ]
+        },
 
-        {"chord": [{"name": "C"}], "lyrics": ["love is so sweet You are my"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["everything", "첫날"]},
-        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["밤의 단 꿈에 젖어"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["", "하는 말"]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["이 아냐", "난 변하"]},
-        {"chord": [{"name": "Em"}, {"name": "Am7"}], "lyrics": ["지 않아", "오직"]},
-        {"chord": [{"name": "Dm7"}], "lyrics": ["너만 바라 볼꺼야"]},
-        {"chord": [{"name": "G"}], "lyrics": ["oh oh", "You're"]},
-        {"chord": [{"name": "C"}], "lyrics": ["light of my life You are the one"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["in my life", "내 모"]},
-        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["든걸다 잃는대도"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["", "후회하"]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["지 않아 오직 너"]},
-        {"chord": [{"name": "Em"}, {"name": "Am7"}], "lyrics": ["를 위한", "변하"]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["지 않는 사랑으로"]},
-        {"chord": [{"name": "C"}], "lyrics": [""]},
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "love is so sweet You are my"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "everything"},
+            {"text": "첫날"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "밤의 단 꿈에 젖어"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "하는 말"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "이 아냐"},
+            {"text": "난 변하"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "Am7"}], 
+          "lyrics": [
+            {"text": "지 않아"},
+            {"text": "오직"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}], 
+          "lyrics": [
+            {"text": "너만 바라 볼꺼야"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "oh oh"},
+            {"text": "You're"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "light of my life You are the one"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "in my life"},
+            {"text": "내 모"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "든걸다 잃는대도"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "후회하"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "지 않아 오직 너"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "Am7"}], 
+          "lyrics": [
+            {"text": "를 위한"},
+            {"text": "변하"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "지 않는 사랑으로"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
 
-        {"chord": [{"name": "C"}], "lyrics": [""]},
-        {"chord": [{"name": "Em"}], "lyrics": [""]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": [""]},
-        {"chord": [{"name": "Em"}], "lyrics": [""]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": [""]},
-        {"chord": [{"name": "Em"}, {"name": "Am7"}], "lyrics": [""]},
-        {"chord": [{"name": "Dm7"}], "lyrics": [""]},
-        {"chord": [{"name": "G"}], "lyrics": ["", "늘"]},
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "Am7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "늘"}
+          ]
+        },
 
-        {"chord": [{"name": "C"}], "lyrics": ["하나라는 마음으로"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["", "흔들리"]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["지 않는 믿음으로"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["", "아픈"]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["마음도 함께", "기"]},
-        {"chord": [{"name": "Em"}, {"name": "Am7"}], "lyrics": ["쁜 맘도 함께", "나"]},
-        {"chord": [{"name": "Dm7"}], "lyrics": ["눠가졌으면 해"]},
-        {"chord": [{"name": "C"}], "lyrics": ["", "약속해"]},
-        {"chord": [{"name": "Am"}], "lyrics": ["I Believe", "힘들 땐"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["I Believe", "너의"]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["그늘이 되어줄게"]},
-        {"chord": [{"name": "C"}], "lyrics": ["", "내품에"]},
-        {"chord": [{"name": "Am"}], "lyrics": ["I Believe", "안긴 너"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["의 미소가", "영"]},
-        {"chord": [{"name": "Dm7"}], "lyrics": ["원히 빛을 잃어", "가"]},
-        {"chord": [{"name": "G"}], "lyrics": ["지 않게 Cause your"]},
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "하나라는 마음으로"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "흔들리"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "지 않는 믿음으로"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "아픈"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "마음도 함께"},
+            {"text": "기"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "Am7"}], 
+          "lyrics": [
+            {"text": "쁜 맘도 함께"},
+            {"text": "나"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}], 
+          "lyrics": [
+            {"text": "눠가졌으면 해"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "약속해"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": "I Believe"},
+            {"text": "힘들 땐"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "I Believe"},
+            {"text": "너의"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "그늘이 되어줄게"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "내품에"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": "I Believe"},
+            {"text": "안긴 너"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "의 미소가"},
+            {"text": "영"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}], 
+          "lyrics": [
+            {"text": "원히 빛을 잃어"},
+            {"text": "가"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "지 않게 Cause your"}
+          ]
+        },
 
-        {"chord": [{"name": "C"}], "lyrics": ["love is so sweet You are my"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["everything", "첫날"]},
-        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["밤의 단 꿈에 젖어"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["", "하는 말"]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["이 아냐", "난 변하"]},
-        {"chord": [{"name": "Em"}, {"name": "Am7"}], "lyrics": ["지 않아", "오직"]},
-        {"chord": [{"name": "Dm7"}], "lyrics": ["너만 바라 볼꺼야"]},
-        {"chord": [{"name": "G"}], "lyrics": ["oh oh", "You're"]},
-        {"chord": [{"name": "C"}], "lyrics": ["light of my life You are the one"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["in my life", "내 모"]},
-        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["든걸다 잃는대도"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["", "후회하"]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["지 않아 오직 너"]},
-        {"chord": [{"name": "Em"}, {"name": "Am7"}], "lyrics": ["를 위한", "변하"]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["지 않는 사랑으로"]},
-        {"chord": [{"name": "C"}], "lyrics": ["", "You're"]},
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "love is so sweet You are my"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "everything"},
+            {"text": "첫날"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "밤의 단 꿈에 젖어"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "하는 말"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "이 아냐"},
+            {"text": "난 변하"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "Am7"}], 
+          "lyrics": [
+            {"text": "지 않아"},
+            {"text": "오직"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}], 
+          "lyrics": [
+            {"text": "너만 바라 볼꺼야"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "oh oh"},
+            {"text": "You're"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "light of my life You are the one"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "in my life"},
+            {"text": "내 모"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "든걸다 잃는대도"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "후회하"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "지 않아 오직 너"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "Am7"}], 
+          "lyrics": [
+            {"text": "를 위한"},
+            {"text": "변하"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "지 않는 사랑으로"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "You're"}
+          ]
+        },
 
-        {"chord": [{"name": "C"}], "lyrics": ["light of my life You are one"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["in my life", "내모"]},
-        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["든걸 다 잃는데도"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["", "후회"]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["하지않아", "오직"]},
-        {"chord": [{"name": "Em"}, {"name": "Am7"}], "lyrics": ["너를 위한", "변하"]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["지 않는 사랑으로"]},
-        {"chord": [{"name": "C"}], "lyrics": ["", "All I"]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["ever want is"]},
-        {"chord": [{"name": ""}], "lyrics": ["", "your love ~"]},
-        {"chord": [{"name": "C"}], "lyrics": ["라랄라 라라"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["라랄라 라라"]},
-        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": [""]},
-        {"chord": [{"name": "Em"}], "lyrics": [""]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["라랄라 라라"]},
-        {"chord": [{"name": "Em"}, {"name": "Am7"}], "lyrics": ["라랄라 라라"]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": [""]},
-        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": [""]},
-        {"chord": [{"name": "C"}], "lyrics": ["라랄라 라라"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["라랄라 라라"]},
-        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": [""]},
-        {"chord": [{"name": "Em"}], "lyrics": [""]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": ["라랄라 라라"]},
-        {"chord": [{"name": "Em"}, {"name": "Am7"}], "lyrics": ["라랄라 라라"]},
-        {"chord": [{"name": "Dm7"}, {"name": "G"}], "lyrics": [""]},
-        {"chord": [{"name": "C"}], "lyrics": [""]}
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "light of my life You are one"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "in my life"},
+            {"text": "내모"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "든걸 다 잃는데도"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "후회"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "하지않아"},
+            {"text": "오직"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "Am7"}], 
+          "lyrics": [
+            {"text": "너를 위한"},
+            {"text": "변하"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "지 않는 사랑으로"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "All I"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "ever want is"}
+          ]
+        },
+        {
+          "chord": [{"name": ""}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "your love ~"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "라랄라 라라"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "라랄라 라라"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "라랄라 라라"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "Am7"}], 
+          "lyrics": [
+            {"text": "라랄라 라라"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "라랄라 라라"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "라랄라 라라"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "라랄라 라라"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "Am7"}], 
+          "lyrics": [
+            {"text": "라랄라 라라"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm7"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        }
       ]
     }
   ]

@@ -9,100 +9,522 @@
     {
       "type": "v1",
       "contents": [
-        {"chord": [{"name": "C"}], "lyrics": [""]},
-        {"chord": [{"name": "D"}], "lyrics": [""]},
-        {"chord": [{"name": "Em"}], "lyrics": [""]},
-        {"chord": [{"name": "C"}], "lyrics": [""]},
-        {"chord": [{"name": "Em"}], "lyrics": [""]},
-        {"chord": [{"name": "CM7"}], "lyrics": [""]},
-        {"chord": [{"name": "Em"}, {"name": "D"}], "lyrics": [""]},
-        {"chord": [{"name": "Am7"}], "lyrics": [""]},
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "CM7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "D"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Am7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
 
-        {"chord": [{"name": "G"}], "lyrics": ["지난시간", "내곁"]},
-        {"chord": [{"name": "D"}], "lyrics": ["에서 머물러"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["", "행복했던 시간"]},
-        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["들 - 이 -"]},
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "지난시간"},
+            {"text": "내곁"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": "에서 머물러"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "행복했던 시간"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}, {"name": "D"}], 
+          "lyrics": [
+            {"text": "들 - 이 -"}
+          ]
+        },
 
-        {"chord": [{"name": "G"}], "lyrics": ["고맙다고", "다시"]},
-        {"chord": [{"name": "D"}], "lyrics": ["또 살게되도"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["", "당신을 만나겠"]},
-        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["다 - 고 -"]},
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "고맙다고"},
+            {"text": "다시"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": "또 살게되도"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "당신을 만나겠"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}, {"name": "D"}], 
+          "lyrics": [
+            {"text": "다 - 고 -"}
+          ]
+        },
 
-        {"chord": [{"name": "C"}], "lyrics": ["아 그말 해야 할텐데"]},
-        {"chord": [{"name": "G"}], "lyrics": ["떠나는 그대라"]},
-        {"chord": [{"name": "D"}, {"name": "D♯dim"}], "lyrics": ["도", "편하게 보"]},
-        {"chord": [{"name": "Em"}, {"name": "D"}], "lyrics": ["내 줘야"]},
-        {"chord": [{"name": "D"}], "lyrics": ["", "할 텐데"]},
-        {"chord": [{"name": "G"}], "lyrics": [""]},
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "아 그말 해야 할텐데"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "떠나는 그대라"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}, {"name": "D♯dim"}], 
+          "lyrics": [
+            {"text": "도"},
+            {"text": "편하게 보"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "D"}], 
+          "lyrics": [
+            {"text": "내 줘야"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "할 텐데"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
 
-        {"chord": [{"name": "G"}], "lyrics": ["눈을감아", "지워"]},
-        {"chord": [{"name": "D"}], "lyrics": ["질 수 있다면"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["", "잠이들면 그만"]},
-        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["인 - 데 -"]},
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "눈을감아"},
+            {"text": "지워"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": "질 수 있다면"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "잠이들면 그만"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}, {"name": "D"}], 
+          "lyrics": [
+            {"text": "인 - 데 -"}
+          ]
+        },
 
-        {"chord": [{"name": "G"}], "lyrics": ["보고플땐", "어떡"]},
-        {"chord": [{"name": "D"}], "lyrics": ["해야 하는지"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["", "오늘밤이 두려"]},
-        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["워 - 져 -"]},
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "보고플땐"},
+            {"text": "어떡"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": "해야 하는지"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "오늘밤이 두려"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}, {"name": "D"}], 
+          "lyrics": [
+            {"text": "워 - 져 -"}
+          ]
+        },
 
-        {"chord": [{"name": "C"}], "lyrics": ["아 그댈 보낼 오늘이"]},
-        {"chord": [{"name": "G"}], "lyrics": ["수월할 수 있도"]},
-        {"chord": [{"name": "D"}, {"name": "D♯dim"}], "lyrics": ["록", "미 운기억"]},
-        {"chord": [{"name": "Em"}, {"name": "D"}], "lyrics": ["을 주지"]},
-        {"chord": [{"name": "D"}], "lyrics": ["", "그랬어"]},
-        {"chord": [{"name": "G"}], "lyrics": [""]},
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "아 그댈 보낼 오늘이"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "수월할 수 있도"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}, {"name": "D♯dim"}], 
+          "lyrics": [
+            {"text": "록"},
+            {"text": "미 운기억"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "D"}], 
+          "lyrics": [
+            {"text": "을 주지"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "그랬어"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
 
-        {"chord": [{"name": "G"}, {"name": "Bm"}], "lyrics": ["하 루만", "오늘"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["더 하루만", "준비"]},
-        {"chord": [{"name": "C"}], "lyrics": ["할 수 있 도록", "시"]},
-        {"chord": [{"name": "D"}], "lyrics": ["간을 내게 줘", "안"]},
+        {
+          "chord": [{"name": "G"}, {"name": "Bm"}], 
+          "lyrics": [
+            {"text": "하 루만"},
+            {"text": "오늘"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "더 하루만"},
+            {"text": "준비"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "할 수 있 도록"},
+            {"text": "시"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": "간을 내게 줘"},
+            {"text": "안"}
+          ]
+        },
 
-        {"chord": [{"name": "G"}, {"name": "Bm"}], "lyrics": ["돼 지금은"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["로 떠나는 걸"]},
-        {"chord": [{"name": "C"}], "lyrics": ["그냥 볼 수 는 없어"]},
-        {"chord": [{"name": "D"}], "lyrics": ["-"]},
+        {
+          "chord": [{"name": "G"}, {"name": "Bm"}], 
+          "lyrics": [
+            {"text": "돼 지금은"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "로 떠나는 걸"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "그냥 볼 수 는 없어"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": "-"}
+          ]
+        },
 
-        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["차라리 나", "(차라"]},
-        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["리나) 기다리라 말을"]},
-        {"chord": [{"name": "Gsus4"}], "lyrics": ["해"]},
-        {"chord": [{"name": "G"}], "lyrics": ["-"]},
+        {
+          "chord": [{"name": "C"}, {"name": "D"}], 
+          "lyrics": [
+            {"text": "차라리 나"},
+            {"text": "(차라"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}, {"name": "D"}], 
+          "lyrics": [
+            {"text": "리나) 기다리라 말을"}
+          ]
+        },
+        {
+          "chord": [{"name": "Gsus4"}], 
+          "lyrics": [
+            {"text": "해"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "-"}
+          ]
+        },
 
-        {"chord": [{"name": "G"}], "lyrics": ["아무것도 미안해 하지마"]},
-        {"chord": [{"name": "D"}], "lyrics": ["", "아무것도"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["걱정하지말고"]},
-        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["", "나는 괜찮아"]},
-        {"chord": [{"name": "G"}], "lyrics": ["그래도 사는동안"]},
-        {"chord": [{"name": "D"}], "lyrics": ["함께나눈 추억이 있잖아"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["다행이야"]},
-        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["감사할께"]},
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "아무것도 미안해 하지마"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "아무것도"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "걱정하지말고"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}, {"name": "D"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "나는 괜찮아"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "그래도 사는동안"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": "함께나눈 추억이 있잖아"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "다행이야"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}, {"name": "D"}], 
+          "lyrics": [
+            {"text": "감사할께"}
+          ]
+        },
 
-        {"chord": [{"name": "C"}], "lyrics": ["아 그댈 보낼 오늘이"]},
-        {"chord": [{"name": "G"}], "lyrics": ["수월할 수 있도"]},
-        {"chord": [{"name": "D"}, {"name": "D♯dim"}], "lyrics": ["록", "미 운기억"]},
-        {"chord": [{"name": "Em"}, {"name": "D"}], "lyrics": ["을 주지"]},
-        {"chord": [{"name": "D"}], "lyrics": ["", "그랬어"]},
-        {"chord": [{"name": "G"}], "lyrics": [""]},
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "아 그댈 보낼 오늘이"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "수월할 수 있도"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}, {"name": "D♯dim"}], 
+          "lyrics": [
+            {"text": "록"},
+            {"text": "미 운기억"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "D"}], 
+          "lyrics": [
+            {"text": "을 주지"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "그랬어"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
 
-        {"chord": [{"name": "G"}, {"name": "Bm"}], "lyrics": ["하 루만", "오늘"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["더 하루만", "준비"]},
-        {"chord": [{"name": "C"}], "lyrics": ["할 수 있 도록", "시"]},
-        {"chord": [{"name": "D"}], "lyrics": ["간을 내게 줘", "안"]},
+        {
+          "chord": [{"name": "G"}, {"name": "Bm"}], 
+          "lyrics": [
+            {"text": "하 루만"},
+            {"text": "오늘"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "더 하루만"},
+            {"text": "준비"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "할 수 있 도록"},
+            {"text": "시"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": "간을 내게 줘"},
+            {"text": "안"}
+          ]
+        },
 
-        {"chord": [{"name": "G"}, {"name": "Bm"}], "lyrics": ["돼 지금은"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["로 떠나는 걸"]},
-        {"chord": [{"name": "C"}], "lyrics": ["그냥 볼 수 는 없어"]},
-        {"chord": [{"name": "D"}], "lyrics": ["-"]},
+        {
+          "chord": [{"name": "G"}, {"name": "Bm"}], 
+          "lyrics": [
+            {"text": "돼 지금은"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "로 떠나는 걸"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "그냥 볼 수 는 없어"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": "-"}
+          ]
+        },
 
-        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["차라리 나", "(차라"]},
-        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["리나) 기다리라 말을"]},
-        {"chord": [{"name": "Gsus4"}], "lyrics": ["해"]},
-        {"chord": [{"name": "G"}], "lyrics": ["-"]},
+        {
+          "chord": [{"name": "C"}, {"name": "D"}], 
+          "lyrics": [
+            {"text": "차라리 나"},
+            {"text": "(차라"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}, {"name": "D"}], 
+          "lyrics": [
+            {"text": "리나) 기다리라 말을"}
+          ]
+        },
+        {
+          "chord": [{"name": "Gsus4"}], 
+          "lyrics": [
+            {"text": "해"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "-"}
+          ]
+        },
 
-        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["영원토록"]},
-        {"chord": [{"name": "C"}, {"name": "D"}], "lyrics": ["바라 볼 수"]},
-        {"chord": [{"name": ""}], "lyrics": ["", "있도"]},
-        {"chord": [{"name": "G"}, {"name": "Bm"}], "lyrics": ["록"]},
-        {"chord": [{"name": "Em"}], "lyrics": [""]}
+        {
+          "chord": [{"name": "C"}, {"name": "D"}], 
+          "lyrics": [
+            {"text": "영원토록"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}, {"name": "D"}], 
+          "lyrics": [
+            {"text": "바라 볼 수"}
+          ]
+        },
+        {
+          "chord": [{"name": ""}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "있도"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}, {"name": "Bm"}], 
+          "lyrics": [
+            {"text": "록"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        }
       ]
     }
   ]

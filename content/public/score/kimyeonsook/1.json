@@ -9,80 +9,469 @@
     {
       "type": "v1",
       "contents": [
-        {"chord": [{"name": "Am"}], "lyrics": [""]},
-        {"chord": [{"name": "E7"}], "lyrics": [""]},
-        {"chord": [{"name": "E7"}], "lyrics": [""]},
-        {"chord": [{"name": "Am"}], "lyrics": [""]},
-        {"chord": [{"name": "C"}], "lyrics": [""]},
-        {"chord": [{"name": "G"}], "lyrics": [""]},
-        {"chord": [{"name": "F"}, {"name": "E7"}], "lyrics": [""]},
-        {"chord": [{"name": "Am"}], "lyrics": ["", "언덕 위"]},
-        {"chord": [{"name": "Am"}], "lyrics": ["에", "손잡"]},
-        {"chord": [{"name": "C"}], "lyrics": ["고", "거닐던"]},
-        {"chord": [{"name": "Dm"}], "lyrics": ["길 - 목도", "아스라"]},
-        {"chord": [{"name": "E7"}], "lyrics": ["이", "멀어져"]},
-        {"chord": [{"name": "Am"}], "lyrics": ["간", "소중했"]},
-        {"chord": [{"name": "Dm"}], "lyrics": ["던", "옛 생각을"]},
-        {"chord": [{"name": "Am"}, {"name": "E7"}], "lyrics": ["돌이켜", "그려보"]},
-        {"chord": [{"name": "Am"}], "lyrics": ["네", "나래치"]},
-        {"chord": [{"name": "Am"}], "lyrics": ["는", "가슴"]},
-        {"chord": [{"name": "C"}], "lyrics": ["이", "서러워"]},
-        {"chord": [{"name": "Dm"}], "lyrics": ["아파와", "한숨 지"]},
-        {"chord": [{"name": "E7"}], "lyrics": ["며", "그려보"]},
-        {"chord": [{"name": "Am"}], "lyrics": ["는", "그 사람"]},
-        {"chord": [{"name": "Dm"}], "lyrics": ["을", "기억 하나"]},
-        {"chord": [{"name": "Am"}, {"name": "E7"}], "lyrics": ["요", "지금 잠시라"]},
-        {"chord": [{"name": "Am"}], "lyrics": ["도"]},
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "E7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "E7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}, {"name": "E7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "언덕 위"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": "에"},
+            {"text": "손잡"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "고"},
+            {"text": "거닐던"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}], 
+          "lyrics": [
+            {"text": "길 - 목도"},
+            {"text": "아스라"}
+          ]
+        },
+        {
+          "chord": [{"name": "E7"}], 
+          "lyrics": [
+            {"text": "이"},
+            {"text": "멀어져"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": "간"},
+            {"text": "소중했"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}], 
+          "lyrics": [
+            {"text": "던"},
+            {"text": "옛 생각을"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}, {"name": "E7"}], 
+          "lyrics": [
+            {"text": "돌이켜"},
+            {"text": "그려보"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": "네"},
+            {"text": "나래치"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": "는"},
+            {"text": "가슴"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "이"},
+            {"text": "서러워"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}], 
+          "lyrics": [
+            {"text": "아파와"},
+            {"text": "한숨 지"}
+          ]
+        },
+        {
+          "chord": [{"name": "E7"}], 
+          "lyrics": [
+            {"text": "며"},
+            {"text": "그려보"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": "는"},
+            {"text": "그 사람"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}], 
+          "lyrics": [
+            {"text": "을"},
+            {"text": "기억 하나"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}, {"name": "E7"}], 
+          "lyrics": [
+            {"text": "요"},
+            {"text": "지금 잠시라"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": "도"}
+          ]
+        },
 
-        {"chord": [{"name": "C"}], "lyrics": ["달의 미소를"]},
-        {"chord": [{"name": "G"}], "lyrics": ["보면서", "내"]},
-        {"chord": [{"name": "F"}], "lyrics": ["너의 두 손을 잡"]},
-        {"chord": [{"name": "E7"}], "lyrics": ["고", "두나"]},
-        {"chord": [{"name": "C"}], "lyrics": ["별 들의 눈물을"]},
-        {"chord": [{"name": "G"}], "lyrics": ["보 았지", "고"]},
-        {"chord": [{"name": "F"}], "lyrics": ["요 - 한 세 - 상"]},
-        {"chord": [{"name": "E7"}], "lyrics": ["을"]},
-        {"chord": [{"name": "Am"}], "lyrics": ["우 -"]},
-        {"chord": [{"name": "Dm"}], "lyrics": ["우 -"]},
-        {"chord": [{"name": "E7"}], "lyrics": ["우 -", "한 아름"]},
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "달의 미소를"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "보면서"},
+            {"text": "내"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}], 
+          "lyrics": [
+            {"text": "너의 두 손을 잡"}
+          ]
+        },
+        {
+          "chord": [{"name": "E7"}], 
+          "lyrics": [
+            {"text": "고"},
+            {"text": "두나"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "별 들의 눈물을"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "보 았지"},
+            {"text": "고"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}], 
+          "lyrics": [
+            {"text": "요 - 한 세 - 상"}
+          ]
+        },
+        {
+          "chord": [{"name": "E7"}], 
+          "lyrics": [
+            {"text": "을"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": "우 -"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}], 
+          "lyrics": [
+            {"text": "우 -"}
+          ]
+        },
+        {
+          "chord": [{"name": "E7"}], 
+          "lyrics": [
+            {"text": "우 -"},
+            {"text": "한 아름"}
+          ]
+        },
 
-        {"chord": [{"name": "Am"}], "lyrics": ["의", "꽃"]},
-        {"chord": [{"name": "C"}], "lyrics": ["처럼", "보여지"]},
-        {"chord": [{"name": "Dm"}], "lyrics": ["며 던진", "내 사랑"]},
-        {"chord": [{"name": "E7"}], "lyrics": ["에", "웃음"]},
-        {"chord": [{"name": "Am"}], "lyrics": ["지며", "님의 소"]},
-        {"chord": [{"name": "Dm"}], "lyrics": ["식 전한 마음"]},
-        {"chord": [{"name": "Am"}, {"name": "E7"}], "lyrics": ["한 없이 보내 본"]},
-        {"chord": [{"name": "Am"}], "lyrics": ["다"]},
-        {"chord": [{"name": "Am"}], "lyrics": [""]},
-        {"chord": [{"name": "E7"}], "lyrics": [""]},
-        {"chord": [{"name": "E7"}], "lyrics": [""]},
-        {"chord": [{"name": "Am"}], "lyrics": [""]},
-        {"chord": [{"name": "C"}], "lyrics": [""]},
-        {"chord": [{"name": "G"}], "lyrics": [""]},
-        {"chord": [{"name": "F"}, {"name": "E7"}], "lyrics": [""]},
-        {"chord": [{"name": "Am"}], "lyrics": [""]},
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": "의"},
+            {"text": "꽃"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "처럼"},
+            {"text": "보여지"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}], 
+          "lyrics": [
+            {"text": "며 던진"},
+            {"text": "내 사랑"}
+          ]
+        },
+        {
+          "chord": [{"name": "E7"}], 
+          "lyrics": [
+            {"text": "에"},
+            {"text": "웃음"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": "지며"},
+            {"text": "님의 소"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}], 
+          "lyrics": [
+            {"text": "식 전한 마음"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}, {"name": "E7"}], 
+          "lyrics": [
+            {"text": "한 없이 보내 본"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": "다"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "E7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "E7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}, {"name": "E7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
 
-        {"chord": [{"name": "C"}], "lyrics": ["달의 미소를"]},
-        {"chord": [{"name": "G"}], "lyrics": ["보면서", "내"]},
-        {"chord": [{"name": "F"}], "lyrics": ["너의 두 손을 잡"]},
-        {"chord": [{"name": "E7"}], "lyrics": ["고", "두나"]},
-        {"chord": [{"name": "C"}], "lyrics": ["별 들의 눈물을"]},
-        {"chord": [{"name": "G"}], "lyrics": ["보 았지", "고"]},
-        {"chord": [{"name": "F"}], "lyrics": ["요 - 한 세 - 상"]},
-        {"chord": [{"name": "E7"}], "lyrics": ["을"]},
-        {"chord": [{"name": "Am"}], "lyrics": ["우 -"]},
-        {"chord": [{"name": "Dm"}], "lyrics": ["우 -"]},
-        {"chord": [{"name": "E7"}], "lyrics": ["우 -", "한 아름"]},
-        {"chord": [{"name": "Am"}], "lyrics": ["의", "꽃"]},
-        {"chord": [{"name": "C"}], "lyrics": ["처럼", "보여지"]},
-        {"chord": [{"name": "Dm"}], "lyrics": ["며", "던진 내 사랑"]},
-        {"chord": [{"name": "E7"}], "lyrics": ["에", "웃음"]},
-        {"chord": [{"name": "Am"}], "lyrics": ["지며", "님의 소"]},
-        {"chord": [{"name": "Dm"}], "lyrics": ["식 전한 마음"]},
-        {"chord": [{"name": "Am"}, {"name": "E7"}], "lyrics": ["한 없이 보내 본"]},
-        {"chord": [{"name": "Am"}], "lyrics": ["다"]},
-        {"chord": [{"name": "Amadd9"}], "lyrics": [""]}
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "달의 미소를"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "보면서"},
+            {"text": "내"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}], 
+          "lyrics": [
+            {"text": "너의 두 손을 잡"}
+          ]
+        },
+        {
+          "chord": [{"name": "E7"}], 
+          "lyrics": [
+            {"text": "고"},
+            {"text": "두나"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "별 들의 눈물을"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "보 았지"},
+            {"text": "고"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}], 
+          "lyrics": [
+            {"text": "요 - 한 세 - 상"}
+          ]
+        },
+        {
+          "chord": [{"name": "E7"}], 
+          "lyrics": [
+            {"text": "을"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": "우 -"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}], 
+          "lyrics": [
+            {"text": "우 -"}
+          ]
+        },
+        {
+          "chord": [{"name": "E7"}], 
+          "lyrics": [
+            {"text": "우 -"},
+            {"text": "한 아름"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": "의"},
+            {"text": "꽃"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "처럼"},
+            {"text": "보여지"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}], 
+          "lyrics": [
+            {"text": "며"},
+            {"text": "던진 내 사랑"}
+          ]
+        },
+        {
+          "chord": [{"name": "E7"}], 
+          "lyrics": [
+            {"text": "에"},
+            {"text": "웃음"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": "지며"},
+            {"text": "님의 소"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}], 
+          "lyrics": [
+            {"text": "식 전한 마음"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}, {"name": "E7"}], 
+          "lyrics": [
+            {"text": "한 없이 보내 본"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": "다"}
+          ]
+        },
+        {
+          "chord": [{"name": "Amadd9"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        }
       ]
     }
   ]

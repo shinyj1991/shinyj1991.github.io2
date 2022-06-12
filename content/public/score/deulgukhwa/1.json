@@ -14,101 +14,137 @@
             {"name": "G"},
             {"name": "Em"}
           ],
-          "lyrics": [""]
+          "lyrics": [
+            {"text": ""}
+          ]
         },
         {
           "chord": [
             {"name": "CM7"}
           ],
-          "lyrics": [""]
+          "lyrics": [
+            {"text": ""}
+          ]
         },
         {
           "chord": [
             {"name": "Bm7"}
           ],
-          "lyrics": [""]
+          "lyrics": [
+            {"text": ""}
+          ]
         },
         {
           "chord": [
             {"name": "CM7"}
           ],
-          "lyrics": [""]
+          "lyrics": [
+            {"text": ""}
+          ]
         },
         {
           "chord": [
             {"name": "G"},
             {"name": "Em"}
           ],
-          "lyrics": ["제발 그만 해둬"]
+          "lyrics": [
+            {"text": "제발 그만 해둬"}
+          ]
         },
         {
           "chord": [
             {"name": "CM7"}
           ],
-          "lyrics": ["나는 너의 인형은 아"]
+          "lyrics": [
+            {"text": "나는 너의 인형은 아"}
+          ]
         },
         {
           "chord": [
             {"name": "Bm7"}
           ],
-          "lyrics": ["니 잖니", "너도 알잖"]
+          "lyrics": [
+            {"text": "니 잖니"},
+            {"text": "너도 알잖"}
+          ]
         },
         {
           "chord": [
             {"name": "CM7"}
           ],
-          "lyrics": ["니"]
+          "lyrics": [
+            {"text": "니"}
+          ]
         },
         {
           "chord": [
             {"name": "G"},
             {"name": "Em"}
           ],
-          "lyrics": ["다시 생각해 봐"]
+          "lyrics": [
+            {"text": "다시 생각해 봐"}
+          ]
         },
         {
           "chord": [
             {"name": "CM7"}
           ],
-          "lyrics": ["눈을 들어 내얼굴을"]
+          "lyrics": [
+            {"text": "눈을 들어 내얼굴을"}
+          ]
         },
         {
           "chord": [
             {"name": "Bm7"}
           ],
-          "lyrics": ["다시 봐", "나는 외로"]
+          "lyrics": [
+            {"text": "다시 봐"},
+            {"text": "나는 외로"}
+          ]
         },
         {
           "chord": [
             {"name": "CM7"}
           ],
-          "lyrics": ["워"]
+          "lyrics": [
+            {"text": "워"}
+          ]
         },
         {
           "chord": [
             {"name": "D"},
             {"name": "D/C"}
           ],
-          "lyrics": ["난 네가 바라듯", "완"]
+          "lyrics": [
+            {"text": "난 네가 바라듯"},
+            {"text": "완"}
+          ]
         },
         {
           "chord": [
             {"name": "Bm7"},
             {"name": "E7"}
           ],
-          "lyrics": ["전하진 못 해"]
+          "lyrics": [
+            {"text": "전하진 못 해"}
+          ]
         },
         {
           "chord": [
             {"name": "Am"}
           ],
-          "lyrics": ["한낱 외로운"]
+          "lyrics": [
+            {"text": "한낱 외로운"}
+          ]
         },
         {
           "chord": [
             {"name": "Cm"}
           ],
-          "lyrics": ["사람일 뿐이야", "제발"]
+          "lyrics": [
+            {"text": "사람일 뿐이야"},
+            {"text": "제발"}
+          ]
         },
         {
           "chord": [
@@ -117,7 +153,9 @@
             {"name": "Em"},
             {"name": "Em7/D"}
           ],
-          "lyrics": ["숨 막 혀"]
+          "lyrics": [
+            {"text": "숨 막 혀"}
+          ]
         },
         {
           "chord": [
@@ -125,97 +163,132 @@
             {"name": "D"},
             {"name": "D/C"}
           ],
-          "lyrics": ["인형이 되긴", "제발"]
+          "lyrics": [
+            {"text": "인형이 되긴"},
+            {"text": "제발"}
+          ]
         },
         {
           "chord": [
             {"name": "Bm7"},
             {"name": "Em"}
           ],
-          "lyrics": ["목말라"]
+          "lyrics": [
+            {"text": "목말라"}
+          ]
         },
         {
           "chord": [
             {"name": "Am"},
             {"name": "D"}
           ],
-          "lyrics": ["마음 열어 사랑을 해"]
+          "lyrics": [
+            {"text": "마음 열어 사랑을 해"}
+          ]
         },
         {
           "chord": [
             {"name": "G"},
             {"name": "Em"}
           ],
-          "lyrics": ["봐 (제발 그만해 둬)"]
+          "lyrics": [
+            {"text": "봐 (제발 그만해 둬)"}
+          ]
         },
         {
           "chord": [
             {"name": "CM7"}
           ],
-          "lyrics": ["새장속에 새는 너무"]
+          "lyrics": [
+            {"text": "새장속에 새는 너무"}
+          ]
         },
         {
           "chord": [
             {"name": "Bm7"}
           ],
-          "lyrics": ["지 쳤어", "너도 알잖"]
+          "lyrics": [
+            {"text": "지 쳤어"},
+            {"text": "너도 알잖"}
+          ]
         },
         {
           "chord": [
             {"name": "CM7"}
           ],
-          "lyrics": ["니"]
+          "lyrics": [
+            {"text": "니"}
+          ]
         },
         {
           "chord": [
             {"name": "G"},
             {"name": "Em"}
           ],
-          "lyrics": ["다시 생각해 봐"]
+          "lyrics": [
+            {"text": "다시 생각해 봐"}
+          ]
         },
         {
           "chord": [
             {"name": "CM7"}
           ],
-          "lyrics": ["처음만난 그 거리를"]
+          "lyrics": [
+            {"text": "처음만난 그 거리를"}
+          ]
         },
         {
           "chord": [
             {"name": "Bm7"}
           ],
-          "lyrics": ["걸어 봐", "나는 외로"]
+          "lyrics": [
+            {"text": "걸어 봐"},
+            {"text": "나는 외로"}
+          ]
         },
         {
           "chord": [
             {"name": "CM7"}
           ],
-          "lyrics": ["워"]
+          "lyrics": [
+            {"text": "워"}
+          ]
         },
         {
           "chord": [
             {"name": "D"},
             {"name": "D/C"}
           ],
-          "lyrics": ["난 네가 바라듯", "완"]
+          "lyrics": [
+            {"text": "난 네가 바라듯"},
+            {"text": "완"}
+          ]
         },
         {
           "chord": [
             {"name": "Bm7"},
             {"name": "E7"}
           ],
-          "lyrics": ["전하진 못 해"]
+          "lyrics": [
+            {"text": "전하진 못 해"}
+          ]
         },
         {
           "chord": [
             {"name": "Am"}
           ],
-          "lyrics": ["한낱 외로운"]
+          "lyrics": [
+            {"text": "한낱 외로운"}
+          ]
         },
         {
           "chord": [
             {"name": "Cm"}
           ],
-          "lyrics": ["사람일 뿐이야", "제발"]
+          "lyrics": [
+            {"text": "사람일 뿐이야"},
+            {"text": "제발"}
+          ]
         },
         {
           "chord": [
@@ -224,7 +297,9 @@
             {"name": "Em"},
             {"name": "Em7/D"}
           ],
-          "lyrics": ["숨 막 혀"]
+          "lyrics": [
+            {"text": "숨 막 혀"}
+          ]
         },
         {
           "chord": [
@@ -232,97 +307,130 @@
             {"name": "D"},
             {"name": "D/C"}
           ],
-          "lyrics": ["인형이 되긴", "제발"]
+          "lyrics": [
+            {"text": "인형이 되긴"},
+            {"text": "제발"}
+          ]
         },
         {
           "chord": [
             {"name": "Bm7"},
             {"name": "Em"}
           ],
-          "lyrics": ["목말라"]
+          "lyrics": [
+            {"text": "목말라"}
+          ]
         },
         {
           "chord": [
             {"name": "Am"},
             {"name": "D"}
           ],
-          "lyrics": ["마음 열어 사랑을 해"]
+          "lyrics": [
+            {"text": "마음 열어 사랑을 해"}
+          ]
         },
         {
           "chord": [
             {"name": "G"},
             {"name": "Em"}
           ],
-          "lyrics": ["봐"]
+          "lyrics": [
+            {"text": "봐"}
+          ]
         },
         {
           "chord": [
             {"name": "CM7"}
           ],
-          "lyrics": [""]
+          "lyrics": [
+            {"text": ""}
+          ]
         },
         {
           "chord": [
             {"name": "Bm7"}
           ],
-          "lyrics": [""]
+          "lyrics": [
+            {"text": ""}
+          ]
         },
         {
           "chord": [
             {"name": "CM7"}
           ],
-          "lyrics": [""]
+          "lyrics": [
+            {"text": ""}
+          ]
         },
         {
           "chord": [
             {"name": "G"},
             {"name": "Em"}
           ],
-          "lyrics": [""]
+          "lyrics": [
+            {"text": ""}
+          ]
         },
         {
           "chord": [
             {"name": "CM7"}
           ],
-          "lyrics": [""]
+          "lyrics": [
+            {"text": ""}
+          ]
         },
         {
           "chord": [
             {"name": "Bm7"}
           ],
-          "lyrics": [""]
+          "lyrics": [
+            {"text": ""}
+          ]
         },
         {
           "chord": [
             {"name": "C"}
           ],
-          "lyrics": [""]
+          "lyrics": [
+            {"text": ""}
+          ]
         },
         {
           "chord": [
             {"name": "D"},
             {"name": "D/C"}
           ],
-          "lyrics": ["난 네가 바라듯", "완"]
+          "lyrics": [
+            {"text": "난 네가 바라듯"},
+            {"text": "완"}
+          ]
         },
         {
           "chord": [
             {"name": "Bm7"},
             {"name": "E7"}
           ],
-          "lyrics": ["전하진 못 해"]
+          "lyrics": [
+            {"text": "전하진 못 해"}
+          ]
         },
         {
           "chord": [
             {"name": "Am"}
           ],
-          "lyrics": ["한낱 외로운"]
+          "lyrics": [
+            {"text": "한낱 외로운"}
+          ]
         },
         {
           "chord": [
             {"name": "Cm"}
           ],
-          "lyrics": ["사람일 뿐이야", "제발"]
+          "lyrics": [
+            {"text": "사람일 뿐이야"},
+            {"text": "제발"}
+          ]
         },
         {
           "chord": [
@@ -331,7 +439,9 @@
             {"name": "Em"},
             {"name": "Em7/D"}
           ],
-          "lyrics": ["숨 막 혀"]
+          "lyrics": [
+            {"text": "숨 막 혀"}
+          ]
         },
         {
           "chord": [
@@ -339,40 +449,53 @@
             {"name": "D"},
             {"name": "D/C"}
           ],
-          "lyrics": ["인형이 되긴", "제발"]
+          "lyrics": [
+            {"text": "인형이 되긴"},
+            {"text": "제발"}
+          ]
         },
         {
           "chord": [
             {"name": "Bm7"},
             {"name": "Em"}
           ],
-          "lyrics": ["목말라"]
+          "lyrics": [
+            {"text": "목말라"}
+          ]
         },
         {
           "chord": [
             {"name": "Am"},
             {"name": "D"}
           ],
-          "lyrics": ["마음 열어 사랑을 해"]
+          "lyrics": [
+            {"text": "마음 열어 사랑을 해"}
+          ]
         },
         {
           "chord": [
             {"name": "G"},
             {"name": "Em"}
           ],
-          "lyrics": ["봐"]
+          "lyrics": [
+            {"text": "봐"}
+          ]
         },
         {
           "chord": [
             {"name": "CM7"}
           ],
-          "lyrics": [""]
+          "lyrics": [
+            {"text": ""}
+          ]
         },
         {
           "chord": [
             {"name": "G"}
           ],
-          "lyrics": [""]
+          "lyrics": [
+            {"text": ""}
+          ]
         }
       ]
     }

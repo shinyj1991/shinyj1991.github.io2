@@ -9,49 +9,358 @@
     {
       "type": "v1",
       "contents": [
-        {"chord": [{"name": "C"}], "lyrics": [""]},
-        {"chord": [{"name": "Am"}], "lyrics": [""]},
-        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": [""]},
-        {"chord": [{"name": "C"}], "lyrics": [""]},
-        {"chord": [{"name": "Dm7/G"}], "lyrics": ["", "이"]},
-        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["젠 나도", "널"]},
-        {"chord": [{"name": "Am"}, {"name": "C"}], "lyrics": ["잊겠어"]},
-        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": ["너무 힘이 들잖아"]},
-        {"chord": [{"name": "Dm"}, {"name": "G"}], "lyrics": [""]},
-        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["원하는 대로"]},
-        {"chord": [{"name": "C"}, {"name": "G"}, {"name": "Am", "grow": 2}], "lyrics": ["해 줄순 있지만"]},
-        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["난 더이상 해줄게"]},
-        {"chord": [{"name": "C", "grow": 2}, {"name": "F"}, {"name": "G"}], "lyrics": ["없어", "그"]},
+        {
+          "chord": [
+            {"name": "C"}
+          ], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "Am"}
+          ], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "F"},
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "C"}
+          ], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "Dm7/G"}
+          ], 
+          "lyrics": [
+            {"text": ""}, 
+            {"text": "이"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "C"}, 
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": "젠 나도"}, 
+            {"text": "널"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "Am"}, 
+            {"name": "C"}
+          ], 
+          "lyrics": [
+            {"text": "잊겠어"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "F"}, 
+            {"name": "C"}
+          ], 
+          "lyrics": [
+            {"text": "너무 힘이 들잖아"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "Dm"}, 
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "F"}, 
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": "원하는 대로"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "C"}, 
+            {"name": "G"}, 
+            {"name": "Am", "grow": 2}
+          ], 
+          "lyrics": [
+            {"text": "해 줄순 있지만"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "F"}, 
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": "난 더이상 해줄게"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "C", "grow": 2}, 
+            {"name": "F"}, 
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": "없어"}, 
+            {"text": "그"}
+          ]
+        },
 
-        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["런 나를", "욕"]},
-        {"chord": [{"name": "Am"}, {"name": "C"}], "lyrics": ["하지마"]},
-        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": ["후회할 지도 몰라"]},
-        {"chord": [{"name": "Dm"}, {"name": "G"}], "lyrics": [""]},
-        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["철없는 생각"]},
-        {"chord": [{"name": "C"}, {"name": "G"}, {"name": "Am", "grow": 2}], "lyrics": ["시간이 흐르면"]},
-        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["그땐 이미 늦은"]},
-        {"chord": [{"name": "C", "grow": 2}, {"name": "Esus4"}, {"name": "E7"}], "lyrics": ["걸"]},
+        {
+          "chord": [
+            {"name": "C"}, 
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": "런 나를"}, 
+            {"text": "욕"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "Am"}, 
+            {"name": "C"}
+          ], 
+          "lyrics": [
+            {"text": "하지마"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "F"}, 
+            {"name": "C"}
+          ], 
+          "lyrics": [
+            {"text": "후회할 지도 몰라"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "Dm"}, 
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "F"}, 
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": "철없는 생각"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "C"}, 
+            {"name": "G"}, 
+            {"name": "Am", "grow": 2}
+          ], 
+          "lyrics": [
+            {"text": "시간이 흐르면"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "F"}, 
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": "그땐 이미 늦은"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "C", "grow": 2}, 
+            {"name": "Esus4"}, 
+            {"name": "E7"}
+          ], 
+          "lyrics": [
+            {"text": "걸"}
+          ]
+        },
 
-        {"chord": [{"name": "Am"}, {"name": "Em"}], "lyrics": ["모든 것을 주는 그런"]},
-        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": ["사랑을 해봐"]},
-        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": ["받으려고만 하는 그런"]},
-        {"chord": [{"name": "Dm"}, {"name": "G"}], "lyrics": ["사랑 말고"]},
+        {
+          "chord": [
+            {"name": "Am"}, 
+            {"name": "Em"}
+          ], 
+          "lyrics": [
+            {"text": "모든 것을 주는 그런"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "F"}, 
+            {"name": "C"}
+          ], 
+          "lyrics": [
+            {"text": "사랑을 해봐"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "F"}, 
+            {"name": "C"}
+          ], 
+          "lyrics": [
+            {"text": "받으려고만 하는 그런"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "Dm"}, 
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": "사랑 말고"}
+          ]
+        },
 
-        {"chord": [{"name": "Am"}, {"name": "Em"}], "lyrics": ["너도 알고 있잖아"]},
-        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": ["끝이 없는걸"]},
-        {"chord": [{"name": "F"}, {"name": "Dm"}], "lyrics": ["서로 참아야만 하는"]},
-        {"chord": [{"name": "G"}], "lyrics": ["걸"]},
+        {
+          "chord": [
+            {"name": "Am"}, 
+            {"name": "Em"}
+          ], 
+          "lyrics": [
+            {"text": "너도 알고 있잖아"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "F"}, 
+            {"name": "C"}
+          ], 
+          "lyrics": [
+            {"text": "끝이 없는걸"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "F"}, 
+            {"name": "Dm"}
+          ], 
+          "lyrics": [
+            {"text": "서로 참아야만 하는"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": "걸"}
+          ]
+        },
 
-        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["사랑을 할거야"]},
-        {"chord": [{"name": "Am"}, {"name": "Em"}], "lyrics": ["사랑을 할거야", "아무"]},
-        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": ["도 모르게", "너"]},
-        {"chord": [{"name": "Dm"}, {"name": "G7"}], "lyrics": ["만을 위하여"]},
+        {
+          "chord": [
+            {"name": "C"}, 
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": "사랑을 할거야"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "Am"}, 
+            {"name": "Em"}
+          ], 
+          "lyrics": [
+            {"text": "사랑을 할거야"}, 
+            {"text": "아무"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "F"}, 
+            {"name": "C"}
+          ], 
+          "lyrics": [
+            {"text": "도 모르게"}, 
+            {"text": "너"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "Dm"}, 
+            {"name": "G7"}
+          ], 
+          "lyrics": [
+            {"text": "만을 위하여"}
+          ]
+        },
 
-        {"chord": [{"name": "C"}, {"name": "G"}], "lyrics": ["나를 지켜봐줘"]},
-        {"chord": [{"name": "Am"}, {"name": "F"}], "lyrics": ["나를 지켜봐줘"]},
-        {"chord": [{"name": "F"}, {"name": "C"}], "lyrics": ["", "아무도 모"]},
-        {"chord": [{"name": "G"}, {"name": "F"}], "lyrics": ["르는 사랑을"]},
-        {"chord": [{"name": "C"}], "lyrics": [""]}
+        {
+          "chord": [
+            {"name": "C"}, 
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": "나를 지켜봐줘"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "Am"}, 
+            {"name": "F"}
+          ], 
+          "lyrics": [
+            {"text": "나를 지켜봐줘"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "F"}, 
+            {"name": "C"}
+          ], 
+          "lyrics": [
+            {"text": ""}, 
+            {"text": "아무도 모"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "G"}, 
+            {"name": "F"}
+          ], 
+          "lyrics": [
+            {"text": "르는 사랑을"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "C"}
+          ], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        }
       ]
     }
   ]

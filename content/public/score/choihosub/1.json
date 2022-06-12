@@ -9,35 +9,171 @@
     {
       "type": "v1",
       "contents": [
-        {"chord": [{"name": "C"}, {"name": "Em"}], "lyrics": ["그대 나를 위해", "웃"]},
-        {"chord": [{"name": "Am"}, {"name": "C"}], "lyrics": ["음을 보여도 ", "허"]},
-        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["탈한 표정 감출 순", "없"]},
-        {"chord": [{"name": "Em"}, {"name": "A"}], "lyrics": ["어", "힘없"]},
+        {
+          "chord": [{"name": "C"}, {"name": "Em"}], 
+          "lyrics": [
+            {"text": "그대 나를 위해"},
+            {"text": "웃"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": "음을 보여도 "},
+            {"text": "허"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "탈한 표정 감출 순"},
+            {"text": "없"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "A"}], 
+          "lyrics": [
+            {"text": "어"},
+            {"text": "힘없"}
+          ]
+        },
         
-        {"chord": [{"name": "Dm"}, {"name": "G"}], "lyrics": ["이 뒤돌아선", "그"]},
-        {"chord": [{"name": "Em"}, {"name": "Am"}], "lyrics": ["대의 모습을"]},
-        {"chord": [{"name": "F"}], "lyrics": ["흐린 눈으로 바라만"]},
-        {"chord": [{"name": "Dm"}, {"name": "G"}], "lyrics": ["보네"]},
+        {
+          "chord": [{"name": "Dm"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "이 뒤돌아선"},
+            {"text": "그"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "Am"}], 
+          "lyrics": [
+            {"text": "대의 모습을"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}], 
+          "lyrics": [
+            {"text": "흐린 눈으로 바라만"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "보네"}
+          ]
+        },
         
-        {"chord": [{"name": "C"}, {"name": "Em"}], "lyrics": ["나는 알고 있어요", "우"]},
-        {"chord": [{"name": "Am"}, {"name": "C"}], "lyrics": ["리의 사랑이", "이"]},
-        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["것이 마지막 이라는"]},
-        {"chord": [{"name": "Em"}, {"name": "A"}], "lyrics": ["것을", "서"]},
+        {
+          "chord": [{"name": "C"}, {"name": "Em"}], 
+          "lyrics": [
+            {"text": "나는 알고 있어요"},
+            {"text": "우"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": "리의 사랑이"},
+            {"text": "이"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "것이 마지막 이라는"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "A"}], 
+          "lyrics": [
+            {"text": "것을"},
+            {"text": "서"}
+          ]
+        },
         
-        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["로가 안된다 해도", "영원"]},
-        {"chord": [{"name": "Em"}, {"name": "Am"}], "lyrics": ["할 수 없어요", "저"]},
-        {"chord": [{"name": "F"}], "lyrics": ["흘러 가는 시간 앞에"]},
-        {"chord": [{"name": "Dm"}, {"name": "G"}], "lyrics": ["서는", "세월"]},
+        {
+          "chord": [{"name": "F"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "로가 안된다 해도"},
+            {"text": "영원"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "Am"}], 
+          "lyrics": [
+            {"text": "할 수 없어요"},
+            {"text": "저"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}], 
+          "lyrics": [
+            {"text": "흘러 가는 시간 앞에"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "서는"},
+            {"text": "세월"}
+          ]
+        },
         
-        {"chord": [{"name": "C"}], "lyrics": ["이 가면", "가슴"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["이 터질 듯한"]},
-        {"chord": [{"name": "A"}], "lyrics": ["그리운 마음이야"]},
-        {"chord": [{"name": "Dm"}], "lyrics": ["잊는다 해도", "한없"]},
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "이 가면"},
+            {"text": "가슴"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "이 터질 듯한"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": "그리운 마음이야"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}], 
+          "lyrics": [
+            {"text": "잊는다 해도"},
+            {"text": "한없"}
+          ]
+        },
         
-        {"chord": [{"name": "F"}, {"name": "G"}], "lyrics": ["이 소중했던", "사랑"]},
-        {"chord": [{"name": "Em"}, {"name": "Am"}], "lyrics": ["이 있었음을", "잊"]},
-        {"chord": [{"name": "Dm"}, {"name": "G"}], "lyrics": ["지말고", "기억해줘"]},
-        {"chord": [{"name": "C"}], "lyrics": ["요"]}
+        {
+          "chord": [{"name": "F"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "이 소중했던"},
+            {"text": "사랑"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "Am"}], 
+          "lyrics": [
+            {"text": "이 있었음을"},
+            {"text": "잊"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}, {"name": "G"}], 
+          "lyrics": [
+            {"text": "지말고"},
+            {"text": "기억해줘"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "요"}
+          ]
+        }
       ]
     }
   ]

@@ -122,7 +122,9 @@
             {"grow": 1, "node": [2, null, null, null, null, null]},
             {"grow": 1, "node": [null, null, 2, null, null, null]}
           ],
-          "lyrics": ["잊어야 한다는"]
+          "lyrics": [
+            {"text": "잊어야 한다는"}
+          ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "Bm"}],
@@ -136,7 +138,9 @@
             {"grow": 1, "node": [null, 3, null, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["마음으로"]
+          "lyrics": [
+            {"text": "마음으로"}
+          ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}],
@@ -150,7 +154,9 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["내 텅빈 방문을"]
+          "lyrics": [
+            {"text": "내 텅빈 방문을"}
+          ]
         },
         {
           "chord": [{"name": "D"}, {"name": "G"}],
@@ -164,7 +170,9 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [3, null, null, null, null, null]}
           ],
-          "lyrics": ["닫은 채로"]
+          "lyrics": [
+            {"text": "닫은 채로"}
+          ]
         },
         {
           "chord": [{"name": "G"}, {"name": "D"}],
@@ -178,7 +186,9 @@
             {"grow": 1, "node": [null, 3, null, null, null, null]},
             {"grow": 1, "node": [null, null, 2, null, null, null]}
           ],
-          "lyrics": ["아직도 남아 있는"]
+          "lyrics": [
+            {"text": "아직도 남아 있는"}
+          ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "Bm"}],
@@ -192,7 +202,9 @@
             {"grow": 1, "node": [null, null, 4, null, null, null]},
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
-          "lyrics": ["너의 향기"]
+          "lyrics": [
+            {"text": "너의 향기"}
+          ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}],
@@ -206,7 +218,9 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["내 텅빈 방안에"]
+          "lyrics": [
+            {"text": "내 텅빈 방안에"}
+          ]
         },
         {
           "chord": [{"name": "D"}, {"name": "G"}],
@@ -220,7 +234,9 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["가득한데"]
+          "lyrics": [
+            {"text": "가득한데"}
+          ]
         },
         {
           "chord": [{"name": "G"}, {"name": "D"}],
@@ -234,7 +250,9 @@
             {"grow": 1, "node": [null, 3, null, null, null, null]},
             {"grow": 1, "node": [null, null, 2, null, null, null]}
           ],
-          "lyrics": ["이렇게 홀로 누워"]
+          "lyrics": [
+            {"text": "이렇게 홀로 누워"}
+          ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "Bm"}],
@@ -248,7 +266,9 @@
             {"grow": 1, "node": [null, null, 4, null, null, null]},
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
-          "lyrics": ["천정을 보니"]
+          "lyrics": [
+            {"text": "천정을 보니"}
+          ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}],
@@ -262,7 +282,9 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [3, null, null, null, null, null]}
           ],
-          "lyrics": ["눈앞에 글썽이는"]
+          "lyrics": [
+            {"text": "눈앞에 글썽이는"}
+          ]
         },
         {
           "chord": [{"name": "D"}, {"name": "G"}],
@@ -276,7 +298,9 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["너의 모습"]
+          "lyrics": [
+            {"text": "너의 모습"}
+          ]
         },
         {
           "chord": [{"name": "G"}, {"name": "D"}],
@@ -290,7 +314,9 @@
             {"grow": 1, "node": [null, 3, null, null, null, null]},
             {"grow": 1, "node": [null, null, 2, null, null, null]}
           ],
-          "lyrics": ["잊으려 돌아 누운"]
+          "lyrics": [
+            {"text": "잊으려 돌아 누운"}
+          ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "Bm"}],
@@ -304,7 +330,9 @@
             {"grow": 1, "node": [null, null, 4, null, null, null]},
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
-          "lyrics": ["내 눈가에"]
+          "lyrics": [
+            {"text": "내 눈가에"}
+          ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}],
@@ -318,7 +346,9 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [3, null, null, null, null, null]}
           ],
-          "lyrics": ["말없이 흐르는"]
+          "lyrics": [
+            {"text": "말없이 흐르는"}
+          ]
         },
         {
           "chord": [{"name": "D"}, {"name": "G"}],
@@ -332,7 +362,9 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["이슬방울들"]
+          "lyrics": [
+            {"text": "이슬방울들"}
+          ]
         },
         {
           "chord": [{"name": "G"}, {"name": "D"}],
@@ -346,7 +378,9 @@
             {"grow": 1, "node": [2, null, null, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["지나간 시간은"]
+          "lyrics": [
+            {"text": "지나간 시간은"}
+          ]
         },
         {
           "chord": [{"name": "Em9"}, {"name": "C"}],
@@ -360,7 +394,9 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
-          "lyrics": ["추억 속에"]
+          "lyrics": [
+            {"text": "추억 속에"}
+          ]
         },
         {
           "chord": [{"name": "Am"}, {"name": "G"}],
@@ -374,10 +410,12 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["묻히면 그만인"]
+          "lyrics": [
+            {"text": "묻히면 그만인"}
+          ]
         },
         {
-          "chord": [{"name": "Daa9"}],
+          "chord": [{"name": "Dadd9"}],
           "nodelist": [
             {"grow": 1, "node": [null, null, null, 0, null, null]},
             {"grow": 1, "node": [null, null, 2, null, null, null]},
@@ -388,7 +426,9 @@
             {"grow": 1, "node": [null, null, 2, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["것을"]
+          "lyrics": [
+            {"text": "것을"}
+          ]
         },
         {
           "chord": [{"name": "G"}, {"name": "D"}],
@@ -402,7 +442,9 @@
             {"grow": 1, "node": [2, null, null, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["나는 왜 이렇게"]
+          "lyrics": [
+            {"text": "나는 왜 이렇게"}
+          ]
         },
         {
           "chord": [{"name": "Em9"}, {"name": "C"}],
@@ -416,7 +458,9 @@
             {"grow": 1, "node": [0, null, null, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["긴 긴 밤을"]
+          "lyrics": [
+            {"text": "긴 긴 밤을"}
+          ]
         },
         {
           "chord": [{"name": "Am"}, {"name": "G"}],
@@ -430,7 +474,9 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
-          "lyrics": ["또 잊지 못해"]
+          "lyrics": [
+            {"text": "또 잊지 못해"}
+          ]
         },
         {
           "chord": [{"name": "Dadd9"}],
@@ -441,7 +487,9 @@
             {"grow": 1, "node": [null, null, 2, null, null, null]},
             {"grow": 4, "node": [0, null, null, null, null, null]}
           ],
-          "lyrics": ["세울까"]
+          "lyrics": [
+            {"text": "세울까"}
+          ]
         },
         {
           "chord": [{"name": "G"}, {"name": "D"}],
@@ -455,7 +503,9 @@
             {"grow": 1, "node": [null, null, 2, null, null, null]},
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
-          "lyrics": ["창틈에 기다리던"]
+          "lyrics": [
+            {"text": "창틈에 기다리던"}
+          ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "Bm"}],
@@ -469,7 +519,9 @@
             {"grow": 1, "node": [null, null, 4, null, null, null]},
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
-          "lyrics": ["새벽이 오면"]
+          "lyrics": [
+            {"text": "새벽이 오면"}
+          ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}],
@@ -483,7 +535,9 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [3, null, null, null, null, null]}
           ],
-          "lyrics": ["어제 보다 커진"]
+          "lyrics": [
+            {"text": "어제 보다 커진"}
+          ]
         },
         {
           "chord": [{"name": "D"}, {"name": "G"}],
@@ -497,7 +551,9 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["내 방 안에"]
+          "lyrics": [
+            {"text": "내 방 안에"}
+          ]
         },
         {
           "chord": [{"name": "G"}, {"name": "D"}],
@@ -511,7 +567,9 @@
             {"grow": 1, "node": [null, null, 2, null, null, null]},
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
-          "lyrics": ["하얗게 밝아온"]
+          "lyrics": [
+            {"text": "하얗게 밝아온"}
+          ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "Bm"}],
@@ -525,7 +583,9 @@
             {"grow": 1, "node": [null, null, 4, null, null, null]},
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
-          "lyrics": ["유리창에"]
+          "lyrics": [
+            {"text": "유리창에"}
+          ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}],
@@ -539,7 +599,9 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["썻다 지운다"]
+          "lyrics": [
+            {"text": "썻다 지운다"}
+          ]
         },
         {
           "chord": [{"name": "D"}, {"name": "G"}],
@@ -553,7 +615,9 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["널 사랑해"]
+          "lyrics": [
+            {"text": "널 사랑해"}
+          ]
         },
         {
           "chord": [{"name": "G"}, {"name": "D"}],
@@ -671,7 +735,9 @@
             {"grow": 1, "node": [2, null, null, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["밤 하늘에 빛나는"]
+          "lyrics": [
+            {"text": "밤 하늘에 빛나는"}
+          ]
         },
         {
           "chord": [{"name": "Em9"}, {"name": "C"}],
@@ -685,7 +751,9 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
-          "lyrics": ["수 많은 별들 저"]
+          "lyrics": [
+            {"text": "수 많은 별들 저"}
+          ]
         },
         {
           "chord": [{"name": "Am"}, {"name": "G"}],
@@ -699,7 +767,9 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["마다 아름 답지"]
+          "lyrics": [
+            {"text": "마다 아름 답지"}
+          ]
         },
         {
           "chord": [{"name": "Daa9"}],
@@ -713,7 +783,9 @@
             {"grow": 1, "node": [null, null, 2, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["만"]
+          "lyrics": [
+            {"text": "만"}
+          ]
         },
         {
           "chord": [{"name": "G"}, {"name": "D"}],
@@ -727,7 +799,9 @@
             {"grow": 1, "node": [2, null, null, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["내 맘속에 빛나는"]
+          "lyrics": [
+            {"text": "내 맘속에 빛나는"}
+          ]
         },
         {
           "chord": [{"name": "Em9"}, {"name": "C"}],
@@ -741,7 +815,9 @@
             {"grow": 1, "node": [0, null, null, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["별 하나"]
+          "lyrics": [
+            {"text": "별 하나"}
+          ]
         },
         {
           "chord": [{"name": "Am"}, {"name": "Am7/G"}],
@@ -755,7 +831,9 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
-          "lyrics": ["오직 너만 있을"]
+          "lyrics": [
+            {"text": "오직 너만 있을"}
+          ]
         },
         {
           "chord": [{"name": "Dadd9"}],
@@ -766,7 +844,9 @@
             {"grow": 1, "node": [null, null, 2, null, null, null]},
             {"grow": 4, "node": [0, null, null, null, null, null]}
           ],
-          "lyrics": ["뿐이야"]
+          "lyrics": [
+            {"text": "뿐이야"}
+          ]
         },
         {
           "chord": [{"name": "G"}, {"name": "D"}],
@@ -780,7 +860,9 @@
             {"grow": 1, "node": [null, null, 2, null, null, null]},
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
-          "lyrics": ["창틈에 기다리던"]
+          "lyrics": [
+            {"text": "창틈에 기다리던"}
+          ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "Bm"}],
@@ -794,7 +876,9 @@
             {"grow": 1, "node": [null, null, 4, null, null, null]},
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
-          "lyrics": ["새벽이 오면"]
+          "lyrics": [
+            {"text": "새벽이 오면"}
+          ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}],
@@ -808,7 +892,9 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [3, null, null, null, null, null]}
           ],
-          "lyrics": ["어제 보다 커진"]
+          "lyrics": [
+            {"text": "어제 보다 커진"}
+          ]
         },
         {
           "chord": [{"name": "D"}, {"name": "G"}],
@@ -822,7 +908,9 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["내 방 안에"]
+          "lyrics": [
+            {"text": "내 방 안에"}
+          ]
         },
         {
           "chord": [{"name": "G"}, {"name": "D"}],
@@ -836,7 +924,9 @@
             {"grow": 1, "node": [null, null, 2, null, null, null]},
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
-          "lyrics": ["하얗게 밝아온"]
+          "lyrics": [
+            {"text": "하얗게 밝아온"}
+          ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "Bm"}],
@@ -850,7 +940,9 @@
             {"grow": 1, "node": [null, null, 4, null, null, null]},
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
-          "lyrics": ["유리창에"]
+          "lyrics": [
+            {"text": "유리창에"}
+          ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}],
@@ -864,7 +956,9 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["썻다 지운다"]
+          "lyrics": [
+            {"text": "썻다 지운다"}
+          ]
         },
         {
           "chord": [{"name": "D"}, {"name": "G"}],
@@ -878,7 +972,9 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
-          "lyrics": ["널 사랑해"]
+          "lyrics": [
+            {"text": "널 사랑해"}
+          ]
         },
         {
           "chord": [{"name": "G"}, {"name": "D"}],
@@ -892,7 +988,9 @@
             {"grow": 1, "node": [null, null, 2, null, null, null]},
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
-          "lyrics": ["하얗게 밝아온"]
+          "lyrics": [
+            {"text": "하얗게 밝아온"}
+          ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "Bm"}],
@@ -906,7 +1004,9 @@
             {"grow": 1, "node": [null, null, 4, null, null, null]},
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
-          "lyrics": ["유리창에"]
+          "lyrics": [
+            {"text": "유리창에"}
+          ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}],
@@ -920,14 +1020,18 @@
             {"grow": 1, "node": [null, null, 0, null, null, null]},
             {"grow": 1, "node": [3, null, null, null, null, null]}
           ],
-          "lyrics": ["썻다 지운다"]
+          "lyrics": [
+            {"text": "썻다 지운다"}
+          ]
         },
         {
           "chord": [{"name": "D"}],
           "nodelist": [
             {"grow": 1, "node": [2, 3, 2, 0, null, null]}
           ],
-          "lyrics": ["널 - - - 사랑해"]
+          "lyrics": [
+            {"text": "널 - - - 사랑해"}
+          ]
         },
         {
           "chord": [{"name": "C6/B"}], 

@@ -9,85 +9,428 @@
     {
       "type": "v1",
       "contents": [
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": [""]},
-        {"chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], "lyrics": [""]},
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": [""]},
-        {"chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], "lyrics": [""]},
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
 
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": ["누구를 위해 누군가"]},
-        {"chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], "lyrics": ["-"]},
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": ["기도하고 있나봐"]},
-        {"chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], "lyrics": ["-"]},
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": "누구를 위해 누군가"}
+          ]
+        },
+        {
+          "chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], 
+          "lyrics": [
+            {"text": "-"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": "기도하고 있나봐"}
+          ]
+        },
+        {
+          "chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], 
+          "lyrics": [
+            {"text": "-"}
+          ]
+        },
 
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": ["숨죽여 쓴 사랑시가"]},
-        {"chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], "lyrics": ["-"]},
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": ["낮게 들리는 듯해"]},
-        {"chord": [{"name": "G", "grow": 3}, {"name": "G/B"}], "lyrics": ["", "너에게로"]},
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": "숨죽여 쓴 사랑시가"}
+          ]
+        },
+        {
+          "chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], 
+          "lyrics": [
+            {"text": "-"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": "낮게 들리는 듯해"}
+          ]
+        },
+        {
+          "chord": [{"name": "G", "grow": 3}, {"name": "G/B"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "너에게로"}
+          ]
+        },
 
-        {"chord": [{"name": "C"}], "lyrics": ["", "선명히"]},
-        {"chord": [{"name": "Em"}, {"name": "G/B"}], "lyrics": ["날아가 늦지 않게"]},
-        {"chord": [{"name": "C"}], "lyrics": ["", "자리에"]},
-        {"chord": [{"name": "G/B"}, {"name": "Dsus4"}], "lyrics": ["닿기를"]},
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "선명히"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "G/B"}], 
+          "lyrics": [
+            {"text": "날아가 늦지 않게"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "자리에"}
+          ]
+        },
+        {
+          "chord": [{"name": "G/B"}, {"name": "Dsus4"}], 
+          "lyrics": [
+            {"text": "닿기를"}
+          ]
+        },
 
-        {"chord": [{"name": "G"}, {"name": "G/B"}], "lyrics": ["I'll be there 홀로 걷"]},
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": ["는 너의 뒤에 Singing till"]},
-        {"chord": [{"name": "G"}, {"name": "G/B"}], "lyrics": ["the end", "그치"]},
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": ["지 않을 이 노래 아주 잠"]},
+        {
+          "chord": [{"name": "G"}, {"name": "G/B"}], 
+          "lyrics": [
+            {"text": "I'll be there 홀로 걷"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": "는 너의 뒤에 Singing till"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}, {"name": "G/B"}], 
+          "lyrics": [
+            {"text": "the end"},
+            {"text": "그치"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": "지 않을 이 노래 아주 잠"}
+          ]
+        },
 
-        {"chord": [{"name": "G"}, {"name": "G/B"}], "lyrics": ["시만", "귀기"]},
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": ["울여 봐", "유난히"]},
-        {"chord": [{"name": "Am7", "grow": 3}, {"name": "G/B"}], "lyrics": ["긴 밤을 걷는", "널 위"]},
-        {"chord": [{"name": "Dsus4"}], "lyrics": ["해", "부를게"]},
+        {
+          "chord": [{"name": "G"}, {"name": "G/B"}], 
+          "lyrics": [
+            {"text": "시만"},
+            {"text": "귀기"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": "울여 봐"},
+            {"text": "유난히"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am7", "grow": 3}, {"name": "G/B"}], 
+          "lyrics": [
+            {"text": "긴 밤을 걷는"},
+            {"text": "널 위"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dsus4"}], 
+          "lyrics": [
+            {"text": "해"},
+            {"text": "부를게"}
+          ]
+        },
 
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": [""]},
-        {"chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], "lyrics": [""]},
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": [""]},
-        {"chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], "lyrics": [""]},
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
 
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": ["또 한번 너의 세상에"]},
-        {"chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], "lyrics": ["-"]},
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": ["별이 지고 있나 봐"]},
-        {"chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], "lyrics": ["-"]},
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": "또 한번 너의 세상에"}
+          ]
+        },
+        {
+          "chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], 
+          "lyrics": [
+            {"text": "-"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": "별이 지고 있나 봐"}
+          ]
+        },
+        {
+          "chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], 
+          "lyrics": [
+            {"text": "-"}
+          ]
+        },
 
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": ["숨죽여 삼킨 눈물이"]},
-        {"chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], "lyrics": ["-"]},
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": ["여기 흐르는 듯해"]},
-        {"chord": [{"name": "G", "grow": 3}, {"name": "G/B"}], "lyrics": ["", "할 말을 잃어"]},
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": "숨죽여 삼킨 눈물이"}
+          ]
+        },
+        {
+          "chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], 
+          "lyrics": [
+            {"text": "-"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": "여기 흐르는 듯해"}
+          ]
+        },
+        {
+          "chord": [{"name": "G", "grow": 3}, {"name": "G/B"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "할 말을 잃어"}
+          ]
+        },
 
-        {"chord": [{"name": "C"}], "lyrics": ["", "고요한"]},
-        {"chord": [{"name": "Em"}, {"name": "G/B"}], "lyrics": ["마음에", "기억처럼"]},
-        {"chord": [{"name": "C"}], "lyrics": ["", "들려오는"]},
-        {"chord": [{"name": "G/B"}, {"name": "Dsus4"}], "lyrics": ["목소리"]},
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "고요한"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "G/B"}], 
+          "lyrics": [
+            {"text": "마음에"},
+            {"text": "기억처럼"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "들려오는"}
+          ]
+        },
+        {
+          "chord": [{"name": "G/B"}, {"name": "Dsus4"}], 
+          "lyrics": [
+            {"text": "목소리"}
+          ]
+        },
 
-        {"chord": [{"name": "G"}, {"name": "G/B"}], "lyrics": ["I'll be there 홀로 걷"]},
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": ["는 너의 뒤에 Singing till"]},
-        {"chord": [{"name": "G"}, {"name": "G/B"}], "lyrics": ["the end", "그치"]},
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": ["지 않을 이 노래 아주 커"]},
+        {
+          "chord": [{"name": "G"}, {"name": "G/B"}], 
+          "lyrics": [
+            {"text": "I'll be there 홀로 걷"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": "는 너의 뒤에 Singing till"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}, {"name": "G/B"}], 
+          "lyrics": [
+            {"text": "the end"},
+            {"text": "그치"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": "지 않을 이 노래 아주 커"}
+          ]
+        },
 
-        {"chord": [{"name": "G"}, {"name": "G/B"}], "lyrics": ["다란", "숨을"]},
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": ["쉬어 봐", "소리 내"]},
-        {"chord": [{"name": "Am7", "grow": 3}, {"name": "G/B"}], "lyrics": ["우는 법을 잊은", "널 위"]},
-        {"chord": [{"name": "Dsus4"}], "lyrics": ["해", "부를게"]},
+        {
+          "chord": [{"name": "G"}, {"name": "G/B"}], 
+          "lyrics": [
+            {"text": "다란"},
+            {"text": "숨을"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": "쉬어 봐"},
+            {"text": "소리 내"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am7", "grow": 3}, {"name": "G/B"}], 
+          "lyrics": [
+            {"text": "우는 법을 잊은"},
+            {"text": "널 위"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dsus4"}], 
+          "lyrics": [
+            {"text": "해"},
+            {"text": "부를게"}
+          ]
+        },
 
-        {"chord": [{"name": "C"}], "lyrics": ["(다시 걸어갈 수"]},
-        {"chord": [{"name": "Em"}, {"name": "G/B"}], "lyrics": ["있도록)", "부를게"]},
-        {"chord": [{"name": "C"}], "lyrics": ["(다시 사랑할 수"]},
-        {"chord": [{"name": "G/B"}, {"name": "Dsus4"}], "lyrics": ["있도록)"]},
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "(다시 걸어갈 수"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "G/B"}], 
+          "lyrics": [
+            {"text": "있도록)"},
+            {"text": "부를게"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "(다시 사랑할 수"}
+          ]
+        },
+        {
+          "chord": [{"name": "G/B"}, {"name": "Dsus4"}], 
+          "lyrics": [
+            {"text": "있도록)"}
+          ]
+        },
 
-        {"chord": [{"name": "G"}, {"name": "G/B"}], "lyrics": ["Here I am", "지켜봐"]},
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": ["나를 난 절대 Singing till"]},
-        {"chord": [{"name": "G"}, {"name": "G/B"}], "lyrics": ["the end", "멈추지"]},
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": ["않아 이 노래", "너의 긴"]},
+        {
+          "chord": [{"name": "G"}, {"name": "G/B"}], 
+          "lyrics": [
+            {"text": "Here I am"},
+            {"text": "지켜봐"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": "나를 난 절대 Singing till"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}, {"name": "G/B"}], 
+          "lyrics": [
+            {"text": "the end"},
+            {"text": "멈추지"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": "않아 이 노래"},
+            {"text": "너의 긴"}
+          ]
+        },
 
-        {"chord": [{"name": "G"}, {"name": "G/B"}], "lyrics": ["밤이", "끝나는"]},
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": ["그날", "고개를"]},
-        {"chord": [{"name": "Am7"}, {"name": "G/B"}], "lyrics": ["들어 바라본 그곳에"]},
-        {"chord": [{"name": "Dsus4"}], "lyrics": ["있을게"]},
+        {
+          "chord": [{"name": "G"}, {"name": "G/B"}], 
+          "lyrics": [
+            {"text": "밤이"},
+            {"text": "끝나는"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": "그날"},
+            {"text": "고개를"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am7"}, {"name": "G/B"}], 
+          "lyrics": [
+            {"text": "들어 바라본 그곳에"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dsus4"}], 
+          "lyrics": [
+            {"text": "있을게"}
+          ]
+        },
 
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": [""]},
-        {"chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], "lyrics": [""]},
-        {"chord": [{"name": "Em"}, {"name": "C"}], "lyrics": [""]},
-        {"chord": [{"name": "G"}], "lyrics": [""]}
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "G", "grow": 3}, {"name": "D/F♯"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "C"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        }
       ]
     }
   ]

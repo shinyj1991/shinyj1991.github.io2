@@ -9,101 +9,563 @@
     {
       "type": "v1",
       "contents": [
-        {"chord": [{"name": "G"}], "lyrics": [""]},
-        {"chord": [{"name": "Em"}], "lyrics": [""]},
-        {"chord": [{"name": "C"}], "lyrics": [""]},
-        {"chord": [{"name": "D7"}], "lyrics": [""]},
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "D7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
 
-        {"chord": [{"name": "G"}], "lyrics": [""]},
-        {"chord": [{"name": "Em"}], "lyrics": [""]},
-        {"chord": [{"name": "C"}], "lyrics": [""]},
-        {"chord": [{"name": "D7"}], "lyrics": [""]},
-        {"chord": [{"name": "G"}], "lyrics": [""]},
-        {"chord": [{"name": "G"}], "lyrics": ["", "내 뜨거운 입"]},
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "D7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "내 뜨거운 입"}
+          ]
+        },
 
-        {"chord": [{"name": "C"}], "lyrics": ["술이 너의"]},
-        {"chord": [{"name": "D"}], "lyrics": ["부드러운입"]},
-        {"chord": [{"name": "G"}, {"name": "D/F♯"}], "lyrics": ["술에 닿길 원"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["해 내 사랑이너"]},
-        {"chord": [{"name": "C"}], "lyrics": ["의 가슴에"]},
-        {"chord": [{"name": "D"}], "lyrics": ["전해지도록"]},
-        {"chord": [{"name": "G"}], "lyrics": [""]},
-        {"chord": [{"name": "G7"}], "lyrics": ["", "아직도 나"]},
-        {"chord": [{"name": "C"}], "lyrics": ["의 마음을"]},
-        {"chord": [{"name": "D"}], "lyrics": ["모르고있"]},
-        {"chord": [{"name": "G"}, {"name": "D/F♯"}], "lyrics": ["었다며는"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["이세상 그"]},
-        {"chord": [{"name": "C"}], "lyrics": ["누구 보다"]},
-        {"chord": [{"name": "Dsus4"}, {"name": "D7"}], "lyrics": ["", "널 사랑하겠"]},
-        {"chord": [{"name": "G"}], "lyrics": ["어"]},
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "술이 너의"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": "부드러운입"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}, {"name": "D/F♯"}], 
+          "lyrics": [
+            {"text": "술에 닿길 원"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "해 내 사랑이너"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "의 가슴에"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": "전해지도록"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "G7"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "아직도 나"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "의 마음을"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": "모르고있"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}, {"name": "D/F♯"}], 
+          "lyrics": [
+            {"text": "었다며는"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "이세상 그"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "누구 보다"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dsus4"}, {"name": "D7"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "널 사랑하겠"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "어"}
+          ]
+        },
 
-        {"chord": [{"name": "G7"}], "lyrics": ["", "널 사랑하겠"]},
-        {"chord": [{"name": "C"}], "lyrics": ["어", "언제까지나"]},
-        {"chord": [{"name": "D"}, {"name": "D7"}], "lyrics": ["", "널 사랑하겠"]},
-        {"chord": [{"name": "Bm"}, {"name": "B7"}], "lyrics": ["어 지금 이순간처"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["럼", "이세상그"]},
-        {"chord": [{"name": "C"}], "lyrics": ["누구 보다"]},
-        {"chord": [{"name": "Dsus4"}], "lyrics": [""]},
-        {"chord": [{"name": "D7"}], "lyrics": ["", "널 사랑하겠"]},
-        {"chord": [{"name": "G"}], "lyrics": ["어"]},
+        {
+          "chord": [{"name": "G7"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "널 사랑하겠"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "어"},
+            {"text": "언제까지나"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}, {"name": "D7"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "널 사랑하겠"}
+          ]
+        },
+        {
+          "chord": [{"name": "Bm"}, {"name": "B7"}], 
+          "lyrics": [
+            {"text": "어 지금 이순간처"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "럼"},
+            {"text": "이세상그"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "누구 보다"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dsus4"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "D7"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "널 사랑하겠"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "어"}
+          ]
+        },
 
-        {"chord": [{"name": "G"}], "lyrics": ["", "어려운 얘"]},
-        {"chord": [{"name": "C"}], "lyrics": ["기로 너의"]},
-        {"chord": [{"name": "D"}], "lyrics": ["호기심을 자"]},
-        {"chord": [{"name": "G"}, {"name": "D/F♯"}], "lyrics": ["극할 수 도 있"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["어", "그 흔한 유"]},
-        {"chord": [{"name": "C"}], "lyrics": ["희로 이밤을 보"]},
-        {"chord": [{"name": "D"}], "lyrics": ["낼", "수도 있"]},
-        {"chord": [{"name": "G"}], "lyrics": ["어"]},
-        {"chord": [{"name": "G7"}], "lyrics": ["", "하지만 나"]},
-        {"chord": [{"name": "C"}], "lyrics": ["의 마음을"]},
-        {"chord": [{"name": "D"}, {"name": "D7"}], "lyrics": ["", "이제는 알"]},
-        {"chord": [{"name": "G"}, {"name": "D/F♯"}], "lyrics": ["아줬으면 해"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["", "이세상그"]},
-        {"chord": [{"name": "C"}], "lyrics": ["누구 보다"]},
-        {"chord": [{"name": "Dsus4"}, {"name": "D7"}], "lyrics": ["", "널 사랑하겠"]},
-        {"chord": [{"name": "G"}], "lyrics": ["어"]},
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "어려운 얘"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "기로 너의"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": "호기심을 자"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}, {"name": "D/F♯"}], 
+          "lyrics": [
+            {"text": "극할 수 도 있"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "어"},
+            {"text": "그 흔한 유"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "희로 이밤을 보"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": "낼"},
+            {"text": "수도 있"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "어"}
+          ]
+        },
+        {
+          "chord": [{"name": "G7"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "하지만 나"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "의 마음을"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}, {"name": "D7"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "이제는 알"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}, {"name": "D/F♯"}], 
+          "lyrics": [
+            {"text": "아줬으면 해"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "이세상그"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "누구 보다"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dsus4"}, {"name": "D7"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "널 사랑하겠"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "어"}
+          ]
+        },
         
-        {"chord": [{"name": "G7"}], "lyrics": ["", "널 사랑하겠"]},
-        {"chord": [{"name": "C"}], "lyrics": ["어", "언제까지나"]},
-        {"chord": [{"name": "D"}, {"name": "D7"}], "lyrics": ["", "널 사랑하겠"]},
-        {"chord": [{"name": "Bm"}, {"name": "B7"}], "lyrics": ["어 지금 이순간처"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["럼", "이세상그"]},
-        {"chord": [{"name": "C"}], "lyrics": ["누구 보다"]},
-        {"chord": [{"name": "Dsus4"}], "lyrics": [""]},
-        {"chord": [{"name": "D7"}], "lyrics": ["", "널 사랑하겠"]},
-        {"chord": [{"name": "G"}], "lyrics": ["어"]},
+        {
+          "chord": [{"name": "G7"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "널 사랑하겠"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "어"},
+            {"text": "언제까지나"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}, {"name": "D7"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "널 사랑하겠"}
+          ]
+        },
+        {
+          "chord": [{"name": "Bm"}, {"name": "B7"}], 
+          "lyrics": [
+            {"text": "어 지금 이순간처"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "럼"},
+            {"text": "이세상그"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "누구 보다"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dsus4"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "D7"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "널 사랑하겠"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "어"}
+          ]
+        },
 
-        {"chord": [{"name": "G"}], "lyrics": [""]},
-        {"chord": [{"name": "G"}], "lyrics": [""]},
-        {"chord": [{"name": "Em"}], "lyrics": [""]},
-        {"chord": [{"name": "C"}], "lyrics": [""]},
-        {"chord": [{"name": "D"}], "lyrics": [""]},
-        {"chord": [{"name": "G"}], "lyrics": [""]},
-        {"chord": [{"name": "Em"}], "lyrics": [""]},
-        {"chord": [{"name": "C"}], "lyrics": [""]},
-        {"chord": [{"name": "D"}], "lyrics": [""]},
-        {"chord": [{"name": "G"}], "lyrics": [""]},
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
         
-        {"chord": [{"name": "G7"}], "lyrics": ["널 사랑하겠"]},
-        {"chord": [{"name": "C"}], "lyrics": ["어", "언제까지나"]},
-        {"chord": [{"name": "D"}, {"name": "D7"}], "lyrics": ["널 사랑하겠"]},
-        {"chord": [{"name": "Bm"}, {"name": "B7"}], "lyrics": ["어 지금 이순간처"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["럼", "이세상그"]},
-        {"chord": [{"name": "C"}], "lyrics": ["누구 보다"]},
-        {"chord": [{"name": "D7"}], "lyrics": ["널 사랑하겠"]},
-        {"chord": [{"name": "G"}], "lyrics": ["어"]},
+        {
+          "chord": [{"name": "G7"}], 
+          "lyrics": [
+            {"text": "널 사랑하겠"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "어"},
+            {"text": "언제까지나"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}, {"name": "D7"}], 
+          "lyrics": [
+            {"text": "널 사랑하겠"}
+          ]
+        },
+        {
+          "chord": [{"name": "Bm"}, {"name": "B7"}], 
+          "lyrics": [
+            {"text": "어 지금 이순간처"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "럼"},
+            {"text": "이세상그"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "누구 보다"}
+          ]
+        },
+        {
+          "chord": [{"name": "D7"}], 
+          "lyrics": [
+            {"text": "널 사랑하겠"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "어"}
+          ]
+        },
         
-        {"chord": [{"name": "G7"}], "lyrics": ["", "널 사랑하겠"]},
-        {"chord": [{"name": "C"}], "lyrics": ["어", "언제까지나"]},
-        {"chord": [{"name": "D"}, {"name": "D7"}], "lyrics": ["", "널 사랑하겠"]},
-        {"chord": [{"name": "Bm"}, {"name": "B7"}], "lyrics": ["어 지금 이순간처"]},
-        {"chord": [{"name": "Em"}], "lyrics": ["럼", "이세상그"]},
-        {"chord": [{"name": "C"}], "lyrics": ["누구 보다"]},
-        {"chord": [{"name": "Dsus4"}], "lyrics": [""]},
-        {"chord": [{"name": "D7"}], "lyrics": ["", "널 사랑하겠"]},
-        {"chord": [{"name": "G"}], "lyrics": ["어"]},
-        {"chord": [{"name": "G"}], "lyrics": [""]}
+        {
+          "chord": [{"name": "G7"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "널 사랑하겠"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "어"},
+            {"text": "언제까지나"}
+          ]
+        },
+        {
+          "chord": [{"name": "D"}, {"name": "D7"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "널 사랑하겠"}
+          ]
+        },
+        {
+          "chord": [{"name": "Bm"}, {"name": "B7"}], 
+          "lyrics": [
+            {"text": "어 지금 이순간처"}
+          ]
+        },
+        {
+          "chord": [{"name": "Em"}], 
+          "lyrics": [
+            {"text": "럼"},
+            {"text": "이세상그"}
+          ]
+        },
+        {
+          "chord": [{"name": "C"}], 
+          "lyrics": [
+            {"text": "누구 보다"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dsus4"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "D7"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "널 사랑하겠"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": "어"}
+          ]
+        },
+        {
+          "chord": [{"name": "G"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        }
       ]
     }
   ]

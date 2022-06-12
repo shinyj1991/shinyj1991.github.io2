@@ -32,7 +32,11 @@
           >{{ chord.name }}</button>
         </div>
         <div class="lyrics-list">
-          <div class="lyrics" v-for="(lyrics, index) in measure.lyrics" :key="index">{{ lyrics }}</div>
+          <div 
+            class="lyrics"
+            v-for="(lyrics, index) in measure.lyrics"
+            :key="index"
+          >{{ lyrics.text }}</div>
         </div>
       </div>
     </div>

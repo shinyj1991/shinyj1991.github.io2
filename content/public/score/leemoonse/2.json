@@ -9,75 +9,363 @@
     {
       "type": "v1",
       "contents": [
-        {"chord": [{"name": "F"}, {"name": "Am"}], "lyrics": [""]},
-        {"chord": [{"name": "Dm"}, {"name": "F"}], "lyrics": [""]},
-        {"chord": [{"name": "B♭"}], "lyrics": [""]},
-        {"chord": [{"name": "Am"}], "lyrics": [""]},
+        {
+          "chord": [{"name": "F"}, {"name": "Am"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}, {"name": "F"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "B♭"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
 
-        {"chord": [{"name": "F"}, {"name": "Am"}], "lyrics": ["내곁에만"]},
-        {"chord": [{"name": "F7"}, {"name": "F6"}], "lyrics": ["머물러요", "떠나"]},
-        {"chord": [{"name": "B♭M7"}], "lyrics": ["면", "안되"]},
-        {"chord": [{"name": "Gm"}, {"name": "A7"}], "lyrics": ["요", "그리"]},
+        {
+          "chord": [{"name": "F"}, {"name": "Am"}], 
+          "lyrics": [
+            {"text": "내곁에만"}
+          ]
+        },
+        {
+          "chord": [{"name": "F7"}, {"name": "F6"}], 
+          "lyrics": [
+            {"text": "머물러요"},
+            {"text": "떠나"}
+          ]
+        },
+        {
+          "chord": [{"name": "B♭M7"}], 
+          "lyrics": [
+            {"text": "면"},
+            {"text": "안되"}
+          ]
+        },
+        {
+          "chord": [{"name": "Gm"}, {"name": "A7"}], 
+          "lyrics": [
+            {"text": "요"},
+            {"text": "그리"}
+          ]
+        },
 
-        {"chord": [{"name": "Dm"}, {"name": "F7"}], "lyrics": ["움 두고 머나먼"]},
-        {"chord": [{"name": "B♭"}, {"name": "Bdim"}], "lyrics": ["길", "그대"]},
-        {"chord": [{"name": "F"}, {"name": "Dm"}], "lyrics": ["무지개를 찾아올순"]},
-        {"chord": [{"name": "B♭M7"}, {"name": "C7"}], "lyrics": ["없어요"]},
+        {
+          "chord": [{"name": "Dm"}, {"name": "F7"}], 
+          "lyrics": [
+            {"text": "움 두고 머나먼"}
+          ]
+        },
+        {
+          "chord": [{"name": "B♭"}, {"name": "Bdim"}], 
+          "lyrics": [
+            {"text": "길"},
+            {"text": "그대"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}, {"name": "Dm"}], 
+          "lyrics": [
+            {"text": "무지개를 찾아올순"}
+          ]
+        },
+        {
+          "chord": [{"name": "B♭M7"}, {"name": "C7"}], 
+          "lyrics": [
+            {"text": "없어요"}
+          ]
+        },
 
-        {"chord": [{"name": "F"}, {"name": "F7"}], "lyrics": ["노을진 창가에 앉"]},
-        {"chord": [{"name": "Dm"}, {"name": "A"}], "lyrics": ["아", "멀리"]},
-        {"chord": [{"name": "B♭"}, {"name": "C7"}], "lyrics": ["떠가는 구름을 보"]},
-        {"chord": [{"name": "F"}, {"name": "F7"}], "lyrics": ["면"]},
+        {
+          "chord": [{"name": "F"}, {"name": "F7"}], 
+          "lyrics": [
+            {"text": "노을진 창가에 앉"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}, {"name": "A"}], 
+          "lyrics": [
+            {"text": "아"},
+            {"text": "멀리"}
+          ]
+        },
+        {
+          "chord": [{"name": "B♭"}, {"name": "C7"}], 
+          "lyrics": [
+            {"text": "떠가는 구름을 보"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}, {"name": "F7"}], 
+          "lyrics": [
+            {"text": "면"}
+          ]
+        },
 
-        {"chord": [{"name": "B♭"}, {"name": "C7"}], "lyrics": ["찾고싶은"]},
-        {"chord": [{"name": "Am"}, {"name": "Dm"}], "lyrics": ["옛생각도"]},
-        {"chord": [{"name": "B♭"}, {"name": "C7"}], "lyrics": ["하늘에 그려"]},
-        {"chord": [{"name": "F", "grow": 2}, {"name": "B♭"}, {"name": "C7"}], "lyrics": ["요"]},
+        {
+          "chord": [{"name": "B♭"}, {"name": "C7"}], 
+          "lyrics": [
+            {"text": "찾고싶은"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}, {"name": "Dm"}], 
+          "lyrics": [
+            {"text": "옛생각도"}
+          ]
+        },
+        {
+          "chord": [{"name": "B♭"}, {"name": "C7"}], 
+          "lyrics": [
+            {"text": "하늘에 그려"}
+          ]
+        },
+        {
+          "chord": [{"name": "F", "grow": 2}, {"name": "B♭"}, {"name": "C7"}], 
+          "lyrics": [
+            {"text": "요"}
+          ]
+        },
 
-        {"chord": [{"name": "F"}, {"name": "A7"}], "lyrics": ["음", "불어오는"]},
-        {"chord": [{"name": "Dm"}, {"name": "F7"}], "lyrics": ["차가운 바람속에"]},
-        {"chord": [{"name": "B♭"}, {"name": "C7"}], "lyrics": ["그대 외로워울지"]},
-        {"chord": [{"name": "F"}], "lyrics": ["만"]},
+        {
+          "chord": [{"name": "F"}, {"name": "A7"}], 
+          "lyrics": [
+            {"text": "음"},
+            {"text": "불어오는"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}, {"name": "F7"}], 
+          "lyrics": [
+            {"text": "차가운 바람속에"}
+          ]
+        },
+        {
+          "chord": [{"name": "B♭"}, {"name": "C7"}], 
+          "lyrics": [
+            {"text": "그대 외로워울지"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}], 
+          "lyrics": [
+            {"text": "만"}
+          ]
+        },
 
-        {"chord": [{"name": "B♭"}, {"name": "Am"}], "lyrics": ["나항상 그대"]},
-        {"chord": [{"name": "Dm"}, {"name": "F"}], "lyrics": ["곁에머물겠어요"]},
-        {"chord": [{"name": "B♭", "grow": 2}, {"name": "Gm7"}, {"name": "C7"}], "lyrics": ["떠나지 않 아"]},
-        {"chord": [{"name": "F"}], "lyrics": ["요"]},
+        {
+          "chord": [{"name": "B♭"}, {"name": "Am"}], 
+          "lyrics": [
+            {"text": "나항상 그대"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}, {"name": "F"}], 
+          "lyrics": [
+            {"text": "곁에머물겠어요"}
+          ]
+        },
+        {
+          "chord": [{"name": "B♭", "grow": 2}, {"name": "Gm7"}, {"name": "C7"}], 
+          "lyrics": [
+            {"text": "떠나지 않 아"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}], 
+          "lyrics": [
+            {"text": "요"}
+          ]
+        },
 
-        {"chord": [{"name": "F"}, {"name": "A7"}], "lyrics": [""]},
-        {"chord": [{"name": "Dm"}, {"name": "F7"}], "lyrics": [""]},
-        {"chord": [{"name": "B♭"}], "lyrics": [""]},
-        {"chord": [{"name": "Gm"}, {"name": "A7"}], "lyrics": [""]},
+        {
+          "chord": [{"name": "F"}, {"name": "A7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}, {"name": "F7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "B♭"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Gm"}, {"name": "A7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
 
-        {"chord": [{"name": "Dm"}, {"name": "F7"}], "lyrics": [""]},
-        {"chord": [{"name": "B♭"}, {"name": "G7"}], "lyrics": [""]},
-        {"chord": [{"name": "F"}, {"name": "Dm"}], "lyrics": [""]},
-        {"chord": [{"name": "B♭M7"}, {"name": "C7"}], "lyrics": [""]},
+        {
+          "chord": [{"name": "Dm"}, {"name": "F7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "B♭"}, {"name": "G7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}, {"name": "Dm"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "B♭M7"}, {"name": "C7"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
 
-        {"chord": [{"name": "F"}, {"name": "F7"}], "lyrics": ["노을진 창가에 앉"]},
-        {"chord": [{"name": "Dm"}, {"name": "A"}], "lyrics": ["아", "멀리"]},
-        {"chord": [{"name": "B♭"}, {"name": "C7"}], "lyrics": ["떠가는 구름을 보"]},
-        {"chord": [{"name": "F"}, {"name": "F7"}], "lyrics": ["면"]},
+        {
+          "chord": [{"name": "F"}, {"name": "F7"}], 
+          "lyrics": [
+            {"text": "노을진 창가에 앉"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}, {"name": "A"}], 
+          "lyrics": [
+            {"text": "아"},
+            {"text": "멀리"}
+          ]
+        },
+        {
+          "chord": [{"name": "B♭"}, {"name": "C7"}], 
+          "lyrics": [
+            {"text": "떠가는 구름을 보"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}, {"name": "F7"}], 
+          "lyrics": [
+            {"text": "면"}
+          ]
+        },
 
-        {"chord": [{"name": "B♭"}, {"name": "C7"}], "lyrics": ["찾고싶은"]},
-        {"chord": [{"name": "Am"}, {"name": "Dm"}], "lyrics": ["옛 생각도"]},
-        {"chord": [{"name": "B♭"}, {"name": "C7"}], "lyrics": ["하늘에 그려"]},
-        {"chord": [{"name": "F", "grow": 2}, {"name": "B♭"}, {"name": "C7"}], "lyrics": ["요"]},
+        {
+          "chord": [{"name": "B♭"}, {"name": "C7"}], 
+          "lyrics": [
+            {"text": "찾고싶은"}
+          ]
+        },
+        {
+          "chord": [{"name": "Am"}, {"name": "Dm"}], 
+          "lyrics": [
+            {"text": "옛 생각도"}
+          ]
+        },
+        {
+          "chord": [{"name": "B♭"}, {"name": "C7"}], 
+          "lyrics": [
+            {"text": "하늘에 그려"}
+          ]
+        },
+        {
+          "chord": [{"name": "F", "grow": 2}, {"name": "B♭"}, {"name": "C7"}], 
+          "lyrics": [
+            {"text": "요"}
+          ]
+        },
 
-        {"chord": [{"name": "F"}, {"name": "A7"}], "lyrics": ["음", "불어오는"]},
-        {"chord": [{"name": "Dm"}, {"name": "F7"}], "lyrics": ["차가운 바람속에"]},
-        {"chord": [{"name": "B♭"}, {"name": "C7"}], "lyrics": ["그대 외로워울지"]},
-        {"chord": [{"name": "F"}], "lyrics": ["만"]},
+        {
+          "chord": [{"name": "F"}, {"name": "A7"}], 
+          "lyrics": [
+            {"text": "음"},
+            {"text": "불어오는"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}, {"name": "F7"}], 
+          "lyrics": [
+            {"text": "차가운 바람속에"}
+          ]
+        },
+        {
+          "chord": [{"name": "B♭"}, {"name": "C7"}], 
+          "lyrics": [
+            {"text": "그대 외로워울지"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}], 
+          "lyrics": [
+            {"text": "만"}
+          ]
+        },
 
-        {"chord": [{"name": "B♭"}, {"name": "Am"}], "lyrics": ["나 항상 그 대"]},
-        {"chord": [{"name": "Dm"}, {"name": "F"}], "lyrics": ["곁에머물겠어요"]},
-        {"chord": [{"name": "B♭", "grow": 2}, {"name": "Gm7"}, {"name": "C7"}], "lyrics": ["떠나지 않아"]},
-        {"chord": [{"name": "F"}], "lyrics": ["요"]},
+        {
+          "chord": [{"name": "B♭"}, {"name": "Am"}], 
+          "lyrics": [
+            {"text": "나 항상 그 대"}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}, {"name": "F"}], 
+          "lyrics": [
+            {"text": "곁에머물겠어요"}
+          ]
+        },
+        {
+          "chord": [{"name": "B♭", "grow": 2}, {"name": "Gm7"}, {"name": "C7"}], 
+          "lyrics": [
+            {"text": "떠나지 않아"}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}], 
+          "lyrics": [
+            {"text": "요"}
+          ]
+        },
 
-        {"chord": [{"name": "F"}, {"name": "Am"}], "lyrics": [""]},
-        {"chord": [{"name": "Dm"}, {"name": "F/C"}], "lyrics": [""]},
-        {"chord": [{"name": "B♭"}], "lyrics": [""]},
-        {"chord": [{"name": "F"}], "lyrics": [""]}
+        {
+          "chord": [{"name": "F"}, {"name": "Am"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "Dm"}, {"name": "F/C"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "B♭"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        },
+        {
+          "chord": [{"name": "F"}], 
+          "lyrics": [
+            {"text": ""}
+          ]
+        }
       ]
     }
   ]
