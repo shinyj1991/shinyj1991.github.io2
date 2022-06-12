@@ -76,7 +76,9 @@ export default {
   row-gap: 60px;
 
   .measure {
-    display: grid;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
     row-gap: 20px;
     position: relative;
 
