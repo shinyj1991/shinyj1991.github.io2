@@ -281,6 +281,250 @@
         {
           "chord": [{"name": "G"}],
           "lyrics": [""]
+        },
+        {
+          "disabled": true
+        },
+        {
+          "disabled": true
+        },
+        {
+          "nodelist": [
+            {"grow": 1, "node": [null, null, null, null, null, 3]},
+            {"grow": 1, "node": [null, null, null, 0, null, null]},
+            {"grow": 1, "node": [null, 0, 0, null, null, null]},
+            {"grow": 1, "node": [null, null, null, 0, null, null]},
+            {"grow": 1, "node": [null, null, null, null, null, 3]},
+            {"grow": 1, "node": [null, null, null, 0, null, null]},
+            {"grow": 1, "node": [null, 0, 0, null, null, null]},
+            {"grow": 1, "node": [null, null, null, 0, null, null]}
+          ],
+          "lyrics": ["나의", "자라나는"]
+        },
+        {
+          "nodelist": [
+            {"grow": 1, "node": [null, null, null, null, null, 2]},
+            {"grow": 1, "node": [null, null, null, 4, null, null]},
+            {"grow": 1, "node": [null, 3, 4, null, null, null]},
+            {"grow": 1, "node": [null, null, null, 4, null, null]},
+            {"grow": 1, "node": [null, null, null, null, null, 2]},
+            {"grow": 1, "node": [null, null, null, 4, null, null]},
+            {"grow": 1, "node": [null, 3, 4, null, null, null]},
+            {"grow": 1, "node": [null, null, null, 4, null, null]}
+          ],
+          "lyrics": ["마음을", "못 본"]
+        },
+        {
+          "nodelist": [
+            {"grow": 1, "node": [null, null, null, null, 3, null]},
+            {"grow": 1, "node": [null, null, null, 2, null, null]},
+            {"grow": 1, "node": [null, 1, 0, null, null, null]},
+            {"grow": 1, "node": [null, null, null, 2, null, null]},
+            {"grow": 1, "node": [null, null, null, null, 3, null]},
+            {"grow": 1, "node": [null, null, null, 5, null, null]},
+            {"grow": 1, "node": [null, 4, 5, null, null, null]},
+            {"grow": 1, "node": [null, null, null, 5, null, null]}
+          ],
+          "lyrics": ["채", "꺾어", "버릴 순"]
+        },
+        {
+          "nodelist": [
+            {"grow": 1, "node": [null, null, null, null, null, 3]},
+            {"grow": 1, "node": [null, null, null, 0, null, null]},
+            {"grow": 1, "node": [null, 0, 0, null, null, null]},
+            {"grow": 1, "node": [null, null, null, 0, null, null]},
+            {"grow": 1, "node": [2, 3, 2, 0, null, null]},
+            {"grow": 1, "node": [null, null, null, null, null, null]},
+            {"grow": 1, "node": [null, null, null, null, null, null]},
+            {"grow": 1, "node": [null, null, null, null, null, null]}
+          ],
+          "lyrics": ["없네"]
+        },
+        {
+          "nodelist": [
+            {"grow": 1, "node": [null, null, null, null, 3, null]},
+            {"grow": 1, "node": [null, null, null, 5, null, null]},
+            {"grow": 1, "node": [null, 4, 5, null, null, null]},
+            {"grow": 1, "node": [null, null, null, 5, null, null]},
+            {"grow": 1, "node": [null, null, null, null, 3, null]},
+            {"grow": 1, "node": [null, null, null, 5, null, null]},
+            {"grow": 1, "node": [null, 4, 5, null, null, null]},
+            {"grow": 1, "node": [null, null, null, 5, null, null]}
+          ],
+          "lyrics": ["미련 남길 바엔", "그리"]
+        },
+        {
+          "nodelist": [
+            {"grow": 1, "node": [null, null, null, null, 2, null]},
+            {"grow": 1, "node": [null, null, null, 4, null, null]},
+            {"grow": 1, "node": [null, 3, 4, null, null, null]},
+            {"grow": 1, "node": [null, null, null, 4, null, null]},
+            {"grow": 1, "node": [null, null, null, null, null, 0]},
+            {"grow": 1, "node": [null, null, null, 2, null, null]},
+            {"grow": 1, "node": [null, 0, 1, null, null, null]},
+            {"grow": 1, "node": [null, null, null, 2, null, null]}
+          ],
+          "lyrics": ["워 아픈게 나아", "서둘러"]
+        },
+        {
+          "nodelist": [
+            {"grow": 1, "node": [null, null, null, null, 0, null]},
+            {"grow": 1, "node": [null, null, null, 2, null, null]},
+            {"grow": 1, "node": [null, 1, 2, null, null, null]},
+            {"grow": 1, "node": [null, null, null, 2, null, null]},
+            {"grow": 1, "node": [null, null, null, null, 0, null]},
+            {"grow": 1, "node": [null, null, null, 2, null, null]},
+            {"grow": 1, "node": [null, 1, 2, null, null, null]},
+            {"grow": 1, "node": [null, null, null, 2, null, null]}
+          ],
+          "lyrics": ["안겨본", "그 품은 따스할"]
+        },
+        {
+          "chord": [{"name": "D"}],
+          "lyrics": ["테니", "그러"]
+        },
+        {
+          "chord": [{"name": "G"}, {"name": "B7"}],
+          "lyrics": ["다", "밤이", "찾아"]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "G7"}],
+          "lyrics": ["오면", "우리"]
+        },
+        {
+          "chord": [{"name": "C"}, {"name": "Cm"}],
+          "lyrics": ["둘만의", "비밀을", "새겨"]
+        },
+        {
+          "chord": [{"name": "G"}, {"name": "G7"}],
+          "lyrics": ["요", "추"]
+        },
+        {
+          "chord": [{"name": "C"}, {"name": "F♯7"}],
+          "lyrics": ["억할", "그밤", "위에", "갈"]
+        },
+        {
+          "chord": [{"name": "Bm"}, {"name": "Em"}],
+          "lyrics": ["피를", "꽃고선", "남"]
+        },
+        {
+          "chord": [{"name": "C"}, {"name": "A/C♯"}],
+          "lyrics": ["몰래", "펼쳐", "보"]
+        },
+        {
+          "chord": [{"name": "D"}],
+          "lyrics": ["아요", "언젠"]
+        },
+        {
+          "chord": [{"name": "G"}, {"name": "B7"}],
+          "lyrics": ["가", "또 그날이", "온"]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "G7"}],
+          "lyrics": ["대도", "우린"]
+        },
+        {
+          "chord": [{"name": "C"}, {"name": "Cm"}],
+          "lyrics": ["서둘러", "뒤돌지", "말아"]
+        },
+        {
+          "chord": [{"name": "G"}, {"name": "G7"}],
+          "lyrics": ["요"]
+        },
+        {
+          "chord": [{"name": "C"}, {"name": "F♯7"}],
+          "lyrics": ["마주보던", "그대로", "뒷"]
+        },
+        {
+          "chord": [{"name": "Bm"}, {"name": "Em x 2"}],
+          "lyrics": ["걸음", "치면서"]
+        },
+        {
+          "chord": [{"name": "C"}, {"name": "Cm"}],
+          "lyrics": ["서로의", "안녕을", "보아요"]
+        },
+        {
+          "disabled": true
+        },
+        {
+          "chord": [{"name": "G"}, {"name": "Bm"}],
+          "lyrics": [""]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "G"}],
+          "lyrics": [""]
+        },
+        {
+          "chord": [{"name": "C"}],
+          "lyrics": [""]
+        },
+        {
+          "chord": [{"name": "D", "grow": 2}, {"name": "Em"}, {"name": "D/F♯"}],
+          "lyrics": [""]
+        },
+        {
+          "chord": [{"name": "G"}, {"name": "Bm"}],
+          "lyrics": ["피 고 지는"]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "G"}],
+          "lyrics": ["마음을 알아요"]
+        },
+        {
+          "chord": [{"name": "C"}],
+          "lyrics": ["다시 돌아 온", "계"]
+        },
+        {
+          "chord": [{"name": "Dsus4"}, {"name": "D"}],
+          "lyrics": ["절 도"]
+        },
+        {
+          "chord": [{"name": "G"}, {"name": "Bm"}],
+          "lyrics": ["난 한 동안"]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "G"}],
+          "lyrics": ["새 활짝 피었다"]
+        },
+        {
+          "chord": [{"name": "C"}],
+          "lyrics": ["질래 또 한번", "영"]
+        },
+        {
+          "chord": [{"name": "Dsus4"}, {"name": "D"}],
+          "lyrics": ["원 히"]
+        },
+        {
+          "chord": [{"name": "G"}, {"name": "Bm"}],
+          "lyrics": ["랄 라라라"]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "G"}],
+          "lyrics": ["그럼에도 내 사랑"]
+        },
+        {
+          "chord": [{"name": "C"}],
+          "lyrics": ["은", "또", "같은 꿈을"]
+        },
+        {
+          "chord": [{"name": "Dsus4"}, {"name": "D"}],
+          "lyrics": ["꾸고"]
+        },
+        {
+          "chord": [{"name": "G"}, {"name": "Bm"}],
+          "lyrics": ["랄 라라라"]
+        },
+        {
+          "chord": [{"name": "Em"}, {"name": "G"}],
+          "lyrics": ["그럼에도 꾸던 꿈"]
+        },
+        {
+          "chord": [{"name": "C"}],
+          "lyrics": ["을", "난 또", "미루진 않"]
+        },
+        {
+          "chord": [{"name": "Dsus4"}, {"name": "D"}],
+          "lyrics": ["을거야"]
         }
       ]
     }
