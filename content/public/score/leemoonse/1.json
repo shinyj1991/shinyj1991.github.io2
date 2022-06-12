@@ -9,117 +9,145 @@
     {
       "type": "v1",
       "contents": [
+        {},
+        {},
+        {},
+        {
+          "lyrics": [
+            {"text": ""},
+            {"text": "남들", "grow": 0}
+          ]
+        },
         {
           "chord": [{"name": "G"}, {"name": "D"}], 
           "lyrics": [
-            {"text": "남들도 모르게 서성"}
+            {"text": "도"},
+            {"text": "모르게"},
+            {"text": "서성", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "B7"}], 
           "lyrics": [
-            {"text": "이다 울었지"},
-            {"text": "지"}
+            {"text": "이다"},
+            {"text": "울었지"},
+            {"text": "지", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "나온 일들이 가"}
+            {"text": "나온"},
+            {"text": "일들이"},
+            {"text": "가", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Am"}, {"name": "D"}], 
           "lyrics": [
             {"text": "슴에 사무쳐"},
-            {"text": "텅"}
+            {"text": "텅", "grow": 0}
           ]
         },
 
         {
           "chord": [{"name": "G"}, {"name": "D"}], 
           "lyrics": [
-            {"text": "빈 하늘 밑"},
-            {"text": "불빛"}
+            {"text": "빈"},
+            {"text": "하늘 밑"},
+            {"text": "불빛", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "B7"}], 
           "lyrics": [
-            {"text": "들 켜져가면"},
-            {"text": "옛"}
+            {"text": "들 켜져"},
+            {"text": "가면"},
+            {"text": "옛", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "사랑 그 이름"},
-            {"text": "아"}
+            {"text": "사랑"},
+            {"text": "그 이름"},
+            {"text": "아", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Am"}, {"name": "D"}, {"name": "G", "grow": 2}], 
           "lyrics": [
-            {"text": "껴 불러 보네"},
-            {"text": "찬"}
+            {"text": "껴"},
+            {"text": "불러"},
+            {"text": "보네"},
+            {"text": "찬", "grow": 0}
           ]
         },
 
         {
           "chord": [{"name": "G"}, {"name": "D"}], 
           "lyrics": [
-            {"text": "바람 불어와"},
-            {"text": "옷깃"}
+            {"text": "바람"},
+            {"text": "불어와"},
+            {"text": "옷깃", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "B7"}], 
           "lyrics": [
-            {"text": "을 여미우다"},
-            {"text": "후"}
+            {"text": "을 여미"},
+            {"text": "우다"},
+            {"text": "후", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "회가 또 화가"},
-            {"text": "난"}
+            {"text": "회가"},
+            {"text": "또 화가"},
+            {"text": "난", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Am"}, {"name": "D"}], 
           "lyrics": [
-            {"text": "눈물이 흐르네"},
-            {"text": "누"}
+            {"text": "눈물이"},
+            {"text": "흐르네"},
+            {"text": "누", "grow": 0}
           ]
         },
 
         {
           "chord": [{"name": "G"}, {"name": "D"}], 
           "lyrics": [
-            {"text": "가 울어도"},
-            {"text": "아플"}
+            {"text": "가"},
+            {"text": "울어도"},
+            {"text": "아플", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "B7"}], 
           "lyrics": [
-            {"text": "것 같지 않던"},
-            {"text": "지"}
+            {"text": "것 같지"},
+            {"text": "않던"},
+            {"text": "지", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "나온 내 모습"},
-            {"text": "모"}
+            {"text": "나온"},
+            {"text": "내 모습"},
+            {"text": "모", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Am"}, {"name": "D"}, {"name": "G", "grow": 2}], 
           "lyrics": [
-            {"text": "두 거짓인가"},
-            {"text": "이"}
+            {"text": "두"},
+            {"text": "거짓"},
+            {"text": "인가"},
+            {"text": "이", "grow": 0}
           ]
         },
 
@@ -133,75 +161,85 @@
         {
           "chord": [{"name": "C"}, {"name": "B7"}], 
           "lyrics": [
-            {"text": "은 그리운 대"}
+            {"text": "은"},
+            {"text": "그리운 대"}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "로 내맘에 둘거"}
+            {"text": "로"},
+            {"text": "내맘에"},
+            {"text": "둘거", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "D"}], 
           "lyrics": [
             {"text": "야"},
-            {"text": "그"}
+            {"text": "그", "grow": 0}
           ]
         },
 
         {
           "chord": [{"name": "Em"}, {"name": "B7"}], 
           "lyrics": [
-            {"text": "대 생각이 나면"}
+            {"text": "대"},
+            {"text": "생각이 나"}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "B7"}], 
           "lyrics": [
-            {"text": "생각난 대로"},
-            {"text": "내"}
+            {"text": "면"},
+            {"text": "생각난 대"}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "버려 두듯"}
+            {"text": "로"},
+            {"text": "내버려"},
+            {"text": "두듯", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "D"}], 
           "lyrics": [
             {"text": "이"},
-            {"text": "흰"}
+            {"text": "흰", "grow": 0}
           ]
         },
-
         {
           "chord": [{"name": "G"}, {"name": "D"}], 
           "lyrics": [
-            {"text": "눈 나리면"},
-            {"text": "들판"}
+            {"text": "눈"},
+            {"text": "나리면"},
+            {"text": "들판", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "B7"}], 
           "lyrics": [
-            {"text": "에 덮여가고"},
-            {"text": "하"}
+            {"text": "에 덮여"},
+            {"text": "가고"},
+            {"text": "하", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "얀 눈 하늘 높이"},
-            {"text": "자"}
+            {"text": "얀 눈"},
+            {"text": "하늘 높이"},
+            {"text": "자", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Am"}, {"name": "D"}, {"name": "G", "grow": 2}], 
           "lyrics": [
-            {"text": "꾸 올라가 네"}
+            {"text": "꾸"},
+            {"text": "올라"},
+            {"text": "가 네"}
           ]
         },
 
@@ -264,103 +302,126 @@
         {
           "chord": [{"name": "C"}, {"name": "D"}, {"name": "Em", "grow": 2}], 
           "lyrics": [
+            {"text": ""},
             {"text": "이제"}
           ]
         },
         {
           "chord": [{"name": "B7"}, {"name": "C"}], 
           "lyrics": [
-            {"text": "그리운 것은"}
+            {"text": "그리운 것"},
+            {"text": "은"}
           ]
         },
         {
           "chord": [{"name": "B7"}, {"name": "C"}], 
           "lyrics": [
-            {"text": "그리운 대로"},
-            {"text": "내"}
+            {"text": "그리운"},
+            {"text": "대로"}
           ]
         },
 
         {
           "chord": [{"name": "G"}, {"name": "D"}], 
           "lyrics": [
-            {"text": "맘에 둘거야"}
+            {"text": "내맘에"},
+            {"text": "둘거야"}
           ]
         },
         {
           "chord": [{"name": "D"}, {"name": "Em"}], 
           "lyrics": [
+            {"text": ""},
             {"text": "그대"}
           ]
         },
         {
           "chord": [{"name": "B7"}, {"name": "C"}], 
           "lyrics": [
-            {"text": "생각이 나면"}
+            {"text": "생각이 나"},
+            {"text": "면"}
           ]
         },
         {
           "chord": [{"name": "B7"}, {"name": "C"}], 
           "lyrics": [
-            {"text": "생각난 대로"},
-            {"text": "내"}
+            {"text": "생각난"},
+            {"text": "대로"}
           ]
         },
 
         {
           "chord": [{"name": "G"}, {"name": "D"}], 
           "lyrics": [
-            {"text": "버려 두듯이"}
+            {"text": "내버려"},
+            {"text": "두듯이"}
           ]
         },
         {
           "chord": [{"name": "D"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "사랑이란 게"}
+            {"text": ""},
+            {"text": "사랑"},
+            {"text": "이란", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "D"}, {"name": "Em"}], 
           "lyrics": [
-            {"text": "지겨울 때가 있지"}
+            {"text": "게"},
+            {"text": "지겨울 때가"},
+            {"text": "있", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "B7"}, {"name": "C"}], 
           "lyrics": [
-            {"text": "내 맘에 고"}
+            {"text": "지"},
+            {"text": "내 맘에"},
+            {"text": "고", "grow": 0}
           ]
         },
 
         {
           "chord": [{"name": "G"}, {"name": "Am"}], 
           "lyrics": [
-            {"text": "독이 너무 흘러넘"}
+            {"text": "독이"},
+            {"text": "너무 흘러"},
+            {"text": "넘", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "D"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "쳐 눈 녹은 봄날"}
+            {"text": "쳐"},
+            {"text": "눈 녹은"},
+            {"text": "봄", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "D"}, {"name": "Em"}], 
           "lyrics": [
-            {"text": "푸르른 잎새 위엔"}
+            {"text": "날"},
+            {"text": "푸르른 잎새"},
+            {"text": "위", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "B7"}, {"name": "C"}], 
           "lyrics": [
-            {"text": "옛사랑 그"}
+            {"text": "엔"},
+            {"text": "옛사랑"},
+            {"text": "그", "grow": 0}
           ]
         },
 
         {
           "chord": [{"name": "G", "grow": 2}, {"name": "Am"}, {"name": "D"}], 
           "lyrics": [
-            {"text": "대 모습 영원 속에 있"}
+            {"text": "대 모습"},
+            {"text": "영원"},
+            {"text": "속에"},
+            {"text": "있", "grow": 0}
           ]
         },
         {
@@ -442,63 +503,73 @@
           "chord": [{"name": "Am"}, {"name": "D"}, {"name": "G", "grow": 2}], 
           "lyrics": [
             {"text": ""},
-            {"text": "흰"}
+            {"text": "흰", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "G"}, {"name": "D"}], 
           "lyrics": [
-            {"text": "눈 나리면"},
-            {"text": "들판"}
+            {"text": "눈"},
+            {"text": "나리면"},
+            {"text": "들판", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "B7"}], 
           "lyrics": [
-            {"text": "에 서성이다"},
-            {"text": "옛"}
+            {"text": "에 서성"},
+            {"text": "이다"},
+            {"text": "옛", "grow": 0}
           ]
         },
 
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "사람 생 각에"},
-            {"text": "그"}
+            {"text": "사람"},
+            {"text": "생 각에"},
+            {"text": "그", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Am"}, {"name": "D"}], 
           "lyrics": [
-            {"text": "길 찾아가지"},
-            {"text": "광"}
+            {"text": "길"},
+            {"text": "찾아가지"},
+            {"text": "광", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "G"}, {"name": "D"}], 
           "lyrics": [
-            {"text": "화문 거리"},
-            {"text": "흰 눈"}
+            {"text": "화"},
+            {"text": "문 거리"},
+            {"text": "흰 눈", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "B7"}], 
           "lyrics": [
-            {"text": "에 덮여가고"},
-            {"text": "하"}
+            {"text": "에 덮여"},
+            {"text": "가고"},
+            {"text": "하", "grow": 0}
           ]
         },
 
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "얀 눈 하늘 높이 자"}
+            {"text": "얀 눈"},
+            {"text": "하늘 높이"},
+            {"text": "자", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Am"}, {"name": "D"}, {"name": "G", "grow": 2}], 
           "lyrics": [
-            {"text": "꾸 올라가네"}
+            {"text": "꾸"},
+            {"text": "올라"},
+            {"text": "가네"}
           ]
         }
       ]
