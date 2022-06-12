@@ -56,7 +56,7 @@
           "chord": [{"name": "Am6"}, {"name": "E7"}], 
           "lyrics": [
             {"text": ""},
-            {"text": "그"}
+            {"text": "그", "grow": 0}
           ]
         },
 
@@ -64,28 +64,28 @@
           "chord": [{"name": "Am"}], 
           "lyrics": [
             {"text": "얼마나"},
-            {"text": "오랜"}
+            {"text": "오랜", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}], 
           "lyrics": [
             {"text": "시간을"},
-            {"text": "짙은"}
+            {"text": "짙은", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "F"}], 
           "lyrics": [
             {"text": "어둠에서"},
-            {"text": "서성"}
+            {"text": "서성", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em", "grow": 2}, {"name": "F"}, {"name": "E7"}], 
           "lyrics": [
             {"text": "거렸나"},
-            {"text": "내"}
+            {"text": "내", "grow": 0}
           ]
         },
 
@@ -93,27 +93,34 @@
           "chord": [{"name": "Am"}], 
           "lyrics": [
             {"text": "마음을"},
-            {"text": "닫아"}
+            {"text": "닫아", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}], 
           "lyrics": [
             {"text": "둔 채로"},
-            {"text": "헤"}
+            {"text": "헤", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "F"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "매이다 흘 러"}
+            {"text": "매이다"},
+            {"text": "흘 러"}
           ]
         },
         {
-          "chord": [{"name": "Asus4"}, {"name": "A"}], 
+          "chord": [{"name": "Asus4"}], 
           "lyrics": [
-            {"text": "간 시간"},
-            {"text": "잊"}
+            {"text": "간 시간"}
+          ]
+        },
+        {
+          "chord": [{"name": "A"}], 
+          "lyrics": [
+            {"text": ""},
+            {"text": "잊", "grow": 0}
           ]
         },
 
@@ -121,28 +128,28 @@
           "chord": [{"name": "Am"}], 
           "lyrics": [
             {"text": "고싶던"},
-            {"text": "모든"}
+            {"text": "모든", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}], 
           "lyrics": [
             {"text": "일들은"},
-            {"text": "때론"}
+            {"text": "때론", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "F"}], 
           "lyrics": [
             {"text": "잊은듯이"},
-            {"text": "생각"}
+            {"text": "생각", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em", "grow": 2}, {"name": "F"}, {"name": "E7"}], 
           "lyrics": [
             {"text": "됐지만"},
-            {"text": "고개"}
+            {"text": "고개", "grow": 0}
           ]
         },
 
@@ -150,14 +157,14 @@
           "chord": [{"name": "Am"}], 
           "lyrics": [
             {"text": "저어도"},
-            {"text": "떠오"}
+            {"text": "떠오", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}], 
           "lyrics": [
             {"text": "르는건"},
-            {"text": "나"}
+            {"text": "나", "grow": 0}
           ]
         },
         {
@@ -171,7 +178,7 @@
           "chord": [{"name": "Am"}], 
           "lyrics": [
             {"text": "그 얼굴"},
-            {"text": "아"}
+            {"text": "아", "grow": 0}
           ]
         },
 
@@ -186,13 +193,14 @@
           "chord": [{"name": "C"}], 
           "lyrics": [
             {"text": "버려도"},
-            {"text": "때로"}
+            {"text": "때로", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Dm"}, {"name": "G7"}], 
           "lyrics": [
-            {"text": "는 모진 말 로 멍들이며"}
+            {"text": "는 모진 말 로"},
+            {"text": "멍들이며"}
           ]
         },
         {
@@ -206,7 +214,7 @@
           "chord": [{"name": "F"}, {"name": "G"}], 
           "lyrics": [
             {"text": "내 깊은 방황을"},
-            {"text": "변함"}
+            {"text": "변함", "grow": 0}
           ]
         },
         {
@@ -218,13 +226,15 @@
         {
           "chord": [{"name": "F"}], 
           "lyrics": [
-            {"text": "눈으로 - 지켜 보던"}
+            {"text": "눈으로"},
+            {"text": "지켜 보던"}
           ]
         },
         {
           "chord": [{"name": "Esus4"}, {"name": "E7"}], 
           "lyrics": [
-            {"text": "너 - -"}
+            {"text": "너 -"},
+            {"text": "어 -"}
           ]
         },
 
@@ -232,7 +242,7 @@
           "chord": [{"name": "Am"}], 
           "lyrics": [
             {"text": "너에게로 또다시"},
-            {"text": "돌아"}
+            {"text": "돌아", "grow": 0}
           ]
         },
         {
