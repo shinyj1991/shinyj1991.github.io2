@@ -123,7 +123,8 @@
             {"grow": 1, "node": [null, null, 2, null, null, null]}
           ],
           "lyrics": [
-            {"text": "잊어야 한다는"}
+            {"text": "잊어야"},
+            {"text": "한다는"}
           ]
         },
         {
@@ -155,7 +156,8 @@
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "내 텅빈 방문을"}
+            {"text": "내 텅빈"},
+            {"text": "방문을"}
           ]
         },
         {
@@ -171,7 +173,8 @@
             {"grow": 1, "node": [3, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "닫은 채로"}
+            {"text": "닫은"},
+            {"text": "채로"}
           ]
         },
         {
@@ -187,7 +190,8 @@
             {"grow": 1, "node": [null, null, 2, null, null, null]}
           ],
           "lyrics": [
-            {"text": "아직도 남아 있는"}
+            {"text": "아직도"},
+            {"text": "남아 있는"}
           ]
         },
         {
@@ -203,7 +207,8 @@
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "너의 향기"}
+            {"text": "너의"},
+            {"text": "향기"}
           ]
         },
         {
@@ -219,7 +224,8 @@
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "내 텅빈 방안에"}
+            {"text": "내 텅빈"},
+            {"text": "방안에"}
           ]
         },
         {
@@ -235,7 +241,8 @@
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "가득한데"}
+            {"text": "가득"},
+            {"text": "한데"}
           ]
         },
         {
@@ -251,7 +258,8 @@
             {"grow": 1, "node": [null, null, 2, null, null, null]}
           ],
           "lyrics": [
-            {"text": "이렇게 홀로 누워"}
+            {"text": "이렇게"},
+            {"text": "홀로 누워"}
           ]
         },
         {
@@ -267,7 +275,8 @@
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "천정을 보니"}
+            {"text": "천정을"},
+            {"text": "보니"}
           ]
         },
         {
@@ -283,7 +292,8 @@
             {"grow": 1, "node": [3, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "눈앞에 글썽이는"}
+            {"text": "눈앞에"},
+            {"text": "글썽이는"}
           ]
         },
         {
@@ -299,7 +309,8 @@
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "너의 모습"}
+            {"text": "너의"},
+            {"text": "모습"}
           ]
         },
         {
@@ -315,7 +326,8 @@
             {"grow": 1, "node": [null, null, 2, null, null, null]}
           ],
           "lyrics": [
-            {"text": "잊으려 돌아 누운"}
+            {"text": "잊으려"},
+            {"text": "돌아 누운"}
           ]
         },
         {
@@ -331,7 +343,8 @@
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "내 눈가에"}
+            {"text": "내 눈"},
+            {"text": "가에"}
           ]
         },
         {
@@ -347,7 +360,8 @@
             {"grow": 1, "node": [3, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "말없이 흐르는"}
+            {"text": "말없이"},
+            {"text": "흐르는"}
           ]
         },
         {
@@ -379,7 +393,8 @@
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "지나간 시간은"}
+            {"text": "지나간"},
+            {"text": "시간은"}
           ]
         },
         {
@@ -395,7 +410,8 @@
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "추억 속에"}
+            {"text": "추억"},
+            {"text": "속에"}
           ]
         },
         {
@@ -411,7 +427,8 @@
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "묻히면 그만인"}
+            {"text": "묻히면"},
+            {"text": "그만인"}
           ]
         },
         {
@@ -443,7 +460,8 @@
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "나는 왜 이렇게"}
+            {"text": "나는 왜"},
+            {"text": "이렇게"}
           ]
         },
         {
@@ -459,7 +477,8 @@
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "긴 긴 밤을"}
+            {"text": "긴 긴"},
+            {"text": "밤을"}
           ]
         },
         {
@@ -504,7 +523,8 @@
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "창틈에 기다리던"}
+            {"text": "창틈에"},
+            {"text": "기다리던"}
           ]
         },
         {
@@ -520,7 +540,8 @@
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "새벽이 오면"}
+            {"text": "새벽이"},
+            {"text": "오면"}
           ]
         },
         {
@@ -536,7 +557,8 @@
             {"grow": 1, "node": [3, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "어제 보다 커진"}
+            {"text": "어제 보다"},
+            {"text": "커진"}
           ]
         },
         {
@@ -568,7 +590,8 @@
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "하얗게 밝아온"}
+            {"text": "하얗게"},
+            {"text": "밝아온"}
           ]
         },
         {
@@ -584,7 +607,8 @@
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "유리창에"}
+            {"text": "유리"},
+            {"text": "창에"}
           ]
         },
         {
@@ -600,7 +624,8 @@
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "썻다 지운다"}
+            {"text": "썻다"},
+            {"text": "지운다"}
           ]
         },
         {
@@ -736,7 +761,8 @@
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "밤 하늘에 빛나는"}
+            {"text": "밤 하늘에"},
+            {"text": "빛나는"}
           ]
         },
         {
@@ -752,7 +778,8 @@
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "수 많은 별들 저"}
+            {"text": "수 많은 별"},
+            {"text": "들"}
           ]
         },
         {
@@ -768,7 +795,8 @@
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "마다 아름 답지"}
+            {"text": "저마다 아름"},
+            {"text": "답"}
           ]
         },
         {
@@ -784,7 +812,7 @@
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "만"}
+            {"text": "지만"}
           ]
         },
         {
@@ -800,7 +828,8 @@
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "내 맘속에 빛나는"}
+            {"text": "내 맘속에"},
+            {"text": "빛나는"}
           ]
         },
         {
@@ -816,7 +845,8 @@
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "별 하나"}
+            {"text": "별 하"},
+            {"text": "나"}
           ]
         },
         {
@@ -832,7 +862,8 @@
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "오직 너만 있을"}
+            {"text": "오직 너만 있"},
+            {"text": "을"}
           ]
         },
         {
@@ -861,7 +892,8 @@
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "창틈에 기다리던"}
+            {"text": "창틈에"},
+            {"text": "기다리던"}
           ]
         },
         {
@@ -877,7 +909,8 @@
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "새벽이 오면"}
+            {"text": "새벽이"},
+            {"text": "오면"}
           ]
         },
         {
@@ -893,7 +926,8 @@
             {"grow": 1, "node": [3, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "어제 보다 커진"}
+            {"text": "어제 보다"},
+            {"text": "커진"}
           ]
         },
         {
@@ -925,7 +959,8 @@
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "하얗게 밝아온"}
+            {"text": "하얗게"},
+            {"text": "밝아온"}
           ]
         },
         {
@@ -941,7 +976,8 @@
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "유리창에"}
+            {"text": "유리"},
+            {"text": "창에"}
           ]
         },
         {
@@ -957,7 +993,8 @@
             {"grow": 1, "node": [null, 0, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "썻다 지운다"}
+            {"text": "썻다"},
+            {"text": "지운다"}
           ]
         },
         {
@@ -989,7 +1026,8 @@
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "하얗게 밝아온"}
+            {"text": "하얗게"},
+            {"text": "밝아온"}
           ]
         },
         {
@@ -1005,7 +1043,8 @@
             {"grow": 1, "node": [0, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "유리창에"}
+            {"text": "유리"},
+            {"text": "창에"}
           ]
         },
         {
@@ -1021,7 +1060,8 @@
             {"grow": 1, "node": [3, null, null, null, null, null]}
           ],
           "lyrics": [
-            {"text": "썻다 지운다"}
+            {"text": "썻다"},
+            {"text": "지운다"}
           ]
         },
         {
@@ -1030,7 +1070,8 @@
             {"grow": 1, "node": [2, 3, 2, 0, null, null]}
           ],
           "lyrics": [
-            {"text": "널 - - - 사랑해"}
+            {"text": "널 - - -"},
+            {"text": "사랑해", "grow": 0}
           ]
         },
         {

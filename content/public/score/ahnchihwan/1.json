@@ -67,7 +67,8 @@
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "내가 만일 하늘이라"}
+            {"text": "내가 만일"},
+            {"text": "하늘이라"}
           ]
         },
         {
@@ -79,7 +80,8 @@
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "그대 얼굴에 물들고 싶"}
+            {"text": "그대 얼굴에"},
+            {"text": "물들고 싶"}
           ]
         },
         {
@@ -91,19 +93,23 @@
         {
           "chord": [{"name": "F"}, {"name": "C"}], 
           "lyrics": [
-            {"text": "붉게 물든 저녁"}
+            {"text": "붉게 물든"},
+            {"text": "저녁"}
           ]
         },
         {
           "chord": [{"name": "D"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "저 노을처럼 나"}
+            {"text": "저 노을처"},
+            {"text": "럼"},
+            {"text": "나", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "그대 뺨에 물들고 싶"}
+            {"text": "그대 뺨에"},
+            {"text": "물들고 싶"}
           ]
         },
         {
@@ -115,7 +121,8 @@
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "내가 만일 시인이라"}
+            {"text": "내가 만일"},
+            {"text": "시인이라"}
           ]
         },
         {
@@ -127,7 +134,8 @@
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "그대 위해 노래하겠"}
+            {"text": "그대 위해"},
+            {"text": "노래하겠"}
           ]
         },
         {
@@ -139,94 +147,108 @@
         {
           "chord": [{"name": "F"}, {"name": "C"}], 
           "lyrics": [
-            {"text": "엄마 품에 안긴 어"}
+            {"text": "엄마 품에"},
+            {"text": "안긴"},
+            {"text": "어", "grow": 0}
           ]
         },
         {
-          "chord": [{"name": "G"}, {"name": "Am"}], 
+          "chord": [{"name": "G"}, {"name": "Am x 2"}], 
           "lyrics": [
-            {"text": "린 아이 처럼 나"}
+            {"text": "린 아이 처"},
+            {"text": "럼"},
+            {"text": "나", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "행복하게 노래하고 싶"}
+            {"text": "행복하게 노"},
+            {"text": "래하고 싶"}
           ]
         },
         {
           "chord": [{"name": "C"}], 
           "lyrics": [
-            {"text": "어-"}
+            {"text": "어 -"}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "F"}], 
           "lyrics": [
             {"text": "세상에"},
-            {"text": "그"}
+            {"text": "그", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "G"}, {"name": "Am"}], 
           "lyrics": [
-            {"text": "무엇이라도"}
+            {"text": "무엇이라"},
+            {"text": "도"}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "F"}], 
           "lyrics": [
-            {"text": "그대 위해 되고 싶"}
+            {"text": "그대 위해"},
+            {"text": "되고 싶"}
           ]
         },
         {
           "chord": [{"name": "G"}], 
           "lyrics": [
             {"text": "어-"},
-            {"text": "오"}
+            {"text": "오", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "F"}], 
           "lyrics": [
-            {"text": "늘 처럼 우리"}
+            {"text": "늘 처럼"},
+            {"text": "우리", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "G"}, {"name": "Am"}], 
           "lyrics": [
-            {"text": "함께 있음이 내겐"}
+            {"text": "함께 있음"},
+            {"text": "이"},
+            {"text": "내겐", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "F"}, {"name": "C"}], 
           "lyrics": [
-            {"text": "얼마나 큰 기쁨인"}
+            {"text": "얼마나 큰"},
+            {"text": "기쁨인"}
           ]
         },
         {
           "chord": [{"name": "G"}], 
           "lyrics": [
             {"text": "지-"},
-            {"text": "사랑"}
+            {"text": "사랑", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "F"}], 
           "lyrics": [
-            {"text": "하는 나의 사람아"}
+            {"text": "하는 나의"},
+            {"text": "사람아"}
           ]
         },
         {
           "chord": [{"name": "G"}, {"name": "Am"}], 
           "lyrics": [
-            {"text": "너는 아니 워-"}
+            {"text": "너는 아니"},
+            {"text": "워 -", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "F"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "이런 나의 마"}
+            {"text": "어 - 이런"},
+            {"text": "나의 마"}
           ]
         },
         {
@@ -293,7 +315,8 @@
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "내가 만일 구름이라"}
+            {"text": "내가 만일"},
+            {"text": "구름이라"}
           ]
         },
         {
@@ -305,108 +328,120 @@
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "그대 위해 비가 되겠"}
+            {"text": "그대 위해"},
+            {"text": "비가 되겠"}
           ]
         },
         {
           "chord": [{"name": "Am"}], 
           "lyrics": [
-            {"text": "어-"}
+            {"text": "어 -"}
           ]
         },
         {
           "chord": [{"name": "F"}, {"name": "C"}], 
           "lyrics": [
-            {"text": "더운 여름 날의"}
+            {"text": "더운 여름"},
+            {"text": "날의"}
           ]
         },
         {
           "chord": [{"name": "G"}, {"name": "Am"}], 
           "lyrics": [
-            {"text": "소나기 처럼 나"}
+            {"text": "소나기"},
+            {"text": "처럼"},
+            {"text": "나", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "시원하게 내리고 싶"}
+            {"text": "시원하게"},
+            {"text": "내리고 싶"}
           ]
         },
         {
           "chord": [{"name": "C"}], 
           "lyrics": [
-            {"text": "어-"}
+            {"text": "어 -"}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "F"}], 
           "lyrics": [
             {"text": "세상에"},
-            {"text": "그"}
+            {"text": "그", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "G"}, {"name": "Am"}], 
           "lyrics": [
-            {"text": "무엇이라도"}
+            {"text": "무엇이라"},
+            {"text": "도"}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "F"}], 
           "lyrics": [
-            {"text": "그대 위해 되고 싶"}
+            {"text": "그대 위해"},
+            {"text": "되고 싶"}
           ]
         },
         {
           "chord": [{"name": "G"}], 
           "lyrics": [
             {"text": "어-"},
-            {"text": "오"}
+            {"text": "오", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "F"}], 
           "lyrics": [
             {"text": "늘 처럼"},
-            {"text": "우리"}
+            {"text": "우리", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "G"}, {"name": "Am"}], 
           "lyrics": [
-            {"text": "함께 있음이"},
-            {"text": "내겐"}
+            {"text": "함께 있음"},
+            {"text": "이"},
+            {"text": "내겐", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "F"}, {"name": "C"}], 
           "lyrics": [
-            {"text": "얼마나 큰 기쁨인"}
+            {"text": "얼마나 큰"},
+            {"text": "기쁨인"}
           ]
         },
         {
           "chord": [{"name": "G"}], 
           "lyrics": [
             {"text": "지-"},
-            {"text": "사랑"}
+            {"text": "사랑", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "F"}], 
           "lyrics": [
-            {"text": "하는 나의 사람아"}
+            {"text": "하는 나의"},
+            {"text": "사람아"}
           ]
         },
         {
           "chord": [{"name": "G"}, {"name": "Am"}], 
           "lyrics": [
-            {"text": "너는 아니 워-"}
+            {"text": "너는 아니"},
+            {"text": "워 -", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "F"}, {"name": "G"}], 
           "lyrics": [
-            {"text": "이런 나의 마"}
+            {"text": "어 - 이런"},
+            {"text": "나의 마"}
           ]
         },
         {

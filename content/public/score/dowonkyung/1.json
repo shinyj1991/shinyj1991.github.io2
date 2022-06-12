@@ -56,7 +56,7 @@
           "chord": [{"name": "D"}], 
           "lyrics": [
             {"text": ""},
-            {"text": "다시"}
+            {"text": "다시", "grow": 0}
           ]
         },
 
@@ -64,7 +64,7 @@
           "chord": [{"name": "G"}], 
           "lyrics": [
             {"text": "태어난다면"},
-            {"text": "다시"}
+            {"text": "다시", "grow": 0}
           ]
         },
         {
@@ -84,7 +84,7 @@
           "chord": [{"name": "Bm"}], 
           "lyrics": [
             {"text": "러지 말아요"},
-            {"text": "조"}
+            {"text": "조", "grow": 0}
           ]
         },
 
@@ -92,7 +92,7 @@
           "chord": [{"name": "C"}], 
           "lyrics": [
             {"text": "금 덜 만나고"},
-            {"text": "조금"}
+            {"text": "조금", "grow": 0}
           ]
         },
         {
@@ -104,15 +104,14 @@
         {
           "chord": [{"name": "Am"}], 
           "lyrics": [
-            {"text": "많은 약속 않기로"},
-            {"text": "해"}
+            {"text": "많은 약속 않기로 해"}
           ]
         },
         {
           "chord": [{"name": "Dsus4"}, {"name": "D"}], 
           "lyrics": [
             {"text": "요"},
-            {"text": "다시"}
+            {"text": "다시", "grow": 0}
           ]
         },
 
@@ -120,7 +119,7 @@
           "chord": [{"name": "G"}], 
           "lyrics": [
             {"text": "이별이 와도"},
-            {"text": "서로"}
+            {"text": "서로", "grow": 0}
           ]
         },
         {
@@ -146,28 +145,28 @@
           "chord": [{"name": "C"}], 
           "lyrics": [
             {"text": "버려도 되는"},
-            {"text": "가벼"}
+            {"text": "가벼", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "G"}], 
           "lyrics": [
             {"text": "운 추억만"},
-            {"text": "서"}
+            {"text": "서", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Am"}], 
           "lyrics": [
             {"text": "로의 가슴에"},
-            {"text": "만"}
+            {"text": "만", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "D"}], 
           "lyrics": [
             {"text": "들기로 해요"},
-            {"text": "이"}
+            {"text": "이", "grow": 0}
           ]
         },
 
@@ -175,28 +174,28 @@
           "chord": [{"name": "G"}, {"name": "D"}], 
           "lyrics": [
             {"text": "제 알아요"},
-            {"text": "너무"}
+            {"text": "너무", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "Bm"}], 
           "lyrics": [
             {"text": "깊은 사랑은"},
-            {"text": "외려"}
+            {"text": "외려", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
             {"text": "슬픈 마지 막을"},
-            {"text": "가"}
+            {"text": "가", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Am"}, {"name": "D"}], 
           "lyrics": [
             {"text": "져온다는 걸"},
-            {"text": "그"}
+            {"text": "그", "grow": 0}
           ]
         },
 
@@ -204,21 +203,21 @@
           "chord": [{"name": "G"}, {"name": "D"}], 
           "lyrics": [
             {"text": "대여 빌게요"},
-            {"text": "다음"}
+            {"text": "다음", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "Bm"}], 
           "lyrics": [
             {"text": "번의 사랑은"},
-            {"text": "우"}
+            {"text": "우", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
             {"text": "리 같지 않길"},
-            {"text": "부디"}
+            {"text": "부디", "grow": 0}
           ]
         },
         {
@@ -238,7 +237,7 @@
           "chord": [{"name": "Em"}, {"name": "Bm"}], 
           "lyrics": [
             {"text": "하아"},
-            {"text": "꼭"}
+            {"text": "꼭", "grow": 0}
           ]
         },
         {
@@ -251,7 +250,9 @@
         {
           "chord": [{"name": "D"}], 
           "lyrics": [
-            {"text": "해져야만"}
+            {"text": "해져"},
+            {"text": "야 -"},
+            {"text": "만", "grow": 0}
           ]
         },
 
@@ -310,7 +311,7 @@
           "chord": [{"name": "G"}], 
           "lyrics": [
             {"text": "시간이 흘러"},
-            {"text": "서로"}
+            {"text": "서로", "grow": 0}
           ]
         },
         {
@@ -336,28 +337,28 @@
           "chord": [{"name": "C"}], 
           "lyrics": [
             {"text": "그 때도 이건"},
-            {"text": "사"}
+            {"text": "사", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "G"}], 
           "lyrics": [
             {"text": "랑이었다고"},
-            {"text": "말"}
+            {"text": "말", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Am"}], 
           "lyrics": [
             {"text": "할 수 있다면"},
-            {"text": "그"}
+            {"text": "그", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "D"}], 
           "lyrics": [
             {"text": "걸로 된 거죠"},
-            {"text": "이"}
+            {"text": "이", "grow": 0}
           ]
         },
 
@@ -365,28 +366,28 @@
           "chord": [{"name": "G"}, {"name": "D"}], 
           "lyrics": [
             {"text": "제 알아요"},
-            {"text": "너무"}
+            {"text": "너무", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "Bm"}], 
           "lyrics": [
             {"text": "깊은 사랑은"},
-            {"text": "외려"}
+            {"text": "외려", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
             {"text": "슬픈 마지 막을"},
-            {"text": "가"}
+            {"text": "가", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Am"}, {"name": "D"}], 
           "lyrics": [
             {"text": "져온다는 걸"},
-            {"text": "그"}
+            {"text": "그", "grow": 0}
           ]
         },
 
@@ -394,28 +395,28 @@
           "chord": [{"name": "G"}, {"name": "D"}], 
           "lyrics": [
             {"text": "대여 빌게요"},
-            {"text": "다음"}
+            {"text": "다음", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "Bm"}], 
           "lyrics": [
             {"text": "번의 사랑은"},
-            {"text": "우"}
+            {"text": "우", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
             {"text": "리 같지 않길"},
-            {"text": "부디"}
+            {"text": "부디", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Am"}, {"name": "D"}], 
           "lyrics": [
             {"text": "아픔이 없이"},
-            {"text": "이"}
+            {"text": "이", "grow": 0}
           ]
         },
 
@@ -423,28 +424,28 @@
           "chord": [{"name": "G"}, {"name": "D"}], 
           "lyrics": [
             {"text": "제 알아요"},
-            {"text": "영원"}
+            {"text": "영원", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "Bm"}], 
           "lyrics": [
             {"text": "할 줄 알았 던"},
-            {"text": "그대"}
+            {"text": "그대", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
             {"text": "와의 사랑 마저"},
-            {"text": "날"}
+            {"text": "날", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Am"}, {"name": "D"}], 
           "lyrics": [
             {"text": "속였다는 게"},
-            {"text": "그"}
+            {"text": "그", "grow": 0}
           ]
         },
 
@@ -452,21 +453,21 @@
           "chord": [{"name": "G"}, {"name": "D"}], 
           "lyrics": [
             {"text": "보다 슬픈 건"},
-            {"text": "나"}
+            {"text": "나", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "Em"}, {"name": "Bm"}], 
           "lyrics": [
             {"text": "없이 그대 가"},
-            {"text": "행"}
+            {"text": "행", "grow": 0}
           ]
         },
         {
           "chord": [{"name": "C"}, {"name": "G"}], 
           "lyrics": [
             {"text": "복하게 지낼"},
-            {"text": "먼"}
+            {"text": "먼", "grow": 0}
           ]
         },
         {
@@ -486,7 +487,7 @@
           "chord": [{"name": "Em"}, {"name": "Bm"}], 
           "lyrics": [
             {"text": "하아"},
-            {"text": "내"}
+            {"text": "내", "grow": 0}
           ]
         },
         {

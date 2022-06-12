@@ -36,6 +36,10 @@
             class="lyrics"
             v-for="(lyrics, index) in measure.lyrics"
             :key="index"
+            :style="`
+              flex-grow: ${lyrics.grow ? lyrics.grow : 1};
+              flex-basis: ${lyrics.grow === 0 ? 'auto' : '100%'};
+            `"
           >{{ lyrics.text }}</div>
         </div>
       </div>
@@ -97,7 +101,6 @@ export default {
     &.isDisabled {
       .chord-area {
         border-right: none;
-
         .lyrics-list {
           border-top: none;
         }
@@ -173,8 +176,10 @@ export default {
 
         .lyrics {
           display: flex;
+          flex-basis: 100%;
           font-size: 14px;
           line-height: 15px;
+          white-space: nowrap;
         }
       }
     }
