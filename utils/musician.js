@@ -67,4 +67,8 @@ export default [
     kor: '부활',
     eng: 'boohwal'
   },
+  {
+    kor: '윤도현',
+    eng: 'yoondohyun'
+  },
 ];

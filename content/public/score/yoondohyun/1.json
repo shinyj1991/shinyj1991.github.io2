@@ -1,0 +1,240 @@
+{
+  "musician": "윤도현",
+  "title": "너를 보내고",
+  "year": 1999,
+  "capo": 0,
+  "measure": 4,
+  "date": "2022-06-27",
+  "score": [
+    {
+      "type": "v1",
+      "contents": [
+        {
+          "chord": [{"name": "F"}, {"name": "G"}], 
+          "lyrics": []
+        },
+        {
+          "chord": [{"name": "C", "grow": 3}, {"name": "Am"}, {"name": "G/B"}, {"name": "C"}], 
+          "lyrics": []
+        },
+        {
+          "chord": [{"name": "B♭"}, {"name": "Dm"}], 
+          "lyrics": []
+        },
+        {
+          "chord": [{"name": "Gsus4"}, {"name": "G"}], 
+          "lyrics": []
+        },
+        {
+          "chord": [
+            {"name": "C"}, 
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": "구름낀 하늘은"},
+            {"text": "왠지", "grow": 0}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "F"}, 
+            {"name": "C"}
+          ], 
+          "lyrics": [
+            {"text": "니가"},
+            {"text": "살고있"},
+            {"text": "는", "grow": 2}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "F"}, 
+            {"name": "Am7"}
+          ], 
+          "lyrics": [
+            {"text": "나라 일"},
+            {"text": "것 같아"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": "서"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "C"}, 
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": "창문들 마저도"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "F"}, 
+            {"name": "C"}
+          ], 
+          "lyrics": [
+            {"text": "닫지"},
+            {"text": "못하고"},
+            {"text": "하루", "grow": 0}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "F"}, 
+            {"name": "Am7"}
+          ], 
+          "lyrics": [
+            {"text": "종일"},
+            {"text": "서성이고"},
+            {"text": "있었", "grow": 0}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": "지"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "F"}, 
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": "삶의 작은"},
+            {"text": "문턱조차"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "Am"}, 
+            {"name": "Em"}
+          ], 
+          "lyrics": [
+            {"text": "쉽사리 넘지"},
+            {"text": "못했던"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "F"}, 
+            {"name": "C"}
+          ], 
+          "lyrics": [
+            {"text": "너에게"},
+            {"text": "나는"},
+            {"text": "무슨", "grow": 0}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "B♭"}, 
+            {"name": "Dm"}
+          ], 
+          "lyrics": [
+            {"text": "말을"},
+            {"text": "하고파서"},
+            {"text": "였을", "grow": 0}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": "까"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "C"}, 
+            {"name": "E"}
+          ], 
+          "lyrics": [
+            {"text": "먼산"},
+            {"text": "언저리 마다"},
+            {"text": "너를", "grow": 0}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "Am"}, 
+            {"name": "C"}
+          ], 
+          "lyrics": [
+            {"text": "남기고"},
+            {"text": "돌아서는"},
+            {"text": "내게", "grow": 0}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "F"}, 
+            {"name": "C"}
+          ], 
+          "lyrics": [
+            {"text": "시간은"},
+            {"text": "그만"},
+            {"text": "놓아주라는데", "grow": 0}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "Dm"}, 
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": "(놓아주라"},
+            {"text": "하는데)"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "C"}, 
+            {"name": "E"}
+          ], 
+          "lyrics": [
+            {"text": "난 왜"},
+            {"text": "널 닮은 목소리"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "Am"}, 
+            {"name": "C"}
+          ], 
+          "lyrics": [
+            {"text": "마저"},
+            {"text": "가슴에 품고도"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "F"}, 
+            {"name": "G"}
+          ], 
+          "lyrics": [
+            {"text": "같이 가자"},
+            {"text": "하지 못했"}
+          ]
+        },
+        {
+          "chord": [
+            {"name": "Am"}
+          ], 
+          "lyrics": [
+            {"text": "나~"}
+          ]
+        }
+      ]
+    }
+  ]
+}
