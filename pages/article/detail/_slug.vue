@@ -51,6 +51,7 @@ export default {
 <style lang="scss" scoped>
 .page-music-detail {
   .score-contents {
+    padding: 10px 0;
     overflow-x: auto;
     display: grid;
     row-gap: 100px;
