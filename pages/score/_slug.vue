@@ -11,7 +11,7 @@
       </div>
       <!-- <banner-coupang /> -->
       <div class="btn-area">
-        <btn-more tag="nuxt-link" :to="`/article/list/score_${musicianEng}`">{{ musicianKor }} 악보 게시판 +</btn-more>
+        <btn-more tag="nuxt-link" :to="`/musician/${musicianEng}`">{{ musicianKor }} 악보 게시판 +</btn-more>
       </div>
     </div>
     <config-reply />
@@ -24,10 +24,11 @@ import meta from '@/utils/meta';
 
 export default {
   async asyncData({ $content, params, store }) {
-    const music = await $content(params.slug.replace(/_/gi, '/'), params.id).fetch();
+    const path = '/score/' + params.slug.replace(/_/gi, '/')
+    const music = await $content(path, params.id).fetch();
     const arrayParams = params.slug.split('_');
-    const musicianKor = musicians.find(m => m.eng === arrayParams[1])['kor'];
-    const musicianEng = arrayParams[1];
+    const musicianKor = musicians.find(m => m.eng === arrayParams[0])['kor'];
+    const musicianEng = arrayParams[0];
     const title = `${musicianKor} - ${music.title} 악보, 가사, 코드`;
     const keywords = `${musicianKor}, ${music.title}, ${meta.keywords}`;
 
@@ -37,12 +38,6 @@ export default {
       keywords,
       musicianKor,
       musicianEng
-    }
-  },
-  methods: {
-    formatDate(date) {
-      const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('ko', options)
     }
   },
 }

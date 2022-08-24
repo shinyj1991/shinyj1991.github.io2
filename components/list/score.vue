@@ -1,7 +1,7 @@
 <template>
   <ul class="list-score">
     <li v-for="(article, index) of articles" :key="index">
-      <nuxt-link :to="`/article/detail/${article.path.slice(1).replace(/\//gi, '_')}`">
+      <nuxt-link :to="`/score/${article.path.replace('/score/', '').replace(/\//gi, '_')}`">
         <div class="category">{{ article.dir.replace('/', '') }}</div>
         <div class="subject">{{ article.musician }} - {{ article.title }}</div>
         <div class="info">

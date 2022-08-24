@@ -1,7 +1,7 @@
 <template>
   <ul class="list-musician">
     <li v-for="(musician, index) of musicians" :key="index">
-      <nuxt-link :to="`/article/list/score_${musician.eng}`">{{ musician.kor }}</nuxt-link>
+      <nuxt-link :to="`/musician/${musician.eng}`">{{ musician.kor }}</nuxt-link>
     </li>
   </ul>
 </template>

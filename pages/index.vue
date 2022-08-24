@@ -10,7 +10,7 @@
     <section>
       <header>
         <tit-h2>🎼 악보 게시판</tit-h2>
-        <btn-more tag="nuxt-link" to="/article/list/score">더보기 +</btn-more>
+        <btn-more tag="nuxt-link" to="/score">더보기 +</btn-more>
       </header>
       <list-score :articles="articles" />
     </section>

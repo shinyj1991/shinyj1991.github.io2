@@ -5,7 +5,7 @@
         <nuxt-link to="/musician">Musician</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/article/list/score">Score</nuxt-link>
+        <nuxt-link to="/score">Score</nuxt-link>
       </li>
       <li>
         <nuxt-link to="/chord">Chord</nuxt-link>

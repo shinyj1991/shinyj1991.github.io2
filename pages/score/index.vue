@@ -21,19 +21,17 @@
 
 <script>
 import { mapState } from 'vuex';
-import musicians from '@/utils/musician';
 import meta from '@/utils/meta';
 
 export default {
-  async asyncData({ $content, params, store }) {
-    const path = params.category ? params.category.replace(/_/gi, '/') : '/';
+  async asyncData({ $content, params }) {
+    const path = '/score';
     const visibleLength = 24;
     const totalArticles = await $content(path, { deep: true }).fetch();
     const lastPage = Math.ceil(totalArticles.length / visibleLength);
-    const arrayParams = params.category.split('_');
-    const musician = arrayParams[1] ? musicians.find(m => m.eng === arrayParams[1])['kor'] : false;
+    const musician = false;
     const title = musician ? `EXIT5 | ${musician} - 악보 자료실` : meta.title;
-    const keywords = `${musician}, ${meta.keywords}`;
+    const keywords = `${meta.keywords}`;
 
     let articles = await $content(path, { deep: true })
       .limit(visibleLength)
