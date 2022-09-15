@@ -1,14 +1,12 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import TheHeader from "../components/The/Header"
+import LayoutDefault from "../components/Layout/Default"
 
 
 const IndexPage = () => {
   return (
-    <main>
-      <TheHeader />
-      <Link to="/about">Go To About</Link>
-    </main>
+    <LayoutDefault>
+      Index Page
+    </LayoutDefault>
   )
 }
 

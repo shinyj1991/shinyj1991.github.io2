@@ -3,6 +3,9 @@ import React from "react"
 import styled from "styled-components"
 
 const Wrapper = styled.header`
+  background: #000;
+  color: #fff;
+
   h1 {
     a {
       color: red;
@@ -10,17 +13,19 @@ const Wrapper = styled.header`
   }
 `
 
-const TheHeader = ({ size, children }) => {
-  const sizes = {
-    sm: "19.2px",
-    md: "25.6px",
-    bg: "33.6px",
-  }
-
+const TheHeader = ({ children }) => {
   return <Wrapper>
     <h1>
       <Link to="/">LOGO</Link>
     </h1>
+    <ul className="gnb">
+      <li>
+        <Link to="/">Home</Link>
+      </li>
+      <li>
+        <Link to="/about">About</Link>
+      </li>
+    </ul>
   </Wrapper>
 }
 

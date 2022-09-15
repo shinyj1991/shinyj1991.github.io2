@@ -1,16 +1,11 @@
 import * as React from "react"
-
-import Test from "../components/Title"
-
+import LayoutDefault from "../components/Layout/Default"
 
 const AboutPage = () => {
   return (
-    <main>
-      main
-      <Test>
-        <a href="#self">About</a>
-      </Test>
-    </main>
+    <LayoutDefault>
+      About Page
+    </LayoutDefault>
   )
 }
 
