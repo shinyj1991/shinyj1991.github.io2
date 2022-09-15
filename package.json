@@ -1,0 +1,24 @@
+{
+  "name": "shinyj1991.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "shinyj1991.github.io",
+  "author": "신용준",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^4.23.0",
+    "gatsby-plugin-sass": "^5.23.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "sass": "^1.54.9"
+  }
+}
