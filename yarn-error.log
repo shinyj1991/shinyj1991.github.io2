@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add styled-components
+
+PATH: 
+  C:\Users\Master11700\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Master11700\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Users\Master11700\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Bandizip;C:\Users\Master11700\AppData\Local\Microsoft\WindowsApps;C:\Users\Master11700\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Master11700\AppData\Local\GitHubDesktop\bin;C:\Users\Master11700\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.0.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Master11700\Desktop\repository\shinyj1991.github.io\node_modules\@lmdb\lmdb-win32-x64\node.abi93.node'
+
+npm manifest: 
+  {
+    "name": "shinyj1991.github.io",
+    "version": "1.0.0",
+    "private": true,
+    "description": "shinyj1991.github.io",
+    "author": "신용준",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "develop": "gatsby develop",
+      "start": "gatsby develop",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean"
+    },
+    "dependencies": {
+      "gatsby": "^4.23.0",
+      "gatsby-plugin-sass": "^5.23.0",
+      "react": "^18.1.0",
+      "react-dom": "^18.1.0",
+      "sass": "^1.54.9"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
