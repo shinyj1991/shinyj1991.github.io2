@@ -3,9 +3,6 @@ import React from "react"
 import styled from "styled-components"
 
 const Wrapper = styled.header`
-  background: #000;
-  color: #fff;
-
   h1 {
     a {
       color: red;
