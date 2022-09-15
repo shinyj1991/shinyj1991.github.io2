@@ -1,7 +1,6 @@
 import * as React from "react"
 import LayoutDefault from "../components/Layout/Default"
 
-
 const IndexPage = () => {
   return (
     <LayoutDefault>
