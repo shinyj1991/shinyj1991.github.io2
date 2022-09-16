@@ -1,10 +1,21 @@
 import * as React from "react"
 import LayoutDefault from "../components/Layout/Default"
+import styled from "styled-components"
+
+const Wrapper = styled.div`
+  .about-page {
+    color: blue;
+  }
+`
 
 const AboutPage = () => {
   return (
     <LayoutDefault>
-      About Page
+      <Wrapper>
+        <div className="about-page">
+          About Page
+        </div>
+      </Wrapper>
     </LayoutDefault>
   )
 }
